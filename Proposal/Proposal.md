@@ -33,7 +33,7 @@ Little bit info on what is **"flattening the curve"**?:
 >Flattening the curve refers to when methods like large-scale testing, quarantining of infected individuals and social distancing are used to decrease the number of daily new COVID-19 cases. The aim is to reduce overall infections and keep cases at a number the health-care system can manage.
 
 ## Flattening the curve
-![Example]
+
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 594" role="img" aria-label="Graphic showing a steep curve in number of cases without intervention and a flatter curve with intervention">
   <defs>
     <style>
@@ -130,7 +130,7 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA0MDYzMjA4NywtOTgxMTUwMzAsLTIwMD
+eyJoaXN0b3J5IjpbLTgwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMD
 Q5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4
 ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ==
 -->
