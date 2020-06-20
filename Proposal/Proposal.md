@@ -14,7 +14,7 @@ Date
 Johns Hopkins University (JHU) is a teaching and research hospital. They believe: 
 > "that sharing our **knowledge** and **discoveries** would help make the world a better place"  
 
-Since the start for the COVID-19 pandemic JHU have been critical source in providing both to the public and researches alike. There   
+Since the start for the COVID-19 pandemic JHU have been critical source in providing both to the public and researches alike. There data is being used by many news outlets like   
 
 
 ### Problem Statement
@@ -71,6 +71,6 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0MzU5MDY0MiwtMTk2MjI0NzUxNywtMT
+eyJoaXN0b3J5IjpbMTIxNTgwNTg4OCwtMTk2MjI0NzUxNywtMT
 cxNzEwNTM1Nl19
 -->
