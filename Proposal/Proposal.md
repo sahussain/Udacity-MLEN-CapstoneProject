@@ -11,9 +11,7 @@ Date
 [COVID-19 Data Research repository from Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
 
 ### Domain Background
-
-
-In this section, provide brief details on the background information of the domain from which the project is proposed. Historical information relevant to the project should be included. It should be clear how or why a problem in the domain can or should be solved. Related academic research should be appropriately cited in this section, including why that research is relevant. Additionally, a discussion of your personal motivation for investigating a particular problem in the domain is encouraged but not required.
+Johns Hopkins University is a teaching and research hospital.  
 
 
 ### Problem Statement
@@ -70,6 +68,6 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ
-==
+eyJoaXN0b3J5IjpbLTE1NzM0NDk2MDcsLTE5NjIyNDc1MTcsLT
+E3MTcxMDUzNTZdfQ==
 -->
