@@ -26,10 +26,8 @@ They have a [JHU Git repository](git@github.com:CSSEGISandData/COVID-19.git) whi
 _(approx. 1 paragraph)_
 
 The goal of this project two fold 
-1. one is do determine the 14-day projected data is showing 
-
-
-is to predict if we are **"flattening the curve"**. Each state is slowly lifting there **stay at home order** and **easing social distancing measures**.
+1. Is to determine the 14-day projected data is showing sings of **"flattening the curve"**.
+2. What is the 14-day projected data is showing for the number of deaths. 
 
 Little bit info on what is **"flattening the curve"**?:
 >An epidemic curve, or “epicurve,” is a graph that shows the frequency of new cases over time based on new infections per day. In many cases, an epicurve follows a bell curve, steadily rising to a peak and then declining as the outbreak burns out when the virus runs out of people to infect.
@@ -99,7 +97,7 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDY4NDg4NzgsMzYzNjkwNTY2LDE0ND
+eyJoaXN0b3J5IjpbLTE3MDE3MDY2MTksMzYzNjkwNTY2LDE0ND
 c2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0
 MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMD
 A0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1
