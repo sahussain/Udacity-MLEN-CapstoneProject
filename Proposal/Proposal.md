@@ -11,7 +11,7 @@ Date
 [COVID-19 Data Research repository from Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
 
 ### Domain Background
-Johns Hopkins University (JHU) is a teaching and research hospital. They believe: 
+The data is publicly available form  Johns Hopkins University (JHU) which is a teaching and research hospital. They believe: 
 > "that sharing our **knowledge** and **discoveries** would help make the world a better place"  
 
 Since the start for the COVID-19 pandemic JHU have been critical source in providing data both to the public and researches alike. There data is being used by many news outlets like [CNN]([https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/](https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/)), [CBC]([https://newsinteractives.cbc.ca/coronavirustracker/](https://newsinteractives.cbc.ca/coronavirustracker/)), etc.
@@ -119,6 +119,7 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMT
-U4MDU4ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ==
+eyJoaXN0b3J5IjpbMTgzMjA3MzQzLDE2MDg3Njg1NjgsMTI2OT
+A1NTQ4MCwxMjE1ODA1ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1
+MzU2XX0=
 -->
