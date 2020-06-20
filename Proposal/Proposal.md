@@ -64,7 +64,7 @@ Since the data sets are relevantly clean I expect to spend 50% of the time on da
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
 
-For this problem, the benchmark model will for both the number of cases and d
+For this problem, the benchmark model will for both the number of cases and deaths will be to be in between 80% 
 
 ### Evaluation Metrics
 _(approx. 1-2 paragraphs)_
@@ -95,9 +95,9 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjI3NzExNjQ5LDEzODMyOTIyNDIsMTYzMT
-YxMjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkw
-LC05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNj
-kwNTU0ODAsMTIxNTgwNTg4OCwtMTk2MjI0NzUxNywtMTcxNzEw
-NTM1Nl19
+eyJoaXN0b3J5IjpbLTExMDU0NTYxNDEsMTM4MzI5MjI0MiwxNj
+MxNjEyMzgwLC0xNjgwNzI0MTIsLTg5MDQ1NjkwLC04MDMzNTEx
+OTAsLTk4MTE1MDMwLC0yMDA0OTQ4NTkxLDE2MDg3Njg1NjgsMT
+I2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOTYyMjQ3NTE3LC0xNzE3
+MTA1MzU2XX0=
 -->
