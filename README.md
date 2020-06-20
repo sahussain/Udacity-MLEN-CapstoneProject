@@ -22,7 +22,8 @@ project are below.
 
 Data Source: 
 [COVID-19 Data Research repository from Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
-We will be only using the the following Data:
+
+Form this repository we will be only using the the following the time_series Data for US:
 * [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv)
 * [time_series_covid19_deaths_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv)
 
