@@ -25,7 +25,7 @@ They have a [JHU Git repository](git@github.com:CSSEGISandData/COVID-19.git) whi
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-The goal of this project is to predict if we are **"flattening the curve"**. Each state is slowly lifting there **stay at home order** and **easing social distancing measures**. I would be looking at forecasting the next 14 day as it is the current Incubation period[^1]  
+The goal of this project is to predict if we are **"flattening the curve"**. Each state is slowly lifting there **stay at home order** and **easing social distancing measures**. I would be looking at forecasting the next 14 day as it is the current Incubation period^[1]  
 
 Little bit info on what is **"flattening the curve"**?:
 >An epidemic curve, or “epicurve,” is a graph that shows the frequency of new cases over time based on new infections per day. In many cases, an epicurve follows a bell curve, steadily rising to a peak and then declining as the outbreak burns out when the virus runs out of people to infect.
@@ -124,8 +124,11 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Would the intended audience of your project be able to understand your proposal?
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
+
+## Endnotes
+^[1]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkyNzA0MTA1LC0yMDA0OTQ4NTkxLDE2MD
+eyJoaXN0b3J5IjpbNDExMDY0NzQ0LC0yMDA0OTQ4NTkxLDE2MD
 g3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOTYyMjQ3
 NTE3LC0xNzE3MTA1MzU2XX0=
 -->
