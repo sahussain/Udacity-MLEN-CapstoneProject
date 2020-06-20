@@ -25,7 +25,10 @@ They have a [JHU Git repository](git@github.com:CSSEGISandData/COVID-19.git) whi
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-The goal of this project is to predict if we are **"flattening the curve"**. Each state is slowly lifting there **stay at home order** and **easing social distancing measures**.
+The goal of this project two fold one is do determine 
+
+
+is to predict if we are **"flattening the curve"**. Each state is slowly lifting there **stay at home order** and **easing social distancing measures**.
 
 Little bit info on what is **"flattening the curve"**?:
 >An epidemic curve, or “epicurve,” is a graph that shows the frequency of new cases over time based on new infections per day. In many cases, an epicurve follows a bell curve, steadily rising to a peak and then declining as the outbreak burns out when the virus runs out of people to infect.
@@ -95,9 +98,9 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzYzNjkwNTY2LDE0NDc2Njc0NDYsMTM4Mz
-I5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0MTIsLTg5MDQ1Njkw
-LC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMDA0OTQ4NTkxLDE2MD
-g3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOTYyMjQ3
-NTE3LC0xNzE3MTA1MzU2XX0=
+eyJoaXN0b3J5IjpbMTI4MjMwNjIwNSwzNjM2OTA1NjYsMTQ0Nz
+Y2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQx
+MiwtODkwNDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMD
+Q5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4
+ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ==
 -->
