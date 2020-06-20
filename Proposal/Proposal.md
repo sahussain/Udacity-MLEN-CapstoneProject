@@ -11,7 +11,7 @@ Date
 [COVID-19 Data Research repository from Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
 
 ### Domain Background
-Johns Hopkins University is a teaching and research hospital. They bel  
+Johns Hopkins University is a teaching and research hospital. They believe > "that sharing our **knowledge** and **discoveries** would help make the world a better place"  
 
 
 ### Problem Statement
@@ -68,6 +68,6 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1OTI3NjYyNiwtMTk2MjI0NzUxNywtMT
+eyJoaXN0b3J5IjpbLTk1MjE5MDU3MCwtMTk2MjI0NzUxNywtMT
 cxNzEwNTM1Nl19
 -->
