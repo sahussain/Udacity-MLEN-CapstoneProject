@@ -32,7 +32,8 @@ Little bit info on what is **"flattening the curve"**?:
 >
 >Flattening the curve refers to when methods like large-scale testing, quarantining of infected individuals and social distancing are used to decrease the number of daily new COVID-19 cases. The aim is to reduce overall infections and keep cases at a number the health-care system can manage.
 
-The creatie that will be use  
+The criteria that will be use to determine if there is a flattening the curve based on if the following holds:
+1.  
 
 
 ## Flattening the curve
@@ -95,8 +96,8 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MTI5NDg1NjcsMTYzMTYxMjM4MCwtMT
-Y4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAz
-MCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMT
-IxNTgwNTg4OCwtMTk2MjI0NzUxNywtMTcxNzEwNTM1Nl19
+eyJoaXN0b3J5IjpbMTY2NzI3OTExLDE2MzE2MTIzODAsLTE2OD
+A3MjQxMiwtODkwNDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMzAs
+LTIwMDQ5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMT
+U4MDU4ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ==
 -->
