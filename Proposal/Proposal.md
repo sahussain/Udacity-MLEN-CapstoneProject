@@ -57,7 +57,7 @@ Both files have the same columns:
 * Country_Region
 * Combined_Key
 * Population
-* Number of cases/deaths are is col
+* Number of cases/deaths are is columns where each column is a day
 
 
 ### Solution Statement
@@ -105,7 +105,7 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwOTE0NzM3MzIsMzYzNjkwNTY2LDE0ND
+eyJoaXN0b3J5IjpbLTE2NjgzMDEzNzIsMzYzNjkwNTY2LDE0ND
 c2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0
 MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMD
 A0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1
