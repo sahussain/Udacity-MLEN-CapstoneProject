@@ -20,9 +20,7 @@ They have a [JHU Git repository](git@github.com:CSSEGISandData/COVID-19.git) whi
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-
-In this section, clearly describe the problem that is to be solved. The problem described should be well defined and should have at least one relevant potential solution. Additionally, describe the problem thoroughly such that it is clear that the problem is quantifiable (the problem can be expressed in mathematical or logical terms) , measurable (the problem can be measured by some metric and clearly observed), and replicable (the problem can be reproduced and occurs more than once).
-
+The goal of this project is to predict if we are **"flattening the curve"**
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
@@ -71,6 +69,6 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOT
-YyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
+eyJoaXN0b3J5IjpbLTE5NTM0NTU3ODgsMTI2OTA1NTQ4MCwxMj
+E1ODA1ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
 -->
