@@ -47,7 +47,7 @@ There will be two data source files:
 - [time_series_covid19_deaths_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv "time_series_covid19_deaths_US.csv")
 
 Both files have the same columns:
-* UID
+* UID - UID = 840 (country code3) + 000XX (state FIPS code). Ranging from 8400001 to 84000056.
 * iso2
 * iso3 - Officialy assigned country code identifiers.
 * code3
@@ -55,8 +55,8 @@ Both files have the same columns:
 * admin2 - County name. US only.
 * Province_State - The name of the State within the USA.
 * Country_Region - The name of the Country (US).
-* Combined_Key - 
-* Population
+* Combined_Key -  Province_State + Country_Region 
+* Population - Population
 * Number of cases/deaths are is columns where each column is a day
 
 
@@ -105,9 +105,9 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTIzMjA2ODAzNCwzNjM2OTA1NjYsMTQ0Nz
-Y2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQx
-MiwtODkwNDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMD
-Q5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4
-ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ==
+eyJoaXN0b3J5IjpbLTE0Mjk0MjI1NTIsMzYzNjkwNTY2LDE0ND
+c2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0
+MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMD
+A0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1
+ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
 -->
