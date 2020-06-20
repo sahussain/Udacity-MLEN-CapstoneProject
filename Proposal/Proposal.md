@@ -58,15 +58,13 @@ _(approx. 1 paragraph)_
 
 Source: [ML_SageMaker_Studies by udacity]([https://newsinteractives.cbc.ca/coronaviruscurve/](https://github.com/udacity/ML_SageMaker_Studies/tree/master/Time_Series_Forecasting/notebook_ims))
  
-Since the data sets are relevantly clean I expect to spend 0% of the time on data cleaning and natural language processing part and 40% of the time on training models and tweaking parameters.
+Since the data sets are relevantly clean I expect to spend 50% of the time on data cleaning and DeepAR processing part and 50% of the time on training models and tweaking parameters.
 
 
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
 
-
-In this section, provide the details for a benchmark model or result that relates to the domain, problem statement, and intended solution. Ideally, the benchmark model or result contextualizes existing methods or known information in the domain and problem given, which could then be objectively compared to the solution. Describe how the benchmark model or result is measurable (can be measured by some metric and clearly observed) with thorough detail.
-
+For this problem, the benchmark model will be a _x_ percent chance prediction, where _x_ is the propotion of "duplicate" among all question pairs in the training set. This is very naive and therefore serves as the benchmark model. Whatever I'm trying to achieve should be higher than this value, otherwise it means my model is not good enough.
 
 ### Evaluation Metrics
 _(approx. 1-2 paragraphs)_
@@ -97,7 +95,7 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODU3ODIwMDQ4LDEzODMyOTIyNDIsMTYzMT
+eyJoaXN0b3J5IjpbNzIwNjIzMzEyLDEzODMyOTIyNDIsMTYzMT
 YxMjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkw
 LC05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNj
 kwNTU0ODAsMTIxNTgwNTg4OCwtMTk2MjI0NzUxNywtMTcxNzEw
