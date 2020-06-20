@@ -33,7 +33,7 @@ Little bit info on what is **"flattening the curve"**?:
 >Flattening the curve refers to when methods like large-scale testing, quarantining of infected individuals and social distancing are used to decrease the number of daily new COVID-19 cases. The aim is to reduce overall infections and keep cases at a number the health-care system can manage.
 
 The criteria that will be use to determine if there is a flattening the curve based on if the following holds:
->1. if the predicted line is trending towers f(x)=k  
+>1. if the predicted line is trending towers $\Gamma(x) = (n)!\quad\forall n\in\mathbb S$
 
 
 ## Flattening the curve
@@ -96,7 +96,7 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0MDk5NDkwMywxNjMxNjEyMzgwLC0xNj
+eyJoaXN0b3J5IjpbMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNj
 gwNzI0MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMw
 LC0yMDA0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMj
 E1ODA1ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
