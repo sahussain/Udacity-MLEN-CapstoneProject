@@ -52,10 +52,10 @@ Both files have the same columns:
 * iso3 - Officialy assigned country code identifiers.
 * code3
 * FIPS -Federal Information Processing Standards code that uniquely identifies counties within the USA.
-* admin2
-* Province_State
-* Country_Region
-* Combined_Key
+* admin2 - County name. US only.
+* Province_State - The name of the State within the USA.
+* Country_Region - The name of the Country (US).
+* Combined_Key - 
 * Population
 * Number of cases/deaths are is columns where each column is a day
 
@@ -105,9 +105,9 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzY0MzUwMDAwLDM2MzY5MDU2NiwxNDQ3Nj
-Y3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEy
-LC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwND
-k0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4
-OCwtMTk2MjI0NzUxNywtMTcxNzEwNTM1Nl19
+eyJoaXN0b3J5IjpbMTIzMjA2ODAzNCwzNjM2OTA1NjYsMTQ0Nz
+Y2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQx
+MiwtODkwNDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMD
+Q5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4
+ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ==
 -->
