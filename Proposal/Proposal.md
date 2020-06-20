@@ -80,7 +80,7 @@ For this problem, the benchmark model will for both the number of cases and deat
 _(approx. 1-2 paragraphs)_
 
 
-In this section, propose at least one evaluation metric that can be used to quantify the performance of both the benchmark model and the solution model. The evaluation metric(s) you propose should be appropriate given the context of the data, the problem statement, and the intended solution. Describe how the evaluation metric(s) are derived and provide an example of their mathematical representations (if applicable). Complex evaluation metrics should be clearly defined and quantifiable (can be expressed in mathematical or logical terms).
+?????
 
 
 ### Project Design
@@ -103,9 +103,10 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MDU4NTQyMjYsMzYzNjkwNTY2LDE0ND
-c2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0
-MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMD
-A0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1
-ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
+eyJoaXN0b3J5IjpbMTY1MzIyODAzNCwtMTQwNTg1NDIyNiwzNj
+M2OTA1NjYsMTQ0NzY2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIz
+ODAsLTE2ODA3MjQxMiwtODkwNDU2OTAsLTgwMzM1MTE5MCwtOT
+gxMTUwMzAsLTIwMDQ5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1
+NDgwLDEyMTU4MDU4ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNT
+ZdfQ==
 -->
