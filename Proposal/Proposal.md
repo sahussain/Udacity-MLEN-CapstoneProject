@@ -125,10 +125,10 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 
-## Endnotes
-^[]: WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020 [Accessed at https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2]
+# Endnotes
+[^1]: WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020 [Accessed at https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MzA5MzcyNjUsLTIwMDQ5NDg1OTEsMT
+eyJoaXN0b3J5IjpbLTE5MjA1NjU1NDksLTIwMDQ5NDg1OTEsMT
 YwODc2ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4ODgsLTE5NjIy
 NDc1MTcsLTE3MTcxMDUzNTZdfQ==
 -->
