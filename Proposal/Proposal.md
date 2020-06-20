@@ -34,7 +34,7 @@ Little bit info on what is **"flattening the curve"**?:
 
 The criteria that will be use to determine if there is a flattening the curve based on if the following holds:
 >1. if the predicted line of confirmed cases is trending towers $\Gamma(x) = (n)!\quad\forall n\in\mathbb Number of cases$ stay's constant
->2. if the predicted line of number of deaths is trending towers $\Gamma(x) = (n)!\quad\forall n\in\mathbb Number of cases$ stay's constant
+>2. if the predicted line of number of deaths is trending towers $\Gamma(x) = (n)!\quad\forall n\in\mathbb Number of deaths$ decline
 
 
 ## Flattening the curve
@@ -53,7 +53,7 @@ There will be two data source files:
 ### Solution Statement
 _(approx. 1 paragraph)_
 
- I would be looking at forecasting the next 14 day as it is the current Incubation period.[^1] I will have to look at what context length to set at. At this point I will set that at 28 Days.
+ The solution will be predictions of next 14 day as it is the current Incubation period.[^1] I will have to look at what context length to set at. At this point I will set that at 28 Days.
 [<img src="https://github.com/sahussain/ML_SageMaker_Studies/blob/master/Time_Series_Forecasting/notebook_ims/context_prediction_windows.png">](https://github.com/sahussain/ML_SageMaker_Studies/blob/master/Time_Series_Forecasting/notebook_ims/context_prediction_windows.png)
 
 Source: [ML_SageMaker_Studies by udacity]([https://newsinteractives.cbc.ca/coronaviruscurve/](https://github.com/udacity/ML_SageMaker_Studies/tree/master/Time_Series_Forecasting/notebook_ims))
@@ -97,9 +97,9 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTYxNzc3MDIsMTM4MzI5MjI0MiwxNj
-MxNjEyMzgwLC0xNjgwNzI0MTIsLTg5MDQ1NjkwLC04MDMzNTEx
-OTAsLTk4MTE1MDMwLC0yMDA0OTQ4NTkxLDE2MDg3Njg1NjgsMT
-I2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOTYyMjQ3NTE3LC0xNzE3
-MTA1MzU2XX0=
+eyJoaXN0b3J5IjpbMTM1NjI2NTg0OCwxMzgzMjkyMjQyLDE2Mz
+E2MTIzODAsLTE2ODA3MjQxMiwtODkwNDU2OTAsLTgwMzM1MTE5
+MCwtOTgxMTUwMzAsLTIwMDQ5NDg1OTEsMTYwODc2ODU2OCwxMj
+Y5MDU1NDgwLDEyMTU4MDU4ODgsLTE5NjIyNDc1MTcsLTE3MTcx
+MDUzNTZdfQ==
 -->
