@@ -126,9 +126,9 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Are all the resources used for this project correctly cited and referenced?
 
 ## Endnotes
-^[1]
+[^1]:WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020 [Accessed at https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDExMDY0NzQ0LC0yMDA0OTQ4NTkxLDE2MD
-g3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOTYyMjQ3
-NTE3LC0xNzE3MTA1MzU2XX0=
+eyJoaXN0b3J5IjpbLTczMzA1MDAwMCwtMjAwNDk0ODU5MSwxNj
+A4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4OCwtMTk2MjI0
+NzUxNywtMTcxNzEwNTM1Nl19
 -->
