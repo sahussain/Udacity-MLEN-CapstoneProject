@@ -48,7 +48,16 @@ There will be two data source files:
 
 Both files have the same columns:
 * UID
-* i
+* iso2
+* iso3
+* code3
+* FIPS
+* admin2
+* Province_State
+* Country_Region
+* Combined_Key
+* Population
+* Number of cases/deaths are is col
 
 
 ### Solution Statement
@@ -96,9 +105,9 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU1OTE0NjY3LDM2MzY5MDU2NiwxNDQ3Nj
-Y3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEy
-LC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwND
-k0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4
-OCwtMTk2MjI0NzUxNywtMTcxNzEwNTM1Nl19
+eyJoaXN0b3J5IjpbLTIwOTE0NzM3MzIsMzYzNjkwNTY2LDE0ND
+c2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0
+MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMD
+A0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1
+ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
 -->
