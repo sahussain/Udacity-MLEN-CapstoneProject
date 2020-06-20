@@ -25,7 +25,8 @@ They have a [JHU Git repository](git@github.com:CSSEGISandData/COVID-19.git) whi
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-The goal of this project two fold one is do determine 
+The goal of this project two fold 
+1. one is do determine the 14-day projected data is showing 
 
 
 is to predict if we are **"flattening the curve"**. Each state is slowly lifting there **stay at home order** and **easing social distancing measures**.
@@ -36,8 +37,8 @@ Little bit info on what is **"flattening the curve"**?:
 >Flattening the curve refers to when methods like large-scale testing, quarantining of infected individuals and social distancing are used to decrease the number of daily new COVID-19 cases. The aim is to reduce overall infections and keep cases at a number the health-care system can manage.
 
 The criteria that will be use to determine if there is a flattening the curve based on if the following holds:
->1. if the predicted line of confirmed cases is trending towers straight line
->2. if the predicted line of number of deaths is trending lower
+1. if the predicted line of confirmed cases is trending towers straight line
+2. if the predicted line of number of deaths is trending lower
 
 
 ## Flattening the curve
@@ -98,9 +99,9 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjMwNjIwNSwzNjM2OTA1NjYsMTQ0Nz
-Y2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQx
-MiwtODkwNDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMD
-Q5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4
-ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ==
+eyJoaXN0b3J5IjpbLTIxMDY4NDg4NzgsMzYzNjkwNTY2LDE0ND
+c2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0
+MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMD
+A0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1
+ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
 -->
