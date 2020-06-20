@@ -22,6 +22,12 @@ _(approx. 1 paragraph)_
 
 The goal of this project is to predict if we are **"flattening the curve"**. Each state is slowly lifting there **stay at home order** and **easing social distancing measures**. 
 Little bit info on what is **"flattening the curve"**?:
+>An epidemic curve, or “epicurve,” is a graph that shows the frequency of new cases over time based on new infections per day. In many cases, an epicurve follows a bell curve, steadily rising to a peak and then declining as the outbreak burns out when the virus runs out of people to infect.
+>
+>Flattening the curve refers to when methods like large-scale testing, quarantining of infected individuals and social distancing are used to decrease the number of daily new COVID-19 cases. The aim is to reduce overall infections and keep cases at a number the health-care system can manage.
+>Source: [CBC]([https://newsinteractives.cbc.ca/coronaviruscurve/](https://newsinteractives.cbc.ca/coronaviruscurve/))
+
+
 
 
 ### Datasets and Inputs
@@ -71,6 +77,6 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTU1MzY1NjksMTI2OTA1NTQ4MCwxMj
-E1ODA1ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
+eyJoaXN0b3J5IjpbMzA0MjExNzIyLDEyNjkwNTU0ODAsMTIxNT
+gwNTg4OCwtMTk2MjI0NzUxNywtMTcxNzEwNTM1Nl19
 -->
