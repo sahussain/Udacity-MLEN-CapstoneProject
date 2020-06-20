@@ -87,7 +87,7 @@ In this section, propose at least one evaluation metric that can be used to quan
 _(approx. 1 page)_
 
 
-First we need to convert the data form wide table format to tall table format. Then I will be using DeepAR Forecasting Algorithm to forecast the nex 14-day view for both cases and deaths by 
+First we need to convert the data form wide table format to tall table format. The next thing to do will be to see what the data lookes like and what Then I will be using DeepAR Forecasting Algorithm to forecast the nex 14-day view for both cases and deaths. W
 
 
 -----------
@@ -103,9 +103,9 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU5NzE2NDE5LDM2MzY5MDU2NiwxNDQ3Nj
-Y3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEy
-LC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwND
-k0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4
-OCwtMTk2MjI0NzUxNywtMTcxNzEwNTM1Nl19
+eyJoaXN0b3J5IjpbMTIyNzE2NjE4OCwzNjM2OTA1NjYsMTQ0Nz
+Y2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQx
+MiwtODkwNDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMD
+Q5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4
+ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ==
 -->
