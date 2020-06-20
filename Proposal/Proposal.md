@@ -53,12 +53,12 @@ There will be two data source files:
 ### Solution Statement
 _(approx. 1 paragraph)_
 
- The solution will be predictions of next 14 day as it is the current Incubation period.[^1] I will have to look at what context length to set at. At this point I will set that at 28 Days.
+ The solution will be predictions of next 14 day cases and deaths. as it is the current Incubation period.[^1] I will have to look at what context length to set at. At this point I will set that at 28 Days.
 [<img src="https://github.com/sahussain/ML_SageMaker_Studies/blob/master/Time_Series_Forecasting/notebook_ims/context_prediction_windows.png">](https://github.com/sahussain/ML_SageMaker_Studies/blob/master/Time_Series_Forecasting/notebook_ims/context_prediction_windows.png)
 
 Source: [ML_SageMaker_Studies by udacity]([https://newsinteractives.cbc.ca/coronaviruscurve/](https://github.com/udacity/ML_SageMaker_Studies/tree/master/Time_Series_Forecasting/notebook_ims))
  
-In this section, clearly describe a solution to the problem. The solution should be applicable to the project domain and appropriate for the dataset(s) or input(s) given. Additionally, describe the solution thoroughly such that it is clear that the solution is quantifiable (the solution can be expressed in mathematical or logical terms) , measurable (the solution can be measured by some metric and clearly observed), and replicable (the solution can be reproduced and occurs more than once).
+Since the data sets are relevantly clean I expect to spend 0% of the time on data cleaning and natural language processing part and 40% of the time on training models and tweaking parameters.
 
 
 ### Benchmark Model
@@ -97,9 +97,9 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM1NjI2NTg0OCwxMzgzMjkyMjQyLDE2Mz
-E2MTIzODAsLTE2ODA3MjQxMiwtODkwNDU2OTAsLTgwMzM1MTE5
-MCwtOTgxMTUwMzAsLTIwMDQ5NDg1OTEsMTYwODc2ODU2OCwxMj
-Y5MDU1NDgwLDEyMTU4MDU4ODgsLTE5NjIyNDc1MTcsLTE3MTcx
-MDUzNTZdfQ==
+eyJoaXN0b3J5IjpbODU3ODIwMDQ4LDEzODMyOTIyNDIsMTYzMT
+YxMjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkw
+LC05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNj
+kwNTU0ODAsMTIxNTgwNTg4OCwtMTk2MjI0NzUxNywtMTcxNzEw
+NTM1Nl19
 -->
