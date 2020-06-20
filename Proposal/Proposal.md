@@ -19,7 +19,8 @@ The first president of JHU Daniel Coit Gilman summarizes what JHU is all about, 
 >_“The encouragement of research . . . and the advancement of individual scholars, who by their excellence will advance the sciences they pursue, and the society where they dwell.”_
 
 Since the start for the [COVID-19]([https://en.wikipedia.org/wiki/Coronavirus_disease_2019](https://en.wikipedia.org/wiki/Coronavirus_disease_2019)) pandemic JHU have been one of the critical source in providing data both to the public and researches alike. There data is being used by many news outlets as well like [CNN]([https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/](https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/)), [CBC]([https://newsinteractives.cbc.ca/coronavirustracker/](https://newsinteractives.cbc.ca/coronavirustracker/)), etc.
-They have a [JHU Git repository](git@github.com:CSSEGISandData/COVID-19.git) which updates data in many views, I will be using there [csse_covid_19_time_series](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series "csse_covid_19_time_series") section. I will only be looking at US's data. 
+
+They have a [JHU Git repository](git@github.com:CSSEGISandData/COVID-19.git) which provides the data in many different views, I will be using there [csse_covid_19_time_series](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series "csse_covid_19_time_series") data-set. The sco 
 
 ### Problem Statement
 _(approx. 1 paragraph)_
@@ -123,7 +124,7 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3OTQwOTQwMjYsMTYwODc2ODU2OCwxMj
-Y5MDU1NDgwLDEyMTU4MDU4ODgsLTE5NjIyNDc1MTcsLTE3MTcx
-MDUzNTZdfQ==
+eyJoaXN0b3J5IjpbLTMzNjYxNzA3NiwxNjA4NzY4NTY4LDEyNj
+kwNTU0ODAsMTIxNTgwNTg4OCwtMTk2MjI0NzUxNywtMTcxNzEw
+NTM1Nl19
 -->
