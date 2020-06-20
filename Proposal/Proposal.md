@@ -87,15 +87,13 @@ In this section, propose at least one evaluation metric that can be used to quan
 _(approx. 1 page)_
 
 
-I will be using DeepAR Forecasting Algorithm
+First we need to convert the data form wide table format to tall table format. Then I will be using DeepAR Forecasting Algorithm to forecast the nex 14-day view for both cases and deaths by 
 
 
 -----------
 
 
 **Before submitting your proposal, ask yourself. . .**
-
-
 - Does the proposal you have written follow a well-organized structure similar to that of the project template?
 - Is each section (particularly **Solution Statement** and **Project Design**) written in a clear, concise and specific fashion? Are there any ambiguous terms or phrases that need clarification?
 - Would the intended audience of your project be able to understand your proposal?
@@ -105,9 +103,9 @@ I will be using DeepAR Forecasting Algorithm
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTE1MTUyNzcsMzYzNjkwNTY2LDE0ND
-c2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0
-MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMD
-A0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1
-ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
+eyJoaXN0b3J5IjpbMjU5NzE2NDE5LDM2MzY5MDU2NiwxNDQ3Nj
+Y3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEy
+LC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwND
+k0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4
+OCwtMTk2MjI0NzUxNywtMTcxNzEwNTM1Nl19
 -->
