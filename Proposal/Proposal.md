@@ -20,7 +20,7 @@ They have a [JHU Git repository](git@github.com:CSSEGISandData/COVID-19.git) whi
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-The goal of this project is to predict if we are **"flattening the curve"**
+The goal of this project is to predict if we are **"flattening the curve"**. Each state is slowly lifting there stay at home 
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
@@ -69,6 +69,6 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NTM0NTU3ODgsMTI2OTA1NTQ4MCwxMj
-E1ODA1ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
+eyJoaXN0b3J5IjpbMjA3NTM5ODI5NCwxMjY5MDU1NDgwLDEyMT
+U4MDU4ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ==
 -->
