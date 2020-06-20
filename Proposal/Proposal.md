@@ -17,9 +17,6 @@ Johns Hopkins University (JHU) is a teaching and research hospital. They believe
 Since the start for the COVID-19 pandemic JHU have been critical source in providing data both to the public and researches alike. There data is being used by many news outlets like [CNN]([https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/](https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/)), [CBC]([https://newsinteractives.cbc.ca/coronavirustracker/](https://newsinteractives.cbc.ca/coronavirustracker/)), etc.
 They have a [JHU Git repository](git@github.com:CSSEGISandData/COVID-19.git) which updates data in many views, I will be using there [csse_covid_19_time_series](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series "csse_covid_19_time_series") section. I will only be looking at US's data. 
 
-
-
-
 ### Problem Statement
 _(approx. 1 paragraph)_
 
@@ -74,6 +71,6 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3ODE1ODE3MTQsMTIxNTgwNTg4OCwtMT
-k2MjI0NzUxNywtMTcxNzEwNTM1Nl19
+eyJoaXN0b3J5IjpbMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOT
+YyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
 -->
