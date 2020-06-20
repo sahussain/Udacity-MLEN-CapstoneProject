@@ -32,6 +32,9 @@ Little bit info on what is **"flattening the curve"**?:
 >
 >Flattening the curve refers to when methods like large-scale testing, quarantining of infected individuals and social distancing are used to decrease the number of daily new COVID-19 cases. The aim is to reduce overall infections and keep cases at a number the health-care system can manage.
 
+The creatie that will be use  
+
+
 ## Flattening the curve
 [<img src="https://github.com/sahussain/Udacity-MLEN-CapstoneProject/blob/master/Images/Flatteningthecurve.svg">](https://github.com/sahussain/Udacity-MLEN-CapstoneProject/blob/master/Images/Flatteningthecurve.svg)
 
@@ -41,7 +44,8 @@ Source: [CBC]([https://newsinteractives.cbc.ca/coronaviruscurve/](https://newsin
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
 There will be two data source files:
-
+- [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv "time_series_covid19_confirmed_US.csv")
+- [time_series_covid19_deaths_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv "time_series_covid19_deaths_US.csv")
 
 
 ### Solution Statement
@@ -91,8 +95,8 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjQ3MTE0NzAsMTYzMTYxMjM4MCwtMTY4MD
-cyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwt
-MjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNT
-gwNTg4OCwtMTk2MjI0NzUxNywtMTcxNzEwNTM1Nl19
+eyJoaXN0b3J5IjpbLTE0MTI5NDg1NjcsMTYzMTYxMjM4MCwtMT
+Y4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAz
+MCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMT
+IxNTgwNTg4OCwtMTk2MjI0NzUxNywtMTcxNzEwNTM1Nl19
 -->
