@@ -33,7 +33,6 @@ Little bit info on what is **"flattening the curve"**?:
 >Flattening the curve refers to when methods like large-scale testing, quarantining of infected individuals and social distancing are used to decrease the number of daily new COVID-19 cases. The aim is to reduce overall infections and keep cases at a number the health-care system can manage.
 
 ## Flattening the curve
-![](https://github.com/sahussain/Udacity-MLEN-CapstoneProject/blob/master/Images/Flatteningthecurve.svg)
 [<img src="https://github.com/sahussain/Udacity-MLEN-CapstoneProject/blob/master/Images/Flatteningthecurve.svg">](https://github.com/sahussain/Udacity-MLEN-CapstoneProject/blob/master/Images/Flatteningthecurve.svg)
 
 Source: [CBC]([https://newsinteractives.cbc.ca/coronaviruscurve/](https://newsinteractives.cbc.ca/coronaviruscurve/))
@@ -89,8 +88,8 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDMzNTI2NjksLTE2ODA3MjQxMiwtOD
-kwNDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMDQ5NDg1
-OTEsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4ODgsLT
-E5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ==
+eyJoaXN0b3J5IjpbMjAxNDQ3ODI0NSwtMTY4MDcyNDEyLC04OT
+A0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwNDk0ODU5
+MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4OCwtMT
+k2MjI0NzUxNywtMTcxNzEwNTM1Nl19
 -->
