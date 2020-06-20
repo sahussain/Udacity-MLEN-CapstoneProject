@@ -50,7 +50,7 @@ Both files have the same columns:
 * UID - UID = 840 (country code3) + 000XX (state FIPS code). Ranging from 8400001 to 84000056.
 * iso2
 * iso3 - Officialy assigned country code identifiers.
-* code3- country c
+* code3- country code USA = 840
 * FIPS -Federal Information Processing Standards code that uniquely identifies counties within the USA.
 * admin2 - County name. US only.
 * Province_State - The name of the State within the USA.
@@ -74,7 +74,7 @@ Since the data sets are relevantly clean I expect to spend 50% of the time on da
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
 
-For this problem, the benchmark model will for both the number of cases and deaths will be to be in between ±80% 
+For this problem, the benchmark model will for both the number of cases and deaths will be to be in between ±80% confidence interval 
 
 ### Evaluation Metrics
 _(approx. 1-2 paragraphs)_
@@ -105,9 +105,9 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTY3NDExMzI2LDM2MzY5MDU2NiwxNDQ3Nj
-Y3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEy
-LC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwND
-k0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4
-OCwtMTk2MjI0NzUxNywtMTcxNzEwNTM1Nl19
+eyJoaXN0b3J5IjpbLTExMDE4MTg2NzcsMzYzNjkwNTY2LDE0ND
+c2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0
+MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMD
+A0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1
+ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
 -->
