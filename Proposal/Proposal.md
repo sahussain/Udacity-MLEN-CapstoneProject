@@ -1,7 +1,10 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal
-Ashraf Hussain 
-June 19th, 2020
+Author
+: Ashraf Hussain
+
+Date 
+: June 19th, 2020
 
 
 ## Proposal
@@ -67,5 +70,6 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 - Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
 - Are all the resources used for this project correctly cited and referenced?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MTcxMDUzNTZdfQ==
+eyJoaXN0b3J5IjpbLTE5NjIyNDc1MTcsLTE3MTcxMDUzNTZdfQ
+==
 -->
