@@ -40,9 +40,8 @@ Source: [CBC]([https://newsinteractives.cbc.ca/coronaviruscurve/](https://newsin
 
 ### Datasets and Inputs
 _(approx. 2-3 paragraphs)_
+There will be two data source files:
 
-
-In this section, the dataset(s) and/or input(s) being considered for the project should be thoroughly described, such as how they relate to the problem and why they should be used. Information such as how the dataset or input is (was) obtained, and the characteristics of the dataset or input, should be included with relevant references and citations as necessary It should be clear how the dataset(s) or input(s) will be used in the project and whether their use is appropriate given the context of the problem.
 
 
 ### Solution Statement
@@ -92,8 +91,8 @@ In this final section, summarize a theoretical workflow for approaching a soluti
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTYzMTYxMjM4MCwtMTY4MDcyNDEyLC04OT
-A0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwNDk0ODU5
-MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4OCwtMT
-k2MjI0NzUxNywtMTcxNzEwNTM1Nl19
+eyJoaXN0b3J5IjpbMjQ3MTE0NzAsMTYzMTYxMjM4MCwtMTY4MD
+cyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwt
+MjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNT
+gwNTg4OCwtMTk2MjI0NzUxNywtMTcxNzEwNTM1Nl19
 -->
