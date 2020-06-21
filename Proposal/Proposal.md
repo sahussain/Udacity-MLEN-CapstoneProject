@@ -60,6 +60,7 @@ the basis of the incubation period of the novel coronavirus.
 Since the data sets are relevantly clean, I expect to spend 50% of the
 time on data cleaning and DeepAR processing and 50% of the time on
 training models and tweaking parameters.
+
 To minimize the `cost` the following `Hyperparameters` will be used:
 
 `early_stopping_patience`: enabled as when this parameter is set, training
@@ -118,11 +119,11 @@ The project will be executed based on the following template:
 
 [^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjM3NTM4NDk3LC03ODk0NTE2NDgsLTE2MT
-AxOTUzODEsMTM2ODA3MzQzMiwtMTU1OTY5NjIyOSwtMTA4NTY4
-ODA1MiwxMDk2NDE2ODIzLDE4MTI4ODU2MTgsLTE0MzIzNjU0ND
-MsLTExMTI0OTg4NjMsLTI2MTU2NTE4MCwxMjgyNjkyNDQ2LDE2
-NTMyMjgwMzQsLTE0MDU4NTQyMjYsMzYzNjkwNTY2LDE0NDc2Nj
-c0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0MTIs
-LTg5MDQ1NjkwXX0=
+eyJoaXN0b3J5IjpbLTc3MzI5NDMxNywtNzg5NDUxNjQ4LC0xNj
+EwMTk1MzgxLDEzNjgwNzM0MzIsLTE1NTk2OTYyMjksLTEwODU2
+ODgwNTIsMTA5NjQxNjgyMywxODEyODg1NjE4LC0xNDMyMzY1ND
+QzLC0xMTEyNDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5MjQ0Niwx
+NjUzMjI4MDM0LC0xNDA1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3Nj
+Y3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEy
+LC04OTA0NTY5MF19
 -->
