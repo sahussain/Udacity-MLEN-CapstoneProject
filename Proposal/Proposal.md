@@ -12,7 +12,7 @@ Forecasting COVID-19 Cases – A DeepAR Model
 ### Domain Background
 
 On December 31, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Identified as coronavirus disease 2019, it quickly came to be known as COVID-19 and has resulted in an ongoing global pandemic. As of 20 June 2020, more than 8.74 million cases have been reported across 188 countries and territories, resulting in more than 462,000 deaths. More than 4.31 million people have recovered .
-In response to this ongoing public health emergency, Johns Hopkins University (JHU), a private research university in Maryland, USA, developed an interactive web-based dashboard hosted by their Center for Systems Science and Engineering (CSSE). The dashboard visualizes and tracks reported cases in real-time, illustrating the location and number of confirmed COVID-19 cases, deaths and recoveries for all affected countries. It is used by researchers, public health authorities, news agencies and the general public. All the data collected and displayed is made freely available in a GitHub repository.
+In response to this ongoing public health emergency, Johns Hopkins University (JHU), a private research university in Maryland, USA, developed an interactive web-based dashboard hosted by their Center for Systems Science and Engineering (CSSE). The dashboard visualizes and tracks reported cases in real-time, illustrating the location and number of confirmed COVID-19 cases, deaths and recoveries for all affected countries. It is used by researchers, public health authorities, news agencies and the general public. All the data collected and displayed is made freely available in a [GitHub repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
 
 ### Problem Statement
@@ -23,7 +23,7 @@ DeepAR is an underutilized approach in this area . The dataset contains hundreds
 
 ### Datasets and Inputs
 
-The datasets are accessed from two source files provided by the JHU GitHub repository:
+The datasets are accessed from files provided by the JHU GitHub repository:
 - [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv "time_series_covid19_confirmed_US.csv")
 
 Both files have the same columns:
@@ -37,7 +37,7 @@ Both files have the same columns:
 * Country_Region - The name of the Country (US).
 * Combined_Key -  Province_State + Country_Region 
 * Population - Population
-* Number of cases/deaths are is columns where each column is a day
+* Number of cases are is columns where each column is a day
 
 
 ### Solution Statement
@@ -93,11 +93,11 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA3ODc2MzMsLTE0MzIzNjU0NDMsLTExMT
-I0OTg4NjMsLTI2MTU2NTE4MCwxMjgyNjkyNDQ2LDE2NTMyMjgw
-MzQsLTE0MDU4NTQyMjYsMzYzNjkwNTY2LDE0NDc2Njc0NDYsMT
-M4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0MTIsLTg5MDQ1
-NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMDA0OTQ4NTkxLD
-E2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOTYy
-MjQ3NTE3XX0=
+eyJoaXN0b3J5IjpbLTEzMDk4OTY0MzcsLTE0MzIzNjU0NDMsLT
+ExMTI0OTg4NjMsLTI2MTU2NTE4MCwxMjgyNjkyNDQ2LDE2NTMy
+MjgwMzQsLTE0MDU4NTQyMjYsMzYzNjkwNTY2LDE0NDc2Njc0ND
+YsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0MTIsLTg5
+MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMDA0OTQ4NT
+kxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0x
+OTYyMjQ3NTE3XX0=
 -->
