@@ -36,13 +36,9 @@ moving average (ARIMA), exponential smoothing (ETS), Time Series
 Forecasting with Linear Learner for this type of applications.
 ### Datasets and Inputs
 The datasets are accessed from files provided by the JHU GitHub
-repository:
+repository [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv)
 
--[time_series_covid19_confirmed_US.csv(https://github.com/CSSEGISandData/C
-OVID-
-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_co
-vid19_confirmed_US.csv &quot;time_series_covid19_confirmed_US.csv&quot;)
-Both files have the same columns:
+The file have the same columns:
 * UID - UID = 840 (country code3) + 000XX (state FIPS code). Ranging from
 8400001 to 84000056.
 * iso2- Officially assigned country code identifiers 2 Chr (US, CA, ...)
@@ -75,6 +71,7 @@ your data, select an appropriate likelihood (noise model) that is used for
 uncertainty estimates.
 time_freq: will be set to 14D as will be forecasting the next 14-days only
 other Hyperparameters will be set to default.
+
 ### Benchmark Model
 For this problem, the benchmark model will be ‘Time Series Forecasting
 with Linear Learner’ to prove the hypothesis theoretically that the DeepAR
@@ -121,7 +118,7 @@ Retrieved 20 June, 2020
 [^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-
 series-prediction/). Telesens. Retrieved 20 June, 2020.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY3MjE3OTcyOCwxMzY4MDczNDMyLC0xNT
+eyJoaXN0b3J5IjpbLTE5OTU2MDI3NywxMzY4MDczNDMyLC0xNT
 U5Njk2MjI5LC0xMDg1Njg4MDUyLDEwOTY0MTY4MjMsMTgxMjg4
 NTYxOCwtMTQzMjM2NTQ0MywtMTExMjQ5ODg2MywtMjYxNTY1MT
 gwLDEyODI2OTI0NDYsMTY1MzIyODAzNCwtMTQwNTg1NDIyNiwz
