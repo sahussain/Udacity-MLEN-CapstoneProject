@@ -74,12 +74,15 @@ Prediction results are evaluated on the Root Mean Square Error (RMSE) between th
 ### Project Design
 
 The project will be excited in based on the following template:
-- # Load and Explore the Data 
+- Load and Explore the Data
+- Pre-Process the Data
+	- where i need to convert the data form a wide-table format to tall-table.
+- Create Time Series
+- Splitting in Time Series into 
+Training and Test Series
 
 
-First I would Load and Explore the Data. Then I would need to do some pre-process, where i need to convert the data form a wide-table format to tall-table. I will only keep: Combined_Key, Population, [Date, # of Cases] will be extrapolate during pre-process.
-Once we have the data in a format we can use then I will plot the data to see what it looks like.
-I will then create Create Time Series and test it. I will then split the data into Training and Test Series. Once that is done I will plot it. 
+
  
 
 -----------
@@ -95,11 +98,11 @@ I will then create Create Time Series and test it. I will then split the data in
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MjgyODIwMjMsMTgxMjg4NTYxOCwtMT
-QzMjM2NTQ0MywtMTExMjQ5ODg2MywtMjYxNTY1MTgwLDEyODI2
-OTI0NDYsMTY1MzIyODAzNCwtMTQwNTg1NDIyNiwzNjM2OTA1Nj
-YsMTQ0NzY2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2
-ODA3MjQxMiwtODkwNDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMz
-AsLTIwMDQ5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEy
-MTU4MDU4ODhdfQ==
+eyJoaXN0b3J5IjpbMzA1NDQyNzQzLDE4MTI4ODU2MTgsLTE0Mz
+IzNjU0NDMsLTExMTI0OTg4NjMsLTI2MTU2NTE4MCwxMjgyNjky
+NDQ2LDE2NTMyMjgwMzQsLTE0MDU4NTQyMjYsMzYzNjkwNTY2LD
+E0NDc2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgw
+NzI0MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC
+0yMDA0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1
+ODA1ODg4XX0=
 -->
