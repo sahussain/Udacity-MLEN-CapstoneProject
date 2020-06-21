@@ -99,16 +99,16 @@ The project will be excited in based on the following template:
 
 -----------
 
-# Endnotes
+**Endnotes**
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
 [^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk2OTYyMjksLTEwODU2ODgwNTIsMT
-A5NjQxNjgyMywxODEyODg1NjE4LC0xNDMyMzY1NDQzLC0xMTEy
-NDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5MjQ0NiwxNjUzMjI4MD
-M0LC0xNDA1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEz
-ODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0NT
-Y5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwNDk0ODU5MSwx
-NjA4NzY4NTY4XX0=
+eyJoaXN0b3J5IjpbMTM2ODA3MzQzMiwtMTU1OTY5NjIyOSwtMT
+A4NTY4ODA1MiwxMDk2NDE2ODIzLDE4MTI4ODU2MTgsLTE0MzIz
+NjU0NDMsLTExMTI0OTg4NjMsLTI2MTU2NTE4MCwxMjgyNjkyND
+Q2LDE2NTMyMjgwMzQsLTE0MDU4NTQyMjYsMzYzNjkwNTY2LDE0
+NDc2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNz
+I0MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0y
+MDA0OTQ4NTkxXX0=
 -->
