@@ -60,16 +60,19 @@ the basis of the incubation period of the novel coronavirus.
 Since the data sets are relevantly clean, I expect to spend 50% of the
 time on data cleaning and DeepAR processing and 50% of the time on
 training models and tweaking parameters.
-To minimize the cost the following Hyperparameters will be used:
-early_stopping_patience: enabled as when this parameter is set, training
+To minimize the `cost` the following `Hyperparameters` will be used:
+
+`early_stopping_patience`: enabled as when this parameter is set, training
 stops when no progress is made within the specified number of epochs. The
 model that has the lowest loss is returned as the final model.
-likelihood: will set to _negative-binomial_: Use for count data (non-
+
+`likelihood`: will set to _negative-binomial_: Use for count data (non-
 negative integers). As the model generates a probabilistic forecast, and
 can provide quantiles of the distribution and return samples. Depending on
 your data, select an appropriate likelihood (noise model) that is used for
 uncertainty estimates.
-time_freq: will be set to 14D as will be forecasting the next 14-days only
+
+`time_freq`: will be set to 14D as will be forecasting the next 14-days only
 other Hyperparameters will be set to default.
 
 ### Benchmark Model
@@ -118,11 +121,11 @@ Retrieved 20 June, 2020
 [^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-
 series-prediction/). Telesens. Retrieved 20 June, 2020.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5OTU2MDI3NywxMzY4MDczNDMyLC0xNT
-U5Njk2MjI5LC0xMDg1Njg4MDUyLDEwOTY0MTY4MjMsMTgxMjg4
-NTYxOCwtMTQzMjM2NTQ0MywtMTExMjQ5ODg2MywtMjYxNTY1MT
-gwLDEyODI2OTI0NDYsMTY1MzIyODAzNCwtMTQwNTg1NDIyNiwz
-NjM2OTA1NjYsMTQ0NzY2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MT
-IzODAsLTE2ODA3MjQxMiwtODkwNDU2OTAsLTgwMzM1MTE5MCwt
-OTgxMTUwMzBdfQ==
+eyJoaXN0b3J5IjpbLTE2MTAxOTUzODEsMTM2ODA3MzQzMiwtMT
+U1OTY5NjIyOSwtMTA4NTY4ODA1MiwxMDk2NDE2ODIzLDE4MTI4
+ODU2MTgsLTE0MzIzNjU0NDMsLTExMTI0OTg4NjMsLTI2MTU2NT
+E4MCwxMjgyNjkyNDQ2LDE2NTMyMjgwMzQsLTE0MDU4NTQyMjYs
+MzYzNjkwNTY2LDE0NDc2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNj
+EyMzgwLC0xNjgwNzI0MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAs
+LTk4MTE1MDMwXX0=
 -->
