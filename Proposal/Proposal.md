@@ -110,6 +110,8 @@ The project will be executed based on the following template:
 	- Delete Notebook
 -----------
 **Endnotes**
+-----------
+
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-
 health/ncov/) by the Center for Systems Science and Engineering (CSSE) at
 Johns Hopkins University (JHU)&quot;. ArcGIS. Johns Hopkins University.
@@ -122,11 +124,11 @@ Retrieved 20 June, 2020
 [^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-
 series-prediction/). Telesens. Retrieved 20 June, 2020.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyNjEzNDA1MiwtNzg5NDUxNjQ4LC0xNj
-EwMTk1MzgxLDEzNjgwNzM0MzIsLTE1NTk2OTYyMjksLTEwODU2
-ODgwNTIsMTA5NjQxNjgyMywxODEyODg1NjE4LC0xNDMyMzY1ND
-QzLC0xMTEyNDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5MjQ0Niwx
-NjUzMjI4MDM0LC0xNDA1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3Nj
-Y3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEy
-LC04OTA0NTY5MF19
+eyJoaXN0b3J5IjpbLTIxMjc2OTY1NTEsLTc4OTQ1MTY0OCwtMT
+YxMDE5NTM4MSwxMzY4MDczNDMyLC0xNTU5Njk2MjI5LC0xMDg1
+Njg4MDUyLDEwOTY0MTY4MjMsMTgxMjg4NTYxOCwtMTQzMjM2NT
+Q0MywtMTExMjQ5ODg2MywtMjYxNTY1MTgwLDEyODI2OTI0NDYs
+MTY1MzIyODAzNCwtMTQwNTg1NDIyNiwzNjM2OTA1NjYsMTQ0Nz
+Y2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQx
+MiwtODkwNDU2OTBdfQ==
 -->
