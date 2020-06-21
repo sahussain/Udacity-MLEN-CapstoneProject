@@ -25,7 +25,6 @@ DeepAR is an underutilized approach in this area . The dataset contains hundreds
 
 The datasets are accessed from two source files provided by the JHU GitHub repository:
 - [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv "time_series_covid19_confirmed_US.csv")
-- [time_series_covid19_deaths_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv "time_series_covid19_deaths_US.csv")
 
 Both files have the same columns:
 * UID - UID = 840 (country code3) + 000XX (state FIPS code). Ranging from 8400001 to 84000056.
@@ -94,11 +93,11 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTI0OTg4NjMsLTI2MTU2NTE4MCwxMj
-gyNjkyNDQ2LDE2NTMyMjgwMzQsLTE0MDU4NTQyMjYsMzYzNjkw
-NTY2LDE0NDc2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC
-0xNjgwNzI0MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1
-MDMwLC0yMDA0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MC
-wxMjE1ODA1ODg4LC0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
-
+eyJoaXN0b3J5IjpbLTE0MzIzNjU0NDMsLTExMTI0OTg4NjMsLT
+I2MTU2NTE4MCwxMjgyNjkyNDQ2LDE2NTMyMjgwMzQsLTE0MDU4
+NTQyMjYsMzYzNjkwNTY2LDE0NDc2Njc0NDYsMTM4MzI5MjI0Mi
+wxNjMxNjEyMzgwLC0xNjgwNzI0MTIsLTg5MDQ1NjkwLC04MDMz
+NTExOTAsLTk4MTE1MDMwLC0yMDA0OTQ4NTkxLDE2MDg3Njg1Nj
+gsMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOTYyMjQ3NTE3LC0x
+NzE3MTA1MzU2XX0=
 -->
