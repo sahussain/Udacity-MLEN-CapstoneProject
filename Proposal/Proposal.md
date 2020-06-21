@@ -114,17 +114,19 @@ The project will be executed based on the following template:
 health/ncov/) by the Center for Systems Science and Engineering (CSSE) at
 Johns Hopkins University (JHU)&quot;. ArcGIS. Johns Hopkins University.
 Retrieved 20 June 2020.
+
 [^2]:[DeepAR Forecasting Algorithm. Amazon Web
 Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html).
 Retrieved 20 June, 2020
+
 [^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-
 series-prediction/). Telesens. Retrieved 20 June, 2020.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4OTQ1MTY0OCwtMTYxMDE5NTM4MSwxMz
-Y4MDczNDMyLC0xNTU5Njk2MjI5LC0xMDg1Njg4MDUyLDEwOTY0
-MTY4MjMsMTgxMjg4NTYxOCwtMTQzMjM2NTQ0MywtMTExMjQ5OD
-g2MywtMjYxNTY1MTgwLDEyODI2OTI0NDYsMTY1MzIyODAzNCwt
-MTQwNTg1NDIyNiwzNjM2OTA1NjYsMTQ0NzY2NzQ0NiwxMzgzMj
-kyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQxMiwtODkwNDU2OTAs
-LTgwMzM1MTE5MF19
+eyJoaXN0b3J5IjpbMTEyNjEzNDA1MiwtNzg5NDUxNjQ4LC0xNj
+EwMTk1MzgxLDEzNjgwNzM0MzIsLTE1NTk2OTYyMjksLTEwODU2
+ODgwNTIsMTA5NjQxNjgyMywxODEyODg1NjE4LC0xNDMyMzY1ND
+QzLC0xMTEyNDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5MjQ0Niwx
+NjUzMjI4MDM0LC0xNDA1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3Nj
+Y3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEy
+LC04OTA0NTY5MF19
 -->
