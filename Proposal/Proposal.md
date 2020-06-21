@@ -29,8 +29,8 @@ The datasets are accessed from two source files provided by the JHU GitHub repos
 
 Both files have the same columns:
 * UID - UID = 840 (country code3) + 000XX (state FIPS code). Ranging from 8400001 to 84000056.
-* iso2-
-* iso3 - Officially assigned country code identifiers 3 Chr.
+* iso2-  Officially assigned country code identifiers 2 Chr (US, CA, ...)
+* iso3 - Officially assigned country code identifiers 3 Chr.(USA, CAN, ...)
 * code3- country code USA = 840
 * FIPS -Federal Information Processing Standards code that uniquely identifies counties within the USA.
 * admin2 - County name. US only.
@@ -84,10 +84,10 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2OTgxNzQ5NSwxNjUzMjI4MDM0LC0xND
-A1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEzODMyOTIy
-NDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtOD
-AzMzUxMTkwLC05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4
-NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4OCwtMTk2MjI0NzUxNy
-wtMTcxNzEwNTM1Nl19
+eyJoaXN0b3J5IjpbLTEzMTE3MDk2MDAsMTY1MzIyODAzNCwtMT
+QwNTg1NDIyNiwzNjM2OTA1NjYsMTQ0NzY2NzQ0NiwxMzgzMjky
+MjQyLDE2MzE2MTIzODAsLTE2ODA3MjQxMiwtODkwNDU2OTAsLT
+gwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMDQ5NDg1OTEsMTYwODc2
+ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4ODgsLTE5NjIyNDc1MT
+csLTE3MTcxMDUzNTZdfQ==
 -->
