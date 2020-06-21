@@ -87,6 +87,9 @@ The project will be excited in based on the following template:
 	 -	Creating Training Job
 	 -	Deploy and Create a Predictor
 	 -	Generating Predictions
+	 -	Display the Results
+For Time Series Forecasting with Linear Learner
+- Delete the Endpoint
 
 -----------
 
@@ -101,7 +104,7 @@ The project will be excited in based on the following template:
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxODE5NjI4OSwxODEyODg1NjE4LC0xND
+eyJoaXN0b3J5IjpbMTA5NjQxNjgyMywxODEyODg1NjE4LC0xND
 MyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5
 MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0MjI2LDM2MzY5MDU2Ni
 wxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4
