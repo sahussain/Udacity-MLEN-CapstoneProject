@@ -6,6 +6,7 @@ June 19th, 2020
 
 
 ## Proposal
+
 Forecasting COVID-19 Cases – A DeepAR Model
 
 ### Domain Background
@@ -15,23 +16,21 @@ In response to this ongoing public health emergency, Johns Hopkins University (J
 
 
 ### Problem Statement
-_(approx. 1 paragraph)_
-
 
 This project seeks to forecast number of people infected and number of deaths caused by COVID-19 for a time duration of 14-days based on historical data from JHU. I will be using Amazon SageMaker DeepAR forecasting algorithm, a supervised learning algorithm for forecasting scalar (one-dimensional) time series using recurrent neural networks (RNN) .
 DeepAR is an underutilized approach in this area . The dataset contains hundreds of related time series, and DeepAR outperforms classical forecasting methods autoregressive integrated moving average (ARIMA) or exponential smoothing (ETS), for this type of applications.
 
 
 ### Datasets and Inputs
-_(approx. 2-3 paragraphs)_
-There will be two data source files:
+
+The datasets are accessed from two source files provided by the JHU GitHub repository:
 - [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv "time_series_covid19_confirmed_US.csv")
 - [time_series_covid19_deaths_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_deaths_US.csv "time_series_covid19_deaths_US.csv")
 
 Both files have the same columns:
 * UID - UID = 840 (country code3) + 000XX (state FIPS code). Ranging from 8400001 to 84000056.
 * iso2
-* iso3 - Officialy assigned country code identifiers.
+* iso3 - Officially assigned country code identifiers.
 * code3- country code USA = 840
 * FIPS -Federal Information Processing Standards code that uniquely identifies counties within the USA.
 * admin2 - County name. US only.
@@ -85,7 +84,7 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3MzEyMDIxNTcsMTY1MzIyODAzNCwtMT
+eyJoaXN0b3J5IjpbLTE3NTA4MzcwNjIsMTY1MzIyODAzNCwtMT
 QwNTg1NDIyNiwzNjM2OTA1NjYsMTQ0NzY2NzQ0NiwxMzgzMjky
 MjQyLDE2MzE2MTIzODAsLTE2ODA3MjQxMiwtODkwNDU2OTAsLT
 gwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMDQ5NDg1OTEsMTYwODc2
