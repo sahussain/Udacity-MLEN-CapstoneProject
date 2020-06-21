@@ -87,28 +87,27 @@ and the ground truth.
 The project will be executed based on the following template:
 - Load and Explore the Data
 - Pre-Process the Data
-- where I need to convert the data form a wide-table format to
-tall-table.
+	- where i need to convert the data form a wide-table format to tall-table.
 - For DeepAR
-- Create Time Series
-- Splitting Time Series into Training and Test
-- Convert Time Series to JSON
-- Uploading Data to S3
-- Training a DeepAR Estimator
-- Setting Hyperparameters
-- Creating Training Job
-- Deploy and Create a Predictor
-- Generating Predictions
-- Display the Results
+	- Create Time Series
+	- Splitting in Time Series into Training and Test
+	- Convert Time Series to JSON
+	- Uploading Data to S3
+	- Training a DeepAR Estimator
+	- Setting Hyperparameters
+	- Creating Training Job
+	- Deploy and Create a Predictor
+	- Generating Predictions
+	- Display the Results
 - For Time Series Forecasting with Linear Learner
-- Creating Training Job
-- Deploy and Create a Predictor
-- Generating Predictions
-- Display the Results
+	- Creating Training Job
+	- Deploy and Create a Predictor
+	- Generating Predictions
+	- Display the Results
 - Clean up
-- Delete the Endpoints
-- Delete S3 bucket
-- Delete Notebook
+	- Delete the Endpoints
+	- Delete S3 bucket
+	- Delete Notebook
 -----------
 **Endnotes**
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-
@@ -121,11 +120,11 @@ Retrieved 20 June, 2020
 [^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-
 series-prediction/). Telesens. Retrieved 20 June, 2020.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MTAxOTUzODEsMTM2ODA3MzQzMiwtMT
-U1OTY5NjIyOSwtMTA4NTY4ODA1MiwxMDk2NDE2ODIzLDE4MTI4
-ODU2MTgsLTE0MzIzNjU0NDMsLTExMTI0OTg4NjMsLTI2MTU2NT
-E4MCwxMjgyNjkyNDQ2LDE2NTMyMjgwMzQsLTE0MDU4NTQyMjYs
-MzYzNjkwNTY2LDE0NDc2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNj
-EyMzgwLC0xNjgwNzI0MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAs
-LTk4MTE1MDMwXX0=
+eyJoaXN0b3J5IjpbLTc4OTQ1MTY0OCwtMTYxMDE5NTM4MSwxMz
+Y4MDczNDMyLC0xNTU5Njk2MjI5LC0xMDg1Njg4MDUyLDEwOTY0
+MTY4MjMsMTgxMjg4NTYxOCwtMTQzMjM2NTQ0MywtMTExMjQ5OD
+g2MywtMjYxNTY1MTgwLDEyODI2OTI0NDYsMTY1MzIyODAzNCwt
+MTQwNTg1NDIyNiwzNjM2OTA1NjYsMTQ0NzY2NzQ0NiwxMzgzMj
+kyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQxMiwtODkwNDU2OTAs
+LTgwMzM1MTE5MF19
 -->
