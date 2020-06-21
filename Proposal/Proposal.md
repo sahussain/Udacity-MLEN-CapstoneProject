@@ -17,7 +17,7 @@ In response to this ongoing public health emergency, Johns Hopkins University (J
 
 ### Problem Statement
 
-This project seeks to forecast number of people infected and number of deaths caused by COVID-19 for a time duration of 14-days based on historical data from JHU. I will be using Amazon SageMaker DeepAR forecasting algorithm, a supervised learning algorithm for forecasting scalar (one-dimensional) time series using recurrent neural networks (RNN) .
+This project seeks to forecast number of people infected and number of deaths caused by COVID-19 for a time duration of 14-days based on historical data from JHU. I will be using Amazon SageMaker DeepAR forecasting algorithm, a supervised learning algorithm for forecasting scalar (one-dimensional) time series using recurrent neural networks (RNN) to produce both point and probabilistic forecasts.
 DeepAR is an underutilized approach in this area . The dataset contains hundreds of related time series, and DeepAR outperforms classical forecasting methods autoregressive integrated moving average (ARIMA) or exponential smoothing (ETS), for this type of applications.
 
 
@@ -94,10 +94,10 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI4MjY5MjQ0NiwxNjUzMjI4MDM0LC0xND
-A1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEzODMyOTIy
-NDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtOD
-AzMzUxMTkwLC05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4
-NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4OCwtMTk2MjI0NzUxNy
-wtMTcxNzEwNTM1Nl19
+eyJoaXN0b3J5IjpbLTI2MTU2NTE4MCwxMjgyNjkyNDQ2LDE2NT
+MyMjgwMzQsLTE0MDU4NTQyMjYsMzYzNjkwNTY2LDE0NDc2Njc0
+NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0MTIsLT
+g5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMDA0OTQ4
+NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC
+0xOTYyMjQ3NTE3LC0xNzE3MTA1MzU2XX0=
 -->
