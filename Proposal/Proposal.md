@@ -112,23 +112,17 @@ The project will be executed based on the following template:
 **Endnotes**
 -----------
 
-[^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-
-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at
-Johns Hopkins University (JHU)&quot;. ArcGIS. Johns Hopkins University.
-Retrieved 20 June 2020.
+[^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
-[^2]:[DeepAR Forecasting Algorithm. Amazon Web
-Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html).
-Retrieved 20 June, 2020
+[^2]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
 
-[^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-
-series-prediction/). Telesens. Retrieved 20 June, 2020.
+[^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMjc2OTY1NTEsLTc4OTQ1MTY0OCwtMT
-YxMDE5NTM4MSwxMzY4MDczNDMyLC0xNTU5Njk2MjI5LC0xMDg1
-Njg4MDUyLDEwOTY0MTY4MjMsMTgxMjg4NTYxOCwtMTQzMjM2NT
-Q0MywtMTExMjQ5ODg2MywtMjYxNTY1MTgwLDEyODI2OTI0NDYs
-MTY1MzIyODAzNCwtMTQwNTg1NDIyNiwzNjM2OTA1NjYsMTQ0Nz
-Y2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQx
-MiwtODkwNDU2OTBdfQ==
+eyJoaXN0b3J5IjpbMjM3NTM4NDk3LC03ODk0NTE2NDgsLTE2MT
+AxOTUzODEsMTM2ODA3MzQzMiwtMTU1OTY5NjIyOSwtMTA4NTY4
+ODA1MiwxMDk2NDE2ODIzLDE4MTI4ODU2MTgsLTE0MzIzNjU0ND
+MsLTExMTI0OTg4NjMsLTI2MTU2NTE4MCwxMjgyNjkyNDQ2LDE2
+NTMyMjgwMzQsLTE0MDU4NTQyMjYsMzYzNjkwNTY2LDE0NDc2Nj
+c0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0MTIs
+LTg5MDQ1NjkwXX0=
 -->
