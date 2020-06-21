@@ -73,7 +73,8 @@ Prediction results are evaluated on the Root Mean Square Error (RMSE) between th
 
 ### Project Design
 
-First I would Load and Explore the Data. Then I would need to do some Pre-Process, where i need to convert the data form a wide-table format to tall-table. I will only keep: Combined_Key, Population, Date, 
+First I would Load and Explore the Data. Then I would need to do some pre-process, where i need to convert the data form a wide-table format to tall-table. I will only keep: Combined_Key, Population, [Date, # of Cases] will be extrapolate during pre-process.
+Once we have the data in a  
 
 -----------
 
@@ -88,11 +89,11 @@ First I would Load and Explore the Data. Then I would need to do some Pre-Proces
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwODAyNjgxLDE4MTI4ODU2MTgsLTE0Mz
-IzNjU0NDMsLTExMTI0OTg4NjMsLTI2MTU2NTE4MCwxMjgyNjky
-NDQ2LDE2NTMyMjgwMzQsLTE0MDU4NTQyMjYsMzYzNjkwNTY2LD
-E0NDc2Njc0NDYsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgw
-NzI0MTIsLTg5MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC
-0yMDA0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1
-ODA1ODg4XX0=
+eyJoaXN0b3J5IjpbMTczNDEwNzAzMiwxODEyODg1NjE4LC0xND
+MyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5
+MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0MjI2LDM2MzY5MDU2Ni
+wxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4
+MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMC
+wtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIx
+NTgwNTg4OF19
 -->
