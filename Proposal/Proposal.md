@@ -77,13 +77,16 @@ The project will be excited in based on the following template:
 - Load and Explore the Data
 - Pre-Process the Data
 	- where i need to convert the data form a wide-table format to tall-table.
-- Create Time Series
-- Splitting in Time Series into Training and Test
-- Convert Time Series to JSON
-- Uploading Data to S3
-- Training a DeepAR Estimator
-- Setting Hyperparameters
- 
+- For DeepAR
+	- Create Time Series
+	- Splitting in Time Series into Training and Test
+	- Convert Time Series to JSON
+	- Uploading Data to S3
+	- Training a DeepAR Estimator
+	- Setting Hyperparameters
+	 -	Creating Training Job
+	 -	Deploy and Create a Predictor
+	 -	Generating Predictions
 
 -----------
 
@@ -98,11 +101,11 @@ The project will be excited in based on the following template:
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyOTQ4NjE3MDgsMTgxMjg4NTYxOCwtMT
-QzMjM2NTQ0MywtMTExMjQ5ODg2MywtMjYxNTY1MTgwLDEyODI2
-OTI0NDYsMTY1MzIyODAzNCwtMTQwNTg1NDIyNiwzNjM2OTA1Nj
-YsMTQ0NzY2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2
-ODA3MjQxMiwtODkwNDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMz
-AsLTIwMDQ5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEy
-MTU4MDU4ODhdfQ==
+eyJoaXN0b3J5IjpbLTIxODE5NjI4OSwxODEyODg1NjE4LC0xND
+MyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5
+MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0MjI2LDM2MzY5MDU2Ni
+wxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4
+MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMC
+wtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIx
+NTgwNTg4OF19
 -->
