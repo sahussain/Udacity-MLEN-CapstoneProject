@@ -42,14 +42,24 @@ Both files have the same columns:
 
 
 ### Solution Statement
-_(approx. 1 paragraph)_
 
- The solution will be predictions of next 14 day cases and deaths. as it is the current Incubation period.[^1] I will have to look at what context length to set at. At this point I will set that at 28 Days.
-[<img src="https://github.com/sahussain/ML_SageMaker_Studies/blob/master/Time_Series_Forecasting/notebook_ims/context_prediction_windows.png">](https://github.com/sahussain/ML_SageMaker_Studies/blob/master/Time_Series_Forecasting/notebook_ims/context_prediction_windows.png)
+The solution will be predictions of next 14-day cases and deaths in an easy-to-use, intuitive forecasting model. The 14-day time period was selected on the basis of the incubation period of the novel coronavirus.
 
-Source: [ML_SageMaker_Studies by udacity]([https://newsinteractives.cbc.ca/coronaviruscurve/](https://github.com/udacity/ML_SageMaker_Studies/tree/master/Time_Series_Forecasting/notebook_ims))
- 
-Since the data sets are relevantly clean I expect to spend 50% of the time on data cleaning and DeepAR processing part and 50% of the time on training models and tweaking parameters.
+Since the data sets are relevantly clean, I expect to spend 50% of the time on data cleaning and DeepAR processing part and 50% of the time on training models and tweaking parameters.
+
+First, I will download the data form Git. Then I will have to look at what data cleaning steps that need to be used to format the data such that it is follows the requirements for DeepAR Model.
+
+Once the data is cleaned and formatted, I will use tune the Hyperparameters.
+
+To minimize the cost the following Hyperparameters will be
+
+early_stopping_patience: enabled as when this parameter is set, training stops when no progress is made within the specified number of epochs. The model that has the lowest loss is returned as the final model.
+
+Likelihood: will set to _negative-binomial_: Use for count data (non-negative integers). As The model generates a probabilistic forecast, and can provide quantiles of the distribution and return samples. Depending on your data, select an appropriate likelihood (noise model) that is used for uncertainty estimates.
+
+time_freq: will be set to 14D as will be forecasting the next 14-days only
+
+other Hyperparameters will need to be explored farther in the Jupiter Notebook.
 
 
 ### Benchmark Model
@@ -84,10 +94,10 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMTE3MDk2MDAsMTY1MzIyODAzNCwtMT
-QwNTg1NDIyNiwzNjM2OTA1NjYsMTQ0NzY2NzQ0NiwxMzgzMjky
-MjQyLDE2MzE2MTIzODAsLTE2ODA3MjQxMiwtODkwNDU2OTAsLT
-gwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMDQ5NDg1OTEsMTYwODc2
-ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4ODgsLTE5NjIyNDc1MT
-csLTE3MTcxMDUzNTZdfQ==
+eyJoaXN0b3J5IjpbMTI4MjY5MjQ0NiwxNjUzMjI4MDM0LC0xND
+A1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEzODMyOTIy
+NDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtOD
+AzMzUxMTkwLC05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4
+NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4OCwtMTk2MjI0NzUxNy
+wtMTcxNzEwNTM1Nl19
 -->
