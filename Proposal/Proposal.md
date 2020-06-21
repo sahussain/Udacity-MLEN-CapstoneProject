@@ -84,15 +84,17 @@ The project will be excited in based on the following template:
 	- Uploading Data to S3
 	- Training a DeepAR Estimator
 	- Setting Hyperparameters
-	-	Creating Training Job
-	 -	Deploy and Create a Predictor
-	 -	Generating Predictions
-	 -	Display the Results
+	- Creating Training Job
+	- Deploy and Create a Predictor
+	- Generating Predictions
+	- Display the Results
 - For Time Series Forecasting with Linear Learner
-	- Formatting Data 
-	- Train using linear-learner
-
-- Delete the Endpoint
+	- Creating Training Job
+	- Deploy and Create a Predictor
+	- Generating Predictions
+	- Display the Results
+Clean u
+- Delete the Endpoints
 
 -----------
 
@@ -107,11 +109,11 @@ The project will be excited in based on the following template:
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk0MzgxOTM3MCwxMDk2NDE2ODIzLDE4MT
-I4ODU2MTgsLTE0MzIzNjU0NDMsLTExMTI0OTg4NjMsLTI2MTU2
-NTE4MCwxMjgyNjkyNDQ2LDE2NTMyMjgwMzQsLTE0MDU4NTQyMj
-YsMzYzNjkwNTY2LDE0NDc2Njc0NDYsMTM4MzI5MjI0MiwxNjMx
-NjEyMzgwLC0xNjgwNzI0MTIsLTg5MDQ1NjkwLC04MDMzNTExOT
-AsLTk4MTE1MDMwLC0yMDA0OTQ4NTkxLDE2MDg3Njg1NjgsMTI2
-OTA1NTQ4MF19
+eyJoaXN0b3J5IjpbLTEwMjUwMzI2MzEsMTA5NjQxNjgyMywxOD
+EyODg1NjE4LC0xNDMyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1
+NjUxODAsMTI4MjY5MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0Mj
+I2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYz
+MTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMT
+kwLC05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEy
+NjkwNTU0ODBdfQ==
 -->
