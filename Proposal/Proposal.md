@@ -64,7 +64,7 @@ other Hyperparameters will need to be explored farther in the Jupiter Notebook.
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
 
-For this problem, the benchmark model will  Time Series Forecasting with Linear Learner theoretically the DeepAR should be better. The goal is to be with in 80% confidence interval
+For this problem, the benchmark model will  Time Series Forecasting with Linear Learner theoretically the DeepAR should be better. The goal is to be with in ±80% confidence interval.
 
 ### Evaluation Metrics
 
@@ -91,11 +91,11 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzk0NzA4NDQ5LC0xNDMyMzY1NDQzLC0xMT
-EyNDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5MjQ0NiwxNjUzMjI4
-MDM0LC0xNDA1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LD
-EzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0
-NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwNDk0ODU5MS
-wxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4OCwtMTk2
-MjI0NzUxN119
+eyJoaXN0b3J5IjpbMTgxMjg4NTYxOCwtMTQzMjM2NTQ0MywtMT
+ExMjQ5ODg2MywtMjYxNTY1MTgwLDEyODI2OTI0NDYsMTY1MzIy
+ODAzNCwtMTQwNTg1NDIyNiwzNjM2OTA1NjYsMTQ0NzY2NzQ0Ni
+wxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQxMiwtODkw
+NDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMDQ5NDg1OT
+EsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4ODgsLTE5
+NjIyNDc1MTddfQ==
 -->
