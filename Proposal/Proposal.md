@@ -68,7 +68,7 @@ For this problem, the benchmark model will  Time Series Forecasting with Linear 
 
 ### Evaluation Metrics
 
-Prediction results are evaluated on the log loss between the predicted values and the ground truth.
+Prediction results are evaluated on the Root Mean Square Error (RMSE) between the predicted values and the ground truth.
 
 
 ### Project Design
@@ -91,11 +91,11 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxMjg4NTYxOCwtMTQzMjM2NTQ0MywtMT
-ExMjQ5ODg2MywtMjYxNTY1MTgwLDEyODI2OTI0NDYsMTY1MzIy
-ODAzNCwtMTQwNTg1NDIyNiwzNjM2OTA1NjYsMTQ0NzY2NzQ0Ni
-wxMzgzMjkyMjQyLDE2MzE2MTIzODAsLTE2ODA3MjQxMiwtODkw
-NDU2OTAsLTgwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMDQ5NDg1OT
-EsMTYwODc2ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4ODgsLTE5
-NjIyNDc1MTddfQ==
+eyJoaXN0b3J5IjpbMTk1NzMwMjA2OSwxODEyODg1NjE4LC0xND
+MyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5
+MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0MjI2LDM2MzY5MDU2Ni
+wxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4
+MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMC
+wtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIx
+NTgwNTg4OF19
 -->
