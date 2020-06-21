@@ -1,43 +1,25 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Proposal
-Author
-: Ashraf Hussain
 
-Date 
-: June 19th, 2020
+Ashraf Hussain
+June 19th, 2020
 
 
 ## Proposal
-[COVID-19 Data Research repository from Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
+Forecasting COVID-19 Cases – A DeepAR Model
 
 ### Domain Background
-The data is publicly available form  Johns Hopkins University (JHU) which is a teaching and research hospital. They believe: 
-> "that sharing our **knowledge** and **discoveries** would help make the world a better place"  
 
-The first president of JHU Daniel Coit Gilman summarizes what JHU is all about, when he was asked 
->"[his inauguration in 1876](https://www.jhu.edu/about/history/gilman-address/). What is this place all about, exactly? His answer: 
->_“The encouragement of research . . . and the advancement of individual scholars, who by their excellence will advance the sciences they pursue, and the society where they dwell.”_
+On December 31, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Identified as coronavirus disease 2019, it quickly came to be known as COVID-19 and has resulted in an ongoing global pandemic. As of 20 June 2020, more than 8.74 million cases have been reported across 188 countries and territories, resulting in more than 462,000 deaths. More than 4.31 million people have recovered .
+In response to this ongoing public health emergency, Johns Hopkins University (JHU), a private research university in Maryland, USA, developed an interactive web-based dashboard hosted by their Center for Systems Science and Engineering (CSSE). The dashboard visualizes and tracks reported cases in real-time, illustrating the location and number of confirmed COVID-19 cases, deaths and recoveries for all affected countries. It is used by researchers, public health authorities, news agencies and the general public. All the data collected and displayed is made freely available in a GitHub repository.
 
-Since the start for the [COVID-19]([https://en.wikipedia.org/wiki/Coronavirus_disease_2019](https://en.wikipedia.org/wiki/Coronavirus_disease_2019)) pandemic JHU have been one of the critical source in providing data both to the public and researches alike. There data is being used by many news outlets as well like [CNN]([https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/](https://www.cnn.com/interactive/2020/health/coronavirus-us-maps-and-cases/)), [CBC]([https://newsinteractives.cbc.ca/coronavirustracker/](https://newsinteractives.cbc.ca/coronavirustracker/)), etc.
-
-They have a [JHU Git repository](git@github.com:CSSEGISandData/COVID-19.git) which provides the data in many different views, I will be using there [csse_covid_19_time_series](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series "csse_covid_19_time_series") 
 
 ### Problem Statement
 _(approx. 1 paragraph)_
 
-The goal of this project two fold 
-1. Is to determine the 14-day projected data is showing sings of **"flattening the curve"**.
-2. What is the 14-day projected data is showing for the number of deaths. 
 
-Little bit info on what is **"flattening the curve"**?:
->An epidemic curve, or “epicurve,” is a graph that shows the frequency of new cases over time based on new infections per day. In many cases, an epicurve follows a bell curve, steadily rising to a peak and then declining as the outbreak burns out when the virus runs out of people to infect.
->
->Flattening the curve refers to when methods like large-scale testing, quarantining of infected individuals and social distancing are used to decrease the number of daily new COVID-19 cases. The aim is to reduce overall infections and keep cases at a number the health-care system can manage.
-
-## Flattening the curve
-[<img src="https://github.com/sahussain/Udacity-MLEN-CapstoneProject/blob/master/Images/Flatteningthecurve.svg">](https://github.com/sahussain/Udacity-MLEN-CapstoneProject/blob/master/Images/Flatteningthecurve.svg)
-
-Source: [CBC]([https://newsinteractives.cbc.ca/coronaviruscurve/](https://newsinteractives.cbc.ca/coronaviruscurve/))
+This project seeks to forecast number of people infected and number of deaths caused by COVID-19 for a time duration of 14-days based on historical data from JHU. I will be using Amazon SageMaker DeepAR forecasting algorithm, a supervised learning algorithm for forecasting scalar (one-dimensional) time series using recurrent neural networks (RNN) .
+DeepAR is an underutilized approach in this area . The dataset contains hundreds of related time series, and DeepAR outperforms classical forecasting methods autoregressive integrated moving average (ARIMA) or exponential smoothing (ETS), for this type of applications.
 
 
 ### Datasets and Inputs
@@ -103,10 +85,10 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1MzIyODAzNCwtMTQwNTg1NDIyNiwzNj
-M2OTA1NjYsMTQ0NzY2NzQ0NiwxMzgzMjkyMjQyLDE2MzE2MTIz
-ODAsLTE2ODA3MjQxMiwtODkwNDU2OTAsLTgwMzM1MTE5MCwtOT
-gxMTUwMzAsLTIwMDQ5NDg1OTEsMTYwODc2ODU2OCwxMjY5MDU1
-NDgwLDEyMTU4MDU4ODgsLTE5NjIyNDc1MTcsLTE3MTcxMDUzNT
-ZdfQ==
+eyJoaXN0b3J5IjpbLTE3MzEyMDIxNTcsMTY1MzIyODAzNCwtMT
+QwNTg1NDIyNiwzNjM2OTA1NjYsMTQ0NzY2NzQ0NiwxMzgzMjky
+MjQyLDE2MzE2MTIzODAsLTE2ODA3MjQxMiwtODkwNDU2OTAsLT
+gwMzM1MTE5MCwtOTgxMTUwMzAsLTIwMDQ5NDg1OTEsMTYwODc2
+ODU2OCwxMjY5MDU1NDgwLDEyMTU4MDU4ODgsLTE5NjIyNDc1MT
+csLTE3MTcxMDUzNTZdfQ==
 -->
