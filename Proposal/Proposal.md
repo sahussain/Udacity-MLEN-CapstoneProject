@@ -42,7 +42,7 @@ Both files have the same columns:
 
 ### Solution Statement
 
-The solution will be predictions of next 14-day cases and deaths in an easy-to-use, intuitive forecasting model. The 14-day time period was selected on the basis of the incubation period of the novel coronavirus.
+The solution will be predictions of next 14-day cases in an easy-to-use, intuitive forecasting model. The 14-day time period was selected on the basis of the incubation period of the novel coronavirus.
 
 Since the data sets are relevantly clean, I expect to spend 50% of the time on data cleaning and DeepAR processing part and 50% of the time on training models and tweaking parameters.
 
@@ -93,11 +93,11 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMDk4OTY0MzcsLTE0MzIzNjU0NDMsLT
-ExMTI0OTg4NjMsLTI2MTU2NTE4MCwxMjgyNjkyNDQ2LDE2NTMy
-MjgwMzQsLTE0MDU4NTQyMjYsMzYzNjkwNTY2LDE0NDc2Njc0ND
-YsMTM4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0MTIsLTg5
-MDQ1NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMDA0OTQ4NT
-kxLDE2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0x
-OTYyMjQ3NTE3XX0=
+eyJoaXN0b3J5IjpbMzYzNjM4MjMxLC0xNDMyMzY1NDQzLC0xMT
+EyNDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5MjQ0NiwxNjUzMjI4
+MDM0LC0xNDA1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LD
+EzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0
+NTY5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwNDk0ODU5MS
+wxNjA4NzY4NTY4LDEyNjkwNTU0ODAsMTIxNTgwNTg4OCwtMTk2
+MjI0NzUxN119
 -->
