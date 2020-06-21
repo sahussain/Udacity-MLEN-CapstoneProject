@@ -18,7 +18,7 @@ In response to this ongoing public health emergency, Johns Hopkins University (J
 ### Problem Statement
 
 This project seeks to forecast number of people infected and number of deaths caused by COVID-19 for a time duration of 14-days based on historical data from JHU. I will be using Amazon SageMaker DeepAR forecasting algorithm, a supervised learning algorithm for forecasting scalar (one-dimensional) time series using recurrent neural networks (RNN) to produce both point and probabilistic forecasts.
-DeepAR is an underutilized approach in this area . The dataset contains hundreds of related time series, and DeepAR outperforms classical forecasting methods autoregressive integrated moving average (ARIMA) or exponential smoothing (ETS), for this type of applications.
+DeepAR is an underutilized approach in this area . The dataset contains hundreds of related time series, and DeepAR outperforms classical forecasting methods including but not limited to autoregressive integrated moving average (ARIMA), exponential smoothing (ETS), Time Series Forecasting with Linear Learner for this type of applications.
 
 
 ### Datasets and Inputs
@@ -93,11 +93,11 @@ First we need to convert the data form wide table format to tall table format. T
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzIzNjU0NDMsLTExMTI0OTg4NjMsLT
-I2MTU2NTE4MCwxMjgyNjkyNDQ2LDE2NTMyMjgwMzQsLTE0MDU4
-NTQyMjYsMzYzNjkwNTY2LDE0NDc2Njc0NDYsMTM4MzI5MjI0Mi
-wxNjMxNjEyMzgwLC0xNjgwNzI0MTIsLTg5MDQ1NjkwLC04MDMz
-NTExOTAsLTk4MTE1MDMwLC0yMDA0OTQ4NTkxLDE2MDg3Njg1Nj
-gsMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOTYyMjQ3NTE3LC0x
-NzE3MTA1MzU2XX0=
+eyJoaXN0b3J5IjpbMzA3ODc2MzMsLTE0MzIzNjU0NDMsLTExMT
+I0OTg4NjMsLTI2MTU2NTE4MCwxMjgyNjkyNDQ2LDE2NTMyMjgw
+MzQsLTE0MDU4NTQyMjYsMzYzNjkwNTY2LDE0NDc2Njc0NDYsMT
+M4MzI5MjI0MiwxNjMxNjEyMzgwLC0xNjgwNzI0MTIsLTg5MDQ1
+NjkwLC04MDMzNTExOTAsLTk4MTE1MDMwLC0yMDA0OTQ4NTkxLD
+E2MDg3Njg1NjgsMTI2OTA1NTQ4MCwxMjE1ODA1ODg4LC0xOTYy
+MjQ3NTE3XX0=
 -->
