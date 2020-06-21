@@ -11,7 +11,7 @@ Forecasting COVID-19 Cases – A DeepAR Model
 
 ### Domain Background
 
-On December 31, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Identified as coronavirus disease 2019, it quickly came to be known as COVID-19 and has resulted in an ongoing global pandemic. As of 20 June 2020, more than 8.74 million cases have been reported across 188 countries and territories, resulting in more than 462,000 deaths. More than 4.31 million people have recovered .
+On December 31, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Identified as coronavirus disease 2019, it quickly came to be known as COVID-19 and has resulted in an ongoing global pandemic. As of 20 June 2020, more than 8.74 million cases have been reported across 188 countries and territories, resulting in more than 462,000 deaths. More than 4.31 million people have recovered.[^1]
 In response to this ongoing public health emergency, Johns Hopkins University (JHU), a private research university in Maryland, USA, developed an interactive web-based dashboard hosted by their Center for Systems Science and Engineering (CSSE). The dashboard visualizes and tracks reported cases in real-time, illustrating the location and number of confirmed COVID-19 cases, deaths and recoveries for all affected countries. It is used by researchers, public health authorities, news agencies and the general public. All the data collected and displayed is made freely available in a [GitHub repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
 
@@ -93,27 +93,21 @@ The project will be excited in based on the following template:
 	- Deploy and Create a Predictor
 	- Generating Predictions
 	- Display the Results
-Clean u
-- Delete the Endpoints
+- Clean up
+	- Delete the Endpoints
+	- Delete S3 bucket
+	- Delete Notebook 
 
 -----------
 
-
-**Before submitting your proposal, ask yourself. . .**
-- Does the proposal you have written follow a well-organized structure similar to that of the project template?
-- Is each section (particularly **Solution Statement** and **Project Design**) written in a clear, concise and specific fashion? Are there any ambiguous terms or phrases that need clarification?
-- Would the intended audience of your project be able to understand your proposal?
-- Have you properly proofread your proposal to assure there are minimal grammatical and spelling mistakes?
-- Are all the resources used for this project correctly cited and referenced?
-
 # Endnotes
-[^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
+[]
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwMjUwMzI2MzEsMTA5NjQxNjgyMywxOD
-EyODg1NjE4LC0xNDMyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1
-NjUxODAsMTI4MjY5MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0Mj
-I2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYz
-MTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMT
-kwLC05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEy
-NjkwNTU0ODBdfQ==
+eyJoaXN0b3J5IjpbMzM1MzE4MzYsMTA5NjQxNjgyMywxODEyOD
+g1NjE4LC0xNDMyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1NjUx
+ODAsMTI4MjY5MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0MjI2LD
+M2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYzMTYx
+MjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkwLC
+05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNjkw
+NTU0ODBdfQ==
 -->
