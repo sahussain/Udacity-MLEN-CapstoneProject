@@ -14,13 +14,14 @@ This directory contain all code that was used for the [Udacity Machine Learning 
 
 The links to the project proposal and the write-up of the final 
 project are below.
-PDF
-: [The project proposal: Proposal/Proposal.pdf](Proposal/Proposal.pdf) 
-: [The final project report: Report/Report.pdf](Report/Report.pdf)
 
-Markdown
-: [The project proposal: Proposal/Proposal.md](Proposal/Proposal.md) 
-: [The final project report: Report/Report.md](Report/Report.md)
+**PDF**
+- [The project proposal: Proposal/Proposal.pdf](Proposal/Proposal.pdf) 
+- [The final project report: Report/Report.pdf](Report/Report.pdf)
+
+**Markdown**
+- [The project proposal: Proposal/Proposal.md](Proposal/Proposal.md) 
+- [The final project report: Report/Report.md](Report/Report.md)
 
 Data Source: 
 [COVID-19 Data Research repository from Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
