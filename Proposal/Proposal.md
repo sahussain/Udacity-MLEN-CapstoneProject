@@ -64,11 +64,11 @@ other Hyperparameters will need to be explored farther in the Jupiter Notebook.
 ### Benchmark Model
 _(approximately 1-2 paragraphs)_
 
-For this problem, the benchmark model will  Time Series Forecasting with Linear Learner theoretically the DeepAR should be better. The goal is to be with in ±80% confidence interval.
+For this problem, the benchmark model will  Time Series Forecasting with Linear Learner theoretically the DeepAR should be better. 
 
 ### Evaluation Metrics
 
-Prediction results are evaluated on the Root Mean Square Error (RMSE) between the predicted values and the ground truth.
+Prediction results are ±80% confidence interval between predicted values and the ground truth.
 
 
 ### Project Design
@@ -105,11 +105,11 @@ The project will be excited in based on the following template:
 [^2]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
 [^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwODU2ODgwNTIsMTA5NjQxNjgyMywxOD
-EyODg1NjE4LC0xNDMyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1
-NjUxODAsMTI4MjY5MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0Mj
-I2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYz
-MTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMT
-kwLC05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEy
-NjkwNTU0ODBdfQ==
+eyJoaXN0b3J5IjpbLTIwMDU5NDk5MjksLTEwODU2ODgwNTIsMT
+A5NjQxNjgyMywxODEyODg1NjE4LC0xNDMyMzY1NDQzLC0xMTEy
+NDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5MjQ0NiwxNjUzMjI4MD
+M0LC0xNDA1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEz
+ODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0NT
+Y5MCwtODAzMzUxMTkwLC05ODExNTAzMCwtMjAwNDk0ODU5MSwx
+NjA4NzY4NTY4XX0=
 -->
