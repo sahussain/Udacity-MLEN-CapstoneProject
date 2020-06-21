@@ -74,7 +74,8 @@ Prediction results are evaluated on the Root Mean Square Error (RMSE) between th
 ### Project Design
 
 First I would Load and Explore the Data. Then I would need to do some pre-process, where i need to convert the data form a wide-table format to tall-table. I will only keep: Combined_Key, Population, [Date, # of Cases] will be extrapolate during pre-process.
-Once we have the data in a  
+Once we have the data in a format we can use then I will plot the data to see what it looks like.
+I will then create  
 
 -----------
 
@@ -89,7 +90,7 @@ Once we have the data in a
 # Endnotes
 [^1]: [WHO. Coronavirus disease 2019 (COVID-19) Situation Report -59. [Online] 20 March 2020](https://www.who.int/docs/default-source/coronaviruse/situation-reports/20200319-sitrep-59-covid-19.pdf?sfvrsn=c3dcdef9_2)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczNDEwNzAzMiwxODEyODg1NjE4LC0xND
+eyJoaXN0b3J5IjpbMTU5ODE0MDE0MCwxODEyODg1NjE4LC0xND
 MyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5
 MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0MjI2LDM2MzY5MDU2Ni
 wxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYzMTYxMjM4MCwtMTY4
