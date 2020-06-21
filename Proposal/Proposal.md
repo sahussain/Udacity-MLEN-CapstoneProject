@@ -101,14 +101,14 @@ The project will be excited in based on the following template:
 -----------
 
 # Endnotes
-[^1]:COVID-19 Dashboard by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
-[^2]:DeepAR Forecasting Algorithm. Amazon Web Services. Retrieved 20 June, 2020 https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html
+[^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
+[^2]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI2MTkzODgsMTA5NjQxNjgyMywxOD
-EyODg1NjE4LC0xNDMyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1
-NjUxODAsMTI4MjY5MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0Mj
-I2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYz
-MTYxMjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMT
-kwLC05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEy
-NjkwNTU0ODBdfQ==
+eyJoaXN0b3J5IjpbNDc2MDI3NDcsMTA5NjQxNjgyMywxODEyOD
+g1NjE4LC0xNDMyMzY1NDQzLC0xMTEyNDk4ODYzLC0yNjE1NjUx
+ODAsMTI4MjY5MjQ0NiwxNjUzMjI4MDM0LC0xNDA1ODU0MjI2LD
+M2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEzODMyOTIyNDIsMTYzMTYx
+MjM4MCwtMTY4MDcyNDEyLC04OTA0NTY5MCwtODAzMzUxMTkwLC
+05ODExNTAzMCwtMjAwNDk0ODU5MSwxNjA4NzY4NTY4LDEyNjkw
+NTU0ODBdfQ==
 -->
