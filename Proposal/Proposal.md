@@ -58,7 +58,7 @@ Likelihood: will set to _negative-binomial_: Use for count data (non-negative in
 
 time_freq: will be set to 14D as will be forecasting the next 14-days only
 
-other Hyperparameters will need to be explored farther in the Jupiter Notebook.
+other Hyperparameters will be set to default.
 
 
 ### Benchmark Model
@@ -104,7 +104,7 @@ The project will be excited in based on the following template:
 [^2]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
 [^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzUyNTYyNjUsLTEwODU2ODgwNTIsMT
+eyJoaXN0b3J5IjpbLTE1NTk2OTYyMjksLTEwODU2ODgwNTIsMT
 A5NjQxNjgyMywxODEyODg1NjE4LC0xNDMyMzY1NDQzLC0xMTEy
 NDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5MjQ0NiwxNjUzMjI4MD
 M0LC0xNDA1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEz
