@@ -62,7 +62,6 @@ other Hyperparameters will need to be explored farther in the Jupiter Notebook.
 
 
 ### Benchmark Model
-_(approximately 1-2 paragraphs)_
 
 For this problem, the benchmark model will  Time Series Forecasting with Linear Learner theoretically the DeepAR should be better. 
 
@@ -105,7 +104,7 @@ The project will be excited in based on the following template:
 [^2]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
 [^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020. 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMDU5NDk5MjksLTEwODU2ODgwNTIsMT
+eyJoaXN0b3J5IjpbLTE3MDEyNTI3MTIsLTEwODU2ODgwNTIsMT
 A5NjQxNjgyMywxODEyODg1NjE4LC0xNDMyMzY1NDQzLC0xMTEy
 NDk4ODYzLC0yNjE1NjUxODAsMTI4MjY5MjQ0NiwxNjUzMjI4MD
 M0LC0xNDA1ODU0MjI2LDM2MzY5MDU2NiwxNDQ3NjY3NDQ2LDEz
