@@ -31,7 +31,7 @@ I was going to use going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sag
 
 This is because each pandemic of total number of cases follows Logistic Function which is defined by:
  
-<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)=\frac{{b^2-4ac}}{2a}" title="\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}" />
+<img src="https://latex.codecogs.com/svg.latex?\Large&space;f(x)=\frac{{b^2-4ac}}{2a}"/>
 
 I was going resubmit my proposal to do another project however I realized that in real world we are given data-sets that we do not have any central over and we have to explore if that data-set is a good  candidate for ML.
 
@@ -192,6 +192,6 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NzUzNzc2ODUsNjUyMTEzOTQ1LC0xNT
+eyJoaXN0b3J5IjpbLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNT
 gxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkwNDgzNV19
 -->
