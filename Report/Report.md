@@ -93,7 +93,24 @@ covid_df = covid_df.drop(['UID',
 	                 'Long_',
 	                 'Combined_Key'], axis=1).groupby("Province_State").sum().T
 ```
-
+Form hear onward we can use the following function to get a state by name
+```Python
+def getCases(df, aState):
+    # create total cases column
+    error = 0
+    try:
+        df = pd.DataFrame(index=df.index, data=df[aState].values, columns=["total"])
+        #print(dtf.head())
+        # create daily changes column
+        df["new"] = df["total"] - df["total"].shift(1)
+        # Handling Missing Values
+        df["new"] = df["new"].fillna(method='bfill')
+    except:
+        print("No State " + aState + " found")
+        error = 1
+        df = pd.DataFrame() 
+    return [df, error]
+```
 
 
 ### Exploratory Visualization
@@ -211,7 +228,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NTk5NDA5NDQsLTExNzk0OTUwOTAsNj
-UyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkw
-NDgzNV19
+eyJoaXN0b3J5IjpbLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NT
+IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
+ODM1XX0=
 -->
