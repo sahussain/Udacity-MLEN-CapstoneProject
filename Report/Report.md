@@ -132,7 +132,8 @@ Now lets look and new vs total for some cities:
 
 
 ### Algorithms and Techniques
-I will be using [`scipy.optimize.curve_fit` function, part of [SciPy](https://scipy.org/)
+I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function, part of [SciPy](https://scipy.org/)
+Peak fitting with a Gaussian is very commonly used in epidemiology. 
 
 ### Benchmark
 In this section, you will need to provide a clearly defined benchmark result or threshold for comparing across performances obtained by your solution. The reasoning behind the benchmark (in the case where it is not an established result) should be discussed. Questions to ask yourself when writing this section:
@@ -228,8 +229,8 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg0NDEyMDA0NCwtNDg1NzE1NDk0LDEyOT
-k5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0
-NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4MzVdfQ
-==
+eyJoaXN0b3J5IjpbLTIwMjI0NDk0NjUsLTQ4NTcxNTQ5NCwxMj
+k5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5
+NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX
+0=
 -->
