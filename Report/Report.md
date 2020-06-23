@@ -49,23 +49,13 @@ forecasting methods including but not limited to autoregressive integrated
 moving average (ARIMA), exponential smoothing (ETS), Time Series
 Forecasting with Linear Learner for this type of applications.
 
-Since epidemic do not follow a standard time series requirements however they do follow Logistic & Gaussian functions what we have to do is to 
+Since epidemic do not follow a standard time series requirements however they do follow Logistic & Gaussian functions what we have to do is to fit our total cases to Logistic function and new cases to Gaussian functions. 
 
 
 ### Metrics
-The reasons why this data set could be used to predict us any of the Time Series Forecasting Model(TSFMs) because it failed the following:
-**Stationarity**: FAILED
-For us to use any of the above menting TSFMs our time-series, We need to first Identfy if the given time-series is  `Stationarity`
+The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms
+f(error) = f(time) + error
 
-For a time-series to be Stationarity, the following do not change over time
-
-1.  mean(μ)
-2.  standard deviation(σ)
-3.  Autocorrelation structure (No seasonality)
-
-for more info see  [Stationarity](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc442.htm)
-
-**ACF & PACF**: FAILED
 
 ## II. Analysis
 _(approx. 2-4 pages)_
@@ -208,7 +198,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzkyMzEyNzAsLTExNzk0OTUwOTAsNj
-UyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkw
-NDgzNV19
+eyJoaXN0b3J5IjpbLTkzNTc4MzA2MiwtMTE3OTQ5NTA5MCw2NT
+IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
+ODM1XX0=
 -->
