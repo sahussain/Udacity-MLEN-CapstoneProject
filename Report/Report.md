@@ -136,9 +136,7 @@ I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/re
 Peak fitting with a Gaussian/Logistic Function is very commonly used in epidemiology. [^7]
 
 ### Benchmark
-In this section, you will need to provide a clearly defined benchmark result or threshold for comparing across performances obtained by your solution. The reasoning behind the benchmark (in the case where it is not an established result) should be discussed. Questions to ask yourself when writing this section:
-- _Has some result or value been provided that acts as a benchmark for measuring performance?_
-- _Is it clear how this result or value was obtained (whether by data or by hypothesis)?_
+Since we are still in the early stage of 
 
 
 ## III. Methodology
@@ -230,8 +228,8 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMj
-k5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5
-NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX
-0=
+eyJoaXN0b3J5IjpbLTQ5OTc3NDU5OSwtMTUwNzUyMjU0MCwtND
+g1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1
+MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC
+03NzA5MDQ4MzVdfQ==
 -->
