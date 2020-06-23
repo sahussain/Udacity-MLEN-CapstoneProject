@@ -27,7 +27,9 @@ agencies and the general public. All the data collected and displayed is
 made freely available in a [GitHub
 repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
-I was going to use going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). After exploring the data the data 
+I was going to use going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). After exploring the data the data I discovered that this data set can not be used for any Time Series Forecasting Model(TSFMs) or any other ML models. 
+
+I was going resubmit my proposal to do another proje
 
 ### Problem Statement
 This project seeks to forecast number of people infected and number of
@@ -149,5 +151,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Is the code that implements your solution easily readable and properly commented?
 - Does the code execute without error and produce results similar to those reported?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc5MDg0NDkxMl19
+eyJoaXN0b3J5IjpbMTEwODU4NTQyMF19
 -->
