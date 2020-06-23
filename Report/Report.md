@@ -140,10 +140,12 @@ Since we are still in the early stage of epidemiology, there is no real bench ma
 **Delaware**
 ![enter image description here](/Images/Capture5.JPG)
 
-Delaware seem to be doing very well and there social-distancing measures seem to be working, Then   
+Delaware seem to be doing very well and there social-distancing measures seem to be working, They did had some peaks of new cased during Memorial Day. They did seem to recovered from it very quickly.   
 
 
 ![enter image description here](/Images/Capture6.JPG)
+
+
 ![enter image description here](/Images/Capture7.JPG)
 ![enter image description here](/Images/Capture8.JPG)
 ![enter image description here](/Images/Capture9.JPG)
@@ -238,8 +240,8 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjA1NTI2Niw1NTg3OTgwNzQsLTE1MD
-c1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2
-NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLT
-E5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbODAyNzEwMzgxLDU1ODc5ODA3NCwtMTUwNz
+UyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3
+LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMT
+kyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
 -->
