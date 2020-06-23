@@ -33,6 +33,8 @@ This is because each pandemic of total number of cases follows Logistic Function
  
 f(x) = capacity / (1 + e^-k*(x - midpoint) )[^2]
 
+And the pandemic of new of cases follows Logistic Function which is defined by:
+f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
 
 
 I was going resubmit my proposal to do another project however I realized that in real world we are given data-sets that we do not have any central over and we have to explore if that data-set is a good  candidate for ML.
@@ -207,7 +209,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI3ODA1OTAzMCwtMTE3OTQ5NTA5MCw2NT
+eyJoaXN0b3J5IjpbMTIwMjI4NTE4MSwtMTE3OTQ5NTA5MCw2NT
 IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
 ODM1XX0=
 -->
