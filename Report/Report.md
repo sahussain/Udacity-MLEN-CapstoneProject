@@ -127,7 +127,7 @@ Now lets look and new vs total for some cities:
 ![enter image description here](/Images/Capture3.JPG)
 ![enter image description here](/Images/Capture4.JPG)
 
-Bo
+
 
 
 
@@ -231,7 +231,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjkzMTM1MTc1LDEyOTk5MjMyOSwtNDA4MD
-E2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEz
-NywtMTkyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwOD
+AxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTEx
+MzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
 -->
