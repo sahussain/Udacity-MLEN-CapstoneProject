@@ -83,7 +83,7 @@ The data set was imported into a pandas Dataframe.
 Then the data was modified to remove the following columns and each state was sum
 ```python
 covid_df = covid_df.drop(['UID',
-	                      'iso2',
+	                 'iso2',
 	                      'iso3',
 	                      	                      'code3',
 	                      	                      'FIPS',
@@ -211,7 +211,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNTA2ODI4NTIsLTExNzk0OTUwOTAsNj
-UyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkw
-NDgzNV19
+eyJoaXN0b3J5IjpbODI3MzAxMTY0LC0xMTc5NDk1MDkwLDY1Mj
+ExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4
+MzVdfQ==
 -->
