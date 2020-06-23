@@ -132,10 +132,7 @@ Now lets look and new vs total for some cities:
 
 
 ### Algorithms and Techniques
-In this section, you will need to discuss the algorithms and techniques you intend to use for solving the problem. You should justify the use of each one based on the characteristics of the problem and the problem domain. Questions to ask yourself when writing this section:
-- _Are the algorithms you will use, including any default variables/parameters in the project clearly defined?_
-- _Are the techniques to be used thoroughly discussed and justified?_
-- _Is it made clear how the input data or datasets will be handled by the algorithms and techniques chosen?_
+I will be using [`scipy.optimize.curve_fit` function, part of [SciPy](https://scipy.org/)
 
 ### Benchmark
 In this section, you will need to provide a clearly defined benchmark result or threshold for comparing across performances obtained by your solution. The reasoning behind the benchmark (in the case where it is not an established result) should be discussed. Questions to ask yourself when writing this section:
@@ -231,7 +228,8 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwOD
-AxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTEx
-MzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbMTg0NDEyMDA0NCwtNDg1NzE1NDk0LDEyOT
+k5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0
+NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4MzVdfQ
+==
 -->
