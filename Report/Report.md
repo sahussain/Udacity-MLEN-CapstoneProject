@@ -115,8 +115,6 @@ def getCases(df, aState):
 
 ### Exploratory Visualization
 The plot below shows how the COVID-19 cases incise by city
-![enter image description here](img/Capture3.JPG)
-
 When looking at the graph of 15 cities I noticed the first problem. The dataset only have data for the last 151 days.
 
 I can not use DeepAR on this data because DeepAR needs at least 300 observations available across all training time series and we have at most 151.
@@ -124,6 +122,9 @@ I can not use DeepAR on this data because DeepAR needs at least 300 observations
 >We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300. Source: https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html
 
 ![enter image description here](/Images/Capture2.JPG)
+
+Now lets look and new vs total for some cities:
+
 
 
 
@@ -227,7 +228,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzM2NTg4NDc3LC00MDgwMTY5NjcsLTExNz
+eyJoaXN0b3J5IjpbMTI5OTkyMzI5LC00MDgwMTY5NjcsLTExNz
 k0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4
 MzgsLTc3MDkwNDgzNV19
 -->
