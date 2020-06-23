@@ -45,8 +45,8 @@ caused by COVID-19 for a time duration of 14-days based on
 historical data from JHU. I will be using Amazon SageMaker DeepAR
 forecasting algorithm, a supervised learning algorithm for forecasting
 scalar (one-dimensional) time series using recurrent neural networks (RNN)
-to produce both point and probabilistic forecasts[^2].
-DeepAR is an underutilized approach in this area.[^3] The dataset contains
+to produce both point and probabilistic forecasts[^3].
+DeepAR is an underutilized approach in this area.[^4] The dataset contains
 hundreds of related time series, and DeepAR outperforms classical
 forecasting methods including but not limited to autoregressive integrated
 moving average (ARIMA), exponential smoothing (ETS), Time Series
@@ -197,11 +197,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 -----------
 
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
-[^2]:[Logistic Growth Model for COVID-19]()
-[^2]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
-
-[^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
-[^4]:
+[^2]:[Logistic Growth Model for COVID-19](https://www.wolframcloud.com/obj/covid-19/Published/Logistic-Growth-Model-for-COVID-19.nb)
+[^3]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
+[^4]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
 [^5]:
 [^6]:
 [^7]:
@@ -209,7 +207,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDQyODI0MzYsLTExNzk0OTUwOTAsNj
-UyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkw
-NDgzNV19
+eyJoaXN0b3J5IjpbMTI3ODA1OTAzMCwtMTE3OTQ5NTA5MCw2NT
+IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
+ODM1XX0=
 -->
