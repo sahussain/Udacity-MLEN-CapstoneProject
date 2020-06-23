@@ -124,7 +124,10 @@ I can not use DeepAR on this data because DeepAR needs at least 300 observations
 ![enter image description here](/Images/Capture2.JPG)
 
 Now lets look and new vs total for some cities:
+![enter image description here](/Images/Capture3.JPG)
+![enter image description here](/Images/Capture4.JPG)
 
+Bo
 
 
 
@@ -228,7 +231,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI5OTkyMzI5LC00MDgwMTY5NjcsLTExNz
-k0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4
-MzgsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbNjkzMTM1MTc1LDEyOTk5MjMyOSwtNDA4MD
+E2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEz
+NywtMTkyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
 -->
