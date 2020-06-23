@@ -100,6 +100,8 @@ I can not use DeepAR on this data because DeepAR needs at least 300 observations
 Exploring other options:
 Maybe I can use other Time Series Forecasting Model(TSFMs)
 
+
+
 ### Algorithms and Techniques
 In this section, you will need to discuss the algorithms and techniques you intend to use for solving the problem. You should justify the use of each one based on the characteristics of the problem and the problem domain. Questions to ask yourself when writing this section:
 - _Are the algorithms you will use, including any default variables/parameters in the project clearly defined?_
@@ -186,6 +188,6 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzIzNTQ5NzksLTE5MjY0NDgzOCwtNzcwOT
-A0ODM1XX0=
+eyJoaXN0b3J5IjpbLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNz
+cwOTA0ODM1XX0=
 -->
