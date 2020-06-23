@@ -33,7 +33,7 @@ This is because each epidemic of total number of cases follows Logistic Function
  
 f(x) = capacity / (1 + e^-k*(x - midpoint) )[^2]
 
-And the epidemic of new of cases follows Logistic Function which is defined by:
+And the epidemic of new of cases follows Gaussian Function which is defined by:
 f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^3]
 
 ### Problem Statement
@@ -49,7 +49,7 @@ forecasting methods including but not limited to autoregressive integrated
 moving average (ARIMA), exponential smoothing (ETS), Time Series
 Forecasting with Linear Learner for this type of applications.
 
-Since epidemic do not follow a standard time series requirements we have to use  
+Since epidemic do not follow a standard time series requirements however they do follow Logistic & Gaussian functions what we have to do is to 
 
 
 ### Metrics
@@ -208,7 +208,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzMyNjU3NjIsLTExNzk0OTUwOTAsNj
+eyJoaXN0b3J5IjpbLTEzNzkyMzEyNzAsLTExNzk0OTUwOTAsNj
 UyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkw
 NDgzNV19
 -->
