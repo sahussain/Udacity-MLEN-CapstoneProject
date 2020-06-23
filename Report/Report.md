@@ -1,9 +1,9 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Project
 Ashraf Hussain 
-June 19th, 2020
+June 22th, 2020
 
-
+Machine Learning Engineer Nanodegree: Forecasting COVID-19 Cases – A Time Series Forecasting Model
 
 ## I. Definition
 
@@ -27,7 +27,7 @@ agencies and the general public. All the data collected and displayed is
 made freely available in a [GitHub
 repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
-I was going to use 
+I was going to use going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compair 
 
 ### Problem Statement
 This project seeks to forecast number of people infected and number of
@@ -149,5 +149,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Is the code that implements your solution easily readable and properly commented?
 - Does the code execute without error and produce results similar to those reported?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgwNDA1NTE5OF19
+eyJoaXN0b3J5IjpbMTYzMzU2ODc2NV19
 -->
