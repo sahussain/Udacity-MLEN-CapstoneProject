@@ -84,48 +84,7 @@ identifies counties within the USA.
 * Population - Population
 * Number of cases are is columns where each column is a day
 
-**Step 1: Load and Explore the Data**
-This was straight forward as the source was in csv format.  We are using a pandas to sture the data in a variable called  
-```python
-csv_file = 'time_series_covid19_confirmed_US.csv'
-covid_df = pd.read_csv(csv_file)
-```
 
-**Step 2: Filtering**
-  
-#filter code3 - country code: USA = 840 as the scope of this project is limited to US (excluding territories)
-```python
-covid_df = covid_df[covid_df.code3 == 840]
-```
-
-
-**Step 3: Pivoting**
-We need to pivot the date as columns to rows. This can be done by calling [`pandas.melt`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.melt.html)
-
-```python
-meta_data = ['UID',
- 'iso2',
- 'iso3',
- 'code3',
- 'FIPS',
- 'Admin2',
- 'Province_State',
- 'Country_Region',
- 'Lat',
- 'Long_',
- 'Combined_Key']
-
-covid_df = covid_df.melt(id_vars=meta_data, var_name='Date', value_name='Cases')
-```
-
-**Step 4: Pivoting**
-we only need the 'Combined_Key','Date','Case' so we can use [`DataFrame.filter`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.filter.html)
-```python
-keep_columns = ['Combined_Key','Date','Cases']
-covid_df = covid_df.filter(items=keep_columns)
-```
-**Step 5: Converting Date**
-As we capture the date field by pivoting it is in string(object) we need to convert this to Date(datetime64[ns]). This can easly be done `pandas.``to_datetime`
 
 ### Exploratory Visualization
 In this section, you will need to provide some form of visualization that summarizes or extracts a relevant characteristic or feature about the data. The visualization should adequately support the data being used. Discuss why this visualization was chosen and how it is relevant. Questions to ask yourself when writing this section:
@@ -219,5 +178,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjMxODI1OTEsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbMTA2OTUyNjkwNSwtNzcwOTA0ODM1XX0=
 -->
