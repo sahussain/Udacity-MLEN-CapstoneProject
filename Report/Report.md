@@ -91,7 +91,7 @@ This data set was converted to something easy to handle
 The plot below shows how the COVID-19 cases incise by city
 ![enter image description here](img/Capture3.JPG)
 
-by looking at this data When looking at the data the dataset only have data for the last 151 days and I can see that out of which starting Apr 1, 2020 is somthing good we can use.
+When looking at the graph of 15 cities I noticed the first problem. The dataset only have data for the last 151 days.
 
 I can not use DeepAR on this data because DeepAR needs at least 300 observations available across all training time series and we have at most 151.
 
@@ -186,6 +186,6 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzODY1NzA1MiwtMTkyNjQ0ODM4LC03Nz
-A5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbMzIzNTQ5NzksLTE5MjY0NDgzOCwtNzcwOT
+A0ODM1XX0=
 -->
