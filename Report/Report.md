@@ -29,11 +29,11 @@ repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19
 
 I was going to use going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). After exploring the data the data I discovered that this data set can not be used for any Time Series Forecasting Model(TSFMs) or any other ML models. 
 
-This is because each pandemic of total number of cases follows Logistic Function which is defined by:
+This is because each epidemic of total number of cases follows Logistic Function which is defined by:
  
 f(x) = capacity / (1 + e^-k*(x - midpoint) )[^2]
 
-And the pandemic of new of cases follows Logistic Function which is defined by:
+And the epidemic of new of cases follows Logistic Function which is defined by:
 f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^3]
 
 ### Problem Statement
@@ -49,7 +49,7 @@ forecasting methods including but not limited to autoregressive integrated
 moving average (ARIMA), exponential smoothing (ETS), Time Series
 Forecasting with Linear Learner for this type of applications.
 
-Since pandemic 
+Since epidemic do not follow a standard time series requirements we have to use  
 
 
 ### Metrics
@@ -208,7 +208,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcwNzA4NTQzMCwtMTE3OTQ5NTA5MCw2NT
-IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
-ODM1XX0=
+eyJoaXN0b3J5IjpbLTExMzMyNjU3NjIsLTExNzk0OTUwOTAsNj
+UyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkw
+NDgzNV19
 -->
