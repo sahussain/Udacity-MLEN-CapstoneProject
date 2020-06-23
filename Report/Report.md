@@ -83,7 +83,15 @@ The data set was imported into a pandas Dataframe.
 Then the data was modified to remove the following columns and each state was sum
 ```python
 covid_df = covid_df.drop(['UID',
-	'iso2','iso3','code3','FIPS','Admin2','Country_Region','Lat','Long_','Combined_Key'], axis=1).groupby("Province_State").sum().T
+	                      'iso2',
+	                      'iso3',
+	                      	                      'code3',
+	                      	                      'FIPS',
+	                      	                      'Admin2',
+	                      	                      'Country_Region',
+	                      	                      'Lat',
+	                      	                      'Long_',
+	                      	                      'Combined_Key'], axis=1).groupby("Province_State").sum().T
 ```
 
 
@@ -203,7 +211,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzc3MjEyNzIsLTExNzk0OTUwOTAsNj
+eyJoaXN0b3J5IjpbLTEyNTA2ODI4NTIsLTExNzk0OTUwOTAsNj
 UyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkw
 NDgzNV19
 -->
