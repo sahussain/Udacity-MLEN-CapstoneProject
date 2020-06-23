@@ -85,13 +85,10 @@ identifies counties within the USA.
 * Number of cases are is columns where each column is a day
 
 This data set was converted to something easy to handle
-![enter image description here](img/Capture.JPG)
+![enter image description here](img/Capture1.JPG)
 
 ### Exploratory Visualization
-In this section, you will need to provide some form of visualization that summarizes or extracts a relevant characteristic or feature about the data. The visualization should adequately support the data being used. Discuss why this visualization was chosen and how it is relevant. Questions to ask yourself when writing this section:
-- _Have you visualized a relevant characteristic or feature about the dataset or input data?_
-- _Is the visualization thoroughly analyzed and discussed?_
-- _If a plot is provided, are the axes, title, and datum clearly defined?_
+The plot below shows how the COVID-19 cases incise by city
 
 ### Algorithms and Techniques
 In this section, you will need to discuss the algorithms and techniques you intend to use for solving the problem. You should justify the use of each one based on the characteristics of the problem and the problem domain. Questions to ask yourself when writing this section:
@@ -179,5 +176,6 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbLTE5MTgzODU0OTQsLTE5MjY0NDgzOCwtNz
+cwOTA0ODM1XX0=
 -->
