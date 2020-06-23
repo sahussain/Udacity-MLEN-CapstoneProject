@@ -59,17 +59,32 @@ For a time-series to be Stationarity, the following do not change over time
 
 for more info see  [Stationarity](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc442.htm)
 
-**ACF & PACF**
+**ACF & PACF**: FAILED
 
 ## II. Analysis
 _(approx. 2-4 pages)_
 
 ### Data Exploration
-In this section, you will be expected to analyze the data you are using for the problem. This data can either be in the form of a dataset (or datasets), input data (or input files), or even an environment. The type of data should be thoroughly described and, if possible, have basic statistics and information presented (such as discussion of input features or defining characteristics about the input or environment). Any abnormalities or interesting qualities about the data that may need to be addressed have been identified (such as features that need to be transformed or the possibility of outliers). Questions to ask yourself when writing this section:
-- _If a dataset is present for this problem, have you thoroughly discussed certain features about the dataset? Has a data sample been provided to the reader?_
-- _If a dataset is present for this problem, are statistics about the dataset calculated and reported? Have any relevant results from this calculation been discussed?_
-- _If a dataset is **not** present for this problem, has discussion been made about the input space or input data for your problem?_
-- _Are there any abnormalities or characteristics about the input space or dataset that need to be addressed? (categorical variables, missing values, outliers, etc.)_
+The datasets are accessed from files provided by the JHU GitHub
+repository [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv)
+
+The file have the same columns:
+* UID - UID = 840 (country code3) + 000XX (state FIPS code). Ranging from
+8400001 to 84000056.
+* iso2- Officially assigned country code identifiers 2 Chr (US, CA, ...)
+* iso3 - Officially assigned country code identifiers 3 Chr.(USA, CAN,
+...)
+* code3- country code USA = 840
+* FIPS -Federal Information Processing Standards code that uniquely
+identifies counties within the USA.
+* admin2 - County name. US only.
+* Province_State - The name of the State within the USA.
+* Country_Region - The name of the Country (US).
+* Combined_Key - Province_State + Country_Region
+* Population - Population
+* Number of cases are is columns where each column is a day
+
+**S
 
 ### Exploratory Visualization
 In this section, you will need to provide some form of visualization that summarizes or extracts a relevant characteristic or feature about the data. The visualization should adequately support the data being used. Discuss why this visualization was chosen and how it is relevant. Questions to ask yourself when writing this section:
@@ -162,5 +177,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Is the code that implements your solution easily readable and properly commented?
 - Does the code execute without error and produce results similar to those reported?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEzMDc5MzYwMl19
+eyJoaXN0b3J5IjpbMTE0MzAzNTUwNF19
 -->
