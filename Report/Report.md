@@ -115,6 +115,10 @@ meta_data = ['UID',
 covid_df = covid_df.melt(id_vars=meta_data, var_name='Date', value_name='Cases')
 ```
 
+**Step 4: Pivoting**
+we only need the 'Combined_Key','Date','Case' so we can use 
+
+
 ### Exploratory Visualization
 In this section, you will need to provide some form of visualization that summarizes or extracts a relevant characteristic or feature about the data. The visualization should adequately support the data being used. Discuss why this visualization was chosen and how it is relevant. Questions to ask yourself when writing this section:
 - _Have you visualized a relevant characteristic or feature about the dataset or input data?_
@@ -207,5 +211,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkxMDA4NDU0NiwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbMTg1NTg0NjczMywtNzcwOTA0ODM1XX0=
 -->
