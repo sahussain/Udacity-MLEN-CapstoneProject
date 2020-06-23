@@ -140,8 +140,8 @@ Since we are still in the early stage of epidemiology, there is no real bench ma
 ![enter image description here](/Images/Capture5.JPG)
 ![enter image description here](/Images/Capture6.JPG)
 ![enter image description here](/Images/Capture7.JPG)
-![enter image description here](/Images/Capture5.JPG)
-![enter image description here](/Images/Capture5.JPG)
+![enter image description here](/Images/Capture8.JPG)
+![enter image description here](/Images/Capture9.JPG)
 
 
 ## III. Methodology
@@ -233,8 +233,8 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUwNzAyNzAyLDU1ODc5ODA3NCwtMTUwNz
-UyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3
-LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMT
-kyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbLTExODExOTAwNjUsNTU4Nzk4MDc0LC0xNT
+A3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5
+NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC
+0xOTI2NDQ4MzgsLTc3MDkwNDgzNV19
 -->
