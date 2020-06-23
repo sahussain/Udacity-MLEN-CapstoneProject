@@ -53,7 +53,7 @@ Since epidemic do not follow a standard time series requirements however they do
 
 
 ### Metrics
-The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms
+The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^5]
 f(error) = f(time) + error
 
 
@@ -191,14 +191,14 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^3]:[Mathematical prediction of the time evolution of the COVID-19 pandemic in Italy by a Gauss error function and Monte Carlo simulations]([https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156796/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156796/))
 [^4]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
 [^5]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
-[^5]:
+[^6]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 [^6]:
 [^7]:
 [^8]:
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkzNTc4MzA2MiwtMTE3OTQ5NTA5MCw2NT
-IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
-ODM1XX0=
+eyJoaXN0b3J5IjpbNDcwODIzNjQ4LC0xMTc5NDk1MDkwLDY1Mj
+ExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4
+MzVdfQ==
 -->
