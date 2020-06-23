@@ -85,7 +85,7 @@ identifies counties within the USA.
 * Number of cases are is columns where each column is a day
 
 This data set was converted to something easy to handle
-![enter image description here](img/Capture2.JPG)
+![enter image description here](img/Capture1.JPG)
 
 ### Exploratory Visualization
 The plot below shows how the COVID-19 cases incise by city
@@ -177,6 +177,6 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU2NTY4NDQ2LC0xOTI2NDQ4MzgsLTc3MD
-kwNDgzNV19
+eyJoaXN0b3J5IjpbLTEwNTY0NTc0MTEsLTE5MjY0NDgzOCwtNz
+cwOTA0ODM1XX0=
 -->
