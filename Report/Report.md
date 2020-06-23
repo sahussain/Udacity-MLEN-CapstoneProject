@@ -31,7 +31,7 @@ I was going to use going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sag
 
 This is because each pandemic of total number of cases follows Logistic Function which is defined by:
  
-f(x) = capacity / (1 + e^-k*(x - midpoint) )[^1]
+f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
 
 
 
@@ -192,9 +192,24 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Are all the resources used for this project correctly cited and referenced?
 - Is the code that implements your solution easily readable and properly commented?
 - Does the code execute without error and produce results similar to those reported?
+-----------
+**Endnotes**
+-----------
 
+[^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
+
+[^2]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
+
+[^3]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
+[^4]:
+[^5]:
+[^6]:
+[^7]:
+[^8]:
+[^5]:
+[^5]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxODc1MzI0OCwtMTE3OTQ5NTA5MCw2NT
+eyJoaXN0b3J5IjpbMTExODY2Mzk4NiwtMTE3OTQ5NTA5MCw2NT
 IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
 ODM1XX0=
 -->
