@@ -7,15 +7,36 @@ June 19th, 2020
 _(approx. 1-2 pages)_
 
 ### Project Overview
-In this section, look to provide a high-level overview of the project in layman’s terms. Questions to ask yourself when writing this section:
-- _Has an overview of the project been provided, such as the problem domain, project origin, and related datasets or input data?_
-- _Has enough background information been given so that an uninformed reader would understand the problem domain and following problem statement?_
+
+On December 31, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Identified as coronavirus disease 2019, it quickly came
+to be known as COVID-19 and has resulted in an ongoing global pandemic. As
+of 20 June 2020, more than 8.74 million cases have been reported across
+188 countries and territories, resulting in more than 462,000 deaths. More
+than 4.31 million people have recovered.[^1]
+
+In response to this ongoing public health emergency, Johns Hopkins
+University (JHU), a private research university in Maryland, USA,
+developed an interactive web-based dashboard hosted by their Center for
+Systems Science and Engineering (CSSE). The dashboard visualizes and
+tracks reported cases in real-time, illustrating the location and number
+of confirmed COVID-19 cases, deaths and recoveries for all affected
+countries. It is used by researchers, public health authorities, news
+agencies and the general public. All the data collected and displayed is
+made freely available in a [GitHub
+repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
 ### Problem Statement
-In this section, you will want to clearly define the problem that you are trying to solve, including the strategy (outline of tasks) you will use to achieve the desired solution. You should also thoroughly discuss what the intended solution will be for this problem. Questions to ask yourself when writing this section:
-- _Is the problem statement clearly defined? Will the reader understand what you are expecting to solve?_
-- _Have you thoroughly discussed how you will attempt to solve the problem?_
-- _Is an anticipated solution clearly defined? Will the reader understand what results you are looking for?_
+This project seeks to forecast number of people infected and number of
+deaths caused by COVID-19 for a time duration of 14-days based on
+historical data from JHU. I will be using Amazon SageMaker DeepAR
+forecasting algorithm, a supervised learning algorithm for forecasting
+scalar (one-dimensional) time series using recurrent neural networks (RNN)
+to produce both point and probabilistic forecasts[^2].
+DeepAR is an underutilized approach in this area.[^3] The dataset contains
+hundreds of related time series, and DeepAR outperforms classical
+forecasting methods including but not limited to autoregressive integrated
+moving average (ARIMA), exponential smoothing (ETS), Time Series
+Forecasting with Linear Learner for this type of applications.
 
 ### Metrics
 In this section, you will need to clearly define the metrics or calculations you will use to measure performance of a model or result in your project. These calculations and metrics should be justified based on the characteristics of the problem and problem domain. Questions to ask yourself when writing this section:
@@ -124,5 +145,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Is the code that implements your solution easily readable and properly commented?
 - Does the code execute without error and produce results similar to those reported?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyMjQ3NDYwNTJdfQ==
+eyJoaXN0b3J5IjpbLTM1MzExNTg1XX0=
 -->
