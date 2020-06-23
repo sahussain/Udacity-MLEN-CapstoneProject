@@ -133,7 +133,7 @@ Now lets look and new vs total for some cities:
 
 ### Algorithms and Techniques
 I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function, part of [SciPy](https://scipy.org/)
-Peak fitting with a Gaussian is very commonly used in epidemiology. 
+Peak fitting with a Gaussian/Logistic Function is very commonly used in epidemiology. 
 
 ### Benchmark
 In this section, you will need to provide a clearly defined benchmark result or threshold for comparing across performances obtained by your solution. The reasoning behind the benchmark (in the case where it is not an established result) should be discussed. Questions to ask yourself when writing this section:
@@ -223,13 +223,13 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^4]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
 [^5]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
 [^6]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
-[^6]:
 [^7]:
 [^8]:
 [^9]:
 [^10]:
+[^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjI0NDk0NjUsLTQ4NTcxNTQ5NCwxMj
+eyJoaXN0b3J5IjpbLTE1NDgyMDAwMDAsLTQ4NTcxNTQ5NCwxMj
 k5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5
 NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX
 0=
