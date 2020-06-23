@@ -85,8 +85,14 @@ identifies counties within the USA.
 * Number of cases are is columns where each column is a day
 
 **Step 1: Load and Explore the Data**
+This was straight forward as the source was in csv format. 
 
 ![enter image description here](img/Capture.JPG)
+
+
+
+**Step 2: Load and Explore the Data**
+ 
 
 ### Exploratory Visualization
 In this section, you will need to provide some form of visualization that summarizes or extracts a relevant characteristic or feature about the data. The visualization should adequately support the data being used. Discuss why this visualization was chosen and how it is relevant. Questions to ask yourself when writing this section:
@@ -180,5 +186,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwODk0NTQzNSwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbLTE3MzcwNjc5OTcsLTc3MDkwNDgzNV19
 -->
