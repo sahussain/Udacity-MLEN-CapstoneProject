@@ -98,8 +98,22 @@ This was straight forward as the source was in csv format.
 
 **Step 3: Pivoting**
 We need to pivot the date as columns to rows. This can be done by calling [`pandas.melt`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.melt.html)
+![enter image description here](img/Capture3.JPG)
+```python
+meta_data = ['UID',
+ 'iso2',
+ 'iso3',
+ 'code3',
+ 'FIPS',
+ 'Admin2',
+ 'Province_State',
+ 'Country_Region',
+ 'Lat',
+ 'Long_',
+ 'Combined_Key']
 
-
+covid_df = covid_df.melt(id_vars=meta_data, var_name='Date', value_name='Cases')
+```
 
 ### Exploratory Visualization
 In this section, you will need to provide some form of visualization that summarizes or extracts a relevant characteristic or feature about the data. The visualization should adequately support the data being used. Discuss why this visualization was chosen and how it is relevant. Questions to ask yourself when writing this section:
@@ -193,5 +207,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NjM5NDg2MzAsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbMTkxMDA4NDU0NiwtNzcwOTA0ODM1XX0=
 -->
