@@ -125,7 +125,7 @@ keep_columns = ['Combined_Key','Date','Cases']
 covid_df = covid_df.filter(items=keep_columns)
 ```
 **Step 5: Converting Date**
-As we capture the date field by pivoting it is in string(object) we need to convert this to Date(datetime64[ns])
+As we capture the date field by pivoting it is in string(object) we need to convert this to Date(datetime64[ns]). This can easly be done `pandas.``to_datetime`
 
 ### Exploratory Visualization
 In this section, you will need to provide some form of visualization that summarizes or extracts a relevant characteristic or feature about the data. The visualization should adequately support the data being used. Discuss why this visualization was chosen and how it is relevant. Questions to ask yourself when writing this section:
@@ -219,5 +219,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDc4NzEwODM4LC03NzA5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbLTEzMjMxODI1OTEsLTc3MDkwNDgzNV19
 -->
