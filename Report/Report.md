@@ -90,14 +90,18 @@ This was straight forward as the source was in csv format.  We are using a panda
 csv_file = 'time_series_covid19_confirmed_US.csv'
 covid_df = pd.read_csv(csv_file)
 ```
+
 **Step 2: Filtering**
   
 #filter code3 - country code: USA = 840 as the scope of this project is limited to US (excluding territories)
-![enter image description here](img/Capture2.JPG)
+```python
+covid_df = covid_df[covid_df.code3 == 840]
+```
+
 
 **Step 3: Pivoting**
 We need to pivot the date as columns to rows. This can be done by calling [`pandas.melt`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.melt.html)
-![enter image description here](img/Capture3.JPG)
+
 ```python
 meta_data = ['UID',
  'iso2',
@@ -117,8 +121,6 @@ covid_df = covid_df.melt(id_vars=meta_data, var_name='Date', value_name='Cases')
 **Step 4: Pivoting**
 we only need the 'Combined_Key','Date','Case' so we can use [`DataFrame.filter`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.filter.html)
 ```python
-
-
 
 ```
 
@@ -215,5 +217,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzM5NDIyMDksLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbLTY5MDQyNDM1LC03NzA5MDQ4MzVdfQ==
 -->
