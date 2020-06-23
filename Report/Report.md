@@ -148,8 +148,7 @@ North Dakota seem to be doing very well too and there social-distancing measures
 
 **Maryland**
 ![enter image description here](/Images/Capture7.JPG)
-North Dakota seem to be doing very well too and there social-distancing measures seem to be working, They did had some peaks of new cased during Memorial Day however there peak was delayed compaired to Delaware however they took little bit longer to come back to normal.
-
+North Dakota seem to be doing very well too and there social-distancing measures seem to be working, They did had some peaks of new cased during Memorial Day however there peak was delayed compared to Delaware and North Dakota this could be because people may have wend to another state for Memorial Day. 
 
 ## III. Methodology
 _(approx. 3-5 pages)_
@@ -240,8 +239,8 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2MDM2MDQ0NDgsNTU4Nzk4MDc0LC0xNT
-A3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5
-NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC
-0xOTI2NDQ4MzgsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MD
+c1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2
+NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLT
+E5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
 -->
