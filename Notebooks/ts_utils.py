@@ -30,7 +30,7 @@ import arch
 from tensorflow.keras import models, layers, preprocessing as kprocessing
 
 ## for prophet
-from fbprophet import Prophet
+#from fbprophet import Prophet
 pd.plotting.register_matplotlib_converters()
 
 ## for parametric fit
