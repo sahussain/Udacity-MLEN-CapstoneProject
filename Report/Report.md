@@ -35,7 +35,7 @@ In this report I will demonstrate why came to this conclusion.
 
 ### Problem Statement
 This project seeks to forecast number of people infected and number of
-deaths caused by COVID-19 for a time duration of 14-days based on
+caused by COVID-19 for a time duration of 14-days based on
 historical data from JHU. I will be using Amazon SageMaker DeepAR
 forecasting algorithm, a supervised learning algorithm for forecasting
 scalar (one-dimensional) time series using recurrent neural networks (RNN)
@@ -47,9 +47,7 @@ moving average (ARIMA), exponential smoothing (ETS), Time Series
 Forecasting with Linear Learner for this type of applications.
 
 ### Metrics
-In this section, you will need to clearly define the metrics or calculations you will use to measure performance of a model or result in your project. These calculations and metrics should be justified based on the characteristics of the problem and problem domain. Questions to ask yourself when writing this section:
-- _Are the metrics you’ve chosen to measure the performance of your models clearly discussed and defined?_
-- _Have you provided reasonable justification for the metrics chosen based on the problem and solution?_
+The reasons why this data set could be used to 
 
 
 ## II. Analysis
@@ -153,5 +151,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Is the code that implements your solution easily readable and properly commented?
 - Does the code execute without error and produce results similar to those reported?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU2ODM5Mzc0Ml19
+eyJoaXN0b3J5IjpbMzUyNDI5MjIwXX0=
 -->
