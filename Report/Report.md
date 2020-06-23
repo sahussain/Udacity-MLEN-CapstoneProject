@@ -123,8 +123,7 @@ I can not use DeepAR on this data because DeepAR needs at least 300 observations
 
 >We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300. Source: https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html
 
-Exploring other options:
-Maybe I can use other Time Series Forecasting Model(TSFMs)
+![enter image description here](Images/Capture2.JPG)
 
 
 
@@ -228,7 +227,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NT
-IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
-ODM1XX0=
+eyJoaXN0b3J5IjpbLTEzMDQ3NDM4MjIsLTQwODAxNjk2NywtMT
+E3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0
+NDgzOCwtNzcwOTA0ODM1XX0=
 -->
