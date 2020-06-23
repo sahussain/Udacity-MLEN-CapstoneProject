@@ -85,11 +85,11 @@ identifies counties within the USA.
 * Number of cases are is columns where each column is a day
 
 This data set was converted to something easy to handle
-![enter image description here](img/Capture1.JPG)
+![enter image description here](img/Capture2.JPG)
 
 ### Exploratory Visualization
 The plot below shows how the COVID-19 cases incise by city
-![enter image description here](img/Capture2.JPG)
+![enter image description here](img/Capture3.JPG)
 
 ### Algorithms and Techniques
 In this section, you will need to discuss the algorithms and techniques you intend to use for solving the problem. You should justify the use of each one based on the characteristics of the problem and the problem domain. Questions to ask yourself when writing this section:
@@ -177,6 +177,6 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDAzMTQyMzk2LC0xOTI2NDQ4MzgsLTc3MD
+eyJoaXN0b3J5IjpbNzU2NTY4NDQ2LC0xOTI2NDQ4MzgsLTc3MD
 kwNDgzNV19
 -->
