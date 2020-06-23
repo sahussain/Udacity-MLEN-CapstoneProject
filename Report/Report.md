@@ -3,8 +3,10 @@
 Ashraf Hussain 
 June 19th, 2020
 
+
+
 ## I. Definition
-_(approx. 1-2 pages)_
+
 
 ### Project Overview
 
@@ -24,6 +26,8 @@ countries. It is used by researchers, public health authorities, news
 agencies and the general public. All the data collected and displayed is
 made freely available in a [GitHub
 repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
+
+I was going to use 
 
 ### Problem Statement
 This project seeks to forecast number of people infected and number of
@@ -145,5 +149,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Is the code that implements your solution easily readable and properly commented?
 - Does the code execute without error and produce results similar to those reported?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1MzExNTg1XX0=
+eyJoaXN0b3J5IjpbMTgwNDA1NTE5OF19
 -->
