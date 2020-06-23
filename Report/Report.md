@@ -142,13 +142,12 @@ Since we are still in the early stage of epidemiology, there is no real bench ma
 
 Delaware seem to be doing very well and there social-distancing measures seem to be working, They did had some peaks of new cased during Memorial Day. They did seem to recovered from it very quickly.   
 
-
+**North Dakota**
 ![enter image description here](/Images/Capture6.JPG)
-
+North Dakota seem to be doing very well too and there social-distancing measures seem to be working, They did had some peaks of new cased during Memorial Day same as  Delaware however they took little bit
 
 ![enter image description here](/Images/Capture7.JPG)
-![enter image description here](/Images/Capture8.JPG)
-![enter image description here](/Images/Capture9.JPG)
+
 
 
 ## III. Methodology
@@ -240,7 +239,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODAyNzEwMzgxLDU1ODc5ODA3NCwtMTUwNz
+eyJoaXN0b3J5IjpbMzEzMzQ2NTQ1LDU1ODc5ODA3NCwtMTUwNz
 UyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3
 LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMT
 kyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
