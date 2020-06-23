@@ -85,7 +85,7 @@ identifies counties within the USA.
 * Number of cases are is columns where each column is a day
 
 **Step 1: Load and Explore the Data**
-This was straight forward as the source was in csv format. 
+This was straight forward as the source was in csv format.  We are using a data
 
 ![enter image description here](img/Capture.JPG)
 
@@ -116,7 +116,12 @@ covid_df = covid_df.melt(id_vars=meta_data, var_name='Date', value_name='Cases')
 ```
 
 **Step 4: Pivoting**
-we only need the 'Combined_Key','Date','Case' so we can use 
+we only need the 'Combined_Key','Date','Case' so we can use [`DataFrame.filter`](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.filter.html)
+```python
+
+
+
+```
 
 
 ### Exploratory Visualization
@@ -211,5 +216,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NTg0NjczMywtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbLTEwNjc1NjMyMTYsLTc3MDkwNDgzNV19
 -->
