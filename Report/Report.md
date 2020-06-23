@@ -85,7 +85,8 @@ identifies counties within the USA.
 * Number of cases are is columns where each column is a day
 
 **Step 1: Load and Explore the Data**
-![alt text](Report/img/Capture.JPG)
+![alt text](https://raw.githubusercontent.com/[https://github.com/sahussain/Udacity-MLEN-CapstoneProject/tree/master/Report/img](https://github.com/sahussain/Udacity-MLEN-CapstoneProject/tree/master/Report/img/Capture.JPG)
+
 ### Exploratory Visualization
 In this section, you will need to provide some form of visualization that summarizes or extracts a relevant characteristic or feature about the data. The visualization should adequately support the data being used. Discuss why this visualization was chosen and how it is relevant. Questions to ask yourself when writing this section:
 - _Have you visualized a relevant characteristic or feature about the dataset or input data?_
@@ -177,5 +178,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Is the code that implements your solution easily readable and properly commented?
 - Does the code execute without error and produce results similar to those reported?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcxMjkwNjg3MywtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbMTY4MzY3ODE4NywtNzcwOTA0ODM1XX0=
 -->
