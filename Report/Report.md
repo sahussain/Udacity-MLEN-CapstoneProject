@@ -91,6 +91,15 @@ This data set was converted to something easy to handle
 The plot below shows how the COVID-19 cases incise by city
 ![enter image description here](img/Capture3.JPG)
 
+by looking at this data When looking at the data the dataset only have data for the last 151 days and I can see that out of which starting Apr 1, 2020 is somthing good we can use.
+
+I can not use DeepAR on this data because DeepAR needs at least 300 observations available across all training time series and we have at most 151.
+
+>We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300. Source: https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html
+
+Exploring other options:
+Maybe I can use other Time Series Forecasting Model(TSFMs)
+
 ### Algorithms and Techniques
 In this section, you will need to discuss the algorithms and techniques you intend to use for solving the problem. You should justify the use of each one based on the characteristics of the problem and the problem domain. Questions to ask yourself when writing this section:
 - _Are the algorithms you will use, including any default variables/parameters in the project clearly defined?_
@@ -177,6 +186,6 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNTY0NTc0MTEsLTE5MjY0NDgzOCwtNz
-cwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbMTgzODY1NzA1MiwtMTkyNjQ0ODM4LC03Nz
+A5MDQ4MzVdfQ==
 -->
