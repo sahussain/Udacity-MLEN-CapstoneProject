@@ -48,9 +48,18 @@ Forecasting with Linear Learner for this type of applications.
 
 ### Metrics
 The reasons why this data set could be used to predict us any of the Time Series Forecasting Model(TSFMs) because it failed the following:
-* Stationarity: 
+**Stationarity**: FAILED
+For us to use any of the above menting TSFMs our time-series, We need to first Identfy if the given time-series is  `Stationarity`
 
+For a time-series to be Stationarity, the following do not change over time
 
+1.  mean(μ)
+2.  standard deviation(σ)
+3.  Autocorrelation structure (No seasonality)
+
+for more info see  [Stationarity](https://www.itl.nist.gov/div898/handbook/pmc/section4/pmc442.htm)
+
+**ACF & PACF**
 
 ## II. Analysis
 _(approx. 2-4 pages)_
@@ -153,5 +162,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Is the code that implements your solution easily readable and properly commented?
 - Does the code execute without error and produce results similar to those reported?
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI5NTcwNTQ2XX0=
+eyJoaXN0b3J5IjpbMTEzMDc5MzYwMl19
 -->
