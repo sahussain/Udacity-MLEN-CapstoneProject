@@ -85,12 +85,11 @@ identifies counties within the USA.
 * Number of cases are is columns where each column is a day
 
 **Step 1: Load and Explore the Data**
-This was straight forward as the source was in csv format.  We are using a data
-
-![enter image description here](img/Capture.JPG)
-
-
-
+This was straight forward as the source was in csv format.  We are using a pandas to sture the data in a variable called  
+```python
+csv_file = 'time_series_covid19_confirmed_US.csv'
+covid_df = pd.read_csv(csv_file)
+```
 **Step 2: Filtering**
   
 #filter code3 - country code: USA = 840 as the scope of this project is limited to US (excluding territories)
@@ -216,5 +215,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNjc1NjMyMTYsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbLTEzMzM5NDIyMDksLTc3MDkwNDgzNV19
 -->
