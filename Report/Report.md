@@ -91,10 +91,13 @@ This was straight forward as the source was in csv format.
 
 
 
-**Step 2: Load and Explore the Data**
+**Step 2: Filtering**
   
 #filter code3 - country code: USA = 840 as the scope of this project is limited to US (excluding territories)
 ![enter image description here](img/Capture2.JPG)
+
+**Step 3: Pivoting**
+We need to pivot the date as columns to rows 
 
 ### Exploratory Visualization
 In this section, you will need to provide some form of visualization that summarizes or extracts a relevant characteristic or feature about the data. The visualization should adequately support the data being used. Discuss why this visualization was chosen and how it is relevant. Questions to ask yourself when writing this section:
@@ -188,5 +191,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc0MDA1MTU1OCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbLTU3NDcyMTMwNywtNzcwOTA0ODM1XX0=
 -->
