@@ -24,8 +24,7 @@ tracks reported cases in real-time, illustrating the location and number
 of confirmed COVID-19 cases, deaths and recoveries for all affected
 countries. It is used by researchers, public health authorities, news
 agencies and the general public. All the data collected and displayed is
-made freely available in a [GitHub
-repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
+made freely available in a [GitHub repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
 I was going to use going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). After exploring the data the data I discovered that this data set can not be used for any Time Series Forecasting Model(TSFMs) or any other ML models. 
 
@@ -154,10 +153,7 @@ North Dakota seem to be doing very well too and there social-distancing measures
 _(approx. 3-5 pages)_
 
 ### Data Preprocessing
-In this section, all of your preprocessing steps will need to be clearly documented, if any were necessary. From the previous section, any of the abnormalities or characteristics that you identified about the dataset will be addressed and corrected here. Questions to ask yourself when writing this section:
-- _If the algorithms chosen require preprocessing steps like feature selection or feature transformations, have they been properly documented?_
-- _Based on the **Data Exploration** section, if there were abnormalities or characteristics that needed to be addressed, have they been properly corrected?_
-- _If no preprocessing is needed, has it been made clear why?_
+The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv) data neede
 
 ### Implementation
 In this section, the process for which metrics, algorithms, and techniques that you implemented for the given data will need to be clearly documented. It should be abundantly clear how the implementation was carried out, and discussion should be made regarding any complications that occurred during this process. Questions to ask yourself when writing this section:
@@ -239,8 +235,8 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MD
-c1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2
-NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLT
-E5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbLTE4MzU4OTMyOTYsLTc2NzU2MTMxNiw1NT
+g3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIz
+MjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLT
+E1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
 -->
