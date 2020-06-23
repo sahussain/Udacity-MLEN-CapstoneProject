@@ -49,7 +49,8 @@ forecasting methods including but not limited to autoregressive integrated
 moving average (ARIMA), exponential smoothing (ETS), Time Series
 Forecasting with Linear Learner for this type of applications.
 
-I had to think
+Since pandemic 
+
 
 ### Metrics
 The reasons why this data set could be used to predict us any of the Time Series Forecasting Model(TSFMs) because it failed the following:
@@ -207,7 +208,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NzE3MjQwMjgsLTExNzk0OTUwOTAsNj
-UyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkw
-NDgzNV19
+eyJoaXN0b3J5IjpbLTcwNzA4NTQzMCwtMTE3OTQ5NTA5MCw2NT
+IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
+ODM1XX0=
 -->
