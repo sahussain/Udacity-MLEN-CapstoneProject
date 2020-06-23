@@ -85,6 +85,7 @@ identifies counties within the USA.
 * Number of cases are is columns where each column is a day
 
 **Step 1: Load and Explore the Data**
+
 ![enter image description here](Report/img/Capture.JPG)
 
 ### Exploratory Visualization
@@ -179,5 +180,5 @@ In this section, you will need to provide discussion as to how one aspect of the
 - Does the code execute without error and produce results similar to those reported?
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQxMjg4MzQ4OCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbMTA2MTQ2MTY4MiwtNzcwOTA0ODM1XX0=
 -->
