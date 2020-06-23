@@ -136,7 +136,8 @@ I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/re
 Peak fitting with a Gaussian/Logistic Function is very commonly used in epidemiology. [^7]
 
 ### Benchmark
-Since we are still in the early stage of epidemiology, there is no real bench mark, however the model was able to predict future cases  
+Since we are still in the early stage of epidemiology, there is no real bench mark, however the model was able to predict future cases for some state very well. however other states it could not.
+
 
 
 ## III. Methodology
@@ -228,7 +229,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTMxNjQwNzk1LC0xNTA3NTIyNTQwLC00OD
+eyJoaXN0b3J5IjpbNTU4Nzk4MDc0LC0xNTA3NTIyNTQwLC00OD
 U3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5NjcsLTExNzk0OTUw
 OTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLT
 c3MDkwNDgzNV19
