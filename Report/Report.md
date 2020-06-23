@@ -53,12 +53,11 @@ Since epidemic do not follow a standard time series requirements however they do
 
 
 ### Metrics
-The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^5]
+The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^6]
 f(error) = f(time) + error
 
 
 ## II. Analysis
-_(approx. 2-4 pages)_
 
 ### Data Exploration
 The datasets are accessed from files provided by the JHU GitHub
@@ -80,8 +79,10 @@ identifies counties within the USA.
 * Population - Population
 * Number of cases are is columns where each column is a day
 
-This data set was converted to something easy to handle
-![enter image description here](img/Capture1.JPG)
+The data set was imported into a pandas Dataframe. 
+Then the data was modified to remove the following columns:
+
+
 
 ### Exploratory Visualization
 The plot below shows how the COVID-19 cases incise by city
@@ -198,7 +199,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^9]:
 [^10]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcwODIzNjQ4LC0xMTc5NDk1MDkwLDY1Mj
+eyJoaXN0b3J5IjpbOTY2MzUyMDU2LC0xMTc5NDk1MDkwLDY1Mj
 ExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4
 MzVdfQ==
 -->
