@@ -175,7 +175,7 @@ A time series model using the Autoregressive Integrated Moving Average with exog
 ***GARCH (generalized autoregressive conditional heteroscedasticity model)***
 A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic) process introduced in Engle (1982) to allow for past conditional variances in the current conditional variance equation is proposed. Stationarity conditions and autocorrelation structure for this new class of parametric models are derived. Maximum likelihood estimation and testing are also considered.[^9] 
 
-To see if we can use The first thing we need to do is to check for Stationarity
+To see if we can use TSFMs, the first thing we need to do is to check for Stationarity
 What is Stationarity? For us to use any of the above menting TSFMs our time-series, We need to first Identify if the given time-series is Stationarity
 
 For a time-series to be Stationarity, the following do not change over time
@@ -493,11 +493,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNzUwMTU0OCwtMTQzNTg4MzA2MiwtNj
-Y0Njg0OTc4LC05ODEzNjA4MzYsLTEzNzYyODY3NTMsNDcyNDM2
-NDE0LC0xNTY2NDI5MTcxLDE3MjAzMzQzMywtNzc1NDIxMzg3LC
-01Nzk2NjA5MzcsNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OTM4
-ODg4MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwxOTg3OTk3Nj
-k2LDM1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5Njcx
-NTk1OV19
+eyJoaXN0b3J5IjpbOTI1MTU0NTAxLDE3MTc1MDE1NDgsLTE0Mz
+U4ODMwNjIsLTY2NDY4NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2
+NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLT
+c3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3MDQzMSwtMTY4NTky
+MDA2NSwxNDkzODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0MzI1MT
+IsMTk4Nzk5NzY5NiwzNTEyMTU4MSwtNDkxMTg4NDgsNTgyMzkz
+NzY1XX0=
 -->
