@@ -176,7 +176,7 @@ A time series model using the Autoregressive Integrated Moving Average with exog
 A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic) process introduced in Engle (1982) to allow for past conditional variances in the current conditional variance equation is proposed. Stationarity conditions and autocorrelation structure for this new class of parametric models are derived. Maximum likelihood estimation and testing are also considered.[^9] 
 
 To see if we can use TSFMs, the first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary.
-A stationary process has the property that the mean, variance and autocorrelation structure(No seasonality) do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).
+A stationary process has the property that the mean, variance and autocorrelation structure(No seasonality) do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
 
 For practical purposes, stationarity can usually be determined from a run sequence plot.
 
@@ -422,7 +422,7 @@ There are two well-researched articles written by [Tim Churches](https://theconv
 Given my limited understanding and knowledge in the field of epidemiology, this was the simplest model I was able to work with.
 
 ### Justification
-Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more then 50 million people.[^9] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how how any model for COVID-19 epidemic would turn out.
+Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more then 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how how any model for COVID-19 epidemic would turn out.
 
 
 ## V. Conclusion
@@ -492,14 +492,19 @@ Once again thanks and be safe.
 [^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
+[^10]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
+
+[^11]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
+
+
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzI3Mjk2NDE1LDE3MTc1MDE1NDgsLTE0Mz
-U4ODMwNjIsLTY2NDY4NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2
-NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLT
-c3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3MDQzMSwtMTY4NTky
-MDA2NSwxNDkzODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0MzI1MT
-IsMTk4Nzk5NzY5NiwzNTEyMTU4MSwtNDkxMTg4NDgsNTgyMzkz
-NzY1XX0=
+eyJoaXN0b3J5IjpbLTM2OTQ3NTQ5OCwxNzE3NTAxNTQ4LC0xND
+M1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4
+Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC
+03NzU0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5
+MjAwNjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNT
+EyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5
+Mzc2NV19
 -->
