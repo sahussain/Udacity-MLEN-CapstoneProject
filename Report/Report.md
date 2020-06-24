@@ -1,7 +1,7 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Project
 Ashraf Hussain 
-June 22th, 2020
+22 June, 2020
 
 Machine Learning Engineer Nanodegree: Forecasting COVID-19 Cases – A Time Series Forecasting Model
 
@@ -10,11 +10,7 @@ Machine Learning Engineer Nanodegree: Forecasting COVID-19 Cases – A Time Seri
 
 ### Project Overview
 
-On December 31, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Identified as coronavirus disease 2019, it quickly came
-to be known as COVID-19 and has resulted in an ongoing global pandemic. As
-of 20 June 2020, more than 8.74 million cases have been reported across
-188 countries and territories, resulting in more than 462,000 deaths. More
-than 4.31 million people have recovered.[^1]
+On 31 December, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Initially identified as coronavirus disease 2019, it quickly came to be known widely as COVID-19 and has resulted in an ongoing global pandemic. As of 20 June, 2020, more than 8.74 million cases have been reported across 188 countries and territories, resulting in more than 462,000 deaths. More than 4.31 million people have recovered.[^1]
 
 In response to this ongoing public health emergency, Johns Hopkins
 University (JHU), a private research university in Maryland, USA,
@@ -26,14 +22,6 @@ countries. It is used by researchers, public health authorities, news
 agencies and the general public. All the data collected and displayed is
 made freely available in a [GitHub repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
-I was going to use going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). After exploring the data the data I discovered that this data set can not be used for any Time Series Forecasting Model(TSFMs) or any other ML models. 
-
-This is because each epidemic of total number of cases follows Logistic Function which is defined by:
- 
-f(x) = capacity / (1 + e^-k*(x - midpoint) )[^2]
-
-And the epidemic of new of cases follows Gaussian Function which is defined by:
-f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^3]
 
 ### Problem Statement
 This project seeks to forecast number of people infected and number of
@@ -48,8 +36,15 @@ forecasting methods including but not limited to autoregressive integrated
 moving average (ARIMA), exponential smoothing (ETS), Time Series
 Forecasting with Linear Learner for this type of applications.
 
-Since epidemic do not follow a standard time series requirements however they do follow Logistic & Gaussian functions what we have to do is to fit our total cases to Logistic function and new cases to Gaussian functions. 
+At first, I was going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). However after exploring the data, I discovered that this dataset cannot be used for any Time Series Forecasting Model(TSFMs). Epidemic curves (epi curve) do not follow a standard time series requirement however they do follow Logistic & Gaussian functions that are defined as follows:
 
+Epi curve of total number of cases follows Logistic Function is defined by:
+f(x) = capacity / (1 + e^-k*(x - midpoint) )[^2]
+
+Epi curve of new of cases follows Gaussian Function is defined by:
+f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^3]
+
+For this reason, in the dataset model I propose total cases will fit to to Logistic function and new cases to Gaussian functions.
 
 ### Metrics
 The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^6]
@@ -80,16 +75,13 @@ identifies counties within the USA.
 
 
 ### Exploratory Visualization
-The plot below shows how the COVID-19 cases incise by city
-When looking at the graph of 15 cities I noticed the first problem. The dataset only have data for the last 151 days.
-
-I can not use DeepAR on this data because DeepAR needs at least 300 observations available across all training time series and we have at most 151.
+The plot below shows how the COVID-19 cases increase by city. When looking at the graph of 15 cities I noticed the first problem. I cannot use DeepAR on this data because DeepAR needs at least 300 observations available across all training time series. The current dataset has observations for the last 151 days only.
 
 >We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300. Source: https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html
 
 ![enter image description here](/Images/Capture2.JPG)
 
-Now lets look and new vs total for some cities:
+Lets look at new vs total number of cases for some cities:
 ![enter image description here](/Images/Capture3.JPG)
 ![enter image description here](/Images/Capture4.JPG)
 
@@ -98,23 +90,22 @@ Now lets look and new vs total for some cities:
 
 
 ### Algorithms and Techniques
-I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function, part of [SciPy](https://scipy.org/)
-Peak fitting with a Gaussian/Logistic Function is very commonly used in epidemiology. [^7]
+I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
+package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^7]
 
 ### Benchmark
-Since we are still in the early stage of epidemiology, there is no real bench mark, however the model was able to predict future cases for some state very well. however other states it could not I looked at some random cities.
+We are still in a crucial stage of the epidemic; there is no real benchmark. The model was able to predict future cases for some states very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
 **Delaware**
 ![enter image description here](/Images/Capture5.JPG)
-
-Delaware seem to be doing very well and there social-distancing measures seem to be working, They did had some peaks of new cased during Memorial Day. They did seem to recovered from it very quickly.   
+In Delaware, the number of new cases seem to be following an epi curve very well. This indicates that the social distancing measures have been working well to reduce the number of new cases. There was a spike in the number of cases in the week of Memorial Day (May 25), however, they seemed to have recovered quickly falling into a standard epi curve pattern.
 
 **North Dakota**
 ![enter image description here](/Images/Capture6.JPG)
-North Dakota seem to be doing very well too and there social-distancing measures seem to be working, They did had some peaks of new cased during Memorial Day same as  Delaware however they took little bit longer to come back to normal.
+New covid-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, hwoever they seem to have take slightly longer to come back to a normal epi curve.
 
 **Maryland**
 ![enter image description here](/Images/Capture7.JPG)
-North Dakota seem to be doing very well too and there social-distancing measures seem to be working, They did had some peaks of new cased during Memorial Day however there peak was delayed compared to Delaware and North Dakota this could be because people may have wend to another state for Memorial Day. 
+Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons.
 
 ## III. Methodology
 _(approx. 3-5 pages)_
@@ -132,7 +123,7 @@ The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COV
 
 The data set was imported into a pandas Dataframe. 
 
-Data needed minimal data Preprocessing as the each date was in a column and City, State was in another columns.
+Data needed minimal data preprocessing because each Date was in one column and City and State were in other columns.
 ```python
 csv_file = 'time_series_covid19_confirmed_US.csv'
 covid_df = pd.read_csv(csv_file)
@@ -163,12 +154,14 @@ Province\_State|Alabama|Alaska|American Samoa|Arizona|Arkansas|California|Colora
 5 rows × 58 columns| | | | | | | | | | | | | | | | | | | | | 
 
 
-Then the data frame was converted to convert index to datetime
+The dataframe Date was converted to datetime Index
 ```python
 ## convert index to datetime
 covid_df.index = pd.to_datetime(covid_df.index, infer_datetime_format=True)
 ```
-Form hear onward we can use the following function to get a state data by name
+
+Now we have a clean data set which will have Date as Index, and sum of cases for each State.
+From here onwards, we can use the following function to get cumulative number of cases (total) and new cases (new) for a given State in the dataframe.
 ```Python
 def getCases(df, aState):
     # create total cases column
@@ -199,66 +192,74 @@ max|388488|11434
 
 ### Implementation
 Model:
-The [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) which provides with non-linear least squares to fit a function, f, to data. functions like Logistic, or Gaussian functions where the data is COVID-19 total and new cases. 
+[scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) provides a non-linear least squares to fit a function, f (such as Logistic or Gaussian functions) to a given dataframe. 
 Forecast:
 The forecasting function was provided by [`ts_utils.py`](https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/time_series/ts_utils.py)
-which apply the 2 models(total cases data and one for the daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^8]
+that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^8]
 
 
 ### Refinement
-The model and the forecast works well however there are few states that will not work because they are on a different epidemic curve for example **Michigan**
+The model and the forecast work well when applied to certain States. However, there are a few States that do not work because they are on a different epi curve, for example **Michigan**
 ![enter image description here](/Images/Capture9.JPG)
-The model could not fit Total Cases to a Logistic Function
+The model could not fit total cases to a Logistic Function
 
 **Virgin Islands**
 ![enter image description here](/Images/Capture11.JPG)
-The model could not fit new Cases to a Gaussian Function
+The model could not fit new cases to a Gaussian Function
 
-A better tool kit like  `earlyR`  and  `EpiEstim`  packages which is part of R. 
-There are two good articles talk about how to use R to predict COVID cases both of them was written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068). 
+A better package such as  `earlyR`  and  `EpiEstim`  that are part of R work better when applied to an epidemic dataframe. 
+There are two well-researched articles written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068) that talk about using R to predict COVID-19 cases. 
 >Tim Churches is a Senior Research Fellow at the UNSW Medicine South Western Sydney Clinical School at Liverpool Hospital, and a health data scientist at the Ingham Institute for Applied Medical Research, also located at Liverpool, Sydney. His background is in general medicine, general practice medicine, occupational health, public health practice, particularly population health surveillance, and clinical epidemiology.
 
 [COVID-19 epidemiology with R by Tim Churches](https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/):
 [Analysing COVID-19 (2019-nCoV) outbreak data with R - part 1]([https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number))
 
 ## IV. Results
-_(approx. 2-3 pages)_
+
 
 ### Model Evaluation and Validation
-This was the simplest model I could pick without me getting a degree in epidemiology
+Given my limited understanding and knowledge in the field of epidemiology, this was the simplest model I was able to work with.
 
 ### Justification
-There is no current benchmark to COVID-19 so we don't know how any model would turned out. The only one we can compare is to Spanish Flu of 1918 Compared which infected 500 million people worldwide and killed more then 50 million people.[^9] We could possibly take its  epidemic curve and try to fit it to COVID-19. Again its beyond my understanding to even calculate the epidemic curve for the Spanish Flu. 
+Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more then 50 million people.[^9] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how how any model for COVID-19 epidemic would turn out.
 
 
 ## V. Conclusion
-_(approx. 1-2 pages)_
+
 
 ### Reflection
-I would say my best model would be **North Dakota** and **Delaware**
-both of the states fit the epidemic curve. 
+Based on my observations, the dataframes for **North Dakota** and **Delaware** fit the epidemic curve well. 
 ![enter image description here](/Images/Capture5.JPG)
 ![enter image description here](/Images/Capture6.JPG)
-With respect to North Dakota They have 3313 cases 2952 recovered with only 77 debts they are doing very well.  If they continue  on this path they will have reached zero new cases around the end of July or August. 
-Delaware is another state that is following the epidemic curve pretty closely. even though they had some pigs around the Memorial Day week and they seem to have recovered pretty well if they continue to on this trend they will reach minimum amount of cases by end of July or August
+With respect to North Dakota, they have 3313 total cases, 2952 recovered cases with only 77 deaths. If they continue on this path, they are predicted to reach equilibrium (zero new cases) by the end of July or August 2020.
+Delaware is another State that is following the epi curve closely. Though they had some peaks around Memorial Day week, they seem to have recovered well. If they continue on this trend, they are predicted to reach minimum amount of cases by the end of July or August 2020.
 
-The only problem with these predictions cannot take into account the human factor. The  human factor that is referring to is where people travel from one city to another to visit family, friends or to go on a vacation.  This could increase the transmission rate and you will see peaks, In the number of new cases during these periods case and point Memorial Day weekend peaks. 
+The only challenge with these predictions is that it does not take into account the human factors. Human factors can be defined as human interactions in relation to their environment, such as not following social distance measures; not wearing masks when going out in public areas; not following proper safety and sanitization rules; non-essential travel from one city to another to visit family, friends or to go on a vacation; and more. This will increase the rate of transmission leading to peaks in new cases as was witnessed around the Memorial Day week.
 
 ### Improvement
 1. Using  `earlyR`  and  `EpiEstim`  packages which is part of R.
-2. Partnering up with an epidemiologist to get the understanding of the problem. 
+2. Partnering up with an epidemiologist to a better understanding of the COVID-19 epidemic. 
 
 ### Final Thoughts
-This project has taught me a lot about machine learning and epidemiology and how epidemiologist are using machine learning. This project has also taught me that we always need a partner in this case it would have been really nice if your I would have had an epidemiologist to help me and guide me in the process of how a disease works. We as machine learning Engineers only understands the data but for us to be able to program a machine to learn something new we need to also understand what is the data based on what are the nuances on the data itself what is the story behind the data without the this. It is really critical for us to be able to build a good machine model. We need to understand  the story of the data. In this case we're looking at the number of new cases worse than the number of total cases. And finally I would like to thank the following people without them I don't think I would have been able to complete my project and get an understanding of how covid-19 is being used in machine learning:
+This project has taught me a lot about machine learning and how epidemiologists are using machine learning. There were several lessons to be learnt but the top three that stood out for me are:
+1.	Work with the right expert: My understanding of epidemiology is limited. I would have appreciated an opportunity to work with an epidemiologist to understand how an epidemic works in order to apply the nuances of the data to machine learning. It is really critical to understand the story behind the data to be able to build a good machine model.
+
+2.	Generalize the problem: My proposal was confined to a narrow dataframe and solution that did not leave any room for improvisation. This led to a tunnel vision when trying to build the data model. An alternative would have been generalizing the problem in the proposal which would have allowed me to manoeuvre in different ways to come up with innovative solutions.
+
+3.	Time management: There is a ton of published papers and research available that provide top-notch information. Going forward, I will allow myself sufficient time to go through available research before embarking on the solution. Some good sources of information are Google Scholar, Medium, GitHub repositories, and other open-source packages & libraries.
+Hindsight is indeed 2020. Armed with this knowledge, I am confident that I can continue to apply myself in the field of machine learning to find novel solutions to human challenges.
+
+
+To conclude, I would like to thank the following people without whom I would not have been able to complete my project and get an understanding of how COVID-19 is being used in machine learning:
 
  -  [Dr. Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068). 
  - [Dr. Jason Brownlee](https://machinelearningmastery.com/about/)
  -  [Mauro Di Pietro](https://medium.com/@m.dipietro09)
  - [Subhasree Chatterjee](https://datascienceplus.com/author/chatterjee-subhasree/)
 
-And last but not least my wife [Shamsia Quraishi](https://twitter.com/shamsiaquraishi) for supporting me during my training and being there for me. 
+And last but not least, my wife [Shamsia Quraishi](https://twitter.com/shamsiaquraishi) for supporting me during my training and being there for me. 
 
-Once again Thanks and be safe.   
+Once again thanks and be safe.   
 
 -----------
 **Endnotes**
@@ -282,13 +283,12 @@ Once again Thanks and be safe.
 [^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
-
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNz
-M5NDMyNTEyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4
-LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLTc2Nz
-U2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5
-NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NT
-IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
-ODM1XX0=
+eyJoaXN0b3J5IjpbLTE2ODU5MjAwNjUsMTQ5Mzg4ODgzMSwtMT
+g5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5OTc2OTYsMzUxMjE1
+ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEzND
+I3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1
+NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMT
+E3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0
+NDgzOF19
 -->
