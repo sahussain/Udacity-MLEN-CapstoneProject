@@ -147,6 +147,7 @@ This will is very common approach used in datasets that follows an Epi curve [^1
  
 ![enter image description here](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1_files/figure-html5/Cori_parametric_si_model_fit_hubei-1.png)
 
+[^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
 
 ***Data output of Stationarity test based on the function below***
@@ -524,9 +525,6 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 [^9]:[Generalized autoregressive conditional heteroskedasticity](https://www.sciencedirect.com/science/article/abs/pii/0304407686900631?via%3Dihub)
 
-[^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
-
-
 
 
 
@@ -545,11 +543,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NT
-k4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMw
-NSwtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNz
-kzMzg3OCw2NDU4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2
-LDE3MTM2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MD
-U1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NTY0NjU3
-XX0=
+eyJoaXN0b3J5IjpbLTExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMz
+Y0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEw
+MzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzND
+c4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3NTksLTEwOTk3ODkx
+NjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2NzUsLTEwNz
+U3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3
+Nl19
 -->
