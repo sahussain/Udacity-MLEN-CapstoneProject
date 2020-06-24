@@ -321,7 +321,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 I am using The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/), 
 Established in 1853, the University of Melbourne is a public-spirited institution that makes distinctive contributions to society in research, learning and teaching and engagement. It’s consistently ranked among the leading universities in the world, with international rankings of world universities placing it as number 1 in Australia and number 32 in the world (Times Higher Education World University Rankings 2017-2018).
 
-The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as  MIT License on (GitHub)(https://github.com/benflips/nCovForecast) This model was done using R package, I did not make any changes to this as this would be my benchmark to compare my model with.     
+The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as  MIT License on (GitHub)(https://github.com/benflips/nCovForecast) This model was done using R package, I did not make any changes to this as this would be my benchmark to compare my model with.  They have several models predicting different aspects of the dataset. I am only using there
 
 
 
@@ -518,7 +518,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQzMzU0MTQ5OSwzOTA2NTU5MjYsMTcxMz
+eyJoaXN0b3J5IjpbMTk1NTY4NzMzNywzOTA2NTU5MjYsMTcxMz
 YyMTk3MSwyODM0NTY3NSwtMTA3NTc1NjQyNSwtODUwNTU5Mjk4
 LC04NzE1MzA5ODUsMzA2OTI1NDc2LC0zNTQ1NjQ2NTcsLTIzMz
 MwOTA4LDE2NTU5MTY4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQz
