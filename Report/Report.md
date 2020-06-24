@@ -368,6 +368,7 @@ The model could not fit total cases to a Logistic Function
 ***Benchmark:***
 ![enter image description here](/Images/Capture12.JPG)
 
+ ***My Model vs Benchmark:***
 
 **Virgin Islands**
 
@@ -377,6 +378,8 @@ The model could not fit new cases to a Gaussian Function
 
 ***Benchmark:***
 ![enter image description here](/Images/Capture13.JPG)
+
+ ***My Model vs Benchmark:***
 
 A better package such as  `earlyR`  and  `EpiEstim`  that are part of R work better when applied to an epidemic dataframe. 
 There are three well-researched articles written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068) that talk about using R to predict COVID-19 cases. 
@@ -407,6 +410,9 @@ In Delaware, the number of new cases seem to be following an epi curve very well
 ![enter image description here](/Images/Capture14.JPG)
 
 
+ ***My Model vs Benchmark:***
+
+
 **North Dakota**
 
 ***My Model:***
@@ -417,6 +423,8 @@ New covid-19 cases in North Dakota seem to be following the same pattern as that
 ![enter image description here](/Images/Capture15.JPG)
 
 
+
+ ***My Model vs Benchmark:***
 
 **Maryland**
 
@@ -429,6 +437,7 @@ Contrary to Delaware and North Dakota, new cases in Maryland peaked during the l
 ![enter image description here](/Images/Capture16.JPG)
 
 
+ ***My Model vs Benchmark:***
 
 ### Justification
 Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more then 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how how any model for COVID-19 epidemic would turn out.
@@ -573,11 +582,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjAxMDE5ODQsLTE5OTExNjcyOTksLTExMT
-AxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEw
-NTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtOD
-I5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3
-OCw2NDU4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MT
-M2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MDU1OTI5
-OF19
+eyJoaXN0b3J5IjpbOTI3MDA3MDA5LC0xOTkxMTY3Mjk5LC0xMT
+EwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkx
+MDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLT
+gyOTM5NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4
+NzgsNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNz
+EzNjIxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NTA1NTky
+OThdfQ==
 -->
