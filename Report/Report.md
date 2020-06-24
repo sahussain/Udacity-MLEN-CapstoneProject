@@ -226,7 +226,7 @@ _(approx. 2-3 pages)_
 This was the simplest model I could pick without me getting a degree in epidemiology
 
 ### Justification
-There is no current benchmark to COVID-19 so we don't know how any model would turned out. The only one we can compare is to    
+There is no current benchmark to COVID-19 so we don't know how any model would turned out. The only one we can compare is to Spanish Flu of 1918 Compared which infected 500 million people worldwide and killed more then 50 million people. We could possibly take its  epidemic curve and try to 
 
 
 ## V. Conclusion
@@ -279,7 +279,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5MjI2NDc4MzgsNTgyMzkzNzY1LDE4OT
+eyJoaXN0b3J5IjpbLTIxNDE1MDkwMDUsNTgyMzkzNzY1LDE4OT
 Y3MTU5NTksMTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3
 NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtND
 A4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIx
