@@ -384,6 +384,8 @@ Given my limited understanding and knowledge in the field of epidemiology, this 
 
 The model was able to predict future cases for some states very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
 
+**My Model:**
+
 **Delaware**
 ![enter image description here](/Images/Capture5.JPG)
 In Delaware, the number of new cases seem to be following an epi curve very well. This indicates that the social distancing measures have been working well to reduce the number of new cases. There was a spike in the number of cases in the week of Memorial Day (May 25), however, they seemed to have recovered quickly falling into a standard epi curve pattern.
@@ -397,7 +399,8 @@ New covid-19 cases in North Dakota seem to be following the same pattern as that
 Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons.
 
 
-Compaiting 
+**Benchmark:**
+
 
 
 ### Justification
@@ -543,11 +546,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMz
-Y0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEw
-MzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzND
-c4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3NTksLTEwOTk3ODkx
-NjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2NzUsLTEwNz
-U3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3
-Nl19
+eyJoaXN0b3J5IjpbLTE5OTExNjcyOTksLTExMTAxOTkwNTQsLT
+Q1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDky
+MzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LD
+M0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3
+NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMj
+gzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMw
+OTg1XX0=
 -->
