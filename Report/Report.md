@@ -150,8 +150,23 @@ covid_df = covid_df.drop(['UID',
 	                 'Combined_Key'], axis=1).groupby("Province_State").sum().T
 ```
 
-Then the 
-Form hear onward we can use the following function to get a state by name
+Province\_State|Alabama|Alaska|American Samoa|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Diamond Princess|...|Tennessee|Texas|Utah|Vermont|Virgin Islands|Virginia|Washington|West Virginia|Wisconsin|Wyoming
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+1/22/20|0|0|0|0|0|0|0|0|0|0|...|0|0|0|0|0|0|1|0|0|0
+1/23/20|0|0|0|0|0|0|0|0|0|0|...|0|0|0|0|0|0|1|0|0|0
+1/24/20|0|0|0|0|0|0|0|0|0|0|...|0|0|0|0|0|0|1|0|0|0
+1/25/20|0|0|0|0|0|0|0|0|0|0|...|0|0|0|0|0|0|1|0|0|0
+1/26/20|0|0|0|1|0|2|0|0|0|0|...|0|0|0|0|0|0|1|0|0|0
+ | | | | | | | | | | | | | | | | | | | | | 
+5 rows × 58 columns| | | | | | | | | | | | | | | | | | | | | 
+
+
+Then the data frame was converted to convert index to datetime
+```python
+## convert index to datetime
+covid_df.index = pd.to_datetime(covid_df.index, infer_datetime_format=True)
+```
+Form hear onward we can use the following function to get a state data by name
 ```Python
 def getCases(df, aState):
     # create total cases column
@@ -250,8 +265,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1OD
-c5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMy
-OSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMT
-U4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbLTExODAzMDUyMTgsMTM0MjcyMjM0MywtNz
+Y3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1
+NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLD
+Y1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5
+MDQ4MzVdfQ==
 -->
