@@ -78,39 +78,6 @@ identifies counties within the USA.
 * Population - Population
 * Number of cases are is columns where each column is a day
 
-The data set was imported into a pandas Dataframe. 
-Then the data was modified to remove the following columns and each state was sum
-```python
-covid_df = covid_df.drop(['UID',
-	                 'iso2',
-	                 'iso3',
-	                 'code3',
-	                 'FIPS',
-	                 'Admin2',
-	                 'Country_Region',
-	                 'Lat',
-	                 'Long_',
-	                 'Combined_Key'], axis=1).groupby("Province_State").sum().T
-```
-Form hear onward we can use the following function to get a state by name
-```Python
-def getCases(df, aState):
-    # create total cases column
-    error = 0
-    try:
-        df = pd.DataFrame(index=df.index, data=df[aState].values, columns=["total"])
-        #print(dtf.head())
-        # create daily changes column
-        df["new"] = df["total"] - df["total"].shift(1)
-        # Handling Missing Values
-        df["new"] = df["new"].fillna(method='bfill')
-    except:
-        print("No State " + aState + " found")
-        error = 1
-        df = pd.DataFrame() 
-    return [df, error]
-```
-
 
 ### Exploratory Visualization
 The plot below shows how the COVID-19 cases incise by city
@@ -153,7 +120,40 @@ North Dakota seem to be doing very well too and there social-distancing measures
 _(approx. 3-5 pages)_
 
 ### Data Preprocessing
-The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv) data neede
+The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv) data needed minimal data Preprocessing as the each date was in a column and City, State was in another co
+
+The data set was imported into a pandas Dataframe. 
+Then the data was modified to remove the following columns and each state was sum
+```python
+covid_df = covid_df.drop(['UID',
+	                 'iso2',
+	                 'iso3',
+	                 'code3',
+	                 'FIPS',
+	                 'Admin2',
+	                 'Country_Region',
+	                 'Lat',
+	                 'Long_',
+	                 'Combined_Key'], axis=1).groupby("Province_State").sum().T
+```
+Form hear onward we can use the following function to get a state by name
+```Python
+def getCases(df, aState):
+    # create total cases column
+    error = 0
+    try:
+        df = pd.DataFrame(index=df.index, data=df[aState].values, columns=["total"])
+        #print(dtf.head())
+        # create daily changes column
+        df["new"] = df["total"] - df["total"].shift(1)
+        # Handling Missing Values
+        df["new"] = df["new"].fillna(method='bfill')
+    except:
+        print("No State " + aState + " found")
+        error = 1
+        df = pd.DataFrame() 
+    return [df, error]
+```
 
 ### Implementation
 In this section, the process for which metrics, algorithms, and techniques that you implemented for the given data will need to be clearly documented. It should be abundantly clear how the implementation was carried out, and discussion should be made regarding any complications that occurred during this process. Questions to ask yourself when writing this section:
@@ -235,7 +235,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4MzU4OTMyOTYsLTc2NzU2MTMxNiw1NT
+eyJoaXN0b3J5IjpbLTE2Mzk1MTIzMzIsLTc2NzU2MTMxNiw1NT
 g3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIz
 MjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLT
 E1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
