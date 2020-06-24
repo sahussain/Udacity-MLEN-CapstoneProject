@@ -144,11 +144,8 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 
 After going over lost so research papers on epidemiology and machine learning, I concluded that the easiest way to analysis/predict the forecast would be using using [SciPy's](https://scipy.org/) [`curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function. To `curve_fit` one Logistic Function & two Gaussian Function for total cases & new case <?>.
 
-This will is very common approach used in datasets that follows an Epi curve [^10] as an example [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  took the Epi curve of MERS virus, which had a mean of 7.6 and a SD of 3.4 `curve fitted`
-
-
-
-The graph above shows Hubei province's COVID-19 cases mapped to an 
+This will is very common approach used in datasets that follows an Epi curve [^10] as an example [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  took the Epi curve of MERS virus, which had a mean of 7.6 and a SD of 3.4, `curve fitted` using `estimate_R()` function in the `EpiEstim` package to Hubei province's COVID-19 cases 
+ 
 ![enter image description here](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1_files/figure-html5/Cori_parametric_si_model_fit_hubei-1.png)
 
 
@@ -517,7 +514,7 @@ This project has taught me a lot about machine learning and how epidemiologists 
 
 3.	Time management: There is a ton of published papers and research available that provide top-notch information. Going forward, I will allow myself sufficient time to go through available research before embarking on the solution. Some good sources of information are Google Scholar, Medium, GitHub repositories, and other open-source packages & libraries.
 Hindsight is indeed 2020. Armed with this knowledge, I am confident that I can continue to apply myself in the field of machine learning to find novel solutions to human challenges.
-
+4. This Dataset would be great for 
 
 To conclude, I would like to thank the following people without whom I would not have been able to complete my project and get an understanding of how COVID-19 is being used in machine learning:
 
@@ -551,11 +548,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4ND
-YyMTMwNSwtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQs
-LTEyNzkzMzg3OCw2NDU4OTc3NTksLTEwOTk3ODkxNjgsMzkwNj
-U1OTI2LDE3MTM2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUs
-LTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NT
-Y0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4LDE5MDc0NzEzMjdd
-fQ==
+eyJoaXN0b3J5IjpbLTE5NDk3MDg3MzYsLTE0NDkyMzE1ODQsOD
+U1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LDM0MTUyMDM5
+MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3NTksLTEwOT
+k3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2NzUs
+LTEwNzU3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNj
+kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
+XX0=
 -->
