@@ -226,7 +226,7 @@ _(approx. 2-3 pages)_
 This was the simplest model I could pick without me getting a degree in epidemiology
 
 ### Justification
-There is no current benchmark to COVID-19 so we don't know how any model would turned out. The only one we can compare is to Spanish Flu of 1918 Compared which infected 500 million people worldwide and killed more then 50 million people.[^9] We could possibly take its  epidemic curve and try to fit it to COVID-19. Aga
+There is no current benchmark to COVID-19 so we don't know how any model would turned out. The only one we can compare is to Spanish Flu of 1918 Compared which infected 500 million people worldwide and killed more then 50 million people.[^9] We could possibly take its  epidemic curve and try to fit it to COVID-19. Again its beyond my understanding to even calculate the epidemic curve for the Spanish Flu. 
 
 
 ## V. Conclusion
@@ -246,10 +246,7 @@ In this section, you will summarize the entire end-to-end problem solution and d
 - _Does the final model and solution fit your expectations for the problem, and should it be used in a general setting to solve these types of problems?_
 
 ### Improvement
-In this section, you will need to provide discussion as to how one aspect of the implementation you designed could be improved. As an example, consider ways your implementation can be made more general, and what would need to be modified. You do not need to make this improvement, but the potential solutions resulting from these changes are considered and compared/contrasted to your current solution. Questions to ask yourself when writing this section:
-- _Are there further improvements that could be made on the algorithms or techniques you used in this project?_
-- _Were there algorithms or techniques you researched that you did not know how to implement, but would consider using if you knew how?_
-- _If you used your final solution as the new benchmark, do you think an even better solution exists?_
+1. Using  
 
 -----------
 
@@ -279,9 +276,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODkwMTQ3MzM3LDU4MjM5Mzc2NSwxODk2Nz
-E1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQs
-LTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwOD
-AxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTEx
-MzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbMTY2NDI1NDQzNiw1ODIzOTM3NjUsMTg5Nj
+cxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0
+LC0xNTA3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MD
+gwMTY5NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjEx
+MTM3LC0xOTI2NDQ4MzgsLTc3MDkwNDgzNV19
 -->
