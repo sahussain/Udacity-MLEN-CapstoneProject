@@ -48,7 +48,7 @@ For this reason, in the dataset model I propose total cases will fit to to Logis
 
 ### Metrics
 The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^6]
-f(error) = f(time) + error
+>f(error) = f(time) + error
 
 
 ## II. Analysis
@@ -284,7 +284,7 @@ Once again thanks and be safe.
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc1MTgyNjE3NSwtMTY4NTkyMDA2NSwxND
+eyJoaXN0b3J5IjpbMTMzMjUzNzY2MywtMTY4NTkyMDA2NSwxND
 kzODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5
 NzY5NiwzNTEyMTU4MSwtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OT
 Y3MTU5NTksMTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3
