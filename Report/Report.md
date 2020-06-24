@@ -254,22 +254,12 @@ This project has taught me a lot about machine learning and epidemiology and how
  -  [Mauro Di Pietro](https://medium.com/@m.dipietro09)
  - [Subhasree Chatterjee](https://datascienceplus.com/author/chatterjee-subhasree/)
 
-And last but not least my wife [Shamsia Quraishi](https://twitter.com/shamsiaquraishi) for supporting me during my training and being there for me.  
+And last but not least my wife [Shamsia Quraishi](https://twitter.com/shamsiaquraishi) for supporting me during my training and being there for me. 
 
------------
+Once again Thanks and be safe.   
 
-**Before submitting, ask yourself. . .**
-
-- Does the project report you’ve written follow a well-organized structure similar to that of the project template?
-- Is each section (particularly **Analysis** and **Methodology**) written in a clear, concise and specific fashion? Are there any ambiguous terms or phrases that need clarification?
-- Would the intended audience of your project be able to understand your analysis, methods, and results?
-- Have you properly proof-read your project report to assure there are minimal grammatical and spelling mistakes?
-- Are all the resources used for this project correctly cited and referenced?
-- Is the code that implements your solution easily readable and properly commented?
-- Does the code execute without error and produce results similar to those reported?
 -----------
 **Endnotes**
------------
 
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 [^2]:[Logistic Growth Model for COVID-19](https://www.wolframcloud.com/obj/covid-19/Published/Logistic-Growth-Model-for-COVID-19.nb)
@@ -283,10 +273,10 @@ And last but not least my wife [Shamsia Quraishi](https://twitter.com/shamsiaqur
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0NzUzNTA5LDE5ODc5OTc2OTYsMzUxMj
-E1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEz
-NDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1Mj
-I1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2Nywt
-MTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5Mj
-Y0NDgzOCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbMTczOTQzMjUxMiwxOTg3OTk3Njk2LDM1MT
+IxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5NjcxNTk1OSwx
+MzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NT
+IyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5Njcs
+LTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOT
+I2NDQ4MzgsLTc3MDkwNDgzNV19
 -->
