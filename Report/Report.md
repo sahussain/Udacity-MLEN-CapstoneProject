@@ -117,13 +117,13 @@ Based on the above requirements we can not use DeepAR. I then looked into the fo
 ***AR (autoregressive model):***
 The autoregression (AR) method models the next step in the sequence as a linear function of the observations at prior time steps.
 The notation for the model involves specifying the order of the model p as a parameter to the AR function, e.g. AR(p). For example, AR(1) is a first-order autoregression model.
-The method is suitable for univariate time series without trend and seasonal components.[^1]
+The method is suitable for univariate time series without trend and seasonal components.[^6]
 
 ***MA (moving-average model):***
 The moving average (MA) method models the next step in the sequence as a linear function of the residual errors from a mean process at prior time steps.
 A moving average model is different from calculating the moving average of the time series.
 The notation for the model involves specifying the order of the model q as a parameter to the MA function, e.g. MA(q). For example, MA(1) is a first-order moving average model.
-The method is suitable for univariate time series without trend and seasonal components.[^1]
+The method is suitable for univariate time series without trend and seasonal components.[^6]
 
 ***ARMA (autoregressive-moving-average model):***
 The Autoregressive Moving Average (ARMA) method models the next step in the sequence as a linear function of the observations and resiudal errors at prior time steps.
@@ -183,6 +183,10 @@ Autoregressive conditional heteroskedasticity (ARCH) is a time-series statistica
 A time series model using the Autoregressive Integrated Moving Average with exogenous variables (ARIMAX) function was developed to predict impacts from groundwater pumping on Silver Springs discharge in Ocala Florida. This effort was conducted to determine the effects of groundwater withdrawal using the statistical relationship between rainfall and spring discharge at Silver Springs. Other statistical models were developed in previous work by both Southwest Florida Water Management Districts and St Johns River Water Management District. However, there were several opportunities for improvement including using consistent data, model calibration period, and residual periods. Additionally previous statistical methods included Multiple Linear Regression and Line of Organic Correlation methods. These methods did not account for autocorrelation that present in many time series analysis. Through inter-district collaboration, data was made consistent and new methods were explored. The ARIMAX model was explored in this paper and is useful for prediction when autoregressive patterns are present in model residuals that bias modeled coefficients.[^8]
 ***GARCH (generalized autoregressive conditional heteroscedasticity model)***
 A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic) process introduced in Engle (1982) to allow for past conditional variances in the current conditional variance equation is proposed. Stationarity conditions and autocorrelation structure for this new class of parametric models are derived. Maximum likelihood estimation and testing are also considered.[^9] 
+
+[^6]:[11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
+
+
 
 To see if we can use TSFMs, the first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary.
 A stationary process has the property that the mean, variance and autocorrelation structure(No seasonality) do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
@@ -484,7 +488,7 @@ Once again thanks and be safe.
 
 
 
-[^6]:[11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
+
 
 [^7]:[Autoregressive Conditional Heteroskedasticity (ARCH)](https://www.investopedia.com/terms/a/autoregressive-conditional-heteroskedasticity.asp)
 
@@ -507,11 +511,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyOTEyNDMsMTcxNzUwMTU0OCwtMTQzNT
-g4MzA2MiwtNjY0Njg0OTc4LC05ODEzNjA4MzYsLTEzNzYyODY3
-NTMsNDcyNDM2NDE0LC0xNTY2NDI5MTcxLDE3MjAzMzQzMywtNz
-c1NDIxMzg3LC01Nzk2NjA5MzcsNTY4MjcwNDMxLC0xNjg1OTIw
-MDY1LDE0OTM4ODg4MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMi
-wxOTg3OTk3Njk2LDM1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3
-NjVdfQ==
+eyJoaXN0b3J5IjpbMTY4NzgxMTAzNywxNzE3NTAxNTQ4LC0xND
+M1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4
+Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC
+03NzU0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5
+MjAwNjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNT
+EyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5
+Mzc2NV19
 -->
