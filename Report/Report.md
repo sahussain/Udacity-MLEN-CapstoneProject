@@ -246,7 +246,8 @@ In this section, you will summarize the entire end-to-end problem solution and d
 - _Does the final model and solution fit your expectations for the problem, and should it be used in a general setting to solve these types of problems?_
 
 ### Improvement
-1. Using  
+1. Using  `earlyR`  and  `EpiEstim`  packages which is part of R.
+2. Partnering up with an epidemiologist to get the understanding of the problem. 
 
 -----------
 
@@ -276,7 +277,7 @@ In this section, you will summarize the entire end-to-end problem solution and d
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2NDI1NDQzNiw1ODIzOTM3NjUsMTg5Nj
+eyJoaXN0b3J5IjpbMTY2ODQ0Njg0Nyw1ODIzOTM3NjUsMTg5Nj
 cxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0
 LC0xNTA3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MD
 gwMTY5NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjEx
