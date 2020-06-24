@@ -239,7 +239,10 @@ In this section, you will need to provide some form of visualization that emphas
 - _If a plot is provided, are the axes, title, and datum clearly defined?_
 
 ### Reflection
-I would say my best model would be **North Dakota**. 
+I would say my best model would be **North Dakota** and **Delaware**
+both of the states fit the epidemic curve. 
+
+
 
 ### Improvement
 1. Using  `earlyR`  and  `EpiEstim`  packages which is part of R.
@@ -273,7 +276,7 @@ I would say my best model would be **North Dakota**.
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMyNjE4NTU1NSw1ODIzOTM3NjUsMTg5Nj
+eyJoaXN0b3J5IjpbMTkzMTA3MTE5Nyw1ODIzOTM3NjUsMTg5Nj
 cxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0
 LC0xNTA3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MD
 gwMTY5NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjEx
