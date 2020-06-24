@@ -514,7 +514,7 @@ This project has taught me a lot about machine learning and how epidemiologists 
 
 3.	Time management: There is a ton of published papers and research available that provide top-notch information. Going forward, I will allow myself sufficient time to go through available research before embarking on the solution. Some good sources of information are Google Scholar, Medium, GitHub repositories, and other open-source packages & libraries.
 Hindsight is indeed 2020. Armed with this knowledge, I am confident that I can continue to apply myself in the field of machine learning to find novel solutions to human challenges.
-4. This Dataset would be great for 
+4. This Dataset would be great for udacity's course called [Data Analysis with R](https://www.udacity.com/course/data-analysis-with-r--ud651)
 
 To conclude, I would like to thank the following people without whom I would not have been able to complete my project and get an understanding of how COVID-19 is being used in machine learning:
 
@@ -548,11 +548,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDk3MDg3MzYsLTE0NDkyMzE1ODQsOD
-U1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LDM0MTUyMDM5
-MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3NTksLTEwOT
-k3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2NzUs
-LTEwNzU3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNj
-kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
-XX0=
+eyJoaXN0b3J5IjpbLTUxNTA4MjkzNSwtMTQ0OTIzMTU4NCw4NT
+UyMTAzNDQsMzg0NjIxMzA1LC04MjkzOTYyNDYsMzQxNTIwMzkw
+LDM0Nzg4MDMxNCwtMTI3OTMzODc4LDY0NTg5Nzc1OSwtMTA5OT
+c4OTE2OCwzOTA2NTU5MjYsMTcxMzYyMTk3MSwyODM0NTY3NSwt
+MTA3NTc1NjQyNSwtODUwNTU5Mjk4LC04NzE1MzA5ODUsMzA2OT
+I1NDc2LC0zNTQ1NjQ2NTcsLTIzMzMwOTA4LDE2NTU5MTY4Mjhd
+fQ==
 -->
