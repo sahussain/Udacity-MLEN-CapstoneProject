@@ -251,6 +251,7 @@ This project has taught me a lot about machine learning and epidemiology and how
 
  -  [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068). 
  -  [Mauro Di Pietro](https://medium.com/@m.dipietro09)
+ - [Subhasree Chatterjee](https://datascienceplus.com/author/chatterjee-subhasree/)
  - 
 
 -----------
@@ -280,10 +281,10 @@ This project has taught me a lot about machine learning and epidemiology and how
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjY2MzEwMDY5LDE5ODc5OTc2OTYsMzUxMj
-E1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEz
-NDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1Mj
-I1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2Nywt
-MTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5Mj
-Y0NDgzOCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbLTE3NzYxOTY5NDQsMTk4Nzk5NzY5NiwzNT
+EyMTU4MSwtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTks
+MTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNz
+UyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3
+LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMT
+kyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
 -->
