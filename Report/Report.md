@@ -212,11 +212,13 @@ The model could not fit Total Cases to a Logistic Function
 ![enter image description here](/Images/Capture11.JPG)
 The model could not fit new Cases to a Gaussian Function
 
+A better tool kit like Analysis with the  `earlyR`  and  `EpiEstim`  packages
+
 ## IV. Results
 _(approx. 2-3 pages)_
 
 ### Model Evaluation and Validation
-This was the simplest model to pick wh
+This was the simplest model to pick without me getting a degree in epidemiology
 
 ### Justification
 In this section, your model’s final solution and its results should be compared to the benchmark you established earlier in the project using some type of statistical analysis. You should also justify whether these results and the solution are significant enough to have solved the problem posed in the project. Questions to ask yourself when writing this section:
@@ -275,9 +277,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQwODg1Njk0LDE4OTY3MTU5NTksMTM0Mj
-cyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0
-MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMT
-c5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0
-ODM4LC03NzA5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbLTE2OTM5MjMyODQsMTg5NjcxNTk1OSwxMz
+QyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIy
+NTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5NjcsLT
+ExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2
+NDQ4MzgsLTc3MDkwNDgzNV19
 -->
