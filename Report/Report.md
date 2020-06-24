@@ -151,13 +151,15 @@ This will is very common approach used in datasets that follows an Epi curve [^1
 
 
 ***Data output of Stationarity test based on the function below***
+```
 Testing Null Hypothesis
 Calculation Complete
 adfuller results:
 56 p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
 2 p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
+---------
 58 Total
-
+```
 I used the following function to check for Stationarity:
 
 ```Python 
@@ -548,11 +550,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NT
-UyMTAzNDQsMzg0NjIxMzA1LC04MjkzOTYyNDYsMzQxNTIwMzkw
-LDM0Nzg4MDMxNCwtMTI3OTMzODc4LDY0NTg5Nzc1OSwtMTA5OT
-c4OTE2OCwzOTA2NTU5MjYsMTcxMzYyMTk3MSwyODM0NTY3NSwt
-MTA3NTc1NjQyNSwtODUwNTU5Mjk4LC04NzE1MzA5ODUsMzA2OT
-I1NDc2LC0zNTQ1NjQ2NTcsLTIzMzMwOTA4LDE2NTU5MTY4Mjhd
+eyJoaXN0b3J5IjpbLTQ3NTM4MjIzMSwxNDU5ODkxMDU4LC0xND
+Q5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5NjI0
+NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4NzgsNjQ1OD
+k3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNjIxOTcx
+LDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NTA1NTkyOTgsLTg3MT
+UzMDk4NSwzMDY5MjU0NzYsLTM1NDU2NDY1NywtMjMzMzA5MDhd
 fQ==
 -->
