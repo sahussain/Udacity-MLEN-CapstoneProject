@@ -450,6 +450,21 @@ There are three well-researched articles written by [Tim Churches](https://theco
 ### Model Evaluation and Validation
 Given my limited understanding and knowledge in the field of epidemiology, this was the simplest model I was able to work with.
 
+The model was able to predict future cases for some states very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
+
+**Delaware**
+![enter image description here](/Images/Capture5.JPG)
+In Delaware, the number of new cases seem to be following an epi curve very well. This indicates that the social distancing measures have been working well to reduce the number of new cases. There was a spike in the number of cases in the week of Memorial Day (May 25), however, they seemed to have recovered quickly falling into a standard epi curve pattern.
+
+**North Dakota**
+![enter image description here](/Images/Capture6.JPG)
+New covid-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, hwoever they seem to have take slightly longer to come back to a normal epi curve.
+
+**Maryland**
+![enter image description here](/Images/Capture7.JPG)
+Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons.
+
+
 ### Justification
 Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more then 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how how any model for COVID-19 epidemic would turn out.
 
@@ -513,7 +528,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDU3ODA4MDgsMzkwNjU1OTI2LDE3MT
+eyJoaXN0b3J5IjpbLTEzOTg3Mzg5ODQsMzkwNjU1OTI2LDE3MT
 M2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MDU1OTI5
 OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NTY0NjU3LC0yMz
 MzMDkwOCwxNjU1OTE2ODI4LDE5MDc0NzEzMjcsLTEzMzQxMjU0
