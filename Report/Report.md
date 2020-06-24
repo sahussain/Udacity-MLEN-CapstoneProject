@@ -141,6 +141,15 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 
 `The problem is that we can not remove any data becaues we would end up only 2 States that are deamed to pass Stationarity test.`
 
+
+***Data output of Stationarity test based on the function below***
+Testing Null Hypothesis
+Calculation Complete
+adfuller results:
+56 p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
+2 p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
+58 Total
+
 I used the following function to check for Stationarity:
 
 ```Python 
@@ -209,12 +218,7 @@ def getStationarity(df, States):
 
 stationarity_df = getStationarity(covid_df, state[0:])
 ```
-Testing Null Hypothesis
-Calculation Complete
-adfuller results:
-56 p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
-2 p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
-58 Total
+
 
 
 
@@ -509,7 +513,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NTY3MDU0NSwtODcxNTMwOTg1LDMwNj
+eyJoaXN0b3J5IjpbLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNj
 kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
 LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
 E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
