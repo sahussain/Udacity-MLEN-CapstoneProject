@@ -187,6 +187,11 @@ A time series model using the Autoregressive Integrated Moving Average with exog
 A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic) process introduced in Engle (1982) to allow for past conditional variances in the current conditional variance equation is proposed. Stationarity conditions and autocorrelation structure for this new class of parametric models are derived. Maximum likelihood estimation and testing are also considered.[^9] 
 
 [^6]:[11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
+[^7]:[Autoregressive Conditional Heteroskedasticity (ARCH)](https://www.investopedia.com/terms/a/autoregressive-conditional-heteroskedasticity.asp)
+
+[^8]:[Autoregressive Integrated Moving Average Model with exogenous variables (ARIMAX) transfer function model for Sharpes Ferry Well and Silver Springs](https://rstudio-pubs-static.s3.amazonaws.com/180268_8acc87dd9fa2435c8a8e5ed6b815be2c.html)
+
+[^9]:[Generalized autoregressive conditional heteroskedasticity](https://www.sciencedirect.com/science/article/abs/pii/0304407686900631?via%3Dihub)
 
 
 
@@ -508,7 +513,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcwNTA4NjkxMiwtMTMzNDEyNTQzOSwxNj
+eyJoaXN0b3J5IjpbMTkwNzQ3MTMyNywtMTMzNDEyNTQzOSwxNj
 g3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLTY2NDY4
 NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNC
 wtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5
