@@ -91,8 +91,8 @@ Lets look at new vs total number of cases for some cities:
 
 
 ### Algorithms and Techniques
-To use DeepAR it needs to meet the following:
-1. Provide the entire time series for training.
+To use DeepAR it needs to meet the following[^10]:
+1. Except for when splitting your dataset for training and testing, always provide the entire time series for training, testing, and when calling the model for inference. Regardless of how you set `context_length`, don't break up the time series or provide only a part of it. The model uses data points further back than the value set in `context_length` for the lagged values feature.
 2. 
 
 
@@ -295,8 +295,10 @@ Once again thanks and be safe.
 [^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
+
+[^10]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM5MTYwMTEyNywtNzc1NDIxMzg3LC01Nz
+eyJoaXN0b3J5IjpbLTYxMjg2MzcwMCwtNzc1NDIxMzg3LC01Nz
 k2NjA5MzcsNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OTM4ODg4
 MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwxOTg3OTk3Njk2LD
 M1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5NjcxNTk1
