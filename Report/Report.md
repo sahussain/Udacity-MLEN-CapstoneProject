@@ -91,7 +91,7 @@ Lets look at new vs total number of cases for some cities:
 
 
 ### Algorithms and Techniques
-To use DeepAR it needs to meet the following [^5]:
+To use DeepAR it needs to meet the following criteria [^5]:
 1. Except for when splitting your dataset for training and testing, always provide the entire time series for training, testing, and when calling the model for inference. Regardless of how you set `context_length`, don't break up the time series or provide only a part of it. The model uses data points further back than the value set in `context_length` for the lagged values feature.[^5]
 2. When tuning a DeepAR model, you can split the dataset to create a training dataset and a test dataset. In a typical evaluation, you would test the model on the same time series used for training, but on the future  `prediction_length`  time points that follow immediately after the last time point visible during training. You can create training and test datasets that satisfy this criteria by using the entire dataset (the full length of all time series that are available) as a test set and removing the last  `prediction_length`  points from each time series for training. During training, the model doesn't see the target values for time points on which it is evaluated during testing. During testing, the algorithm withholds the last  `prediction_length`  points of each time series in the test set and generates a prediction. Then it compares the forecast with the withheld values. You can create more complex evaluations by repeating time series multiple times in the test set, but cutting them at different endpoints. With this approach, accuracy metrics are averaged over multiple forecasts from different time points. For more information, see  [Tune a DeepAR Model](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar-tuning.html).[^5]
 
@@ -101,7 +101,7 @@ To use DeepAR it needs to meet the following [^5]:
     
 5. We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300.[^5]
 
-Best on the above requirements we can not use DeepAR. Then I looked into the following models to see if we can use them:
+Based on the above requirements we can not use DeepAR. I then looked into the following Then I looked into the following models to see if we can use them:
 
  ## Researching (TSFMs)
 
@@ -493,11 +493,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2NDY4NDk3OCwtOTgxMzYwODM2LC0xMz
-c2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MSwxNzIwMzM0
-MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3MDQzMSwtMT
-Y4NTkyMDA2NSwxNDkzODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0
-MzI1MTIsMTk4Nzk5NzY5NiwzNTEyMTU4MSwtNDkxMTg4NDgsNT
-gyMzkzNzY1LDE4OTY3MTU5NTksMTM0MjcyMjM0MywtNzY3NTYx
-MzE2XX0=
+eyJoaXN0b3J5IjpbLTE0MzU4ODMwNjIsLTY2NDY4NDk3OCwtOT
+gxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQy
+OTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LD
+U2ODI3MDQzMSwtMTY4NTkyMDA2NSwxNDkzODg4ODMxLC0xODk3
+OTA4OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5NzY5NiwzNTEyMTU4MS
+wtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0Mjcy
+MjM0M119
 -->
