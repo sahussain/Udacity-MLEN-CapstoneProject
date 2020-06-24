@@ -39,16 +39,16 @@ Forecasting with Linear Learner for this type of applications.
 At first, I was going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). However after exploring the data, I discovered that this dataset cannot be used for any Time Series Forecasting Model(TSFMs). Epidemic curves (epi curve) do not follow a standard time series requirement however they do follow Logistic & Gaussian functions that are defined as follows:
 
 Epi curve of total number of cases follows Logistic Function is defined by:
-f(x) = capacity / (1 + e^-k*(x - midpoint) )[^2]
+>f(x) = capacity / (1 + e^-k*(x - midpoint) )[^2]
 
 Epi curve of new of cases follows Gaussian Function is defined by:
-f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^3]
+>f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^3]
 
 For this reason, in the dataset model I propose total cases will fit to to Logistic function and new cases to Gaussian functions.
 
 ### Metrics
 The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^6]
-f(error) = f(time) + error
+>f(error) = f(time) + error
 
 
 ## II. Analysis
@@ -77,7 +77,8 @@ identifies counties within the USA.
 ### Exploratory Visualization
 The plot below shows how the COVID-19 cases increase by city. When looking at the graph of 15 cities I noticed the first problem. I cannot use DeepAR on this data because DeepAR needs at least 300 observations available across all training time series. The current dataset has observations for the last 151 days only.
 
->We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300. Source: https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html
+>We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300. 
+>Source: https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html
 
 ![enter image description here](/Images/Capture2.JPG)
 
@@ -199,7 +200,9 @@ that apply the two models (total cases and daily increase) to a new independent 
 
 
 ### Refinement
-The model and the forecast work well when applied to certain States. However, there are a few States that do not work because they are on a different epi curve, for example **Michigan**
+The model and the forecast work well when applied to certain States. However, there are a few States that do not work because they are on a different epi curve, for example
+ 
+ **Michigan**
 ![enter image description here](/Images/Capture9.JPG)
 The model could not fit total cases to a Logistic Function
 
@@ -211,8 +214,9 @@ A better package such as  `earlyR`  and  `EpiEstim`  that are part of R work bet
 There are two well-researched articles written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068) that talk about using R to predict COVID-19 cases. 
 >Tim Churches is a Senior Research Fellow at the UNSW Medicine South Western Sydney Clinical School at Liverpool Hospital, and a health data scientist at the Ingham Institute for Applied Medical Research, also located at Liverpool, Sydney. His background is in general medicine, general practice medicine, occupational health, public health practice, particularly population health surveillance, and clinical epidemiology.
 
-[COVID-19 epidemiology with R by Tim Churches](https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/):
-[Analysing COVID-19 (2019-nCoV) outbreak data with R - part 1]([https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number))
+[COVID-19 epidemiology with R by Tim Churches](https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/)
+
+[Analysing COVID-19 (2019-nCoV) outbreak data with R - part 1](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)
 
 ## IV. Results
 
@@ -231,7 +235,8 @@ Research is ongoing and hence there is no current benchmark for the COVID-19 epi
 Based on my observations, the dataframes for **North Dakota** and **Delaware** fit the epidemic curve well. 
 ![enter image description here](/Images/Capture5.JPG)
 ![enter image description here](/Images/Capture6.JPG)
-With respect to North Dakota, they have 3313 total cases, 2952 recovered cases with only 77 deaths. If they continue on this path, they are predicted to reach equilibrium (zero new cases) by the end of July or August 2020.
+With respect to North Dakota, they have 3, 313 total cases, 2, 952 recovered cases with only 77 deaths. If they continue on this path, they are predicted to reach equilibrium (zero new cases) by the end of July or August 2020.
+
 Delaware is another State that is following the epi curve closely. Though they had some peaks around Memorial Day week, they seem to have recovered well. If they continue on this trend, they are predicted to reach minimum amount of cases by the end of July or August 2020.
 
 The only challenge with these predictions is that it does not take into account the human factors. Human factors can be defined as human interactions in relation to their environment, such as not following social distance measures; not wearing masks when going out in public areas; not following proper safety and sanitization rules; non-essential travel from one city to another to visit family, friends or to go on a vacation; and more. This will increase the rate of transmission leading to peaks in new cases as was witnessed around the Memorial Day week.
@@ -284,11 +289,11 @@ Once again thanks and be safe.
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU5MjAwNjUsMTQ5Mzg4ODgzMSwtMT
-g5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5OTc2OTYsMzUxMjE1
-ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEzND
-I3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1
-NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMT
-E3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0
-NDgzOF19
+eyJoaXN0b3J5IjpbNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OT
+M4ODg4MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwxOTg3OTk3
+Njk2LDM1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5Nj
+cxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0
+LC0xNTA3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MD
+gwMTY5NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjEx
+MTM3XX0=
 -->
