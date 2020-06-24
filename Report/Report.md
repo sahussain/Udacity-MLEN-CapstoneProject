@@ -142,7 +142,7 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 
 `The problem is that we can not remove any data becaues we would end up only 2 States that are deamed to pass Stationarity test.`
 
-After going over lost so research papers on epidemiology and machine learning, I concluded that the easiest way to analysis/predict the forecast would be using using [SciPy's](https://scipy.org/) [`curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), 
+After going over lost so research papers on epidemiology and machine learning, I concluded that the easiest way to analysis/predict the forecast would be using using [SciPy's](https://scipy.org/) [`curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function. To `curve_fit` one Logistic Function & two Gaussian Function for total cases & new case <?>
 
 
 
@@ -338,7 +338,7 @@ The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast
     -  Removed unnecessary columns
     - Grouped the data by State 
 2.  Fit the model. 
-	 - Two functions Logistic Function & Gaussian Function for total cases & new case <?> was used to fiting  the dataframe to a curve using curve_fit function the model outputs list of optim params
+	 - Two: one Logistic Function & two Gaussian Function for total cases & new case <?> was used to fiting  the dataframe to a curve using curve_fit function the model outputs list of optim params
 	 - Logistic Function is defined by:
 
 		> f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
@@ -548,11 +548,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NjExMTgyODksMzg0NjIxMzA1LC04Mj
-kzOTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OTMzODc4
-LDY0NTg5Nzc1OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYsMTcxMz
-YyMTk3MSwyODM0NTY3NSwtMTA3NTc1NjQyNSwtODUwNTU5Mjk4
-LC04NzE1MzA5ODUsMzA2OTI1NDc2LC0zNTQ1NjQ2NTcsLTIzMz
-MwOTA4LDE2NTU5MTY4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQz
-OV19
+eyJoaXN0b3J5IjpbMTEyMTM1NjAxMCwzODQ2MjEzMDUsLTgyOT
+M5NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4Nzgs
+NjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNj
+IxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NTA1NTkyOTgs
+LTg3MTUzMDk4NSwzMDY5MjU0NzYsLTM1NDU2NDY1NywtMjMzMz
+A5MDgsMTY1NTkxNjgyOCwxOTA3NDcxMzI3LC0xMzM0MTI1NDM5
+XX0=
 -->
