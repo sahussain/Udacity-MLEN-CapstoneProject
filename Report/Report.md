@@ -303,15 +303,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 [^8]:[Autoregressive Integrated Moving Average Model with exogenous variables (ARIMAX) transfer function model for Sharpes Ferry Well and Silver Springs](https://rstudio-pubs-static.s3.amazonaws.com/180268_8acc87dd9fa2435c8a8e5ed6b815be2c.html)
 
 [^9]:[Generalized autoregressive conditional heteroskedasticity](https://www.sciencedirect.com/science/article/abs/pii/0304407686900631?via%3Dihub)
-
-
-
-
-
-
-
-I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
-package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^10]
+-----
 
 [^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
@@ -513,11 +505,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTE4NDk5MTQzLC04NTA1NTkyOTgsLTg3MT
-UzMDk4NSwzMDY5MjU0NzYsLTM1NDU2NDY1NywtMjMzMzA5MDgs
-MTY1NTkxNjgyOCwxOTA3NDcxMzI3LC0xMzM0MTI1NDM5LDE2OD
-c4MTEwMzcsMTcxNzUwMTU0OCwtMTQzNTg4MzA2MiwtNjY0Njg0
-OTc4LC05ODEzNjA4MzYsLTEzNzYyODY3NTMsNDcyNDM2NDE0LC
-0xNTY2NDI5MTcxLDE3MjAzMzQzMywtNzc1NDIxMzg3LC01Nzk2
-NjA5MzddfQ==
+eyJoaXN0b3J5IjpbMTQ1NDIxNzEyOSwtODUwNTU5Mjk4LC04Nz
+E1MzA5ODUsMzA2OTI1NDc2LC0zNTQ1NjQ2NTcsLTIzMzMwOTA4
+LDE2NTU5MTY4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQzOSwxNj
+g3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLTY2NDY4
+NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNC
+wtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5
+NjYwOTM3XX0=
 -->
