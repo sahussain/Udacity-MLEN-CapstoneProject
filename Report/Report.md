@@ -200,7 +200,8 @@ that apply the two models (total cases and daily increase) to a new independent 
 
 
 ### Refinement
-The model and the forecast work well when applied to certain States. However, there are a few States that do not work because they are on a different epi curve, for example **Michigan**
+The model and the forecast work well when applied to certain States. However, there are a few States that do not work because they are on a different epi curve, for example
+ **Michigan**
 ![enter image description here](/Images/Capture9.JPG)
 The model could not fit total cases to a Logistic Function
 
@@ -285,11 +286,11 @@ Once again thanks and be safe.
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDM2OTI5NTUsLTE2ODU5MjAwNjUsMT
-Q5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5
-OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxOD
-k2NzE1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgw
-NzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLT
-QwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEy
-MTExMzddfQ==
+eyJoaXN0b3J5IjpbLTY0NDYzODgyOSwtMTY4NTkyMDA2NSwxND
+kzODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5
+NzY5NiwzNTEyMTU4MSwtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OT
+Y3MTU5NTksMTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3
+NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtND
+A4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIx
+MTEzN119
 -->
