@@ -109,7 +109,6 @@ New covid-19 cases in North Dakota seem to be following the same pattern as that
 Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons.
 
 ## III. Methodology
-_(approx. 3-5 pages)_
 
 ### Data Preprocessing
 The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv) 
@@ -289,11 +288,11 @@ Once again thanks and be safe.
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OT
-M4ODg4MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwxOTg3OTk3
-Njk2LDM1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5Nj
-cxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0
-LC0xNTA3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MD
-gwMTY5NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjEx
-MTM3XX0=
+eyJoaXN0b3J5IjpbLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2OD
+U5MjAwNjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMy
+NTEyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4Mj
+M5Mzc2NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMx
+Niw1NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMj
+k5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5
+NDVdfQ==
 -->
