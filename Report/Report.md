@@ -249,8 +249,9 @@ The only problem with these predictions cannot take into account the human facto
 ### Final Thoughts
 This project has taught me a lot about machine learning and epidemiology and how epidemiologist are using machine learning. This project has also taught me that we always need a partner in this case it would have been really nice if your I would have had an epidemiologist to help me and guide me in the process of how a disease works. We as machine learning Engineers only understands the data but for us to be able to program a machine to learn something new we need to also understand what is the data based on what are the nuances on the data itself what is the story behind the data without the this. It is really critical for us to be able to build a good machine model. We need to understand  the story of the data. In this case we're looking at the number of new cases worse than the number of total cases. And finally I would like to thank the following people without them I don't think I would have been able to complete my project and get an understanding of how covid-19 is being used in machine learning:
 
- -  [Tim Churches]
- -  [Mauro Di Pietro]
+ -  [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068). 
+ -  [Mauro Di Pietro](https://medium.com/@m.dipietro09)
+ - 
 
 -----------
 
@@ -277,13 +278,12 @@ This project has taught me a lot about machine learning and epidemiology and how
 [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 [^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
-[^10]:
-[^11]:
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwMjgzNDk5MTIsMTk4Nzk5NzY5NiwzNT
-EyMTU4MSwtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTks
-MTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNz
-UyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3
-LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMT
-kyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbMjY2MzEwMDY5LDE5ODc5OTc2OTYsMzUxMj
+E1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEz
+NDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1Mj
+I1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2Nywt
+MTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5Mj
+Y0NDgzOCwtNzcwOTA0ODM1XX0=
 -->
