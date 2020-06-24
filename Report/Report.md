@@ -107,6 +107,9 @@ To use DeepAR it needs to meet the following criteria [^5]:
     
 5. We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300.[^5]
 
+[^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
+
+
 Based on the above requirements we can not use DeepAR. I then looked into the following Then I looked into the following models to see if we can use them:
 
  ## Researching  `Time Series Forecasting Model(TSFMs)`
@@ -479,7 +482,7 @@ Once again thanks and be safe.
 
 
 
-[^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
+
 
 [^6]:[11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
 
@@ -504,11 +507,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTU2MTE4OSwxNzE3NTAxNTQ4LC0xND
-M1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4
-Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC
-03NzU0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5
-MjAwNjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNT
-EyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5
-Mzc2NV19
+eyJoaXN0b3J5IjpbLTQyOTEyNDMsMTcxNzUwMTU0OCwtMTQzNT
+g4MzA2MiwtNjY0Njg0OTc4LC05ODEzNjA4MzYsLTEzNzYyODY3
+NTMsNDcyNDM2NDE0LC0xNTY2NDI5MTcxLDE3MjAzMzQzMywtNz
+c1NDIxMzg3LC01Nzk2NjA5MzcsNTY4MjcwNDMxLC0xNjg1OTIw
+MDY1LDE0OTM4ODg4MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMi
+wxOTg3OTk3Njk2LDM1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3
+NjVdfQ==
 -->
