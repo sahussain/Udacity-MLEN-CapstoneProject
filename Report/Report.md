@@ -313,7 +313,6 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 [^8]:[Autoregressive Integrated Moving Average Model with exogenous variables (ARIMAX) transfer function model for Sharpes Ferry Well and Silver Springs](https://rstudio-pubs-static.s3.amazonaws.com/180268_8acc87dd9fa2435c8a8e5ed6b815be2c.html)
 
 [^9]:[Generalized autoregressive conditional heteroskedasticity](https://www.sciencedirect.com/science/article/abs/pii/0304407686900631?via%3Dihub)
------
 
 [^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
@@ -529,11 +528,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNTgyMzcyMTQsLTEwOTk3ODkxNjgsMz
-kwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0
-MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMz
-U0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4LDE5MDc0NzEz
-MjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNzE3NTAxNTQ4LC
-0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3
-NjI4Njc1M119
+eyJoaXN0b3J5IjpbNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MD
+Y1NTkyNiwxNzEzNjIxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1
+LC04NTA1NTkyOTgsLTg3MTUzMDk4NSwzMDY5MjU0NzYsLTM1ND
+U2NDY1NywtMjMzMzA5MDgsMTY1NTkxNjgyOCwxOTA3NDcxMzI3
+LC0xMzM0MTI1NDM5LDE2ODc4MTEwMzcsMTcxNzUwMTU0OCwtMT
+QzNTg4MzA2MiwtNjY0Njg0OTc4LC05ODEzNjA4MzYsLTEzNzYy
+ODY3NTNdfQ==
 -->
