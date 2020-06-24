@@ -296,21 +296,21 @@ Once again thanks and be safe.
 
 [^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
-[^6]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
+[^7]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
 
 [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
-[^7]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
+[^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
-[^8]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
+[^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDcyNDM2NDE0LC0xNTY2NDI5MTcxLDE3Mj
-AzMzQzMywtNzc1NDIxMzg3LC01Nzk2NjA5MzcsNTY4MjcwNDMx
-LC0xNjg1OTIwMDY1LDE0OTM4ODg4MzEsLTE4OTc5MDg5NjMsMT
-czOTQzMjUxMiwxOTg3OTk3Njk2LDM1MTIxNTgxLC00OTExODg0
-OCw1ODIzOTM3NjUsMTg5NjcxNTk1OSwxMzQyNzIyMzQzLC03Nj
-c1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIyNTQwLC00ODU3MTU0
-OTRdfQ==
+eyJoaXN0b3J5IjpbLTEzNzYyODY3NTMsNDcyNDM2NDE0LC0xNT
+Y2NDI5MTcxLDE3MjAzMzQzMywtNzc1NDIxMzg3LC01Nzk2NjA5
+MzcsNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OTM4ODg4MzEsLT
+E4OTc5MDg5NjMsMTczOTQzMjUxMiwxOTg3OTk3Njk2LDM1MTIx
+NTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5NjcxNTk1OSwxMz
+QyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIy
+NTQwXX0=
 -->
