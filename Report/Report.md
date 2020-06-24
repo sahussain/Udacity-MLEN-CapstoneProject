@@ -262,21 +262,30 @@ Once again Thanks and be safe.
 **Endnotes**
 
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
+
 [^2]:[Logistic Growth Model for COVID-19](https://www.wolframcloud.com/obj/covid-19/Published/Logistic-Growth-Model-for-COVID-19.nb)
-[^3]:[Mathematical prediction of the time evolution of the COVID-19 pandemic in Italy by a Gauss error function and Monte Carlo simulations]([https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156796/](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156796/))
+
+[^3]:[Mathematical prediction of the time evolution of the COVID-19 pandemic in Italy by a Gauss error function and Monte Carlo simulations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156796/)
+
 [^4]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
+
 [^5]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
+
 [^6]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
+
 [^7]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
+
 [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
+
 [^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
+
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTczOTQzMjUxMiwxOTg3OTk3Njk2LDM1MT
-IxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5NjcxNTk1OSwx
-MzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NT
-IyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5Njcs
-LTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOT
-I2NDQ4MzgsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwxOT
+g3OTk3Njk2LDM1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3NjUs
+MTg5NjcxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nz
+k4MDc0LC0xNTA3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5
+LC00MDgwMTY5NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNT
+gxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkwNDgzNV19
 -->
