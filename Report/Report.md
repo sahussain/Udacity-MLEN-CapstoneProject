@@ -216,7 +216,7 @@ There are two well-researched articles written by [Tim Churches](https://theconv
 
 [COVID-19 epidemiology with R by Tim Churches](https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/)
 
-[Analysing COVID-19 (2019-nCoV) outbreak data with R - part 1](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number))
+[Analysing COVID-19 (2019-nCoV) outbreak data with R - part 1](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)
 
 ## IV. Results
 
@@ -288,11 +288,11 @@ Once again thanks and be safe.
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3MTg2ODA1NiwtMTY4NTkyMDA2NSwxND
-kzODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5
-NzY5NiwzNTEyMTU4MSwtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OT
-Y3MTU5NTksMTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3
-NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtND
-A4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIx
-MTEzN119
+eyJoaXN0b3J5IjpbLTExNTAzNTg2MDMsLTE2ODU5MjAwNjUsMT
+Q5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5
+OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxOD
+k2NzE1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgw
+NzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLT
+QwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEy
+MTExMzddfQ==
 -->
