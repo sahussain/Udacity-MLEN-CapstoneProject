@@ -254,7 +254,7 @@ This project has taught me a lot about machine learning and epidemiology and how
  -  [Mauro Di Pietro](https://medium.com/@m.dipietro09)
  - [Subhasree Chatterjee](https://datascienceplus.com/author/chatterjee-subhasree/)
 
-And last but not least my wife 
+And last but not least my wife [Shamsia Quraishi](https://twitter.com/shamsiaquraishi) for supporting me during my training and being there for me.  
 
 -----------
 
@@ -283,7 +283,7 @@ And last but not least my wife
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU1MDY2MTEwLDE5ODc5OTc2OTYsMzUxMj
+eyJoaXN0b3J5IjpbLTY0NzUzNTA5LDE5ODc5OTc2OTYsMzUxMj
 E1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEz
 NDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1Mj
 I1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2Nywt
