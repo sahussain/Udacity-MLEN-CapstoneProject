@@ -399,7 +399,8 @@ New covid-19 cases in North Dakota seem to be following the same pattern as that
 Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons.
 
 
-**Benchmark
+**Benchmark:**
+
 
 
 ### Justification
@@ -545,11 +546,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQ4ODU3MjQzNSwtMTExMDE5OTA1NCwtND
-UxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OCwtMTQ0OTIz
-MTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC04MjkzOTYyNDYsMz
-QxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OTMzODc4LDY0NTg5Nzc1
-OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYsMTcxMzYyMTk3MSwyOD
-M0NTY3NSwtMTA3NTc1NjQyNSwtODUwNTU5Mjk4LC04NzE1MzA5
-ODVdfQ==
+eyJoaXN0b3J5IjpbLTE5OTExNjcyOTksLTExMTAxOTkwNTQsLT
+Q1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDky
+MzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LD
+M0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3
+NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMj
+gzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMw
+OTg1XX0=
 -->
