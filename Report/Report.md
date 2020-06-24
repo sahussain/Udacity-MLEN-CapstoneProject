@@ -55,6 +55,7 @@ For this reason, in the dataset model I propose total cases will fit to to Logis
 The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^4]
 >f(error) = f(time) + error
 
+[^4]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
 ## II. Analysis
 
@@ -476,7 +477,7 @@ Once again thanks and be safe.
 
 
 
-[^4]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
+
 
 [^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
@@ -503,7 +504,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk1MDQ1NDEyOSwxNzE3NTAxNTQ4LC0xND
+eyJoaXN0b3J5IjpbMTk4NTU2MTE4OSwxNzE3NTAxNTQ4LC0xND
 M1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4
 Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC
 03NzU0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5
