@@ -185,6 +185,37 @@ standard deviation(σ)
 Autocorrelation structure (No seasonality)
 for more info see Stationarity
 
+There are a number of unit root tests and the Augmented Dickey-Fuller may be one of the more widely used. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
+
+The null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
+
+Null Hypothesis (H0): If failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure. Alternate Hypothesis (H1): The null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. We interpret this result using the p-value from the test. A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypothesis (stationary), otherwise a p-value above the threshold suggests we fail to reject the null hypothesis (non-stationary).
+
+-   p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
+-   p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
+
+source:  [How to Check if Time Series Data is Stationary with Python](https://machinelearningmastery.com/time-series-data-stationary-python/)
+
+Want to know more about  [How to Check if Time Series Data is Stationary with Python](https://machinelearningmastery.com/time-series-data-stationary-python/)
+
+> If we fit a stationary model to data, we assume our data are a realization of a stationary process. So our first step in an analysis should be to check whether there is any evidence of a trend or seasonal effects and, if there is, remove them.
+
+— Page 122,  [Introductory Time Series with R](http://www.amazon.com/dp/0387886974?tag=inspiredalgor-20).
+
+`The problem is that we can not remove any data`
+
+so what can we do? Lets look at one state  `New York`
+
+I used the following function to check for Stationarity:
+
+```Python 
+
+
+
+
+```
+
+
 
 I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
 package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^7]
@@ -395,7 +426,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxNTU4NTU2MywtMTM3NjI4Njc1Myw0Nz
+eyJoaXN0b3J5IjpbMjA1NzgzMjk5OSwtMTM3NjI4Njc1Myw0Nz
 I0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC03NzU0MjEz
 ODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5MjAwNjUsMT
 Q5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5
