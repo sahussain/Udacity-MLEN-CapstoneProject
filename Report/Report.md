@@ -121,7 +121,7 @@ mean(μ)
 standard deviation(σ)
 Autocorrelation structure (No seasonality)
 
-There are a number of unit root tests we can do to check if a dataset is  and the Augmented Dickey-Fuller may be one of the more widely used. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
+There are a number of unit root tests we can do to check if a dataset is stationary or non-stationary. The Augmented Dickey-Fuller is one of the more widely used test. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
 
 The null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
 
@@ -507,11 +507,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNjg0NDQyMywtODcxNTMwOTg1LDMwNj
-kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
-LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
-E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
-MDgzNiwtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNz
-EsMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3OTY2MDkzNyw1Njgy
-NzA0MzFdfQ==
+eyJoaXN0b3J5IjpbNDMyOTg0NDY5LC04NzE1MzA5ODUsMzA2OT
+I1NDc2LC0zNTQ1NjQ2NTcsLTIzMzMwOTA4LDE2NTU5MTY4Mjgs
+MTkwNzQ3MTMyNywtMTMzNDEyNTQzOSwxNjg3ODExMDM3LDE3MT
+c1MDE1NDgsLTE0MzU4ODMwNjIsLTY2NDY4NDk3OCwtOTgxMzYw
+ODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MS
+wxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3
+MDQzMV19
 -->
