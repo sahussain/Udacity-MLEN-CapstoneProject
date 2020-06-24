@@ -112,7 +112,7 @@ To use DeepAR it needs to meet the following criteria [^5]:
 [^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
 
-Based on the above requirements we can not use DeepAR. I then looked into the 14 Classical Time Series Forecasting Methods (TSFMs) in Python, list below, to see if we can use any of them. The first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary. A stationary process has the property that the mean, variance and autocorrelation structure do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
+Based on the above requirements we can not use DeepAR. I then looked into the 14 other Classical Time Series Forecasting Methods (TSFMs) in Python, list below, to see if we can use any of them. The first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary. A stationary process has the property that the mean, variance and autocorrelation structure do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
 [^10]:[6.4.4.2. Stationarity]()
 
 To summarize a time-series to be Stationarity, the following should not change over time
@@ -550,11 +550,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNzkzMzg3OCw2NDU4OTc3NTksLTEwOT
-k3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2NzUs
-LTEwNzU3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNj
-kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
-LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
-E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
-MDgzNl19
+eyJoaXN0b3J5IjpbMzQ3ODgwMzE0LC0xMjc5MzM4NzgsNjQ1OD
+k3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNjIxOTcx
+LDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NTA1NTkyOTgsLTg3MT
+UzMDk4NSwzMDY5MjU0NzYsLTM1NDU2NDY1NywtMjMzMzA5MDgs
+MTY1NTkxNjgyOCwxOTA3NDcxMzI3LC0xMzM0MTI1NDM5LDE2OD
+c4MTEwMzcsMTcxNzUwMTU0OCwtMTQzNTg4MzA2MiwtNjY0Njg0
+OTc4XX0=
 -->
