@@ -122,13 +122,13 @@ _(approx. 3-5 pages)_
 ### Data Preprocessing
 The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv) 
 
-|**UID**|**iso2**|**iso3**|**code3**|**FIPS**|**Admin2**|**Province\_State**|**Country\_Region**|**Lat**|**Long\_**|**...**|**6/13/20**|**6/14/20**|**6/15/20**|**6/16/20**|**6/17/20**|**6/18/20**|**6/19/20**|**6/20/20**|**6/21/20**|**6/22/20**
-:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
-0|16|AS|ASM|16|60|NaN|American Samoa|US|-14.271|-170.132|...|0|0|0|0|0|0|0|0|0|0
-1|316|GU|GUM|316|66|NaN|Guam|US|13.4443|144.7937|...|183|183|185|186|188|192|200|222|222|222
-2|580|MP|MNP|580|69|NaN|Northern Mariana Islands|US|15.0979|145.6739|...|30|30|30|30|30|30|30|30|30|30
-3|630|PR|PRI|630|72|NaN|Puerto Rico|US|18.2208|-66.5901|...|5690|5811|5890|5951|6003|6111|6195|6463|6525|6564
-4|850|VI|VIR|850|78|NaN|Virgin Islands|US|18.3358|-64.8963|...|72|72|72|72|73|73|73|73|76|76
+**UID**|**iso2**|**iso3**|**code3**|**FIPS**|**Admin2**|**Province\_State**|**Country\_Region**|**Lat**|**Long\_**|**...**|**6/13/20**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+16|AS|ASM|16|60|NaN|American Samoa|US|-14.271|-170.132|...|0
+316|GU|GUM|316|66|NaN|Guam|US|13.4443|144.7937|...|183
+580|MP|MNP|580|69|NaN|Northern Mariana Islands|US|15.0979|145.6739|...|30
+630|PR|PRI|630|72|NaN|Puerto Rico|US|18.2208|-66.5901|...|5690
+850|VI|VIR|850|78|NaN|Virgin Islands|US|18.3358|-64.8963|...|72
 The data set was imported into a pandas Dataframe. 
 
 Data needed minimal data Preprocessing as the each date was in a column and City, State was in another columns.
@@ -283,11 +283,11 @@ Once again Thanks and be safe.
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNzk0MjAwNSwtMTg5NzkwODk2MywxNz
-M5NDMyNTEyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4
-LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLTc2Nz
-U2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5
-NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NT
-IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
-ODM1XX0=
+eyJoaXN0b3J5IjpbMjAwODQ3NDQxLC0xODk3OTA4OTYzLDE3Mz
+k0MzI1MTIsMTk4Nzk5NzY5NiwzNTEyMTU4MSwtNDkxMTg4NDgs
+NTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0MjcyMjM0MywtNzY3NT
+YxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0
+LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLDY1Mj
+ExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4
+MzVdfQ==
 -->
