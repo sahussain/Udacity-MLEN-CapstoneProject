@@ -232,12 +232,6 @@ There is no current benchmark to COVID-19 so we don't know how any model would t
 ## V. Conclusion
 _(approx. 1-2 pages)_
 
-### Free-Form Visualization
-In this section, you will need to provide some form of visualization that emphasizes an important quality about the project. It is much more free-form, but should reasonably support a significant result or characteristic about the problem that you want to discuss. Questions to ask yourself when writing this section:
-- _Have you visualized a relevant or important quality about the problem, dataset, input data, or results?_
-- _Is the visualization thoroughly analyzed and discussed?_
-- _If a plot is provided, are the axes, title, and datum clearly defined?_
-
 ### Reflection
 I would say my best model would be **North Dakota** and **Delaware**
 both of the states fit the epidemic curve. 
@@ -248,13 +242,12 @@ Delaware is another state that is following the epidemic curve pretty closely. e
 
 The only problem with these predictions cannot take into account the human factor. The  human factor that is referring to is where people travel from one city to another to visit family, friends or to go on a vacation.  This could increase the transmission rate and you will see peaks, In the number of new cases during these periods case and point Memorial Day weekend peaks. 
 
-
-
-
-
 ### Improvement
 1. Using  `earlyR`  and  `EpiEstim`  packages which is part of R.
 2. Partnering up with an epidemiologist to get the understanding of the problem. 
+
+### Final Thoughts
+This project has taught me a lot about machine learning and epidemiology and how epidemiologist are using machine learning. 
 
 -----------
 
@@ -284,10 +277,10 @@ The only problem with these predictions cannot take into account the human facto
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4Nzk5NzY5NiwzNTEyMTU4MSwtNDkxMT
-g4NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0MjcyMjM0Mywt
-NzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1Nz
-E1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkw
-LDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03Nz
-A5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbLTE1MDQ2NTQxODMsMTk4Nzk5NzY5NiwzNT
+EyMTU4MSwtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTks
+MTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNz
+UyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3
+LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMT
+kyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
 -->
