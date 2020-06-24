@@ -360,16 +360,23 @@ that apply the two models (total cases and daily increase) to a new independent 
 The model and the forecast work well when applied to certain States. However, there are a few States that do not work because they are on a different epi curve, for example
  
  **Michigan**
+ 
  ***My Model:***
 ![enter image description here](/Images/Capture9.JPG)
 The model could not fit total cases to a Logistic Function
 
 ***Benchmark:***
-![enter image description here](/Images/Capture9.JPG)
+![enter image description here](/Images/Capture12.JPG)
+
 
 **Virgin Islands**
+
+ ***My Model:***
 ![enter image description here](/Images/Capture11.JPG)
 The model could not fit new cases to a Gaussian Function
+
+***Benchmark:***
+![enter image description here](/Images/Capture13.JPG)
 
 A better package such as  `earlyR`  and  `EpiEstim`  that are part of R work better when applied to an epidemic dataframe. 
 There are three well-researched articles written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068) that talk about using R to predict COVID-19 cases. 
@@ -388,15 +395,24 @@ Given my limited understanding and knowledge in the field of epidemiology, this 
 
 The model was able to predict future cases for some states very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
 
-**My Model:**
+
 
 **Delaware**
+
+***My Model:***
 ![enter image description here](/Images/Capture5.JPG)
 In Delaware, the number of new cases seem to be following an epi curve very well. This indicates that the social distancing measures have been working well to reduce the number of new cases. There was a spike in the number of cases in the week of Memorial Day (May 25), however, they seemed to have recovered quickly falling into a standard epi curve pattern.
+
+***Benchmark:***
+![enter image description here](/Images/Capture1.JPG)
+
 
 **North Dakota**
 ![enter image description here](/Images/Capture6.JPG)
 New covid-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, hwoever they seem to have take slightly longer to come back to a normal epi curve.
+
+***Benchmark:***
+![enter image description here](/Images/Capture13.JPG)
 
 **Maryland**
 ![enter image description here](/Images/Capture7.JPG)
@@ -550,11 +566,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3ODQzMDg0MCwtMTk5MTE2NzI5OSwtMT
-ExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5
-MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC
-04MjkzOTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OTMz
-ODc4LDY0NTg5Nzc1OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYsMT
-cxMzYyMTk3MSwyODM0NTY3NSwtMTA3NTc1NjQyNSwtODUwNTU5
-Mjk4XX0=
+eyJoaXN0b3J5IjpbLTQxMzUzNDY1LC0xOTkxMTY3Mjk5LC0xMT
+EwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkx
+MDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLT
+gyOTM5NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4
+NzgsNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNz
+EzNjIxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NTA1NTky
+OThdfQ==
 -->
