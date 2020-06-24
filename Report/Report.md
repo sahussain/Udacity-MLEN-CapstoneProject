@@ -503,19 +503,16 @@ Once again thanks and be safe.
 
 
 
-[^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
-
-[^11]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzMwOTA4LDE2NTU5MTY4MjgsMTkwNz
-Q3MTMyNywtMTMzNDEyNTQzOSwxNjg3ODExMDM3LDE3MTc1MDE1
-NDgsLTE0MzU4ODMwNjIsLTY2NDY4NDk3OCwtOTgxMzYwODM2LC
-0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MSwxNzIw
-MzM0MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3MDQzMS
-wtMTY4NTkyMDA2NSwxNDkzODg4ODMxLC0xODk3OTA4OTYzLDE3
-Mzk0MzI1MTJdfQ==
+eyJoaXN0b3J5IjpbLTE5NDY4NzU5MDEsLTIzMzMwOTA4LDE2NT
+U5MTY4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQzOSwxNjg3ODEx
+MDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLTY2NDY4NDk3OC
+wtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2
+NjQyOTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5NjYwOT
+M3LDU2ODI3MDQzMSwtMTY4NTkyMDA2NSwxNDkzODg4ODMxLC0x
+ODk3OTA4OTYzXX0=
 -->
