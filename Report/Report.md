@@ -120,7 +120,11 @@ North Dakota seem to be doing very well too and there social-distancing measures
 _(approx. 3-5 pages)_
 
 ### Data Preprocessing
-The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv) data needed minimal data Preprocessing as the each date was in a column and City, State was in another co
+The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv) 
+
+
+
+data needed minimal data Preprocessing as the each date was in a column and City, State was in another columns.
 
 The data set was imported into a pandas Dataframe. 
 Then the data was modified to remove the following columns and each state was sum
@@ -136,6 +140,8 @@ covid_df = covid_df.drop(['UID',
 	                 'Long_',
 	                 'Combined_Key'], axis=1).groupby("Province_State").sum().T
 ```
+
+Then the 
 Form hear onward we can use the following function to get a state by name
 ```Python
 def getCases(df, aState):
@@ -235,8 +241,8 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2Mzk1MTIzMzIsLTc2NzU2MTMxNiw1NT
-g3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIz
-MjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLT
-E1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbLTY0MjA1Mjc4MSwtNzY3NTYxMzE2LDU1OD
+c5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMy
+OSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMT
+U4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
 -->
