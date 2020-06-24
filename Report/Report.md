@@ -246,6 +246,8 @@ both of the states fit the epidemic curve.
 With respect to North Dakota They have 3313 cases 2952 recovered with only 77 debts they are doing very well.  If they continue  on this path they will have reached zero new cases around the end of July or August. 
 Delaware is another state that is following the epidemic curve pretty closely. even though they had some pigs around the Memorial Day week and they seem to have recovered pretty well if they continue to on this trend they will reach minimum amount of cases by end of July or August
 
+The only problem with these predictions cannot take into account the human factor. The  human factor that is referring to is where people travel from one city to another to visit family, friends or to go on a vacation.  This could increase the transmission rate and you will see peaks, In the number of new cases during these periods case and point Memorial Day weekend peaks. 
+
 
 
 
@@ -282,9 +284,10 @@ Delaware is another state that is following the epidemic curve pretty closely. e
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mz
-c2NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1
-NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OT
-IzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUs
-LTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbMTk4Nzk5NzY5NiwzNTEyMTU4MSwtNDkxMT
+g4NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0MjcyMjM0Mywt
+NzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1Nz
+E1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkw
+LDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03Nz
+A5MDQ4MzVdfQ==
 -->
