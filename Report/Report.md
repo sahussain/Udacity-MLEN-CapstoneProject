@@ -111,7 +111,7 @@ To use DeepAR it needs to meet the following criteria [^5]:
 
 [^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
-Based on the above requirements we can not use DeepAR. I then looked into the [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#head1234), list below, to see if we can use any of them. The first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary. A stationary process has the property that the mean, variance and autocorrelation structure do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
+Based on the above requirements we can not use DeepAR. I then looked into the [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs), list below, to see if we can use any of them. The first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary. A stationary process has the property that the mean, variance and autocorrelation structure do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
 [^10]:[6.4.4.2. Stationarity]()
 
 To summarize a time-series to be Stationarity, the following should not change over time
@@ -545,11 +545,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzU4MDE1MTEzLC0zNjQxMDM1NzUsMTQ1OT
-g5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1
-LC04MjkzOTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OT
-MzODc4LDY0NTg5Nzc1OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYs
-MTcxMzYyMTk3MSwyODM0NTY3NSwtMTA3NTc1NjQyNSwtODUwNT
-U5Mjk4LC04NzE1MzA5ODUsMzA2OTI1NDc2LC0zNTQ1NjQ2NTdd
-fQ==
+eyJoaXN0b3J5IjpbLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NT
+k4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMw
+NSwtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNz
+kzMzg3OCw2NDU4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2
+LDE3MTM2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MD
+U1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NTY0NjU3
+XX0=
 -->
