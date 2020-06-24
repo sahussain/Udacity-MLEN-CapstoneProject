@@ -139,8 +139,82 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 
 — Page 122,  [Introductory Time Series with R](http://www.amazon.com/dp/0387886974?tag=inspiredalgor-20).
 
-`The problem is that we can not remove any data`
+`The problem is that we can not remove any data becaues we would end up only 2 States that are deamed to pass Stationarity test.`
 
+I used the following function to check for Stationarity:
+
+```Python 
+def getStationarity(df, States):
+    #print(ts[0])
+    df_return = pd.DataFrame() 
+    arr_state = []
+    arr_adf = []
+    arr_p_value = []
+    arr_usedlag = [] 
+    arr_nobs = []
+    arr_1 =[]
+    arr_5 = []
+    arr_10 = []
+    icbest=[]
+    res = []
+    cit_stationary =[]
+    
+    threshold = 0.05
+    print("### Testing Null Hypothesis ###")
+    for aState in States:
+        try:
+            Cases=getCases(df, aState)
+            #print(Cases[0])
+            adfuller_results = sts.adfuller(Cases[0].total)
+            #print(adfuller_results)
+            arr_state.append(aState)
+            arr_adf.append(round(adfuller_results[0],3))
+            if round(adfuller_results[1],3)>threshold:
+                res.append(0) #0 implies non-stationary
+            else:
+                res.append(1) #1 implies stationary
+                cit_stationary.append(aState)
+            arr_p_value.append(round(adfuller_results[1],3))
+            arr_usedlag.append(round(adfuller_results[2],3))
+            arr_nobs.append(round(adfuller_results[3],3))
+            arr_1.append(round(adfuller_results[4]['1%'],3))
+            arr_5.append(round(adfuller_results[4]['5%'],3))
+            arr_10.append(round(adfuller_results[4]['10%'],3))
+            icbest.append(round(adfuller_results[3],3))
+            #print("\n\n")
+        except:
+            print("An occurred with city: ", aState)
+    #print(arr_1)
+    df_return['State'] = arr_state
+    df_return['stationary'] = res
+    df_return['adf'] = arr_adf
+    df_return['p-value'] = arr_p_value
+    df_return['usedlag'] = arr_usedlag
+    df_return['nobs'] = arr_nobs
+    df_return['significance_1'] = arr_1
+    df_return['significance_5'] = arr_5
+    df_return['significance_10'] = arr_10
+    df_return['icbest'] = icbest
+    
+    print("Calculation Complete")
+    print("adfuller results:")
+    print(str(len(States)-len(cit_stationary)) + " p-value >  0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.")
+    print(str(len(cit_stationary)) + " p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.")
+    print("--------------------")
+    print(str(len(States)) + " Total")
+    
+    #df_return.set_index('City')
+    #return None
+    return df_return, cit_stationary
+
+stationarity_df = getStationarity(covid_df, state[0:])
+```
+Testing Null Hypothesis
+Calculation Complete
+adfuller results:
+56 p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
+2 p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
+58 Total
 
 
 
@@ -227,80 +301,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 [^9]:[Generalized autoregressive conditional heteroskedasticity](https://www.sciencedirect.com/science/article/abs/pii/0304407686900631?via%3Dihub)
 
 
-I used the following function to check for Stationarity:
 
-```Python 
-def getStationarity(df, States):
-    #print(ts[0])
-    df_return = pd.DataFrame() 
-    arr_state = []
-    arr_adf = []
-    arr_p_value = []
-    arr_usedlag = [] 
-    arr_nobs = []
-    arr_1 =[]
-    arr_5 = []
-    arr_10 = []
-    icbest=[]
-    res = []
-    cit_stationary =[]
-    
-    threshold = 0.05
-    print("### Testing Null Hypothesis ###")
-    for aState in States:
-        try:
-            Cases=getCases(df, aState)
-            #print(Cases[0])
-            adfuller_results = sts.adfuller(Cases[0].total)
-            #print(adfuller_results)
-            arr_state.append(aState)
-            arr_adf.append(round(adfuller_results[0],3))
-            if round(adfuller_results[1],3)>threshold:
-                res.append(0) #0 implies non-stationary
-            else:
-                res.append(1) #1 implies stationary
-                cit_stationary.append(aState)
-            arr_p_value.append(round(adfuller_results[1],3))
-            arr_usedlag.append(round(adfuller_results[2],3))
-            arr_nobs.append(round(adfuller_results[3],3))
-            arr_1.append(round(adfuller_results[4]['1%'],3))
-            arr_5.append(round(adfuller_results[4]['5%'],3))
-            arr_10.append(round(adfuller_results[4]['10%'],3))
-            icbest.append(round(adfuller_results[3],3))
-            #print("\n\n")
-        except:
-            print("An occurred with city: ", aState)
-    #print(arr_1)
-    df_return['State'] = arr_state
-    df_return['stationary'] = res
-    df_return['adf'] = arr_adf
-    df_return['p-value'] = arr_p_value
-    df_return['usedlag'] = arr_usedlag
-    df_return['nobs'] = arr_nobs
-    df_return['significance_1'] = arr_1
-    df_return['significance_5'] = arr_5
-    df_return['significance_10'] = arr_10
-    df_return['icbest'] = icbest
-    
-    print("Calculation Complete")
-    print("adfuller results:")
-    print(str(len(States)-len(cit_stationary)) + " p-value >  0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.")
-    print(str(len(cit_stationary)) + " p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.")
-    print("--------------------")
-    print(str(len(States)) + " Total")
-    
-    #df_return.set_index('City')
-    #return None
-    return df_return, cit_stationary
-
-stationarity_df = getStationarity(covid_df, state[0:])
-```
-Testing Null Hypothesis
-Calculation Complete
-adfuller results:
-56 p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
-2 p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
-58 Total
 
 
 
@@ -508,7 +509,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEwOTI4MzkyMiwtODcxNTMwOTg1LDMwNj
+eyJoaXN0b3J5IjpbMTQ1NTY3MDU0NSwtODcxNTMwOTg1LDMwNj
 kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
 LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
 E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
