@@ -219,11 +219,11 @@ def getStationarity(df, States):
 stationarity_df = getStationarity(covid_df, state[0:])
 ```
 
+----
 
 
 
-
- ## Researching  `Time Series Forecasting Model(TSFMs)`
+ ## Research: Definitions of 14 Classical Time Series Forecasting Methods (TSFMs) in Python  
 
 ***AR (autoregressive model):***
 The autoregression (AR) method models the next step in the sequence as a linear function of the observations at prior time steps.
@@ -513,11 +513,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNj
-kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
-LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
-E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
-MDgzNiwtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNz
-EsMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3OTY2MDkzNyw1Njgy
-NzA0MzFdfQ==
+eyJoaXN0b3J5IjpbOTE4NDk5MTQzLC04NTA1NTkyOTgsLTg3MT
+UzMDk4NSwzMDY5MjU0NzYsLTM1NDU2NDY1NywtMjMzMzA5MDgs
+MTY1NTkxNjgyOCwxOTA3NDcxMzI3LC0xMzM0MTI1NDM5LDE2OD
+c4MTEwMzcsMTcxNzUwMTU0OCwtMTQzNTg4MzA2MiwtNjY0Njg0
+OTc4LC05ODEzNjA4MzYsLTEzNzYyODY3NTMsNDcyNDM2NDE0LC
+0xNTY2NDI5MTcxLDE3MjAzMzQzMywtNzc1NDIxMzg3LC01Nzk2
+NjA5MzddfQ==
 -->
