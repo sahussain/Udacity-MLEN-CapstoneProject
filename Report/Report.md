@@ -315,6 +315,21 @@ package. This will be fitting a pre-defined Gaussian/Logistic Function which is 
 [^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
 
+1.  Filtering:
+    
+    -   Some data from certain regions are banned by certain inconsistency on the records: “Diamond Princess”,“Iran”,“Japan”,“Bahrain” and “Qatar”
+    -   For  r(1)t+krt+k(1)  response (confirmed cases), we uses the countries or regions with more than 200 confirmed cases at time  tt.
+    -   For  r(2)t+krt+k(2)  response (deaths cases), we uses the countries or regions with more than 30 deaths at time  tt.
+2.  Fit the model. Three functional models of the general regression are constructed:  r(j)k(0)=f(R1(0))+ϵrk(j)(0)=f(R1(0))+ϵ, where the difference lies in the form of the  ff:
+    
+    -   FLM, uses a linear function:  f(R1(0))=∫R1(t)β(t)dtf(R1(0))=∫R1(t)β(t)dt.
+    -   FNP: uses a  ff  is a nonparametric kernel estimate.
+    -   SAM: uses a  ff  is an additive combination of smooth functions of the main functional principal components.
+3.  Predictions:
+    
+    -   Re-estimate Functional Models (Step 2) when new data is available (all countries and regions of Data1, Data2 and Data2).
+    -   Reconstruct the expected number of accumulated cases and deduce the new cases to each horizon (confirmed , deaths and actives).
+
 ### Benchmark
 We are still in a crucial stage of the epidemic; there is no real benchmark. The model was able to predict future cases for some states very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
 **Delaware**
@@ -508,11 +523,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM1NDU2NDY1NywtMjMzMzA5MDgsMTY1NT
-kxNjgyOCwxOTA3NDcxMzI3LC0xMzM0MTI1NDM5LDE2ODc4MTEw
-MzcsMTcxNzUwMTU0OCwtMTQzNTg4MzA2MiwtNjY0Njg0OTc4LC
-05ODEzNjA4MzYsLTEzNzYyODY3NTMsNDcyNDM2NDE0LC0xNTY2
-NDI5MTcxLDE3MjAzMzQzMywtNzc1NDIxMzg3LC01Nzk2NjA5Mz
-csNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OTM4ODg4MzEsLTE4
-OTc5MDg5NjNdfQ==
+eyJoaXN0b3J5IjpbMzA2OTI1NDc2LC0zNTQ1NjQ2NTcsLTIzMz
+MwOTA4LDE2NTU5MTY4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQz
+OSwxNjg3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLT
+Y2NDY4NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQz
+NjQxNCwtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4Ny
+wtNTc5NjYwOTM3LDU2ODI3MDQzMSwtMTY4NTkyMDA2NSwxNDkz
+ODg4ODMxXX0=
 -->
