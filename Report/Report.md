@@ -318,7 +318,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 ### Benchmark
-I am using The University of Melbourne 
+I am using The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/), which is available as  MIT License. 
 
 
 
@@ -515,11 +515,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTUwOTQxMjY3MCwzOTA2NTU5MjYsMTcxMz
-YyMTk3MSwyODM0NTY3NSwtMTA3NTc1NjQyNSwtODUwNTU5Mjk4
-LC04NzE1MzA5ODUsMzA2OTI1NDc2LC0zNTQ1NjQ2NTcsLTIzMz
-MwOTA4LDE2NTU5MTY4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQz
-OSwxNjg3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLT
-Y2NDY4NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQz
-NjQxNF19
+eyJoaXN0b3J5IjpbOTU3NzQxNDE3LDM5MDY1NTkyNiwxNzEzNj
+IxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NTA1NTkyOTgs
+LTg3MTUzMDk4NSwzMDY5MjU0NzYsLTM1NDU2NDY1NywtMjMzMz
+A5MDgsMTY1NTkxNjgyOCwxOTA3NDcxMzI3LC0xMzM0MTI1NDM5
+LDE2ODc4MTEwMzcsMTcxNzUwMTU0OCwtMTQzNTg4MzA2MiwtNj
+Y0Njg0OTc4LC05ODEzNjA4MzYsLTEzNzYyODY3NTMsNDcyNDM2
+NDE0XX0=
 -->
