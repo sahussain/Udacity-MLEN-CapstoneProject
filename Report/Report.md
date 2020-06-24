@@ -494,19 +494,17 @@ Once again thanks and be safe.
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
-[^10]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
-
 [^11]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzEyNzM3NDEsMTcxNzUwMTU0OCwtMT
-QzNTg4MzA2MiwtNjY0Njg0OTc4LC05ODEzNjA4MzYsLTEzNzYy
-ODY3NTMsNDcyNDM2NDE0LC0xNTY2NDI5MTcxLDE3MjAzMzQzMy
-wtNzc1NDIxMzg3LC01Nzk2NjA5MzcsNTY4MjcwNDMxLC0xNjg1
-OTIwMDY1LDE0OTM4ODg4MzEsLTE4OTc5MDg5NjMsMTczOTQzMj
-UxMiwxOTg3OTk3Njk2LDM1MTIxNTgxLC00OTExODg0OCw1ODIz
-OTM3NjVdfQ==
+eyJoaXN0b3J5IjpbLTE1NTEzNDc5MywxNzE3NTAxNTQ4LC0xND
+M1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4
+Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC
+03NzU0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5
+MjAwNjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNT
+EyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5
+Mzc2NV19
 -->
