@@ -209,11 +209,79 @@ so what can we do? Lets look at one state  `New York`
 I used the following function to check for Stationarity:
 
 ```Python 
-?????????????????????
+def getStationarity(df, States):
+    #print(ts[0])
+    df_return = pd.DataFrame() 
+    arr_state = []
+    arr_adf = []
+    arr_p_value = []
+    arr_usedlag = [] 
+    arr_nobs = []
+    arr_1 =[]
+    arr_5 = []
+    arr_10 = []
+    icbest=[]
+    res = []
+    cit_stationary =[]
+    
+    threshold = 0.05
+    print("### Testing Null Hypothesis ###")
+    for aState in States:
+        try:
+            Cases=getCases(df, aState)
+            #print(Cases[0])
+            adfuller_results = sts.adfuller(Cases[0].total)
+            #print(adfuller_results)
+            arr_state.append(aState)
+            arr_adf.append(round(adfuller_results[0],3))
+            if round(adfuller_results[1],3)>threshold:
+                res.append(0) #0 implies non-stationary
+            else:
+                res.append(1) #1 implies stationary
+                cit_stationary.append(aState)
+            arr_p_value.append(round(adfuller_results[1],3))
+            arr_usedlag.append(round(adfuller_results[2],3))
+            arr_nobs.append(round(adfuller_results[3],3))
+            arr_1.append(round(adfuller_results[4]['1%'],3))
+            arr_5.append(round(adfuller_results[4]['5%'],3))
+            arr_10.append(round(adfuller_results[4]['10%'],3))
+            icbest.append(round(adfuller_results[3],3))
+            #print("\n\n")
+        except:
+            print("An occurred with city: ", aState)
+    #print(arr_1)
+    df_return['State'] = arr_state
+    df_return['stationary'] = res
+    df_return['adf'] = arr_adf
+    df_return['p-value'] = arr_p_value
+    df_return['usedlag'] = arr_usedlag
+    df_return['nobs'] = arr_nobs
+    df_return['significance_1'] = arr_1
+    df_return['significance_5'] = arr_5
+    df_return['significance_10'] = arr_10
+    df_return['icbest'] = icbest
+    
+    print("Calculation Complete")
+    print("adfuller results:")
+    print(str(len(States)-len(cit_stationary)) + " p-value >  0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.")
+    print(str(len(cit_stationary)) + " p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.")
+    print("--------------------")
+    print(str(len(States)) + " Total")
+    
+    #df_return.set_index('City')
+    #return None
+    return df_return, cit_stationary
 
-
-
+stationarity_df = getStationarity(covid_df, state[0:])
 ```
+### Testing Null Hypothesis ###
+Calculation Complete
+adfuller results:
+56 p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
+2 p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
+--------------------
+58 Total
+
 
 
 
@@ -426,11 +494,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTk4MTM2MDgzNiwtMTM3NjI4Njc1Myw0Nz
-I0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC03NzU0MjEz
-ODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5MjAwNjUsMT
-Q5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5
-OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxOD
-k2NzE1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgw
-NzRdfQ==
+eyJoaXN0b3J5IjpbMTgyNzQ5MjMzOCwtOTgxMzYwODM2LC0xMz
+c2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MSwxNzIwMzM0
+MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3MDQzMSwtMT
+Y4NTkyMDA2NSwxNDkzODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0
+MzI1MTIsMTk4Nzk5NzY5NiwzNTEyMTU4MSwtNDkxMTg4NDgsNT
+gyMzkzNzY1LDE4OTY3MTU5NTksMTM0MjcyMjM0MywtNzY3NTYx
+MzE2XX0=
 -->
