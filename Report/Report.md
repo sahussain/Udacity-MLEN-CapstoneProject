@@ -145,21 +145,7 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 After doing all the I ended up using using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
 package. 
 
-### Algorithm steps:
 
-1.  Aggregating:
-	-   Some data from certain regions are banned by certain inconsistency on the records: “Diamond Princess”,“Iran”,“Japan”,“Bahrain” and “Qatar”
-    -   For  r(1)t+krt+k(1)  response (confirmed cases), we uses the countries or regions with more than 200 confirmed cases at time  tt.
-    -   For  r(2)t+krt+k(2)  response (deaths cases), we uses the countries or regions with more than 30 deaths at time  tt.
-2.  Fit the model. Three functional models of the general regression are constructed:  r(j)k(0)=f(R1(0))+ϵrk(j)(0)=f(R1(0))+ϵ, where the difference lies in the form of the  ff:
-    
-    -   FLM, uses a linear function:  f(R1(0))=∫R1(t)β(t)dtf(R1(0))=∫R1(t)β(t)dt.
-    -   FNP: uses a  ff  is a nonparametric kernel estimate.
-    -   SAM: uses a  ff  is an additive combination of smooth functions of the main functional principal components.
-3.  Predictions:
-    
-    -   Re-estimate Functional Models (Step 2) when new data is available (all countries and regions of Data1, Data2 and Data2).
-    -   Reconstruct the expected number of accumulated cases and deduce the new cases to each horizon (confirmed , deaths and actives).
 
 This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^10]
 
@@ -528,11 +514,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDQ0ODI5NTEsMjgzNDU2NzUsLTEwNz
-U3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3
-NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4LDE5MD
-c0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNzE3NTAx
-NTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNi
-wtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNzEsMTcy
-MDMzNDMzXX0=
+eyJoaXN0b3J5IjpbMTcxMzYyMTk3MSwyODM0NTY3NSwtMTA3NT
+c1NjQyNSwtODUwNTU5Mjk4LC04NzE1MzA5ODUsMzA2OTI1NDc2
+LC0zNTQ1NjQ2NTcsLTIzMzMwOTA4LDE2NTU5MTY4MjgsMTkwNz
+Q3MTMyNywtMTMzNDEyNTQzOSwxNjg3ODExMDM3LDE3MTc1MDE1
+NDgsLTE0MzU4ODMwNjIsLTY2NDY4NDk3OCwtOTgxMzYwODM2LC
+0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MSwxNzIw
+MzM0MzNdfQ==
 -->
