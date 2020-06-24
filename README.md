@@ -26,8 +26,8 @@ project are below.
 **Notebooks**
 - First Attempt [Notebooks/TSFMs1.ipynb]
 - Second Attempt [Notebooks/TSFMs2.ipynb]
-	- ## data
-numpy==1.16.4
+	- data
+	numpy==1.16.4
 pandas==0.25.1
 xlrd==1.2.0
 ## plot
@@ -49,5 +49,5 @@ Data Source:
 [COVID-19 Data Research repository from Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDk2NTQyMTQxXX0=
+eyJoaXN0b3J5IjpbOTkxNDIyMzg3XX0=
 -->
