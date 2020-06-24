@@ -179,8 +179,10 @@ The method is suitable for univariate time series with trend and/or seasonal com
 
 ***ARCH (autoregressive conditional heteroscedasticity model)***
 Autoregressive conditional heteroskedasticity (ARCH) is a time-series statistical model used to analyze effects left unexplained by econometric models. In these models, the error term is the residual result left unexplained by the model. The assumption of econometric models is that the [variance](https://www.investopedia.com/terms/v/variance.asp) of this term will be uniform. This is known as "homoskedasticity." However, in some circumstances, this variance is not uniform, but "heteroskedastic."[^7]
+
 ***ARIMAX (autoregressive integrated moving average model with exogenous variables)***
 A time series model using the Autoregressive Integrated Moving Average with exogenous variables (ARIMAX) function was developed to predict impacts from groundwater pumping on Silver Springs discharge in Ocala Florida. This effort was conducted to determine the effects of groundwater withdrawal using the statistical relationship between rainfall and spring discharge at Silver Springs. Other statistical models were developed in previous work by both Southwest Florida Water Management Districts and St Johns River Water Management District. However, there were several opportunities for improvement including using consistent data, model calibration period, and residual periods. Additionally previous statistical methods included Multiple Linear Regression and Line of Organic Correlation methods. These methods did not account for autocorrelation that present in many time series analysis. Through inter-district collaboration, data was made consistent and new methods were explored. The ARIMAX model was explored in this paper and is useful for prediction when autoregressive patterns are present in model residuals that bias modeled coefficients.[^8]
+
 ***GARCH (generalized autoregressive conditional heteroscedasticity model)***
 A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic) process introduced in Engle (1982) to allow for past conditional variances in the current conditional variance equation is proposed. Stationarity conditions and autocorrelation structure for this new class of parametric models are derived. Maximum likelihood estimation and testing are also considered.[^9] 
 
@@ -511,11 +513,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY4NzgxMTAzNywxNzE3NTAxNTQ4LC0xND
-M1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4
-Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC
-03NzU0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5
-MjAwNjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNT
-EyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5
-Mzc2NV19
+eyJoaXN0b3J5IjpbLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
+E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
+MDgzNiwtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNz
+EsMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3OTY2MDkzNyw1Njgy
+NzA0MzEsLTE2ODU5MjAwNjUsMTQ5Mzg4ODgzMSwtMTg5NzkwOD
+k2MywxNzM5NDMyNTEyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5
+MTE4ODQ4XX0=
 -->
