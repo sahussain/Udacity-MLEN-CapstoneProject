@@ -112,7 +112,37 @@ To use DeepAR it needs to meet the following criteria [^5]:
 [^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
 
-Based on the above requirements we can not use DeepAR. I then looked into the following XX Classical Time Series Forecasting Methods (TSFMs) in Python f any of the other ones of the cla Then I looked into the following models to see if we can use them:
+Based on the above requirements we can not use DeepAR. I then looked into the following 14 Classical Time Series Forecasting Methods (TSFMs) in Python to see if we can use TSFMs, the first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary.
+A stationary process has the property that the mean, variance and autocorrelation structure(No seasonality) do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
+[^10]:[6.4.4.2. Stationarity]()
+
+For practical purposes, stationarity can usually be determined from a run sequence plot.
+
+For a time-series to be Stationarity, the following do not change over time
+
+mean(μ)
+standard deviation(σ)
+Autocorrelation structure (No seasonality)
+for more info see Stationarity
+
+There are a number of unit root tests and the Augmented Dickey-Fuller may be one of the more widely used. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
+
+The null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
+
+Null Hypothesis (H0): If failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure. Alternate Hypothesis (H1): The null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. We interpret this result using the p-value from the test. A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypothesis (stationary), otherwise a p-value above the threshold suggests we fail to reject the null hypothesis (non-stationary).
+
+-   p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
+-   p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
+
+source:  [How to Check if Time Series Data is Stationary with Python](https://machinelearningmastery.com/time-series-data-stationary-python/)
+
+Want to know more about  [How to Check if Time Series Data is Stationary with Python](https://machinelearningmastery.com/time-series-data-stationary-python/)
+
+> If we fit a stationary model to data, we assume our data are a realization of a stationary process. So our first step in an analysis should be to check whether there is any evidence of a trend or seasonal effects and, if there is, remove them.
+
+— Page 122,  [Introductory Time Series with R](http://www.amazon.com/dp/0387886974?tag=inspiredalgor-20).
+
+`The problem is that we can not remove any data`
 
 
 
@@ -199,41 +229,6 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 [^9]:[Generalized autoregressive conditional heteroskedasticity](https://www.sciencedirect.com/science/article/abs/pii/0304407686900631?via%3Dihub)
 
-
-
-To see if we can use TSFMs, the first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary.
-A stationary process has the property that the mean, variance and autocorrelation structure(No seasonality) do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
-[^10]:[6.4.4.2. Stationarity]()
-
-For practical purposes, stationarity can usually be determined from a run sequence plot.
-
-For a time-series to be Stationarity, the following do not change over time
-
-mean(μ)
-standard deviation(σ)
-Autocorrelation structure (No seasonality)
-for more info see Stationarity
-
-There are a number of unit root tests and the Augmented Dickey-Fuller may be one of the more widely used. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
-
-The null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
-
-Null Hypothesis (H0): If failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure. Alternate Hypothesis (H1): The null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. We interpret this result using the p-value from the test. A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypothesis (stationary), otherwise a p-value above the threshold suggests we fail to reject the null hypothesis (non-stationary).
-
--   p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
--   p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
-
-source:  [How to Check if Time Series Data is Stationary with Python](https://machinelearningmastery.com/time-series-data-stationary-python/)
-
-Want to know more about  [How to Check if Time Series Data is Stationary with Python](https://machinelearningmastery.com/time-series-data-stationary-python/)
-
-> If we fit a stationary model to data, we assume our data are a realization of a stationary process. So our first step in an analysis should be to check whether there is any evidence of a trend or seasonal effects and, if there is, remove them.
-
-— Page 122,  [Introductory Time Series with R](http://www.amazon.com/dp/0387886974?tag=inspiredalgor-20).
-
-`The problem is that we can not remove any data`
-
-so what can we do? Lets look at one state  `New York`
 
 I used the following function to check for Stationarity:
 
@@ -516,11 +511,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM3NDkzMTIzMSwtODcxNTMwOTg1LDMwNj
-kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
-LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
-E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
-MDgzNiwtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNz
-EsMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3OTY2MDkzNyw1Njgy
-NzA0MzFdfQ==
+eyJoaXN0b3J5IjpbMzczNDUwOTg1LC04NzE1MzA5ODUsMzA2OT
+I1NDc2LC0zNTQ1NjQ2NTcsLTIzMzMwOTA4LDE2NTU5MTY4Mjgs
+MTkwNzQ3MTMyNywtMTMzNDEyNTQzOSwxNjg3ODExMDM3LDE3MT
+c1MDE1NDgsLTE0MzU4ODMwNjIsLTY2NDY4NDk3OCwtOTgxMzYw
+ODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MS
+wxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3
+MDQzMV19
 -->
