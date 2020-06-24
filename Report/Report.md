@@ -142,6 +142,13 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 `The problem is that we can not remove any data becaues we would end up only 2 States that are deamed to pass Stationarity test.`
 
 
+After doing all the I ended up using using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
+package. 
+
+This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^10]
+
+
+
 ***Data output of Stationarity test based on the function below***
 Testing Null Hypothesis
 Calculation Complete
@@ -505,11 +512,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ1NDIxNzEyOSwtODUwNTU5Mjk4LC04Nz
-E1MzA5ODUsMzA2OTI1NDc2LC0zNTQ1NjQ2NTcsLTIzMzMwOTA4
-LDE2NTU5MTY4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQzOSwxNj
-g3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLTY2NDY4
-NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNC
-wtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5
-NjYwOTM3XX0=
+eyJoaXN0b3J5IjpbLTEwNzU3NTY0MjUsLTg1MDU1OTI5OCwtOD
+cxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkw
+OCwxNjU1OTE2ODI4LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMT
+Y4NzgxMTAzNywxNzE3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2
+ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4Njc1Myw0NzI0MzY0MT
+QsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3
+OTY2MDkzN119
 -->
