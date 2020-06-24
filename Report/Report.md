@@ -209,7 +209,7 @@ so what can we do? Lets look at one state  `New York`
 I used the following function to check for Stationarity:
 
 ```Python 
-
+?????????????????????
 
 
 
@@ -426,7 +426,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjA1NzgzMjk5OSwtMTM3NjI4Njc1Myw0Nz
+eyJoaXN0b3J5IjpbLTk4MTM2MDgzNiwtMTM3NjI4Njc1Myw0Nz
 I0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC03NzU0MjEz
 ODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5MjAwNjUsMT
 Q5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5
