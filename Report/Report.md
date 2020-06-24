@@ -261,7 +261,7 @@ The notation for the model involves specifying the order for the AR(p) and MA(q)
 The method is suitable for univariate time series without trend and seasonal components.[^6]
 
 ***ARIMA (autoregressive integrated moving average model):***
-The Autoregressive Integrated Moving Average (ARIMA) method models the next step in the sequence as a linear function of the differenced observations and residual errors at prior time steps.
+The Autoregressive Integrated Moving Average (ARIMA) method models the next step in the sequence as a linear function of the differences observations and residual errors at prior time steps.
 It combines both Autoregression (AR) and Moving Average (MA) models as well as a differencing pre-processing step of the sequence to make the sequence stationary, called integration (I).
 The notation for the model involves specifying the order for the AR(p), I(d), and MA(q) models as parameters to an ARIMA function, e.g. ARIMA(p, d, q). An ARIMA model can also be used to develop AR, MA, and ARMA models.
 The method is suitable for univariate time series with trend and without seasonal components.[^6]
@@ -558,11 +558,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTgyOTM5NjI0NiwzNDE1MjAzOTAsMzQ3OD
-gwMzE0LC0xMjc5MzM4NzgsNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4
-LDM5MDY1NTkyNiwxNzEzNjIxOTcxLDI4MzQ1Njc1LC0xMDc1Nz
-U2NDI1LC04NTA1NTkyOTgsLTg3MTUzMDk4NSwzMDY5MjU0NzYs
-LTM1NDU2NDY1NywtMjMzMzA5MDgsMTY1NTkxNjgyOCwxOTA3ND
-cxMzI3LC0xMzM0MTI1NDM5LDE2ODc4MTEwMzcsMTcxNzUwMTU0
-OF19
+eyJoaXN0b3J5IjpbMzg0NjIxMzA1LC04MjkzOTYyNDYsMzQxNT
+IwMzkwLDM0Nzg4MDMxNCwtMTI3OTMzODc4LDY0NTg5Nzc1OSwt
+MTA5OTc4OTE2OCwzOTA2NTU5MjYsMTcxMzYyMTk3MSwyODM0NT
+Y3NSwtMTA3NTc1NjQyNSwtODUwNTU5Mjk4LC04NzE1MzA5ODUs
+MzA2OTI1NDc2LC0zNTQ1NjQ2NTcsLTIzMzMwOTA4LDE2NTU5MT
+Y4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQzOSwxNjg3ODExMDM3
+XX0=
 -->
