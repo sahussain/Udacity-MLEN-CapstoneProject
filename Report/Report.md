@@ -247,7 +247,7 @@ The only problem with these predictions cannot take into account the human facto
 2. Partnering up with an epidemiologist to get the understanding of the problem. 
 
 ### Final Thoughts
-This project has taught me a lot about machine learning and epidemiology and how epidemiologist are using machine learning. This project has also taught me that we always need a partner in this case it would have been really nice if your I would have had an epidemiologist to help me and guide me in the process of how a disease works. We as machine learning Engineers only understands the data but for us to be able to program a machine to learn something new we need to also understand what is the data based on what are the nuances on the data itself what is the story behind the data without the this. 
+This project has taught me a lot about machine learning and epidemiology and how epidemiologist are using machine learning. This project has also taught me that we always need a partner in this case it would have been really nice if your I would have had an epidemiologist to help me and guide me in the process of how a disease works. We as machine learning Engineers only understands the data but for us to be able to program a machine to learn something new we need to also understand what is the data based on what are the nuances on the data itself what is the story behind the data without the this. It is really critical for us to be able to build a good machine model. We need to understand  the story of the data. In this case we're looking at the number of new cases worse than the number of total cases. 
 
 -----------
 
@@ -277,7 +277,7 @@ This project has taught me a lot about machine learning and epidemiology and how
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY0NDQyNDQzMSwxOTg3OTk3Njk2LDM1MT
+eyJoaXN0b3J5IjpbLTMxNDQ3MTY4MSwxOTg3OTk3Njk2LDM1MT
 IxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5NjcxNTk1OSwx
 MzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NT
 IyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5Njcs
