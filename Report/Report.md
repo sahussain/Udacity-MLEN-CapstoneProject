@@ -415,6 +415,7 @@ Model:
 Forecast:
 The forecasting function was provided by [`ts_utils.py`](https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/time_series/ts_utils.py)
 that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^8]
+[^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
 
 ### Refinement
@@ -499,11 +500,6 @@ Once again thanks and be safe.
 
 
 
-[^7]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
-
-[Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
-
-[^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
@@ -513,11 +509,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY1NTkxNjgyOCwxOTA3NDcxMzI3LC0xMz
-M0MTI1NDM5LDE2ODc4MTEwMzcsMTcxNzUwMTU0OCwtMTQzNTg4
-MzA2MiwtNjY0Njg0OTc4LC05ODEzNjA4MzYsLTEzNzYyODY3NT
-MsNDcyNDM2NDE0LC0xNTY2NDI5MTcxLDE3MjAzMzQzMywtNzc1
-NDIxMzg3LC01Nzk2NjA5MzcsNTY4MjcwNDMxLC0xNjg1OTIwMD
-Y1LDE0OTM4ODg4MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwx
-OTg3OTk3Njk2XX0=
+eyJoaXN0b3J5IjpbLTE2NzU0ODc4OTQsMTY1NTkxNjgyOCwxOT
+A3NDcxMzI3LC0xMzM0MTI1NDM5LDE2ODc4MTEwMzcsMTcxNzUw
+MTU0OCwtMTQzNTg4MzA2MiwtNjY0Njg0OTc4LC05ODEzNjA4Mz
+YsLTEzNzYyODY3NTMsNDcyNDM2NDE0LC0xNTY2NDI5MTcxLDE3
+MjAzMzQzMywtNzc1NDIxMzg3LC01Nzk2NjA5MzcsNTY4MjcwND
+MxLC0xNjg1OTIwMDY1LDE0OTM4ODg4MzEsLTE4OTc5MDg5NjMs
+MTczOTQzMjUxMl19
 -->
