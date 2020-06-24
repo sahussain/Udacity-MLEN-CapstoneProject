@@ -111,8 +111,7 @@ To use DeepAR it needs to meet the following criteria [^5]:
 
 [^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
-
-Based on the above requirements we can not use DeepAR. I then looked into the 14 other Classical Time Series Forecasting Methods (TSFMs) in Python, list below, to see if we can use any of them. The first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary. A stationary process has the property that the mean, variance and autocorrelation structure do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
+Based on the above requirements we can not use DeepAR. I then looked into the [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#head1234), list below, to see if we can use any of them. The first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary. A stationary process has the property that the mean, variance and autocorrelation structure do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
 [^10]:[6.4.4.2. Stationarity]()
 
 To summarize a time-series to be Stationarity, the following should not change over time
@@ -444,7 +443,7 @@ Once again thanks and be safe.
 
 -----------
 
- ## Research: Definitions of 14 Classical Time Series Forecasting Methods (TSFMs) in Python  
+ ## <a name="TSFMs"></a>Research: Definitions of 14 Classical Time Series Forecasting Methods (TSFMs) in Python  
 
 ***AR (autoregressive model):***
 The autoregression (AR) method models the next step in the sequence as a linear function of the observations at prior time steps.
@@ -546,11 +545,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC0xND
-Q5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5NjI0
-NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4NzgsNjQ1OD
-k3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNjIxOTcx
-LDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NTA1NTkyOTgsLTg3MT
-UzMDk4NSwzMDY5MjU0NzYsLTM1NDU2NDY1NywtMjMzMzA5MDhd
+eyJoaXN0b3J5IjpbMzU4MDE1MTEzLC0zNjQxMDM1NzUsMTQ1OT
+g5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1
+LC04MjkzOTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OT
+MzODc4LDY0NTg5Nzc1OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYs
+MTcxMzYyMTk3MSwyODM0NTY3NSwtMTA3NTc1NjQyNSwtODUwNT
+U5Mjk4LC04NzE1MzA5ODUsMzA2OTI1NDc2LC0zNTQ1NjQ2NTdd
 fQ==
 -->
