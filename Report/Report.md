@@ -121,12 +121,21 @@ _(approx. 3-5 pages)_
 
 ### Data Preprocessing
 The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv) 
-
-
-
-data needed minimal data Preprocessing as the each date was in a column and City, State was in another columns.
-
+|**UID**|**iso2**|**iso3**|**code3**|**FIPS**|**Admin2**|**Province\_State**|**Country\_Region**|**Lat**|**Long\_**|**...**|**6/13/20**|**6/14/20**|**6/15/20**|**6/16/20**|**6/17/20**|**6/18/20**|**6/19/20**|**6/20/20**|**6/21/20**|**6/22/20**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+0|16|AS|ASM|16|60|NaN|American Samoa|US|-14.271|-170.132|...|0|0|0|0|0|0|0|0|0|0
+1|316|GU|GUM|316|66|NaN|Guam|US|13.4443|144.7937|...|183|183|185|186|188|192|200|222|222|222
+2|580|MP|MNP|580|69|NaN|Northern Mariana Islands|US|15.0979|145.6739|...|30|30|30|30|30|30|30|30|30|30
+3|630|PR|PRI|630|72|NaN|Puerto Rico|US|18.2208|-66.5901|...|5690|5811|5890|5951|6003|6111|6195|6463|6525|6564
+4|850|VI|VIR|850|78|NaN|Virgin Islands|US|18.3358|-64.8963|...|72|72|72|72|73|73|73|73|76|76
 The data set was imported into a pandas Dataframe. 
+
+Data needed minimal data Preprocessing as the each date was in a column and City, State was in another columns.
+```python
+csv_file = 'time_series_covid19_confirmed_US.csv'
+covid_df = pd.read_csv(csv_file)
+```
+
 Then the data was modified to remove the following columns and each state was sum
 ```python
 covid_df = covid_df.drop(['UID',
@@ -241,7 +250,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY0MjA1Mjc4MSwtNzY3NTYxMzE2LDU1OD
+eyJoaXN0b3J5IjpbMTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1OD
 c5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMy
 OSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMT
 U4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
