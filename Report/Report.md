@@ -206,7 +206,7 @@ which apply the 2 models(total cases data and one for the daily increase) to a n
 ### Refinement
 The model and the forecast works well however there are few states that will not work because they are on a different epidemic curve for example **Michigan**
 ![enter image description here](/Images/Capture9.JPG)
-
+The model could not fit Total Cases to a Logistic Function
 
 **Virgin Islands**
 
@@ -277,9 +277,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU3Mjk4OTgyLDE4OTY3MTU5NTksMTM0Mj
-cyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0
-MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMT
-c5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0
-ODM4LC03NzA5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbLTEzOTQxMTk1NjAsMTg5NjcxNTk1OSwxMz
+QyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIy
+NTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5NjcsLT
+ExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2
+NDQ4MzgsLTc3MDkwNDgzNV19
 -->
