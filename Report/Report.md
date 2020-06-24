@@ -142,11 +142,7 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 
 `The problem is that we can not remove any data becaues we would end up only 2 States that are deamed to pass Stationarity test.`
 
-Then after researching father I found datasets that fellows Logistic curve will not work well with  `TSFMs`
-
-
-There is good paper published by Yoosoon Chang, Bibo Jiang, and Joon Y. Park
-called [Nonstationary Logistic Regression](https://pdfs.semanticscholar.org/d6ff/fb23e6e47c77e53179154bf26dbeb10c00bc.pdf)
+Then after researching father I found datasets that fellows Logistic curve will not work well with  `TSFMs` There is good paper published by Yoosoon Chang, Bibo Jiang, and Joon Y. Park called [Nonstationary Logistic Regression](https://pdfs.semanticscholar.org/d6ff/fb23e6e47c77e53179154bf26dbeb10c00bc.pdf) in which 
 After doing all the I ended up using using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
 package. 
 
@@ -554,11 +550,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1OTUxOTUwNjAsMzQ3ODgwMzE0LC0xMj
-c5MzM4NzgsNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTky
-NiwxNzEzNjIxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NT
-A1NTkyOTgsLTg3MTUzMDk4NSwzMDY5MjU0NzYsLTM1NDU2NDY1
-NywtMjMzMzA5MDgsMTY1NTkxNjgyOCwxOTA3NDcxMzI3LC0xMz
-M0MTI1NDM5LDE2ODc4MTEwMzcsMTcxNzUwMTU0OCwtMTQzNTg4
-MzA2Ml19
+eyJoaXN0b3J5IjpbMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OT
+MzODc4LDY0NTg5Nzc1OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYs
+MTcxMzYyMTk3MSwyODM0NTY3NSwtMTA3NTc1NjQyNSwtODUwNT
+U5Mjk4LC04NzE1MzA5ODUsMzA2OTI1NDc2LC0zNTQ1NjQ2NTcs
+LTIzMzMwOTA4LDE2NTU5MTY4MjgsMTkwNzQ3MTMyNywtMTMzND
+EyNTQzOSwxNjg3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMw
+NjJdfQ==
 -->
