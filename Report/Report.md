@@ -123,9 +123,10 @@ Autocorrelation structure (No seasonality)
 
 There are a number of unit root tests we can do to check if a dataset is stationary or non-stationary. The Augmented Dickey-Fuller is one of the more widely used test. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
 
-The null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
+According to Augmented Dickey-Fuller test the null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
 
-Null Hypothesis (H0): If failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure. Alternate Hypothesis (H1): The null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. We interpret this result using the p-value from the test. A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypothesis (stationary), otherwise a p-value above the threshold suggests we fail to reject the null hypothesis (non-stationary).
+`Null Hypothesis (H0):` If failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure. 
+`Alternate Hypothesis (H1):` The null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. We interpret this result using the p-value from the test. A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypothesis (stationary), otherwise a p-value above the threshold suggests we fail to reject the null hypothesis (non-stationary).
 
 -   p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
 -   p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
@@ -507,11 +508,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDMyOTg0NDY5LC04NzE1MzA5ODUsMzA2OT
-I1NDc2LC0zNTQ1NjQ2NTcsLTIzMzMwOTA4LDE2NTU5MTY4Mjgs
-MTkwNzQ3MTMyNywtMTMzNDEyNTQzOSwxNjg3ODExMDM3LDE3MT
-c1MDE1NDgsLTE0MzU4ODMwNjIsLTY2NDY4NDk3OCwtOTgxMzYw
-ODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MS
-wxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3
-MDQzMV19
+eyJoaXN0b3J5IjpbMTEwOTI4MzkyMiwtODcxNTMwOTg1LDMwNj
+kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
+LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
+E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
+MDgzNiwtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNz
+EsMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3OTY2MDkzNyw1Njgy
+NzA0MzFdfQ==
 -->
