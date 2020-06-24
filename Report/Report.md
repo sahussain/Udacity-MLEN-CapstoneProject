@@ -332,6 +332,23 @@ The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast
 >
 >When public health interventions are rapidly changing the growth rate, this can be seen as deviations from the expected straight line on the log-plot.  In these situations, when growth rate is declining rapidly (the curve is flattening), forecasts from the constant growth model (averaging growth over the last ten days) will be biased upwards.  By altering the slider you can adjust the window over which growth rate is averaged, so you can get a sense of how recent shifts are affecting the forecast.  The time-varying growth rate forecast should be less sensitive to changes in $n$, and is the better model when growth rates are changing in a steady linear manner.
 
+### Algorithm steps:
+
+1.  Grouping:
+    -  Removed unnecessary columns
+    - Grouped the data by State 
+2.  Fit the model. 
+	 - Two functions Logistic Function & Gaussian Function for total cases & new case <?> was used to fiting  the dataframe to a curve using curve_fit function the model outputs list of optim params
+	 - Logistic Function is defined by:
+
+		> f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
+	  - Gaussian Function is defined by:
+		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^4]
+
+3.  Predictions:
+	- The `forecast_curve` takes `curve_fit` models, and applies a new independent variable based on observations to forecast, freq, and function f(x)
+	- outputs: Graph of actual vs forecast
+
 
 ## III. Methodology
 
@@ -528,11 +545,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MD
-Y1NTkyNiwxNzEzNjIxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1
-LC04NTA1NTkyOTgsLTg3MTUzMDk4NSwzMDY5MjU0NzYsLTM1ND
-U2NDY1NywtMjMzMzA5MDgsMTY1NTkxNjgyOCwxOTA3NDcxMzI3
-LC0xMzM0MTI1NDM5LDE2ODc4MTEwMzcsMTcxNzUwMTU0OCwtMT
-QzNTg4MzA2MiwtNjY0Njg0OTc4LC05ODEzNjA4MzYsLTEzNzYy
-ODY3NTNdfQ==
+eyJoaXN0b3J5IjpbMTA4NjY3MDUxNyw2NDU4OTc3NTksLTEwOT
+k3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2NzUs
+LTEwNzU3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNj
+kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
+LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
+E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
+MDgzNl19
 -->
