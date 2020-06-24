@@ -47,7 +47,7 @@ Epi curve of new of cases follows Gaussian Function is defined by:
 For this reason, in the dataset model I propose total cases will fit to to Logistic function and new cases to Gaussian functions.
 
 ### Metrics
-The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^5]
+The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^4]
 >f(error) = f(time) + error
 
 
@@ -288,23 +288,21 @@ Once again thanks and be safe.
 
 [^3]:[Mathematical prediction of the time evolution of the COVID-19 pandemic in Italy by a Gauss error function and Monte Carlo simulations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156796/)
 
-[^4]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
+[^4]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
-[^5]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
+[^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
-[^6]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
-
-[^7]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
+[^6]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
 
 [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
-[^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
+[^7]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
-[^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
+[^8]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1Nzk1MDU1MDYsMTcyMDMzNDMzLC03Nz
+eyJoaXN0b3J5IjpbLTE1MTE5MjY2MTgsMTcyMDMzNDMzLC03Nz
 U0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5MjAw
 NjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLD
 E5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2
