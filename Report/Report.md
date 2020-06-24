@@ -274,12 +274,11 @@ def getStationarity(df, States):
 
 stationarity_df = getStationarity(covid_df, state[0:])
 ```
-### Testing Null Hypothesis ###
+Testing Null Hypothesis
 Calculation Complete
 adfuller results:
 56 p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
 2 p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
---------------------
 58 Total
 
 
@@ -494,7 +493,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzQ5MjMzOCwtOTgxMzYwODM2LC0xMz
+eyJoaXN0b3J5IjpbMjAyMDgzMDYzMCwtOTgxMzYwODM2LC0xMz
 c2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MSwxNzIwMzM0
 MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3MDQzMSwtMT
 Y4NTkyMDA2NSwxNDkzODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0
