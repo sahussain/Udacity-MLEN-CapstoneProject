@@ -404,22 +404,29 @@ The model was able to predict future cases for some states very well. However, f
 In Delaware, the number of new cases seem to be following an epi curve very well. This indicates that the social distancing measures have been working well to reduce the number of new cases. There was a spike in the number of cases in the week of Memorial Day (May 25), however, they seemed to have recovered quickly falling into a standard epi curve pattern.
 
 ***Benchmark:***
-![enter image description here](/Images/Capture1.JPG)
+![enter image description here](/Images/Capture14.JPG)
 
 
 **North Dakota**
+
+***My Model:***
 ![enter image description here](/Images/Capture6.JPG)
 New covid-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, hwoever they seem to have take slightly longer to come back to a normal epi curve.
 
 ***Benchmark:***
-![enter image description here](/Images/Capture13.JPG)
+![enter image description here](/Images/Capture15.JPG)
+
+
 
 **Maryland**
+
+***My Model:***
 ![enter image description here](/Images/Capture7.JPG)
 Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons.
 
 
-**Benchmark:**
+***Benchmark:***
+![enter image description here](/Images/Capture16.JPG)
 
 
 
@@ -566,11 +573,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxMzUzNDY1LC0xOTkxMTY3Mjk5LC0xMT
-EwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkx
-MDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLT
-gyOTM5NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4
-NzgsNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNz
-EzNjIxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NTA1NTky
-OThdfQ==
+eyJoaXN0b3J5IjpbNjAxMDE5ODQsLTE5OTExNjcyOTksLTExMT
+AxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEw
+NTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtOD
+I5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3
+OCw2NDU4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MT
+M2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MDU1OTI5
+OF19
 -->
