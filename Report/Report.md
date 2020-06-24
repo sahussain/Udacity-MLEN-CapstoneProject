@@ -321,22 +321,17 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 I am using The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/), 
 Established in 1853, the University of Melbourne is a public-spirited institution that makes distinctive contributions to society in research, learning and teaching and engagement. It’s consistently ranked among the leading universities in the world, with international rankings of world universities placing it as number 1 in Australia and number 32 in the world (Times Higher Education World University Rankings 2017-2018).
 
-The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as  MIT License on (GitHub)(https://github.com/benflips/nCovForecast) This model was done using R package, I did not make any changes to this as this would be my benchmark to compare my model with.  They have several models predicting different aspects of the dataset. I am only using there
+The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as  MIT License on (GitHub)(https://github.com/benflips/nCovForecast) This model was done using R package, I did not make any changes to this as this would be my benchmark to compare my model with.  They have several models predicting different aspects of the dataset. I am only using there forecast of active cases which is defined below:
+>We are interested in knowing how the number of active cases is going to change in the near term.  We provide two alternative growth models.  The growth dynamics of epidemics are complex, but we make the simplifying assumption that the epidemic is a long way from population saturation (i.e. that there is a ready supply of susceptible hosts) such that simple exponential growth provides a reasonable short-term approximation.  The first model -- the "constant growth" model -- assumes a constant growth rate, in which case active cases follow an exponential growth model such that $E(A_t) = A_0e^{rt}$, where $A_0$ is the initial number of active cases, and $r$ is the (constant) intrinsic growth rate.  The second model -- "time-varying growth" -- assumes that the growth rate changes linearly over time.  Empirically, linear change in growth is what we have been observing in this epidemic as populations enact physical distancing and quarantine measures.  Under this model, growth follows a Gaussian function such that $E(A_t) = A_0e^{r_0t+\frac{b}{2}t^2}$.  Here, $r_0$ is the initial growth rate, and $b$ is the rate of change in growth rate over time.
 
+To fit both models, we take the natural logarithm of both sides, yielding $\ln A_t = rt + \ln A_0$ (constant growth) and $\ln A_t = \frac{b}{2}t^2+rt + \ln A_0$ (time-varying growth).  This shows us that we can fit a simple linear regression of $\ln A_t$ against $t$ in the constant growth scenario, and a quadratic function in the case of the time-varying model.  
 
+These fits give us an estimate of intrinsic growth rate, $r$, or $r(t)$.  
 
-We are still in a crucial stage of the epidemic; there is no real benchmark. The model was able to predict future cases for some states very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
-**Delaware**
-![enter image description here](/Images/Capture5.JPG)
-In Delaware, the number of new cases seem to be following an epi curve very well. This indicates that the social distancing measures have been working well to reduce the number of new cases. There was a spike in the number of cases in the week of Memorial Day (May 25), however, they seemed to have recovered quickly falling into a standard epi curve pattern.
+We fit each model to the last $n$ days of $A_t$ data (where $n$ is determined by the user with the input slider) and extrapolate the fitted model to capture ten day into the future from now.  Fitting and extrapolation is effected with the log-transformed model (lower plot on "10-day forecast" tab, with 95% confidence intervals) and the log of expected active case numbers is back-transformed to the original scale to produce the top plot on the "10-day forecast" tab.  We provide a larger number of days for fit input for the time-varying growth model because this model estimates an additional parameter, so requires more data.
 
-**North Dakota**
-![enter image description here](/Images/Capture6.JPG)
-New covid-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, hwoever they seem to have take slightly longer to come back to a normal epi curve.
+When public health interventions are rapidly changing the growth rate, this can be seen as deviations from the expected straight line on the log-plot.  In these situations, when growth rate is declining rapidly (the curve is flattening), forecasts from the constant growth model (averaging growth over the last ten days) will be biased upwards.  By altering the slider you can adjust the window over which growth rate is averaged, so you can get a sense of how recent shifts are affecting the forecast.  The time-varying growth rate forecast should be less sensitive to changes in $n$, and is the better model when growth rates are changing in a steady linear manner.
 
-**Maryland**
-![enter image description here](/Images/Capture7.JPG)
-Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons.
 
 ## III. Methodology
 
@@ -518,11 +513,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk1NTY4NzMzNywzOTA2NTU5MjYsMTcxMz
-YyMTk3MSwyODM0NTY3NSwtMTA3NTc1NjQyNSwtODUwNTU5Mjk4
-LC04NzE1MzA5ODUsMzA2OTI1NDc2LC0zNTQ1NjQ2NTcsLTIzMz
-MwOTA4LDE2NTU5MTY4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQz
-OSwxNjg3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLT
-Y2NDY4NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQz
-NjQxNF19
+eyJoaXN0b3J5IjpbLTE5NDU3ODA4MDgsMzkwNjU1OTI2LDE3MT
+M2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MDU1OTI5
+OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NTY0NjU3LC0yMz
+MzMDkwOCwxNjU1OTE2ODI4LDE5MDc0NzEzMjcsLTEzMzQxMjU0
+MzksMTY4NzgxMTAzNywxNzE3NTAxNTQ4LC0xNDM1ODgzMDYyLC
+02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4Njc1Myw0NzI0
+MzY0MTRdfQ==
 -->
