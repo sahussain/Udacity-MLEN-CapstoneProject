@@ -37,6 +37,10 @@ forecasting methods including but not limited to autoregressive integrated
 moving average (ARIMA), exponential smoothing (ETS), Time Series
 Forecasting with Linear Learner for this type of applications.
 
+[^2]:[Logistic Growth Model for COVID-19](https://www.wolframcloud.com/obj/covid-19/Published/Logistic-Growth-Model-for-COVID-19.nb)
+
+[^3]:[Mathematical prediction of the time evolution of the COVID-19 pandemic in Italy by a Gauss error function and Monte Carlo simulations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156796/)
+
 At first, I was going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). However after exploring the data, I discovered that this dataset cannot be used for any Time Series Forecasting Model(TSFMs). Epidemic curves (epi curve) do not follow a standard time series requirement however they do follow Logistic & Gaussian functions that are defined as follows:
 
 Epi curve of total number of cases follows Logistic Function is defined by:
@@ -499,7 +503,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYwOTA1NjI3MSwxNzE3NTAxNTQ4LC0xND
+eyJoaXN0b3J5IjpbLTk1MDQ1NDEyOSwxNzE3NTAxNTQ4LC0xND
 M1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4
 Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC
 03NzU0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5
