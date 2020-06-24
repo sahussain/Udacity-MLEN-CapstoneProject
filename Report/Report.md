@@ -112,7 +112,11 @@ To use DeepAR it needs to meet the following criteria [^5]:
 [^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
 
-Based on the above requirements we can not use DeepAR. I then looked into the following `Time Series Forecasting Model(TSFMs)` If any of the other ones of the cla Then I looked into the following models to see if we can use them:
+Based on the above requirements we can not use DeepAR. I then looked into the following XX Classical Time Series Forecasting Methods (TSFMs) in Python f any of the other ones of the cla Then I looked into the following models to see if we can use them:
+
+
+
+
 
  ## Researching  `Time Series Forecasting Model(TSFMs)`
 
@@ -512,7 +516,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQyNjQwOTY3NywtODcxNTMwOTg1LDMwNj
+eyJoaXN0b3J5IjpbLTM3NDkzMTIzMSwtODcxNTMwOTg1LDMwNj
 kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
 LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
 E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
