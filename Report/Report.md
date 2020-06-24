@@ -147,7 +147,7 @@ package.
 
 ### Algorithm steps:
 
-1.  Filtering:
+1.  Aggregating:
 	-   Some data from certain regions are banned by certain inconsistency on the records: “Diamond Princess”,“Iran”,“Japan”,“Bahrain” and “Qatar”
     -   For  r(1)t+krt+k(1)  response (confirmed cases), we uses the countries or regions with more than 200 confirmed cases at time  tt.
     -   For  r(2)t+krt+k(2)  response (deaths cases), we uses the countries or regions with more than 30 deaths at time  tt.
@@ -528,11 +528,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MD
-U1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NTY0NjU3
-LC0yMzMzMDkwOCwxNjU1OTE2ODI4LDE5MDc0NzEzMjcsLTEzMz
-QxMjU0MzksMTY4NzgxMTAzNywxNzE3NTAxNTQ4LC0xNDM1ODgz
-MDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4Njc1My
-w0NzI0MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC03NzU0
-MjEzODddfQ==
+eyJoaXN0b3J5IjpbLTIxNDQ0ODI5NTEsMjgzNDU2NzUsLTEwNz
+U3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3
+NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4LDE5MD
+c0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNzE3NTAx
+NTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNi
+wtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNzEsMTcy
+MDMzNDMzXX0=
 -->
