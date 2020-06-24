@@ -318,7 +318,7 @@ package. This will be fitting a pre-defined Gaussian/Logistic Function which is 
 1.  Filtering:
     
     -   Some data from certain regions are banned by certain inconsistency on the records: “Diamond Princess”,“Iran”,“Japan”,“Bahrain” and “Qatar”
-    -   For  r(1)t+krt+k(1)  response (confirmed cases), we uses the countries or regions with more than 200 confirmed cases at time  tt.
+    -   For  <span class="MathJax" id="MathJax-Element-17-Frame" tabindex="0" style="position: relative;" data-mathml="<math xmlns=&quot;http://www.w3.org/1998/Math/MathML&quot;><msubsup><mi>r</mi><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mi>t</mi><mo>+</mo><mi>k</mi></mrow><mrow class=&quot;MJX-TeXAtom-ORD&quot;><mo stretchy=&quot;false&quot;>(</mo><mn>1</mn><mo stretchy=&quot;false&quot;>)</mo></mrow></msubsup></math>" role="presentation"><nobr aria-hidden="true"><span class="math" id="MathJax-Span-236" style="width: 1.869em; display: inline-block;"><span style="display: inline-block; position: relative; width: 1.676em; height: 0px; font-size: 111%;"><span style="position: absolute; clip: rect(1.033em, 1001.68em, 2.835em, -999.997em); top: -2.249em; left: 0em;"><span class="mrow" id="MathJax-Span-237"><span class="msubsup" id="MathJax-Span-238"><span style="display: inline-block; position: relative; width: 1.676em; height: 0px;"><span style="position: absolute; clip: rect(3.349em, 1000.45em, 4.186em, -999.997em); top: -3.986em; left: 0em;"><span class="mi" id="MathJax-Span-239" style="font-family: MathJax_Math-italic;">r</span><span style="display: inline-block; width: 0px; height: 3.993em;"></span></span><span style="position: absolute; clip: rect(3.285em, 1000.97em, 4.379em, -999.997em); top: -4.501em; left: 0.454em;"><span class="texatom" id="MathJax-Span-240"><span class="mrow" id="MathJax-Span-241"><span class="mo" id="MathJax-Span-242" style="font-size: 70.7%; font-family: MathJax_Main;">(</span><span class="mn" id="MathJax-Span-243" style="font-size: 70.7%; font-family: MathJax_Main;">1</span><span class="mo" id="MathJax-Span-244" style="font-size: 70.7%; font-family: MathJax_Main;">)</span></span></span><span style="display: inline-block; width: 0px; height: 3.993em;"></span></span><span style="position: absolute; clip: rect(3.285em, 1001.23em, 4.25em, -999.997em); top: -3.665em; left: 0.454em;"><span class="texatom" id="MathJax-Span-245"><span class="mrow" id="MathJax-Span-246"><span class="mi" id="MathJax-Span-247" style="font-size: 70.7%; font-family: MathJax_Math-italic;">t</span><span class="mo" id="MathJax-Span-248" style="font-size: 70.7%; font-family: MathJax_Main;">+</span><span class="mi" id="MathJax-Span-249" style="font-size: 70.7%; font-family: MathJax_Math-italic;">k</span></span></span><span style="display: inline-block; width: 0px; height: 3.993em;"></span></span></span></span></span><span style="display: inline-block; width: 0px; height: 2.255em;"></span></span></span><span style="display: inline-block; overflow: hidden; vertical-align: -0.496em; border-left: 0px solid; width: 0px; height: 1.718em;"></span></span></nobr><span class="MJX_Assistive_MathML" role="presentation"><math xmlns="http://www.w3.org/1998/Math/MathML"><msubsup><mi>r</mi><mrow class="MJX-TeXAtom-ORD"><mi>t</mi><mo>+</mo><mi>k</mi></mrow><mrow class="MJX-TeXAtom-ORD"><mo stretchy="false">(</mo><mn>1</mn><mo stretchy="false">)</mo></mrow></msubsup></math></span></span>  response (confirmed cases), we uses the countries or regions with more than 200 confirmed cases at time  tt.
     -   For  r(2)t+krt+k(2)  response (deaths cases), we uses the countries or regions with more than 30 deaths at time  tt.
 2.  Fit the model. Three functional models of the general regression are constructed:  r(j)k(0)=f(R1(0))+ϵrk(j)(0)=f(R1(0))+ϵ, where the difference lies in the form of the  ff:
     
@@ -523,11 +523,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzA2OTI1NDc2LC0zNTQ1NjQ2NTcsLTIzMz
-MwOTA4LDE2NTU5MTY4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQz
-OSwxNjg3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLT
-Y2NDY4NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQz
-NjQxNCwtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4Ny
-wtNTc5NjYwOTM3LDU2ODI3MDQzMSwtMTY4NTkyMDA2NSwxNDkz
-ODg4ODMxXX0=
+eyJoaXN0b3J5IjpbLTUxNTA0NTA1NiwtMzU0NTY0NjU3LC0yMz
+MzMDkwOCwxNjU1OTE2ODI4LDE5MDc0NzEzMjcsLTEzMzQxMjU0
+MzksMTY4NzgxMTAzNywxNzE3NTAxNTQ4LC0xNDM1ODgzMDYyLC
+02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4Njc1Myw0NzI0
+MzY0MTQsLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC03NzU0MjEzOD
+csLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5MjAwNjUsMTQ5
+Mzg4ODgzMV19
 -->
