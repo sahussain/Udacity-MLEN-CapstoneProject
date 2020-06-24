@@ -250,7 +250,7 @@ The only problem with these predictions cannot take into account the human facto
 This project has taught me a lot about machine learning and epidemiology and how epidemiologist are using machine learning. This project has also taught me that we always need a partner in this case it would have been really nice if your I would have had an epidemiologist to help me and guide me in the process of how a disease works. We as machine learning Engineers only understands the data but for us to be able to program a machine to learn something new we need to also understand what is the data based on what are the nuances on the data itself what is the story behind the data without the this. It is really critical for us to be able to build a good machine model. We need to understand  the story of the data. In this case we're looking at the number of new cases worse than the number of total cases. And finally I would like to thank the following people without them I don't think I would have been able to complete my project and get an understanding of how covid-19 is being used in machine learning:
 
  -  [Tim Churches]
- - 
+ -  [Mauro Di Pietro]
 
 -----------
 
@@ -280,10 +280,10 @@ This project has taught me a lot about machine learning and epidemiology and how
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTYxNTkwMDAzMCwxOTg3OTk3Njk2LDM1MT
-IxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5NjcxNTk1OSwx
-MzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NT
-IyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5Njcs
-LTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOT
-I2NDQ4MzgsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbLTIwMjgzNDk5MTIsMTk4Nzk5NzY5NiwzNT
+EyMTU4MSwtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTks
+MTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNz
+UyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3
+LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMT
+kyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
 -->
