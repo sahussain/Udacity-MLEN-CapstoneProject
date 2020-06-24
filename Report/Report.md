@@ -129,6 +129,7 @@ The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COV
 580|MP|MNP|580|69|NaN|Northern Mariana Islands|US|15.0979|145.6739|...|30
 630|PR|PRI|630|72|NaN|Puerto Rico|US|18.2208|-66.5901|...|5690
 850|VI|VIR|850|78|NaN|Virgin Islands|US|18.3358|-64.8963|...|72
+
 The data set was imported into a pandas Dataframe. 
 
 Data needed minimal data Preprocessing as the each date was in a column and City, State was in another columns.
@@ -283,11 +284,11 @@ Once again Thanks and be safe.
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAwODQ3NDQxLC0xODk3OTA4OTYzLDE3Mz
-k0MzI1MTIsMTk4Nzk5NzY5NiwzNTEyMTU4MSwtNDkxMTg4NDgs
-NTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0MjcyMjM0MywtNzY3NT
-YxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0
-LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLDY1Mj
-ExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4
-MzVdfQ==
+eyJoaXN0b3J5IjpbMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNz
+M5NDMyNTEyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4
+LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLTc2Nz
+U2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5
+NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NT
+IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
+ODM1XX0=
 -->
