@@ -212,7 +212,9 @@ The model could not fit Total Cases to a Logistic Function
 ![enter image description here](/Images/Capture11.JPG)
 The model could not fit new Cases to a Gaussian Function
 
-A better tool kit like Analysis with the  `earlyR`  and  `EpiEstim`  packages
+A better tool kit like  `earlyR`  and  `EpiEstim`  packages which is part of R. 
+There are two good articles talk about how to use them. 
+[COVID-19 epidemiology with R by ]
 
 ## IV. Results
 _(approx. 2-3 pages)_
@@ -277,7 +279,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2OTM5MjMyODQsMTg5NjcxNTk1OSwxMz
+eyJoaXN0b3J5IjpbLTEzMjkxODc4MDEsMTg5NjcxNTk1OSwxMz
 QyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIy
 NTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5NjcsLT
 ExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2
