@@ -91,7 +91,7 @@ Lets look at new vs total number of cases for some cities:
 
 
 ### Algorithms and Techniques
-To use 
+To use DeepAR it needs to meet the following:
 
 
 I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
@@ -294,11 +294,11 @@ Once again thanks and be safe.
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2OD
-I3MDQzMSwtMTY4NTkyMDA2NSwxNDkzODg4ODMxLC0xODk3OTA4
-OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5NzY5NiwzNTEyMTU4MSwtND
-kxMTg4NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0MjcyMjM0
-MywtNzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtND
-g1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1
-MDkwXX0=
+eyJoaXN0b3J5IjpbODI5MjE2NjYwLC03NzU0MjEzODcsLTU3OT
+Y2MDkzNyw1NjgyNzA0MzEsLTE2ODU5MjAwNjUsMTQ5Mzg4ODgz
+MSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5OTc2OTYsMz
+UxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5
+LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MD
+c1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2
+N119
 -->
