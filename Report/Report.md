@@ -177,6 +177,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 To see if we can use TSFMs, the first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary.
 A stationary process has the property that the mean, variance and autocorrelation structure(No seasonality) do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
+[^10]:[6.4.4.2. Stationarity]()
 
 For practical purposes, stationarity can usually be determined from a run sequence plot.
 
@@ -501,7 +502,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTgxMzk3MDgsMTcxNzUwMTU0OCwtMT
+eyJoaXN0b3J5IjpbLTExMzEyNzM3NDEsMTcxNzUwMTU0OCwtMT
 QzNTg4MzA2MiwtNjY0Njg0OTc4LC05ODEzNjA4MzYsLTEzNzYy
 ODY3NTMsNDcyNDM2NDE0LC0xNTY2NDI5MTcxLDE3MjAzMzQzMy
 wtNzc1NDIxMzg3LC01Nzk2NjA5MzcsNTY4MjcwNDMxLC0xNjg1
