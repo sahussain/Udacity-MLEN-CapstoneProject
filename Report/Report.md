@@ -39,10 +39,10 @@ Forecasting with Linear Learner for this type of applications.
 At first, I was going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). However after exploring the data, I discovered that this dataset cannot be used for any Time Series Forecasting Model(TSFMs). Epidemic curves (epi curve) do not follow a standard time series requirement however they do follow Logistic & Gaussian functions that are defined as follows:
 
 Epi curve of total number of cases follows Logistic Function is defined by:
-f(x) = capacity / (1 + e^-k*(x - midpoint) )[^2]
+>f(x) = capacity / (1 + e^-k*(x - midpoint) )[^2]
 
 Epi curve of new of cases follows Gaussian Function is defined by:
-f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^3]
+>f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^3]
 
 For this reason, in the dataset model I propose total cases will fit to to Logistic function and new cases to Gaussian functions.
 
@@ -284,11 +284,11 @@ Once again thanks and be safe.
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2ODU5MjAwNjUsMTQ5Mzg4ODgzMSwtMT
-g5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5OTc2OTYsMzUxMjE1
-ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEzND
-I3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1
-NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMT
-E3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0
-NDgzOF19
+eyJoaXN0b3J5IjpbMTc1MTgyNjE3NSwtMTY4NTkyMDA2NSwxND
+kzODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5
+NzY5NiwzNTEyMTU4MSwtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OT
+Y3MTU5NTksMTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3
+NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtND
+A4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIx
+MTEzN119
 -->
