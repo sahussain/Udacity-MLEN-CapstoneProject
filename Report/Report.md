@@ -11,7 +11,7 @@ Machine Learning Engineer Nanodegree: Forecasting COVID-19 Cases – A Time Seri
 ### Project Overview
 
 On 31 December, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Initially identified as coronavirus disease 2019, it quickly came to be known widely as COVID-19 and has resulted in an ongoing global pandemic. As of 20 June, 2020, more than 8.74 million cases have been reported across 188 countries and territories, resulting in more than 462,000 deaths. More than 4.31 million people have recovered.[^1]
-[^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
+
 
 In response to this ongoing public health emergency, Johns Hopkins
 University (JHU), a private research university in Maryland, USA,
@@ -36,6 +36,8 @@ hundreds of related time series, and DeepAR outperforms classical
 forecasting methods including but not limited to autoregressive integrated
 moving average (ARIMA), exponential smoothing (ETS), Time Series
 Forecasting with Linear Learner for this type of applications.
+
+[^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
 [^2]:[Logistic Growth Model for COVID-19](https://www.wolframcloud.com/obj/covid-19/Published/Logistic-Growth-Model-for-COVID-19.nb)
 
@@ -509,11 +511,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NzU0ODc4OTQsMTY1NTkxNjgyOCwxOT
-A3NDcxMzI3LC0xMzM0MTI1NDM5LDE2ODc4MTEwMzcsMTcxNzUw
-MTU0OCwtMTQzNTg4MzA2MiwtNjY0Njg0OTc4LC05ODEzNjA4Mz
-YsLTEzNzYyODY3NTMsNDcyNDM2NDE0LC0xNTY2NDI5MTcxLDE3
-MjAzMzQzMywtNzc1NDIxMzg3LC01Nzk2NjA5MzcsNTY4MjcwND
-MxLC0xNjg1OTIwMDY1LDE0OTM4ODg4MzEsLTE4OTc5MDg5NjMs
-MTczOTQzMjUxMl19
+eyJoaXN0b3J5IjpbLTIzMzMwOTA4LDE2NTU5MTY4MjgsMTkwNz
+Q3MTMyNywtMTMzNDEyNTQzOSwxNjg3ODExMDM3LDE3MTc1MDE1
+NDgsLTE0MzU4ODMwNjIsLTY2NDY4NDk3OCwtOTgxMzYwODM2LC
+0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MSwxNzIw
+MzM0MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3MDQzMS
+wtMTY4NTkyMDA2NSwxNDkzODg4ODMxLC0xODk3OTA4OTYzLDE3
+Mzk0MzI1MTJdfQ==
 -->
