@@ -112,7 +112,7 @@ To use DeepAR it needs to meet the following criteria [^5]:
 [^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
 
-Based on the above requirements we can not use DeepAR. I then looked into the following Then I looked into the following models to see if we can use them:
+Based on the above requirements we can not use DeepAR. I then looked into the following `Time Series Forecasting Model(TSFMs)` If any of the other ones of the cla Then I looked into the following models to see if we can use them:
 
  ## Researching  `Time Series Forecasting Model(TSFMs)`
 
@@ -512,11 +512,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg3MTUzMDk4NSwzMDY5MjU0NzYsLTM1ND
-U2NDY1NywtMjMzMzA5MDgsMTY1NTkxNjgyOCwxOTA3NDcxMzI3
-LC0xMzM0MTI1NDM5LDE2ODc4MTEwMzcsMTcxNzUwMTU0OCwtMT
-QzNTg4MzA2MiwtNjY0Njg0OTc4LC05ODEzNjA4MzYsLTEzNzYy
-ODY3NTMsNDcyNDM2NDE0LC0xNTY2NDI5MTcxLDE3MjAzMzQzMy
-wtNzc1NDIxMzg3LC01Nzk2NjA5MzcsNTY4MjcwNDMxLC0xNjg1
-OTIwMDY1XX0=
+eyJoaXN0b3J5IjpbMTQyNjQwOTY3NywtODcxNTMwOTg1LDMwNj
+kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
+LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
+E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
+MDgzNiwtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNz
+EsMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3OTY2MDkzNyw1Njgy
+NzA0MzFdfQ==
 -->
