@@ -142,8 +142,7 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 
 `The problem is that we can not remove any data becaues we would end up only 2 States that are deamed to pass Stationarity test.`
 
-Then after researching father I found t
-
+Then after researching father I found datasets that fellows Logistic curve will not work well with  `TSFMs`
 
 
 There is good paper published by Yoosoon Chang, Bibo Jiang, and Joon Y. Park
@@ -555,11 +554,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4MzE4MzY4MiwzNDc4ODAzMTQsLTEyNz
-kzMzg3OCw2NDU4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2
-LDE3MTM2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MD
-U1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NTY0NjU3
-LC0yMzMzMDkwOCwxNjU1OTE2ODI4LDE5MDc0NzEzMjcsLTEzMz
-QxMjU0MzksMTY4NzgxMTAzNywxNzE3NTAxNTQ4LC0xNDM1ODgz
-MDYyXX0=
+eyJoaXN0b3J5IjpbLTE1OTUxOTUwNjAsMzQ3ODgwMzE0LC0xMj
+c5MzM4NzgsNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTky
+NiwxNzEzNjIxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NT
+A1NTkyOTgsLTg3MTUzMDk4NSwzMDY5MjU0NzYsLTM1NDU2NDY1
+NywtMjMzMzA5MDgsMTY1NTkxNjgyOCwxOTA3NDcxMzI3LC0xMz
+M0MTI1NDM5LDE2ODc4MTEwMzcsMTcxNzUwMTU0OCwtMTQzNTg4
+MzA2Ml19
 -->
