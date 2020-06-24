@@ -197,7 +197,7 @@ max|388488|11434
 
 ### Implementation
 
-I use the [optimize model  from scipy](https://docs.scipy.org/doc/scipy/reference/optimize.html) which provides functions for minimizing or maximizing objective functions like
+I use the [optimize model  from scipy](https://docs.scipy.org/doc/scipy/reference/optimize.html) which provides functions for minimizing or maximizing objective functions like Logistic, or Gaussian functions
 
 ### Refinement
 In this section, you will need to discuss the process of improvement you made upon the algorithms and techniques you used in your implementation. For example, adjusting parameters for certain models to acquire improved solutions would fall under the refinement category. Your initial and final solutions should be reported, as well as any significant intermediate results as necessary. Questions to ask yourself when writing this section:
@@ -273,7 +273,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzI3MDY2NzksMTM0MjcyMjM0MywtNz
+eyJoaXN0b3J5IjpbLTE1NDM5MTAzMjYsMTM0MjcyMjM0MywtNz
 Y3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1
 NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLD
 Y1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5
