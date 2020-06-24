@@ -310,7 +310,9 @@ adfuller results:
 I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
 package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^7]
 
+[^7]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
 
+[Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
 
 ### Benchmark
@@ -513,11 +515,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkwNzQ3MTMyNywtMTMzNDEyNTQzOSwxNj
-g3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLTY2NDY4
-NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNC
-wtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5
-NjYwOTM3LDU2ODI3MDQzMSwtMTY4NTkyMDA2NSwxNDkzODg4OD
-MxLC0xODk3OTA4OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5NzY5Niwz
-NTEyMTU4MV19
+eyJoaXN0b3J5IjpbLTEyMjM3MjQ4NjUsMTkwNzQ3MTMyNywtMT
+MzNDEyNTQzOSwxNjg3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4
+ODMwNjIsLTY2NDY4NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2Nz
+UzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLTc3
+NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3MDQzMSwtMTY4NTkyMD
+A2NSwxNDkzODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0MzI1MTIs
+MTk4Nzk5NzY5Nl19
 -->
