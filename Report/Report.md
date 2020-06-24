@@ -146,6 +146,7 @@ After going over lost so research papers on epidemiology and machine learning, I
 
 This will is very common approach used in datasets that follows an Epi curve  in. [^10]
 ![enter image description here](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1_files/figure-html5/Cori_parametric_si_model_fit_hubei-1.png)
+The graph above shows the Epi curve of MERS virus, which had a mean of 7.6 and a SD of 3.4
 
 
 ***Data output of Stationarity test based on the function below***
@@ -546,7 +547,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjgyNTIzMDgwLDM4NDYyMTMwNSwtODI5Mz
+eyJoaXN0b3J5IjpbODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mz
 k2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2
 NDU4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MTM2Mj
 E5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MDU1OTI5OCwt
