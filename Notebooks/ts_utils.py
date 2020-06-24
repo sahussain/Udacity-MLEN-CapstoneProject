@@ -904,6 +904,12 @@ Fits a custom function.
 :return
     optimal params
 '''
+
+
+#Nonlinear curve fitting with confidence intervals
+ 
+
+
 def fit_curve(X, y, f=None, kind=None, p0=None):
     ## define f(x) if not specified
     if f is None:
