@@ -107,7 +107,7 @@ Best on the above requirements we can not use DeepAR. Then I looked into the fol
 
 
 I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
-package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^7]
+package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^6]
 
 
 
@@ -213,7 +213,7 @@ Model:
 [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) provides a non-linear least squares to fit a function, f (such as Logistic or Gaussian functions) to a given dataframe. 
 Forecast:
 The forecasting function was provided by [`ts_utils.py`](https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/time_series/ts_utils.py)
-that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^8]
+that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^7]
 
 
 ### Refinement
@@ -306,11 +306,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODEyNjU1OCwtMTU2NjQyOTE3MSwxNz
-IwMzM0MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2ODI3MDQz
-MSwtMTY4NTkyMDA2NSwxNDkzODg4ODMxLC0xODk3OTA4OTYzLD
-E3Mzk0MzI1MTIsMTk4Nzk5NzY5NiwzNTEyMTU4MSwtNDkxMTg4
-NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0MjcyMjM0MywtNz
-Y3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1
-NDk0XX0=
+eyJoaXN0b3J5IjpbNDcyNDM2NDE0LC0xNTY2NDI5MTcxLDE3Mj
+AzMzQzMywtNzc1NDIxMzg3LC01Nzk2NjA5MzcsNTY4MjcwNDMx
+LC0xNjg1OTIwMDY1LDE0OTM4ODg4MzEsLTE4OTc5MDg5NjMsMT
+czOTQzMjUxMiwxOTg3OTk3Njk2LDM1MTIxNTgxLC00OTExODg0
+OCw1ODIzOTM3NjUsMTg5NjcxNTk1OSwxMzQyNzIyMzQzLC03Nj
+c1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIyNTQwLC00ODU3MTU0
+OTRdfQ==
 -->
