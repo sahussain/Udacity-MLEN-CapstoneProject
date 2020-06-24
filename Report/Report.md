@@ -200,7 +200,7 @@ Model:
 The [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) which provides with non-linear least squares to fit a function, f, to data. functions like Logistic, or Gaussian functions where the data is COVID-19 total and new cases. 
 Forecast:
 The forecasting function was provided by [`ts_utils.py`](https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/time_series/ts_utils.py)
-hich apply these 2 models to a new independent variable: the time steps from today till N. To give an illustration, I will forecast 30 days ahead from today, since our dataset has already 69 time steps (rows), my new independent variable shall be a vector that ranges from t=70 until t=100.
+which apply the 2 models(total cases data and one for the daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^8]
 
 
 ### Refinement
@@ -277,9 +277,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0ODQyNzQ3OTMsMTg5NjcxNTk1OSwxMz
-QyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIy
-NTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5NjcsLT
-ExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2
-NDQ4MzgsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbLTM5OTUyOTc4MiwxODk2NzE1OTU5LDEzND
+I3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1
+NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMT
+E3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0
+NDgzOCwtNzcwOTA0ODM1XX0=
 -->
