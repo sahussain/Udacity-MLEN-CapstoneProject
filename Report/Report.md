@@ -199,7 +199,8 @@ max|388488|11434
 Model:
 The [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) which provides with non-linear least squares to fit a function, f, to data. functions like Logistic, or Gaussian functions where the data is COVID-19 total and new cases. 
 Forecast:
-The forcasting 
+The forecasting function was provided by `ts_utils.py`
+
 
 
 ### Refinement
@@ -276,9 +277,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMDI1NTk1NDMsMTM0MjcyMjM0MywtNz
-Y3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1
-NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLD
-Y1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5
-MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbLTUwMDA5OTk2OSwxMzQyNzIyMzQzLC03Nj
+c1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIyNTQwLC00ODU3MTU0
+OTQsMTI5OTkyMzI5LC00MDgwMTY5NjcsLTExNzk0OTUwOTAsNj
+UyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkw
+NDgzNV19
 -->
