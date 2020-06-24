@@ -492,11 +492,6 @@ Once again thanks and be safe.
 
 
 
-[^7]:[Autoregressive Conditional Heteroskedasticity (ARCH)](https://www.investopedia.com/terms/a/autoregressive-conditional-heteroskedasticity.asp)
-
-[^8]:[Autoregressive Integrated Moving Average Model with exogenous variables (ARIMAX) transfer function model for Sharpes Ferry Well and Silver Springs](https://rstudio-pubs-static.s3.amazonaws.com/180268_8acc87dd9fa2435c8a8e5ed6b815be2c.html)
-
-[^9]:[Generalized autoregressive conditional heteroskedasticity](https://www.sciencedirect.com/science/article/abs/pii/0304407686900631?via%3Dihub)
 
 
 [^7]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
@@ -513,11 +508,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
-E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
-MDgzNiwtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNz
-EsMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3OTY2MDkzNyw1Njgy
-NzA0MzEsLTE2ODU5MjAwNjUsMTQ5Mzg4ODgzMSwtMTg5NzkwOD
-k2MywxNzM5NDMyNTEyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5
-MTE4ODQ4XX0=
+eyJoaXN0b3J5IjpbMTcwNTA4NjkxMiwtMTMzNDEyNTQzOSwxNj
+g3ODExMDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLTY2NDY4
+NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNC
+wtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5
+NjYwOTM3LDU2ODI3MDQzMSwtMTY4NTkyMDA2NSwxNDkzODg4OD
+MxLC0xODk3OTA4OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5NzY5Niwz
+NTEyMTU4MV19
 -->
