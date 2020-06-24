@@ -235,7 +235,8 @@ Research is ongoing and hence there is no current benchmark for the COVID-19 epi
 Based on my observations, the dataframes for **North Dakota** and **Delaware** fit the epidemic curve well. 
 ![enter image description here](/Images/Capture5.JPG)
 ![enter image description here](/Images/Capture6.JPG)
-With respect to North Dakota, they have 3313 total cases, 2952 recovered cases with only 77 deaths. If they continue on this path, they are predicted to reach equilibrium (zero new cases) by the end of July or August 2020.
+With respect to North Dakota, they have 3, 313 total cases, 2, 952 recovered cases with only 77 deaths. If they continue on this path, they are predicted to reach equilibrium (zero new cases) by the end of July or August 2020.
+
 Delaware is another State that is following the epi curve closely. Though they had some peaks around Memorial Day week, they seem to have recovered well. If they continue on this trend, they are predicted to reach minimum amount of cases by the end of July or August 2020.
 
 The only challenge with these predictions is that it does not take into account the human factors. Human factors can be defined as human interactions in relation to their environment, such as not following social distance measures; not wearing masks when going out in public areas; not following proper safety and sanitization rules; non-essential travel from one city to another to visit family, friends or to go on a vacation; and more. This will increase the rate of transmission leading to peaks in new cases as was witnessed around the Memorial Day week.
@@ -288,11 +289,11 @@ Once again thanks and be safe.
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExNTAzNTg2MDMsLTE2ODU5MjAwNjUsMT
-Q5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5
-OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxOD
-k2NzE1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgw
-NzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLT
-QwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEy
-MTExMzddfQ==
+eyJoaXN0b3J5IjpbNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OT
+M4ODg4MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwxOTg3OTk3
+Njk2LDM1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5Nj
+cxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0
+LC0xNTA3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MD
+gwMTY5NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjEx
+MTM3XX0=
 -->
