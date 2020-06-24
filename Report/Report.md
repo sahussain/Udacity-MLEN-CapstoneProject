@@ -241,6 +241,10 @@ In this section, you will need to provide some form of visualization that emphas
 ### Reflection
 I would say my best model would be **North Dakota** and **Delaware**
 both of the states fit the epidemic curve. 
+![enter image description here](/Images/Capture5.JPG)
+![enter image description here](/Images/Capture6.JPG)
+
+
 
 
 
@@ -276,9 +280,9 @@ both of the states fit the epidemic curve.
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTkzMTA3MTE5Nyw1ODIzOTM3NjUsMTg5Nj
-cxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0
-LC0xNTA3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MD
-gwMTY5NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjEx
-MTM3LC0xOTI2NDQ4MzgsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2Nz
+E1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQs
+LTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwOD
+AxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTEx
+MzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
 -->
