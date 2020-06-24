@@ -244,7 +244,7 @@ both of the states fit the epidemic curve.
 ![enter image description here](/Images/Capture5.JPG)
 ![enter image description here](/Images/Capture6.JPG)
 With respect to North Dakota They have 3313 cases 2952 recovered with only 77 debts they are doing very well.  If they continue  on this path they will have reached zero new cases around the end of July or August. 
-
+Delaware is another state that is following the epidemic curve pretty closely. even though they had some pigs around the Memorial Day week and they seem to have recovered pretty well if they continue to on this trend they will reach minimum amount of cases by end of July or August
 
 
 
@@ -282,10 +282,9 @@ With respect to North Dakota They have 3313 cases 2952 recovered with only 77 de
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAwNzU4ODUzMCwtNDkxMTg4NDgsNTgyMz
-kzNzY1LDE4OTY3MTU5NTksMTM0MjcyMjM0MywtNzY3NTYxMzE2
-LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0LDEyOT
-k5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0
-NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4MzVdfQ
-==
+eyJoaXN0b3J5IjpbMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mz
+c2NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1
+NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OT
+IzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUs
+LTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
 -->
