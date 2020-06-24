@@ -146,7 +146,7 @@ After going over lost so research papers on epidemiology and machine learning, I
 
 
 
-This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^10]
+This will is very common approach used in datasets that follows an Epi curve epidemiology. [^10]
 
 
 
@@ -548,7 +548,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTg5NDI4OTgwMiwzODQ2MjEzMDUsLTgyOT
+eyJoaXN0b3J5IjpbMTY0MTEwMzQ1MiwzODQ2MjEzMDUsLTgyOT
 M5NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4Nzgs
 NjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNj
 IxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NTA1NTkyOTgs
