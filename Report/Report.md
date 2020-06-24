@@ -288,29 +288,27 @@ Once again thanks and be safe.
 
 [^3]:[Mathematical prediction of the time evolution of the COVID-19 pandemic in Italy by a Gauss error function and Monte Carlo simulations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156796/)
 
-[^4]:[DeepAR Forecasting Algorithm. Amazon Web Services](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html). Retrieved 20 June, 2020 
+[^4]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
 
-[^5]:[Time series prediction](https://www.telesens.co/2019/06/08/time-series-prediction/). Telesens. Retrieved 20 June, 2020.
+[^5]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
-[^6]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
+[^6]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
-[^7]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
-
-[^8]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
+[^7]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
 
 [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
-[^9]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
+[^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
-[^10]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
+[^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3OT
-Y2MDkzNyw1NjgyNzA0MzEsLTE2ODU5MjAwNjUsMTQ5Mzg4ODgz
-MSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5OTc2OTYsMz
-UxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5
-LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MD
-c1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2
-N119
+eyJoaXN0b3J5IjpbLTE1Nzk1MDU1MDYsMTcyMDMzNDMzLC03Nz
+U0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5MjAw
+NjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLD
+E5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2
+NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NT
+g3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIz
+MjldfQ==
 -->
