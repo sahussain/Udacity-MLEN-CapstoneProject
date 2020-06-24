@@ -101,7 +101,7 @@ To use DeepAR it needs to meet the following[^5]:
     
 5. We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300.[^5]
 
-We can not use DeepAR, I found this out lot later in my discovery of the dataframe. 
+We can not use DeepAR, I found this out lot later in my discovery of the dataframe. Wee
 
 
 I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
@@ -304,11 +304,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE1NjY0MjkxNzEsMTcyMDMzNDMzLC03Nz
-U0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2ODU5MjAw
-NjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLD
-E5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2
-NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NT
-g3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIz
-MjldfQ==
+eyJoaXN0b3J5IjpbLTE5NjkwODE1NjAsLTE1NjY0MjkxNzEsMT
+cyMDMzNDMzLC03NzU0MjEzODcsLTU3OTY2MDkzNyw1NjgyNzA0
+MzEsLTE2ODU5MjAwNjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2My
+wxNzM5NDMyNTEyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4
+ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLT
+c2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcx
+NTQ5NF19
 -->
