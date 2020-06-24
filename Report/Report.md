@@ -142,7 +142,7 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 
 `The problem is that we can not remove any data becaues we would end up only 2 States that are deamed to pass Stationarity test.`
 
-After going over lost so research papers on epidemiology and machine learning, I concluded that the easiest way to analysis/predict the forecast would be using using [SciPy's](https://scipy.org/) [`curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function. To `curve_fit` one Logistic Function & two Gaussian Function for total cases & new case <?>
+After going over lost so research papers on epidemiology and machine learning, I concluded that the easiest way to analysis/predict the forecast would be using using [SciPy's](https://scipy.org/) [`curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function. To `curve_fit` one Logistic Function & two Gaussian Function for total cases & new case <?>.
 
 
 
@@ -548,7 +548,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTEyMTM1NjAxMCwzODQ2MjEzMDUsLTgyOT
+eyJoaXN0b3J5IjpbLTg5NDI4OTgwMiwzODQ2MjEzMDUsLTgyOT
 M5NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4Nzgs
 NjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNj
 IxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2NDI1LC04NTA1NTkyOTgs
