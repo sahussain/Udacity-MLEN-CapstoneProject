@@ -438,12 +438,13 @@ The model could not fit total cases to a Logistic Function
 The model could not fit new cases to a Gaussian Function
 
 A better package such as  `earlyR`  and  `EpiEstim`  that are part of R work better when applied to an epidemic dataframe. 
-There are two well-researched articles written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068) that talk about using R to predict COVID-19 cases. 
+There are three well-researched articles written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068) that talk about using R to predict COVID-19 cases. 
 >Tim Churches is a Senior Research Fellow at the UNSW Medicine South Western Sydney Clinical School at Liverpool Hospital, and a health data scientist at the Ingham Institute for Applied Medical Research, also located at Liverpool, Sydney. His background is in general medicine, general practice medicine, occupational health, public health practice, particularly population health surveillance, and clinical epidemiology.
 
-[COVID-19 epidemiology with R by Tim Churches](https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/)
+ - [COVID-19 epidemiology with R by Tim Churches](https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/)
 
-[Analysing COVID-19 (2019-nCoV) outbreak data with R - part 1](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)
+ - [Analysing COVID-19 (2019-nCoV) outbreak data with R - part 1](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)
+ - [Analysing COVID-19 (2019-nCoV) outbreak data with R - part 2](https://timchurches.github.io/blog/posts/2020-03-01-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-2/)
 
 ## IV. Results
 
@@ -514,11 +515,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTcxMzYyMTk3MSwyODM0NTY3NSwtMTA3NT
-c1NjQyNSwtODUwNTU5Mjk4LC04NzE1MzA5ODUsMzA2OTI1NDc2
-LC0zNTQ1NjQ2NTcsLTIzMzMwOTA4LDE2NTU5MTY4MjgsMTkwNz
-Q3MTMyNywtMTMzNDEyNTQzOSwxNjg3ODExMDM3LDE3MTc1MDE1
-NDgsLTE0MzU4ODMwNjIsLTY2NDY4NDk3OCwtOTgxMzYwODM2LC
-0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQyOTE3MSwxNzIw
-MzM0MzNdfQ==
+eyJoaXN0b3J5IjpbMzkwNjU1OTI2LDE3MTM2MjE5NzEsMjgzND
+U2NzUsLTEwNzU3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1
+LDMwNjkyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OT
+E2ODI4LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAz
+NywxNzE3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLT
+k4MTM2MDgzNiwtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0
+MjkxNzFdfQ==
 -->
