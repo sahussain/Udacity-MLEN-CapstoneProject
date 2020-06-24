@@ -204,7 +204,8 @@ which apply the 2 models(total cases data and one for the daily increase) to a n
 
 
 ### Refinement
-The model and the forecast works well however there are few states that will not work because they are on a different 
+The model and the forecast works well however there are few states that will not work because they are on a different epidemic curve for example **Michigan**
+
 
 
 ## IV. Results
@@ -274,7 +275,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTExNzk2MTk0MiwxODk2NzE1OTU5LDEzND
+eyJoaXN0b3J5IjpbLTQ1NTQ3NzA0NCwxODk2NzE1OTU5LDEzND
 I3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1
 NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMT
 E3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0
