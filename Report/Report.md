@@ -29,8 +29,8 @@ caused by COVID-19 for a time duration of 14-days based on
 historical data from JHU. I will be using Amazon SageMaker DeepAR
 forecasting algorithm, a supervised learning algorithm for forecasting
 scalar (one-dimensional) time series using recurrent neural networks (RNN)
-to produce both point and probabilistic forecasts[^4].
-DeepAR is an underutilized approach in this area.[^5] The dataset contains
+to produce both point and probabilistic forecasts[^2].
+DeepAR is an underutilized approach in this area.[^3] The dataset contains
 hundreds of related time series, and DeepAR outperforms classical
 forecasting methods including but not limited to autoregressive integrated
 moving average (ARIMA), exponential smoothing (ETS), Time Series
@@ -39,15 +39,15 @@ Forecasting with Linear Learner for this type of applications.
 At first, I was going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). However after exploring the data, I discovered that this dataset cannot be used for any Time Series Forecasting Model(TSFMs). Epidemic curves (epi curve) do not follow a standard time series requirement however they do follow Logistic & Gaussian functions that are defined as follows:
 
 Epi curve of total number of cases follows Logistic Function is defined by:
->f(x) = capacity / (1 + e^-k*(x - midpoint) )[^2]
+>f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
 
 Epi curve of new of cases follows Gaussian Function is defined by:
->f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^3]
+>f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^4]
 
 For this reason, in the dataset model I propose total cases will fit to to Logistic function and new cases to Gaussian functions.
 
 ### Metrics
-The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^6]
+The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^5]
 >f(error) = f(time) + error
 
 
@@ -91,8 +91,8 @@ Lets look at new vs total number of cases for some cities:
 
 
 ### Algorithms and Techniques
-To use DeepAR it needs to meet the following[^10]:
-1. Except for when splitting your dataset for training and testing, always provide the entire time series for training, testing, and when calling the model for inference. Regardless of how you set `context_length`, don't break up the time series or provide only a part of it. The model uses data points further back than the value set in `context_length` for the lagged values feature.[^10]
+To use DeepAR it needs to meet the following[^6]:
+1. Except for when splitting your dataset for training and testing, always provide the entire time series for training, testing, and when calling the model for inference. Regardless of how you set `context_length`, don't break up the time series or provide only a part of it. The model uses data points further back than the value set in `context_length` for the lagged values feature.[^6]
 2. When tuning a DeepAR model, you can split the dataset to create a training dataset and a test dataset. In a typical evaluation, you would test the model on the same time series used for training, but on the future  `prediction_length`  time points that follow immediately after the last time point visible during training. You can create training and test datasets that satisfy this criteria by using the entire dataset (the full length of all time series that are available) as a test set and removing the last  `prediction_length`  points from each time series for training. During training, the model doesn't see the target values for time points on which it is evaluated during testing. During testing, the algorithm withholds the last  `prediction_length`  points of each time series in the test set and generates a prediction. Then it compares the forecast with the withheld values. You can create more complex evaluations by repeating time series multiple times in the test set, but cutting them at different endpoints. With this approach, accuracy metrics are averaged over multiple forecasts from different time points. For more information, see  [Tune a DeepAR Model](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar-tuning.html).
     
 3. Avoid using very large values (>400) for the  `prediction_length`  because it makes the model slow and less accurate. If you want to forecast further into the future, consider aggregating your data at a higher frequency. For example, use  `5min`  instead of  `1min`.
@@ -103,7 +103,7 @@ To use DeepAR it needs to meet the following[^10]:
 
 
 I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
-package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^8]
+package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^7]
 
 
 
@@ -209,7 +209,7 @@ Model:
 [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) provides a non-linear least squares to fit a function, f (such as Logistic or Gaussian functions) to a given dataframe. 
 Forecast:
 The forecasting function was provided by [`ts_utils.py`](https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/time_series/ts_utils.py)
-that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^9]
+that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^8]
 
 
 ### Refinement
@@ -306,11 +306,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTkwNzg1Njk2NSwtNzc1NDIxMzg3LC01Nz
-k2NjA5MzcsNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OTM4ODg4
-MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwxOTg3OTk3Njk2LD
-M1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5NjcxNTk1
-OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNT
-A3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5
-NjddfQ==
+eyJoaXN0b3J5IjpbMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3OT
+Y2MDkzNyw1NjgyNzA0MzEsLTE2ODU5MjAwNjUsMTQ5Mzg4ODgz
+MSwtMTg5NzkwODk2MywxNzM5NDMyNTEyLDE5ODc5OTc2OTYsMz
+UxMjE1ODEsLTQ5MTE4ODQ4LDU4MjM5Mzc2NSwxODk2NzE1OTU5
+LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MD
+c1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2
+N119
 -->
