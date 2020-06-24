@@ -184,7 +184,16 @@ def getCases(df, aState):
         df = pd.DataFrame() 
     return [df, error]
 ```
-
+d|total|new
+:-----:|:-----:|:-----:
+count|153|153
+mean|168552.3987|2539.137255
+std|162319.6416|3209.162717
+min|0|0
+25%|0|0
+50%|139875|1075
+75%|345813|4073
+max|388488|11434
 ### Implementation
 In this section, the process for which metrics, algorithms, and techniques that you implemented for the given data will need to be clearly documented. It should be abundantly clear how the implementation was carried out, and discussion should be made regarding any complications that occurred during this process. Questions to ask yourself when writing this section:
 - _Is it made clear how the algorithms and techniques were implemented with the given datasets or input data?_
@@ -265,9 +274,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExODAzMDUyMTgsMTM0MjcyMjM0MywtNz
-Y3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1
-NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLD
-Y1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5
-MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbLTQ2MTE2NjQ0MCwxMzQyNzIyMzQzLC03Nj
+c1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIyNTQwLC00ODU3MTU0
+OTQsMTI5OTkyMzI5LC00MDgwMTY5NjcsLTExNzk0OTUwOTAsNj
+UyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkw
+NDgzNV19
 -->
