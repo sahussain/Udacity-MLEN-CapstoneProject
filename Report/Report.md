@@ -101,13 +101,85 @@ To use DeepAR it needs to meet the following[^5]:
     
 5. We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300.[^5]
 
-Best on the above requirements we can not use DeepAR. Then I looked into the following models to see if we can use them. 
+Best on the above requirements we can not use DeepAR. Then I looked into the following models to see if we can use them:
+
+ ## Researching (TSFMs)
+
+***AR (autoregressive model):***
+The autoregression (AR) method models the next step in the sequence as a linear function of the observations at prior time steps.
+The notation for the model involves specifying the order of the model p as a parameter to the AR function, e.g. AR(p). For example, AR(1) is a first-order autoregression model.
+The method is suitable for univariate time series without trend and seasonal components.[^1]
+
+***MA (moving-average model):***
+The moving average (MA) method models the next step in the sequence as a linear function of the residual errors from a mean process at prior time steps.
+A moving average model is different from calculating the moving average of the time series.
+The notation for the model involves specifying the order of the model q as a parameter to the MA function, e.g. MA(q). For example, MA(1) is a first-order moving average model.
+The method is suitable for univariate time series without trend and seasonal components.[^1]
+
+***ARMA (autoregressive-moving-average model):***
+The Autoregressive Moving Average (ARMA) method models the next step in the sequence as a linear function of the observations and resiudal errors at prior time steps.
+It combines both Autoregression (AR) and Moving Average (MA) models.
+The notation for the model involves specifying the order for the AR(p) and MA(q) models as parameters to an ARMA function, e.g. ARMA(p, q). An ARIMA model can be used to develop AR or MA models.
+The method is suitable for univariate time series without trend and seasonal components.[^6]
+
+***ARIMA (autoregressive integrated moving average model):***
+The Autoregressive Integrated Moving Average (ARIMA) method models the next step in the sequence as a linear function of the differenced observations and residual errors at prior time steps.
+It combines both Autoregression (AR) and Moving Average (MA) models as well as a differencing pre-processing step of the sequence to make the sequence stationary, called integration (I).
+The notation for the model involves specifying the order for the AR(p), I(d), and MA(q) models as parameters to an ARIMA function, e.g. ARIMA(p, d, q). An ARIMA model can also be used to develop AR, MA, and ARMA models.
+The method is suitable for univariate time series with trend and without seasonal components.[^6]
+
+***SARIMA (seasonal autoregressive integrated moving average model):***
+The  [Seasonal Autoregressive Integrated Moving Average (SARIMA)](https://machinelearningmastery.com/sarima-for-time-series-forecasting-in-python/)  method models the next step in the sequence as a linear function of the differenced observations, errors, differenced seasonal observations, and seasonal errors at prior time steps.
+It combines the ARIMA model with the ability to perform the same autoregression, differencing, and moving average modeling at the seasonal level.
+The notation for the model involves specifying the order for the AR(p), I(d), and MA(q) models as parameters to an ARIMA function and AR(P), I(D), MA(Q) and m parameters at the seasonal level, e.g. SARIMA(p, d, q)(P, D, Q)m where “m” is the number of time steps in each season (the seasonal period). A SARIMA model can be used to develop AR, MA, ARMA and ARIMA models.
+The method is suitable for univariate time series with trend and/or seasonal components.[^6]
+
+***SARIMAX (seasonal autoregressive integrated moving average model with exogenous variables):***
+The Seasonal Autoregressive Integrated Moving-Average with Exogenous Regressors ([SARIMAX](https://machinelearningmastery.com/sarima-for-time-series-forecasting-in-python/)) is an extension of the SARIMA model that also includes the modeling of exogenous variables.
+Exogenous variables are also called covariates and can be thought of as parallel input sequences that have observations at the same time steps as the original series. The primary series may be referred to as endogenous data to contrast it from the exogenous sequence(s). The observations for exogenous variables are included in the model directly at each time step and are not modeled in the same way as the primary endogenous sequence (e.g. as an AR, MA, etc. process).
+The SARIMAX method can also be used to model the subsumed models with exogenous variables, such as ARX, MAX, ARMAX, and ARIMAX.
+The method is suitable for univariate time series with trend and/or seasonal components and exogenous variables.[^6]
+
+***VARMA (vector autoregressive moving average model):***
+The Vector Autoregression Moving-Average (VARMA) method models the next step in each time series using an ARMA model. It is the generalization of ARMA to multiple parallel time series, e.g. multivariate time series.
+The notation for the model involves specifying the order for the AR(p) and MA(q) models as parameters to a VARMA function, e.g. VARMA(p, q). A VARMA model can also be used to develop VAR or VMA models.
+The method is suitable for multivariate time series without trend and seasonal components.[^6]
+
+-----
+
+***Vector Autoregression (VAR)***
+The Vector Autoregression (VAR) method models the next step in each time series using an AR model. It is the generalization of AR to multiple parallel time series, e.g. multivariate time series.
+The notation for the model involves specifying the order for the AR(p) model as parameters to a VAR function, e.g. VAR(p).
+The method is suitable for multivariate time series without trend and seasonal components.[^6]
+
+***Vector Autoregression Moving-Average with Exogenous Regressors (VARMAX)***
+The Vector Autoregression Moving-Average with Exogenous Regressors (VARMAX) is an extension of the VARMA model that also includes the modeling of exogenous variables. It is a multivariate version of the ARMAX method.
+Exogenous variables are also called covariates and can be thought of as parallel input sequences that have observations at the same time steps as the original series. The primary series(es) are referred to as endogenous data to contrast it from the exogenous sequence(s). The observations for exogenous variables are included in the model directly at each time step and are not modeled in the same way as the primary endogenous sequence (e.g. as an AR, MA, etc. process).
+The VARMAX method can also be used to model the subsumed models with exogenous variables, such as VARX and VMAX.
+The method is suitable for multivariate time series without trend and seasonal components with exogenous variables.[^6]
+
+***Simple Exponential Smoothing (SES)***
+The Simple Exponential Smoothing (SES) method models the next time step as an exponentially weighted linear function of observations at prior time steps.
+The method is suitable for univariate time series without trend and seasonal components.[^6]
+
+
+***Holt Winter’s Exponential Smoothing (HWES)***
+
+The  [Holt Winter’s Exponential Smoothing](https://machinelearningmastery.com/how-to-grid-search-triple-exponential-smoothing-for-time-series-forecasting-in-python/)  (HWES) also called the Triple Exponential Smoothing method models the next time step as an exponentially weighted linear function of observations at prior time steps, taking trends and seasonality into account.
+The method is suitable for univariate time series with trend and/or seasonal components.[^6]
+
+***ARCH (autoregressive conditional heteroscedasticity model)***
+Autoregressive conditional heteroskedasticity (ARCH) is a time-series statistical model used to analyze effects left unexplained by econometric models. In these models, the error term is the residual result left unexplained by the model. The assumption of econometric models is that the [variance](https://www.investopedia.com/terms/v/variance.asp) of this term will be uniform. This is known as "homoskedasticity." However, in some circumstances, this variance is not uniform, but "heteroskedastic."[^7]
+***ARIMAX (autoregressive integrated moving average model with exogenous variables)***
+A time series model using the Autoregressive Integrated Moving Average with exogenous variables (ARIMAX) function was developed to predict impacts from groundwater pumping on Silver Springs discharge in Ocala Florida. This effort was conducted to determine the effects of groundwater withdrawal using the statistical relationship between rainfall and spring discharge at Silver Springs. Other statistical models were developed in previous work by both Southwest Florida Water Management Districts and St Johns River Water Management District. However, there were several opportunities for improvement including using consistent data, model calibration period, and residual periods. Additionally previous statistical methods included Multiple Linear Regression and Line of Organic Correlation methods. These methods did not account for autocorrelation that present in many time series analysis. Through inter-district collaboration, data was made consistent and new methods were explored. The ARIMAX model was explored in this paper and is useful for prediction when autoregressive patterns are present in model residuals that bias modeled coefficients.[^8]
+***GARCH (generalized autoregressive conditional heteroscedasticity model)***
+A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic) process introduced in Engle (1982) to allow for past conditional variances in the current conditional variance equation is proposed. Stationarity conditions and autocorrelation structure for this new class of parametric models are derived. Maximum likelihood estimation and testing are also considered.[^9] 
 
   
 
 
 I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
-package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^6]
+package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^7]
 
 
 
@@ -213,7 +285,7 @@ Model:
 [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) provides a non-linear least squares to fit a function, f (such as Logistic or Gaussian functions) to a given dataframe. 
 Forecast:
 The forecasting function was provided by [`ts_utils.py`](https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/time_series/ts_utils.py)
-that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^7]
+that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^8]
 
 
 ### Refinement
@@ -296,6 +368,15 @@ Once again thanks and be safe.
 
 [^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
 
+[^6]:[11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
+
+[^7]:[Autoregressive Conditional Heteroskedasticity (ARCH)](https://www.investopedia.com/terms/a/autoregressive-conditional-heteroskedasticity.asp)
+
+[^8]:[Autoregressive Integrated Moving Average Model with exogenous variables (ARIMAX) transfer function model for Sharpes Ferry Well and Silver Springs](https://rstudio-pubs-static.s3.amazonaws.com/180268_8acc87dd9fa2435c8a8e5ed6b815be2c.html)
+
+[^9]:[Generalized autoregressive conditional heteroskedasticity](https://www.sciencedirect.com/science/article/abs/pii/0304407686900631?via%3Dihub)
+
+
 [^7]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
 
 [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
@@ -306,11 +387,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNzYyODY3NTMsNDcyNDM2NDE0LC0xNT
-Y2NDI5MTcxLDE3MjAzMzQzMywtNzc1NDIxMzg3LC01Nzk2NjA5
-MzcsNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OTM4ODg4MzEsLT
-E4OTc5MDg5NjMsMTczOTQzMjUxMiwxOTg3OTk3Njk2LDM1MTIx
-NTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5NjcxNTk1OSwxMz
-QyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIy
-NTQwXX0=
+eyJoaXN0b3J5IjpbLTE4Njc4NjY2MTQsLTEzNzYyODY3NTMsND
+cyNDM2NDE0LC0xNTY2NDI5MTcxLDE3MjAzMzQzMywtNzc1NDIx
+Mzg3LC01Nzk2NjA5MzcsNTY4MjcwNDMxLC0xNjg1OTIwMDY1LD
+E0OTM4ODg4MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwxOTg3
+OTk3Njk2LDM1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMT
+g5NjcxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4
+MDc0XX0=
 -->
