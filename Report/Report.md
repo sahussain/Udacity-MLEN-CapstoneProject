@@ -103,7 +103,7 @@ To use DeepAR it needs to meet the following criteria [^5]:
 
 Based on the above requirements we can not use DeepAR. I then looked into the following Then I looked into the following models to see if we can use them:
 
- ## Researching (TSFMs)
+ ## Researching  `Time Series Forecasting Model(TSFMs)`
 
 ***AR (autoregressive model):***
 The autoregression (AR) method models the next step in the sequence as a linear function of the observations at prior time steps.
@@ -493,11 +493,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0MzU4ODMwNjIsLTY2NDY4NDk3OCwtOT
-gxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2NjQy
-OTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5NjYwOTM3LD
-U2ODI3MDQzMSwtMTY4NTkyMDA2NSwxNDkzODg4ODMxLC0xODk3
-OTA4OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5NzY5NiwzNTEyMTU4MS
-wtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0Mjcy
-MjM0M119
+eyJoaXN0b3J5IjpbLTE5MzA3ODIyMTIsLTE0MzU4ODMwNjIsLT
+Y2NDY4NDk3OCwtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQz
+NjQxNCwtMTU2NjQyOTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4Ny
+wtNTc5NjYwOTM3LDU2ODI3MDQzMSwtMTY4NTkyMDA2NSwxNDkz
+ODg4ODMxLC0xODk3OTA4OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5Nz
+Y5NiwzNTEyMTU4MSwtNDkxMTg4NDgsNTgyMzkzNzY1LDE4OTY3
+MTU5NTldfQ==
 -->
