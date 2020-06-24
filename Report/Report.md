@@ -239,11 +239,7 @@ In this section, you will need to provide some form of visualization that emphas
 - _If a plot is provided, are the axes, title, and datum clearly defined?_
 
 ### Reflection
-In this section, you will summarize the entire end-to-end problem solution and discuss one or two particular aspects of the project you found interesting or difficult. You are expected to reflect on the project as a whole to show that you have a firm understanding of the entire process employed in your work. Questions to ask yourself when writing this section:
-- _Have you thoroughly summarized the entire process you used for this project?_
-- _Were there any interesting aspects of the project?_
-- _Were there any difficult aspects of the project?_
-- _Does the final model and solution fit your expectations for the problem, and should it be used in a general setting to solve these types of problems?_
+I would say my best model would be **North Dakota**. 
 
 ### Improvement
 1. Using  `earlyR`  and  `EpiEstim`  packages which is part of R.
@@ -277,7 +273,7 @@ In this section, you will summarize the entire end-to-end problem solution and d
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTY2ODQ0Njg0Nyw1ODIzOTM3NjUsMTg5Nj
+eyJoaXN0b3J5IjpbLTMyNjE4NTU1NSw1ODIzOTM3NjUsMTg5Nj
 cxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0
 LC0xNTA3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MD
 gwMTY5NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjEx
