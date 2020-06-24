@@ -416,8 +416,8 @@ Model:
 [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) provides a non-linear least squares to fit a function, f (such as Logistic or Gaussian functions) to a given dataframe. 
 Forecast:
 The forecasting function was provided by [`ts_utils.py`](https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/time_series/ts_utils.py)
-that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^8]
-[^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
+that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^11]
+[^11]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
 
 ### Refinement
@@ -508,11 +508,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE5NDY4NzU5MDEsLTIzMzMwOTA4LDE2NT
-U5MTY4MjgsMTkwNzQ3MTMyNywtMTMzNDEyNTQzOSwxNjg3ODEx
-MDM3LDE3MTc1MDE1NDgsLTE0MzU4ODMwNjIsLTY2NDY4NDk3OC
-wtOTgxMzYwODM2LC0xMzc2Mjg2NzUzLDQ3MjQzNjQxNCwtMTU2
-NjQyOTE3MSwxNzIwMzM0MzMsLTc3NTQyMTM4NywtNTc5NjYwOT
-M3LDU2ODI3MDQzMSwtMTY4NTkyMDA2NSwxNDkzODg4ODMxLC0x
-ODk3OTA4OTYzXX0=
+eyJoaXN0b3J5IjpbLTM1NDU2NDY1NywtMjMzMzA5MDgsMTY1NT
+kxNjgyOCwxOTA3NDcxMzI3LC0xMzM0MTI1NDM5LDE2ODc4MTEw
+MzcsMTcxNzUwMTU0OCwtMTQzNTg4MzA2MiwtNjY0Njg0OTc4LC
+05ODEzNjA4MzYsLTEzNzYyODY3NTMsNDcyNDM2NDE0LC0xNTY2
+NDI5MTcxLDE3MjAzMzQzMywtNzc1NDIxMzg3LC01Nzk2NjA5Mz
+csNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OTM4ODg4MzEsLTE4
+OTc5MDg5NjNdfQ==
 -->
