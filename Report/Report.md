@@ -318,6 +318,8 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 ### Benchmark
+
+
 I am using The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/), 
 Established in 1853, the University of Melbourne is a public-spirited institution that makes distinctive contributions to society in research, learning and teaching and engagement. It’s consistently ranked among the leading universities in the world, with international rankings of world universities placing it as number 1 in Australia and number 32 in the world (Times Higher Education World University Rankings 2017-2018).
 
@@ -482,6 +484,9 @@ New covid-19 cases in North Dakota seem to be following the same pattern as that
 Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons.
 
 
+Compaiting 
+
+
 ### Justification
 Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more then 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how how any model for COVID-19 epidemic would turn out.
 
@@ -545,7 +550,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTA4NjY3MDUxNyw2NDU4OTc3NTksLTEwOT
+eyJoaXN0b3J5IjpbLTEyNzkzMzg3OCw2NDU4OTc3NTksLTEwOT
 k3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2NzUs
 LTEwNzU3NTY0MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNj
 kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
