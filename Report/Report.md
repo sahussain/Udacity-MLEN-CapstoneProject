@@ -323,14 +323,14 @@ Established in 1853, the University of Melbourne is a public-spirited institutio
 
 The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as  MIT License on (GitHub)(https://github.com/benflips/nCovForecast) This model was done using R package, I did not make any changes to this as this would be my benchmark to compare my model with.  They have several models predicting different aspects of the dataset. I am only using there forecast of active cases which is defined below:
 >We are interested in knowing how the number of active cases is going to change in the near term.  We provide two alternative growth models.  The growth dynamics of epidemics are complex, but we make the simplifying assumption that the epidemic is a long way from population saturation (i.e. that there is a ready supply of susceptible hosts) such that simple exponential growth provides a reasonable short-term approximation.  The first model -- the "constant growth" model -- assumes a constant growth rate, in which case active cases follow an exponential growth model such that $E(A_t) = A_0e^{rt}$, where $A_0$ is the initial number of active cases, and $r$ is the (constant) intrinsic growth rate.  The second model -- "time-varying growth" -- assumes that the growth rate changes linearly over time.  Empirically, linear change in growth is what we have been observing in this epidemic as populations enact physical distancing and quarantine measures.  Under this model, growth follows a Gaussian function such that $E(A_t) = A_0e^{r_0t+\frac{b}{2}t^2}$.  Here, $r_0$ is the initial growth rate, and $b$ is the rate of change in growth rate over time.
-
-To fit both models, we take the natural logarithm of both sides, yielding $\ln A_t = rt + \ln A_0$ (constant growth) and $\ln A_t = \frac{b}{2}t^2+rt + \ln A_0$ (time-varying growth).  This shows us that we can fit a simple linear regression of $\ln A_t$ against $t$ in the constant growth scenario, and a quadratic function in the case of the time-varying model.  
-
-These fits give us an estimate of intrinsic growth rate, $r$, or $r(t)$.  
-
-We fit each model to the last $n$ days of $A_t$ data (where $n$ is determined by the user with the input slider) and extrapolate the fitted model to capture ten day into the future from now.  Fitting and extrapolation is effected with the log-transformed model (lower plot on "10-day forecast" tab, with 95% confidence intervals) and the log of expected active case numbers is back-transformed to the original scale to produce the top plot on the "10-day forecast" tab.  We provide a larger number of days for fit input for the time-varying growth model because this model estimates an additional parameter, so requires more data.
-
-When public health interventions are rapidly changing the growth rate, this can be seen as deviations from the expected straight line on the log-plot.  In these situations, when growth rate is declining rapidly (the curve is flattening), forecasts from the constant growth model (averaging growth over the last ten days) will be biased upwards.  By altering the slider you can adjust the window over which growth rate is averaged, so you can get a sense of how recent shifts are affecting the forecast.  The time-varying growth rate forecast should be less sensitive to changes in $n$, and is the better model when growth rates are changing in a steady linear manner.
+>
+>To fit both models, we take the natural logarithm of both sides, yielding $\ln A_t = rt + \ln A_0$ (constant growth) and $\ln A_t = \frac{b}{2}t^2+rt + \ln A_0$ (time-varying growth).  This shows us that we can fit a simple linear regression of $\ln A_t$ against $t$ in the constant growth scenario, and a quadratic function in the case of the time-varying model.  
+>
+>These fits give us an estimate of intrinsic growth rate, $r$, or $r(t)$.  
+>
+>We fit each model to the last $n$ days of $A_t$ data (where $n$ is determined by the user with the input slider) and extrapolate the fitted model to capture ten day into the future from now.  Fitting and extrapolation is effected with the log-transformed model (lower plot on "10-day forecast" tab, with 95% confidence intervals) and the log of expected active case numbers is back-transformed to the original scale to produce the top plot on the "10-day forecast" tab.  We provide a larger number of days for fit input for the time-varying growth model because this model estimates an additional parameter, so requires more data.
+>
+>When public health interventions are rapidly changing the growth rate, this can be seen as deviations from the expected straight line on the log-plot.  In these situations, when growth rate is declining rapidly (the curve is flattening), forecasts from the constant growth model (averaging growth over the last ten days) will be biased upwards.  By altering the slider you can adjust the window over which growth rate is averaged, so you can get a sense of how recent shifts are affecting the forecast.  The time-varying growth rate forecast should be less sensitive to changes in $n$, and is the better model when growth rates are changing in a steady linear manner.
 
 
 ## III. Methodology
@@ -528,7 +528,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTg3Mzg5ODQsMzkwNjU1OTI2LDE3MT
+eyJoaXN0b3J5IjpbLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MT
 M2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MDU1OTI5
 OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NTY0NjU3LC0yMz
 MzMDkwOCwxNjU1OTE2ODI4LDE5MDc0NzEzMjcsLTEzMzQxMjU0
