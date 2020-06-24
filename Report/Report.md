@@ -197,9 +197,9 @@ max|388488|11434
 
 ### Implementation
 Model:
-I use the [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) which provides with non-linear least squares to fit a function, f, to data. functions like Logistic, or Gaussian functions where the data is COVID-19 total and new cases. 
+The [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) which provides with non-linear least squares to fit a function, f, to data. functions like Logistic, or Gaussian functions where the data is COVID-19 total and new cases. 
 Forecast:
-
+The forcasting 
 
 
 ### Refinement
@@ -276,9 +276,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODQ3NDA2NTUyLDEzNDI3MjIzNDMsLTc2Nz
-U2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5
-NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NT
-IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
-ODM1XX0=
+eyJoaXN0b3J5IjpbLTExMDI1NTk1NDMsMTM0MjcyMjM0MywtNz
+Y3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtNDg1NzE1
+NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1MDkwLD
+Y1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0ODM4LC03NzA5
+MDQ4MzVdfQ==
 -->
