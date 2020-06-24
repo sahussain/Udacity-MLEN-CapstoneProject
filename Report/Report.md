@@ -196,8 +196,11 @@ min|0|0
 max|388488|11434
 
 ### Implementation
+Model:
+I use the [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) which provides with non-linear least squares to fit a function, f, to data. functions like Logistic, or Gaussian functions where the data is COVID-19 total and new cases. 
+Forecast:
 
-I use the [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) which provides functions best fit objective functions like Logistic, or Gaussian functions
+
 
 ### Refinement
 In this section, you will need to discuss the process of improvement you made upon the algorithms and techniques you used in your implementation. For example, adjusting parameters for certain models to acquire improved solutions would fall under the refinement category. Your initial and final solutions should be reported, as well as any significant intermediate results as necessary. Questions to ask yourself when writing this section:
@@ -273,7 +276,7 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NjI1MDYzLDEzNDI3MjIzNDMsLTc2Nz
+eyJoaXN0b3J5IjpbODQ3NDA2NTUyLDEzNDI3MjIzNDMsLTc2Nz
 U2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5
 NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NT
 IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
