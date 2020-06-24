@@ -24,11 +24,30 @@ project are below.
 - [The final project report: Report/Report.md](Report/Report.md)
 
 **Notebooks**
-- Notebooks/TSFMs1.ipynb
+- First Attempt [Notebooks/TSFMs1.ipynb]
+- Second Attempt [Notebooks/TSFMs2.ipynb]
+	- ## data
+numpy==1.16.4
+pandas==0.25.1
+xlrd==1.2.0
+## plot
+matplotlib==3.1.2
+## statistics
+statsmodels==0.10.1
+## machine learning
+scikit-learn==0.22
+## deep learning
+tensorflow==1.13.2
+## econometrics
+pmdarima==1.5.2
+arch==4.13
+## prophet
+#pystan==2.19.1.1
+#fbprophet==0.5
 
 Data Source: 
 [COVID-19 Data Research repository from Johns Hopkins University](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data/csse_covid_19_time_series)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIzMzYwOTAxNF19
+eyJoaXN0b3J5IjpbNDk2NTQyMTQxXX0=
 -->
