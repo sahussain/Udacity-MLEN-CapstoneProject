@@ -213,8 +213,12 @@ The model could not fit Total Cases to a Logistic Function
 The model could not fit new Cases to a Gaussian Function
 
 A better tool kit like  `earlyR`  and  `EpiEstim`  packages which is part of R. 
-There are two good articles talk about how to use them. 
-[COVID-19 epidemiology with R by ]
+There are two good articles talk about how to use R . 
+[COVID-19 epidemiology with R by Tim Churches](https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/):
+>Tim Churches is a Senior Research Fellow at the UNSW Medicine South Western Sydney Clinical School at Liverpool Hospital, and a health data scientist at the Ingham Institute for Applied Medical Research, also located at Liverpool, Sydney. His background is in general medicine, general practice medicine, occupational health, public health practice, particularly population health surveillance, and clinical epidemiology.
+
+
+
 
 ## IV. Results
 _(approx. 2-3 pages)_
@@ -279,9 +283,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzMjkxODc4MDEsMTg5NjcxNTk1OSwxMz
-QyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIy
-NTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5NjcsLT
-ExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2
-NDQ4MzgsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbLTkxNzYyMDUwNiwxODk2NzE1OTU5LDEzND
+I3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1
+NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMT
+E3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0
+NDgzOCwtNzcwOTA0ODM1XX0=
 -->
