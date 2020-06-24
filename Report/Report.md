@@ -209,6 +209,8 @@ The model and the forecast works well however there are few states that will not
 The model could not fit Total Cases to a Logistic Function
 
 **Virgin Islands**
+![enter image description here](/Images/Capture11.JPG)
+The model could not fit new Cases to a Gaussian Function
 
 ## IV. Results
 _(approx. 2-3 pages)_
@@ -277,9 +279,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzOTQxMTk1NjAsMTg5NjcxNTk1OSwxMz
-QyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nzk4MDc0LC0xNTA3NTIy
-NTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5LC00MDgwMTY5NjcsLT
-ExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNTgxMjExMTM3LC0xOTI2
-NDQ4MzgsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbMjA2MzAzMjM4MywxODk2NzE1OTU5LDEzND
+I3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1
+NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMT
+E3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0
+NDgzOCwtNzcwOTA0ODM1XX0=
 -->
