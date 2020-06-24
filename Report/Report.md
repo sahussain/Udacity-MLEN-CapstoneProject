@@ -115,16 +115,13 @@ To use DeepAR it needs to meet the following criteria [^5]:
 Based on the above requirements we can not use DeepAR. I then looked into the 14 Classical Time Series Forecasting Methods (TSFMs) in Python, list below, to see if we can use any of them. The first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary. A stationary process has the property that the mean, variance and autocorrelation structure do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
 [^10]:[6.4.4.2. Stationarity]()
 
-For practical purposes, stationarity can usually be determined from a run sequence plot.
-
-For a time-series to be Stationarity, the following do not change over time
+To summarize a time-series to be Stationarity, the following should not change over time
 
 mean(μ)
 standard deviation(σ)
 Autocorrelation structure (No seasonality)
-for more info see Stationarity
 
-There are a number of unit root tests and the Augmented Dickey-Fuller may be one of the more widely used. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
+There are a number of unit root tests we can do to check if a dataset is  and the Augmented Dickey-Fuller may be one of the more widely used. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
 
 The null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
 
@@ -510,11 +507,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Njg5ODA4MzcsLTg3MTUzMDk4NSwzMD
-Y5MjU0NzYsLTM1NDU2NDY1NywtMjMzMzA5MDgsMTY1NTkxNjgy
-OCwxOTA3NDcxMzI3LC0xMzM0MTI1NDM5LDE2ODc4MTEwMzcsMT
-cxNzUwMTU0OCwtMTQzNTg4MzA2MiwtNjY0Njg0OTc4LC05ODEz
-NjA4MzYsLTEzNzYyODY3NTMsNDcyNDM2NDE0LC0xNTY2NDI5MT
-cxLDE3MjAzMzQzMywtNzc1NDIxMzg3LC01Nzk2NjA5MzcsNTY4
-MjcwNDMxXX0=
+eyJoaXN0b3J5IjpbLTIxNjg0NDQyMywtODcxNTMwOTg1LDMwNj
+kyNTQ3NiwtMzU0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4
+LDE5MDc0NzEzMjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNz
+E3NTAxNTQ4LC0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2
+MDgzNiwtMTM3NjI4Njc1Myw0NzI0MzY0MTQsLTE1NjY0MjkxNz
+EsMTcyMDMzNDMzLC03NzU0MjEzODcsLTU3OTY2MDkzNyw1Njgy
+NzA0MzFdfQ==
 -->
