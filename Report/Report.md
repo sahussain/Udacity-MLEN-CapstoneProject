@@ -126,6 +126,7 @@ There are a number of unit root tests we can do to check if a dataset is station
 According to Augmented Dickey-Fuller test the null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
 
 `Null Hypothesis (H0):` If failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure. 
+
 `Alternate Hypothesis (H1):` The null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. We interpret this result using the p-value from the test. A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypothesis (stationary), otherwise a p-value above the threshold suggests we fail to reject the null hypothesis (non-stationary).
 
 -   p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
@@ -528,11 +529,11 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MT
-M2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MDU1OTI5
-OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NTY0NjU3LC0yMz
-MzMDkwOCwxNjU1OTE2ODI4LDE5MDc0NzEzMjcsLTEzMzQxMjU0
-MzksMTY4NzgxMTAzNywxNzE3NTAxNTQ4LC0xNDM1ODgzMDYyLC
-02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3NjI4Njc1Myw0NzI0
-MzY0MTRdfQ==
+eyJoaXN0b3J5IjpbLTIwNTgyMzcyMTQsLTEwOTk3ODkxNjgsMz
+kwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0
+MjUsLTg1MDU1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMz
+U0NTY0NjU3LC0yMzMzMDkwOCwxNjU1OTE2ODI4LDE5MDc0NzEz
+MjcsLTEzMzQxMjU0MzksMTY4NzgxMTAzNywxNzE3NTAxNTQ4LC
+0xNDM1ODgzMDYyLC02NjQ2ODQ5NzgsLTk4MTM2MDgzNiwtMTM3
+NjI4Njc1M119
 -->
