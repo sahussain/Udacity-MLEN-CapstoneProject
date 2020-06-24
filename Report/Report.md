@@ -226,7 +226,7 @@ _(approx. 2-3 pages)_
 This was the simplest model I could pick without me getting a degree in epidemiology
 
 ### Justification
-There is no current benchmark to COVID-19 so we don't know how any model would turned out. The only one we can compare is to Spanish Flu of 1918 Compared which infected 500 million people worldwide and killed more then 50 million people. We could possibly take its  epidemic curve and try to 
+There is no current benchmark to COVID-19 so we don't know how any model would turned out. The only one we can compare is to Spanish Flu of 1918 Compared which infected 500 million people worldwide and killed more then 50 million people.[^9] We could possibly take its  epidemic curve and try to fit it to COVID-19. Aga
 
 
 ## V. Conclusion
@@ -275,13 +275,13 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^7]:[# Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039)
 [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 [^8]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
-[^9]:
+[^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxNDE1MDkwMDUsNTgyMzkzNzY1LDE4OT
-Y3MTU5NTksMTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3
-NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtND
-A4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIx
-MTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbODkwMTQ3MzM3LDU4MjM5Mzc2NSwxODk2Nz
+E1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQs
+LTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwOD
+AxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTEx
+MzcsLTE5MjY0NDgzOCwtNzcwOTA0ODM1XX0=
 -->
