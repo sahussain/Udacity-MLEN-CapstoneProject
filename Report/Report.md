@@ -121,6 +121,7 @@ _(approx. 3-5 pages)_
 
 ### Data Preprocessing
 The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COVID-19/blob/master/csse_covid_19_data/csse_covid_19_time_series/time_series_covid19_confirmed_US.csv) 
+
 |**UID**|**iso2**|**iso3**|**code3**|**FIPS**|**Admin2**|**Province\_State**|**Country\_Region**|**Lat**|**Long\_**|**...**|**6/13/20**|**6/14/20**|**6/15/20**|**6/16/20**|**6/17/20**|**6/18/20**|**6/19/20**|**6/20/20**|**6/21/20**|**6/22/20**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
 0|16|AS|ASM|16|60|NaN|American Samoa|US|-14.271|-170.132|...|0|0|0|0|0|0|0|0|0|0
@@ -282,10 +283,11 @@ Once again Thanks and be safe.
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwxOT
-g3OTk3Njk2LDM1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3NjUs
-MTg5NjcxNTk1OSwxMzQyNzIyMzQzLC03Njc1NjEzMTYsNTU4Nz
-k4MDc0LC0xNTA3NTIyNTQwLC00ODU3MTU0OTQsMTI5OTkyMzI5
-LC00MDgwMTY5NjcsLTExNzk0OTUwOTAsNjUyMTEzOTQ1LC0xNT
-gxMjExMTM3LC0xOTI2NDQ4MzgsLTc3MDkwNDgzNV19
+eyJoaXN0b3J5IjpbLTExNzk0MjAwNSwtMTg5NzkwODk2MywxNz
+M5NDMyNTEyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4
+LDU4MjM5Mzc2NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLTc2Nz
+U2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5
+NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NT
+IxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0NDgzOCwtNzcwOTA0
+ODM1XX0=
 -->
