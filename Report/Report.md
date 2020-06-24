@@ -213,19 +213,17 @@ The model could not fit Total Cases to a Logistic Function
 The model could not fit new Cases to a Gaussian Function
 
 A better tool kit like  `earlyR`  and  `EpiEstim`  packages which is part of R. 
-There are two good articles talk about how to use R to predict COVID cases both of them was written by Tim Churches. 
+There are two good articles talk about how to use R to predict COVID cases both of them was written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068). 
 >Tim Churches is a Senior Research Fellow at the UNSW Medicine South Western Sydney Clinical School at Liverpool Hospital, and a health data scientist at the Ingham Institute for Applied Medical Research, also located at Liverpool, Sydney. His background is in general medicine, general practice medicine, occupational health, public health practice, particularly population health surveillance, and clinical epidemiology.
+
 [COVID-19 epidemiology with R by Tim Churches](https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/):
 [Analysing COVID-19 (2019-nCoV) outbreak data with R - part 1]([https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number))
-
-
-
 
 ## IV. Results
 _(approx. 2-3 pages)_
 
 ### Model Evaluation and Validation
-This was the simplest model to pick without me getting a degree in epidemiology
+This was the simplest model I could pick without me getting a degree in epidemiology
 
 ### Justification
 In this section, your model’s final solution and its results should be compared to the benchmark you established earlier in the project using some type of statistical analysis. You should also justify whether these results and the solution are significant enough to have solved the problem posed in the project. Questions to ask yourself when writing this section:
@@ -284,9 +282,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY2MDYzMjEzOCwxODk2NzE1OTU5LDEzND
-I3MjIzNDMsLTc2NzU2MTMxNiw1NTg3OTgwNzQsLTE1MDc1MjI1
-NDAsLTQ4NTcxNTQ5NCwxMjk5OTIzMjksLTQwODAxNjk2NywtMT
-E3OTQ5NTA5MCw2NTIxMTM5NDUsLTE1ODEyMTExMzcsLTE5MjY0
-NDgzOCwtNzcwOTA0ODM1XX0=
+eyJoaXN0b3J5IjpbNTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0Mj
+cyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0
+MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMT
+c5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0
+ODM4LC03NzA5MDQ4MzVdfQ==
 -->
