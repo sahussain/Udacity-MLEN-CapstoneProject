@@ -226,10 +226,7 @@ _(approx. 2-3 pages)_
 This was the simplest model I could pick without me getting a degree in epidemiology
 
 ### Justification
-In this section, your model’s final solution and its results should be compared to the benchmark you established earlier in the project using some type of statistical analysis. You should also justify whether these results and the solution are significant enough to have solved the problem posed in the project. Questions to ask yourself when writing this section:
-- _Are the final results found stronger than the benchmark result reported earlier?_
-- _Have you thoroughly analyzed and discussed the final solution?_
-- _Is the final solution significant enough to have solved the problem?_
+There is no current benchmark to COVID-19 so we don't know how any model would turned out. The only one we can compare is to    
 
 
 ## V. Conclusion
@@ -282,9 +279,9 @@ In this section, you will need to provide discussion as to how one aspect of the
 [^10]:
 [^11]:
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0Mj
-cyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0
-MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMT
-c5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIxMTEzNywtMTkyNjQ0
-ODM4LC03NzA5MDQ4MzVdfQ==
+eyJoaXN0b3J5IjpbLTE5MjI2NDc4MzgsNTgyMzkzNzY1LDE4OT
+Y3MTU5NTksMTM0MjcyMjM0MywtNzY3NTYxMzE2LDU1ODc5ODA3
+NCwtMTUwNzUyMjU0MCwtNDg1NzE1NDk0LDEyOTk5MjMyOSwtND
+A4MDE2OTY3LC0xMTc5NDk1MDkwLDY1MjExMzk0NSwtMTU4MTIx
+MTEzNywtMTkyNjQ0ODM4LC03NzA5MDQ4MzVdfQ==
 -->
