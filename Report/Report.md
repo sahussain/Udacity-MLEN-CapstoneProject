@@ -103,7 +103,7 @@ To use DeepAR it needs to meet the following[^10]:
 
 
 I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
-package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^7]
+package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^8]
 
 
 
@@ -209,7 +209,7 @@ Model:
 [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) provides a non-linear least squares to fit a function, f (such as Logistic or Gaussian functions) to a given dataframe. 
 Forecast:
 The forecasting function was provided by [`ts_utils.py`](https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/time_series/ts_utils.py)
-that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^8]
+that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^9]
 
 
 ### Refinement
@@ -306,7 +306,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNjMxMzg5MywtNzc1NDIxMzg3LC01Nz
+eyJoaXN0b3J5IjpbLTkwNzg1Njk2NSwtNzc1NDIxMzg3LC01Nz
 k2NjA5MzcsNTY4MjcwNDMxLC0xNjg1OTIwMDY1LDE0OTM4ODg4
 MzEsLTE4OTc5MDg5NjMsMTczOTQzMjUxMiwxOTg3OTk3Njk2LD
 M1MTIxNTgxLC00OTExODg0OCw1ODIzOTM3NjUsMTg5NjcxNTk1
