@@ -142,7 +142,12 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 
 `The problem is that we can not remove any data becaues we would end up only 2 States that are deamed to pass Stationarity test.`
 
-There is good 
+Then after researching father I found t
+
+
+
+There is good paper published by Yoosoon Chang, Bibo Jiang, and Joon Y. Park
+called [Nonstationary Logistic Regression](https://pdfs.semanticscholar.org/d6ff/fb23e6e47c77e53179154bf26dbeb10c00bc.pdf)
 After doing all the I ended up using using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
 package. 
 
@@ -550,7 +555,7 @@ Once again thanks and be safe.
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjAxODQxOTU2OSwzNDc4ODAzMTQsLTEyNz
+eyJoaXN0b3J5IjpbLTc4MzE4MzY4MiwzNDc4ODAzMTQsLTEyNz
 kzMzg3OCw2NDU4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2
 LDE3MTM2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MD
 U1OTI5OCwtODcxNTMwOTg1LDMwNjkyNTQ3NiwtMzU0NTY0NjU3
