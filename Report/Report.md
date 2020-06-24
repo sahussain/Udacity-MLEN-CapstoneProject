@@ -91,8 +91,14 @@ Lets look at new vs total number of cases for some cities:
 
 
 ### Algorithms and Techniques
+To use 
+
+
 I will be using [`scipy.optimize.curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html), which is a part of [SciPy](https://scipy.org/)
 package. This will be fitting a pre-defined Gaussian/Logistic Function which is very commonly used in epidemiology. [^7]
+
+
+
 
 ### Benchmark
 We are still in a crucial stage of the epidemic; there is no real benchmark. The model was able to predict future cases for some states very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
@@ -288,11 +294,11 @@ Once again thanks and be safe.
 
 [^9]:[Compare: 1918 Spanish Influenza Pandemic Versus COVID-19](https://www.biospace.com/article/compare-1918-spanish-influenza-pandemic-versus-covid-19/)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTU3OTY2MDkzNyw1NjgyNzA0MzEsLTE2OD
-U5MjAwNjUsMTQ5Mzg4ODgzMSwtMTg5NzkwODk2MywxNzM5NDMy
-NTEyLDE5ODc5OTc2OTYsMzUxMjE1ODEsLTQ5MTE4ODQ4LDU4Mj
-M5Mzc2NSwxODk2NzE1OTU5LDEzNDI3MjIzNDMsLTc2NzU2MTMx
-Niw1NTg3OTgwNzQsLTE1MDc1MjI1NDAsLTQ4NTcxNTQ5NCwxMj
-k5OTIzMjksLTQwODAxNjk2NywtMTE3OTQ5NTA5MCw2NTIxMTM5
-NDVdfQ==
+eyJoaXN0b3J5IjpbLTc3NTQyMTM4NywtNTc5NjYwOTM3LDU2OD
+I3MDQzMSwtMTY4NTkyMDA2NSwxNDkzODg4ODMxLC0xODk3OTA4
+OTYzLDE3Mzk0MzI1MTIsMTk4Nzk5NzY5NiwzNTEyMTU4MSwtND
+kxMTg4NDgsNTgyMzkzNzY1LDE4OTY3MTU5NTksMTM0MjcyMjM0
+MywtNzY3NTYxMzE2LDU1ODc5ODA3NCwtMTUwNzUyMjU0MCwtND
+g1NzE1NDk0LDEyOTk5MjMyOSwtNDA4MDE2OTY3LC0xMTc5NDk1
+MDkwXX0=
 -->
