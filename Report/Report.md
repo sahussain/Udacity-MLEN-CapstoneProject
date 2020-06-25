@@ -140,6 +140,7 @@ Both models used the same dataset from JHU:
 
 
 a. Benchmark model was implemented in [RStudio](https://rstudio.com/) and designed by the University of Melbourne
+
 b. My model was implemented in SageMaker using scipy ecosystem, and I followed these steps:
 
 
