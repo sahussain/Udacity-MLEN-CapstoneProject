@@ -13,7 +13,6 @@ Machine Learning Engineer Nanodegree: Forecasting COVID-19 Cases – A Time Seri
 
 On 31 December, 2019, the World Health Organization (WHO) was informed of an outbreak of “pneumonia of unknown cause” detected in Wuhan City, Hubei Province, China. Initially identified as coronavirus disease 2019, it quickly came to be known widely as COVID-19 and has resulted in an ongoing global pandemic. As of 20 June, 2020, more than 8.74 million cases have been reported across 188 countries and territories, resulting in more than 462,000 deaths. More than 4.31 million people have recovered.[^1]
 
-
 In response to this ongoing public health emergency, Johns Hopkins
 University (JHU), a private research university in Maryland, USA,
 developed an interactive web-based dashboard hosted by their Center for
@@ -108,11 +107,8 @@ Let's look at new vs total number of cases for some cities:
 
 After going over lost so research papers on epidemiology and machine learning, I concluded that the easiest way to analysis/predict the forecast would be using using [SciPy's](https://scipy.org/) [`curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function. To `curve_fit` one Logistic Function & two Gaussian Function for total cases & new case <?>.
 
-This will is very common approach used in datasets that follows an Epi curve [^10] as an example [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  took the Epi curve of MERS virus, which had a mean of 7.6 and a SD of 3.4, `curve fitted` using `estimate_R()` function in the `EpiEstim` package to Hubei province's COVID-19 cases 
- 
-![enter image description here](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1_files/figure-html5/Cori_parametric_si_model_fit_hubei-1.png)
 
-[^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
+
 
 ### Algorithm steps:
 
@@ -527,11 +523,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMjU4MzA1NjUwLC0xOTUzMDE1MzMzLDE5OD
-UxNjQ0OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2
-MjEsLTQxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOT
-E4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1
-OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC0xNDQ5MjMxNT
-g0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5NjI0NiwzNDE1
-MjAzOTBdfQ==
+eyJoaXN0b3J5IjpbLTcyOTMwNzgyLDI1ODMwNTY1MCwtMTk1Mz
+AxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4MDA2LDg2NDIwMzA2
+LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOTAwNzc2MTYyLDEyNj
+g0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5
+OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OC
+wtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC04Mjkz
+OTYyNDZdfQ==
 -->
