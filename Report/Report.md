@@ -2,7 +2,7 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Project
 Ashraf Hussain 
-25 June, 2020
+22 June, 2020
 
 Machine Learning Engineer Nanodegree: Forecasting COVID-19 Cases – A Time Series Forecasting Model
 
@@ -26,13 +26,13 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 ### Problem Statement
 This project seeks to forecast number of people infected (new and total case) caused by COVID-19 for a time duration of 30-days based on historical data from JHU. 
 
-In my `proposal`, I initially intended to use Time Series Forecasting with Linear Learner as the benchmark along with DeepAR which is an underutilized approach in this area. However after doing extensive research, I have come to the conclusion that any dataset based on epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  [`Appendix A`](#DeepAR).
+In my `proposal`, I initially intended to use Time Series Forecasting with Linear Learner as the benchmark along with DeepAR which is an underutilized approach in this area. However after doing extensive research, I have come to the conclusion that any dataset based on epi curve like an epidemic (COVID-19), pandemic (MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). See  [`Appendix A`](#DeepAR).
 
-Instead, I will be using Matplotlib, numpy, pandas from the scipy ecosystem to help me with data analysis and visualization. I will also be using scipy.optimize, from the same ecosystem to create an algorithm based on `curve_fit` function. It will best fit two curves: one for total cases for which I will use Logistic Function; and another for new cases for which I will be using Gaussian Function.
+Instead, I will be using Matplotlib, numpy, pandas from the scipy ecosystem to help me with data analysis and visualization. I will also be using scipy.optimize from the same ecosystem to create an algorithm based on `curve_fit` function. It will best fit two curves: one for total cases for which I will be using Logistic Function; and another for new cases for which I will be using Gaussian Function.
 
 This is a very common approach used in datasets that follow an epi curve [^10] for example [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number) who took the MERS virus epi curve, and `curve fitted` using the Hubei Province's COVID-19 cases.
 
-I will be comparing my model to the benchmark model designed by the University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/).
+I will be comparing my model to the benchmark model, [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/), designed by the University of Melbourne.
 
 
 ### Metrics
@@ -83,10 +83,10 @@ Algorithms used for the benchmark model:
 
 ### Benchmark
 
-I am using the University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/), 
+I am using the University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/). 
 Established in 1853, the University of Melbourne is an internationally recognised, research-intensive university with a strong tradition of excellence in teaching, research and community engagement. According to its website, "It’s consistently ranked among the leading universities in the world, with international rankings of world universities placing it as number 1 in Australia and number 32 in the world (Times Higher Education World University Rankings 2017-2018)."
 
-The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as an MIT License on (GitHub)(https://github.com/benflips/nCovForecast) This model was done using RStudio, I did not make any changes to this as this would be my benchmark to compare my model with. They have several models predicting different aspects of the dataset. I am only using their [forecast function](#UOM). 
+The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as an MIT License on (GitHub)(https://github.com/benflips/nCovForecast). This model was done using RStudio. I did not make any changes to this as this would be my benchmark to compare my model with. They have several models predicting different aspects of the dataset. I am only using their [forecast function](#UOM). 
 
 ## III. Methodology
 
@@ -136,9 +136,9 @@ max|388488|11434
 ### Implementation
 
 Once the data cleaning was preprocessed, I implemented two models.
-Both models used the same dataset from JHU
-1. Benchmark model was implemented in [RStudio](https://rstudio.com/) and designed by the University of Melbourne
-2. My model was implemented in SageMaker using scipy ecosystem, and I followed these steps
+Both models used the same dataset from JHU:
+a. Benchmark model was implemented in [RStudio](https://rstudio.com/) and designed by the University of Melbourne
+b. My model was implemented in SageMaker using scipy ecosystem, and I followed these steps:
 
 1.  Grouping:
     - Removed unnecessary columns
@@ -155,7 +155,7 @@ Both models used the same dataset from JHU
 	- The `forecast_curve` takes optimal parameters (models) from step 2 above and applies it to a new independent variable based on observations (cases) to forecast. 
 	- outputs: Graph of actual vs forecast
 
-For the benchmark model, the nCovForecast toolkit comes with GUI, which I used after I ran the modal locally. 
+For the benchmark model, the nCovForecast toolkit comes with GUI, which I used after I ran the model locally. 
 
 
 ### Refinement
@@ -174,7 +174,7 @@ The model and the forecast work well when applied to certain States. However, th
 
  ***My Model vs Benchmark:***
 
-My model could not fit total cases to a Logistic Function, however the benchmark model did not have any problems predicting the forecast within 95% confidence. This was because Michigan is on a different epi curve. Since my model is fitting to a standard Logistic Function f(x), it was unable to predict the forecast. The benchmark model takes into different epi curves, it was able to predict better than my model.
+My model could not fit total cases to a Logistic Function, however the benchmark model did not have any problems predicting the forecast within 95% confidence. This was because Michigan is on a different epi curve. Since my model is fitting to a standard Logistic Function f(x), it was unable to predict the forecast. The benchmark model takes into account different epi curves, and hence it was able to predict better than my model.
 
 ----
 
@@ -190,7 +190,7 @@ My model could not fit total cases to a Logistic Function, however the benchmark
 ![enter image description here](/Images/Capture13.JPG)
 
  ***My Model vs Benchmark:***
-My model could not fit new cases to a Gaussian Function, however again the benchmark model did not have any problems predicting the forecast within 95% confidence. This was because Virgin Islands are on a different epi curve. Since my model is fitting to a standard Gaussian Function g(x), it was unable to predict the forecast. The benchmark model takes into different epi curves, it was able to predict better than my model.
+My model could not fit new cases to a Gaussian Function, however the benchmark model did not have any problems predicting the forecast within 95% confidence. This was because Virgin Islands are on a different epi curve. Since my model is fitting to a standard Gaussian Function g(x), it was unable to predict the forecast. The benchmark model takes into account different epi curves, and hence it was able to predict better than my model.
 
 Summary: This clearly shows the power of a better package such as `earlyR` and `EpiEstim` that are part of R when applied to an epidemic dataframe. 
 There are three well-researched articles written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068) that talk about using R to predict COVID-19 cases. 
@@ -207,9 +207,7 @@ There are three well-researched articles written by [Tim Churches](https://theco
 
 
 ### Model Evaluation and Validation
-Given my limited understanding and knowledge in the field of epidemiology, this was the simplest model I was able to work with.
-
-The model was able to predict future cases for some States very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
+Given my limited understanding and knowledge in the field of epidemiology, this was the simplest model I was able to work with. The model was able to predict future cases for some States very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
 
 
 
@@ -264,7 +262,7 @@ New COVID-19 cases in North Dakota seem to be following the same pattern as that
 
 
  ***My Model vs Benchmark:***
-Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons. Both my model and benchmark did not have any problems predicting the forecast within 95% confidence however my model shows an upward trend and the benchmark shows a downward trend. 
+Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between States for the long weekend and for other reasons. Both my model and benchmark did not have any problems predicting the forecast within 95% confidence however my model shows an upward trend and the benchmark shows a downward trend. 
 
 ----
 ### Justification
@@ -274,11 +272,11 @@ It is quite evident that  [`earlyR`](https://www.repidemicsconsortium.org/earlyR
 Source `earlyR`: https://www.repidemicsconsortium.org/earlyR/
 Source `EpiEstim`: https://sites.google.com/site/therepiproject/r-pac/epiestim
 
-Research is ongoing and and better benchmarks for the COVID-19 epidemic are being developed every day by people like Dr Tim Churches, a medically-trained epidemiologist. Epidemiologists are designing new models predominantly in R. Below are some examples:
- - [an introduction to R for epidemiologists by Dr Charles DiMaggio(New York University Departments of Surgery and Population Health)](http://www.columbia.edu/~cjd11/charles_dimaggio/DIRE/resources/R/packages.pdf)
+Research is ongoing and better benchmarks for the COVID-19 epidemic are being developed every day by people like Dr. Tim Churches, a medically-trained epidemiologist. Epidemiologists are designing new models predominantly in R. Below are some examples:
+ - [an introduction to R for epidemiologists by Dr. Charles DiMaggio (New York University Departments of Surgery and Population Health)](http://www.columbia.edu/~cjd11/charles_dimaggio/DIRE/resources/R/packages.pdf)
  
- - [R-software: A Newer Tool in Epidemiological Data Analysis by Dr Amir Maroof Khan(Department of Community Medicine, University College of Medical Sciences and GTB Hospital, Delhi, India)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612300/)
-- [Analysis of Epidemiological Data Using R and Epicalc by Prof.(Prince of Songkla University, Thailand)](https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf)
+ - [R-software: A Newer Tool in Epidemiological Data Analysis by Dr. Amir Maroof Khan (Department of Community Medicine, University College of Medical Sciences and GTB Hospital, Delhi, India)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612300/)
+- [Analysis of Epidemiological Data Using R and Epicalc by Prof. (Prince of Songkla University, Thailand)](https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf)
 
 A Google Scholar search on [`epidemiology and r`](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=epidemiology+and+r&btnG=) returns over three million articles, however a similar search with other keywords yielded: epidemiology and ARIMA (18k articles), epidemiology and SARIMA (46 articles), and epidemiology and DeepAR (0 articles).
 
@@ -297,7 +295,7 @@ The only challenge with these predictions is that it does not take into account 
 
 ### Final Thoughts and Improvements
 
-This project has taught me a lot about machine learning and how epidemiologists are using machine learning. There were several lessons to be learnt but the top three that stood out for me are:
+This project has taught me a lot about machine learning and how epidemiologists are using machine learning. There were several lessons to be learnt but the top five that stood out for me are:
 
 1. Using  [`earlyR`](https://www.repidemicsconsortium.org/earlyR/)  and   [`EpiEstim`](https://sites.google.com/site/therepiproject/r-pac/epiestim)  packages that are part of R would have been a better and more accurate option for my model. `earlyR` was designed for simple estimation of infectiousness, as measured by the reproduction number (R), in the early stages of an outbreak. It has been in epidemiologists' circles since 2017 and was desgined by Thibaut Jombart, Associate Proffessor in outbreak analytics at LSHTM / Imperial College, London, UK. `EpiEstim` implements a Bayesian approach for quantifying transmissibility over time during an epidemic. More specifically, it allows estimating the instantaneous and case reproduction numbers during an epidemic for which a time series of incidence is available and the distribution of the serial interval (time between symptoms onset in a primary case and symptoms onset in secondary case) is _ more or less precisely _ known.
 
@@ -309,7 +307,7 @@ This project has taught me a lot about machine learning and how epidemiologists 
 4. Time management: There is a ton of published papers and research available that provide top-notch information. Going forward, I will allow myself sufficient time to go through available research before embarking on the solution. Some good sources of information are Google Scholar, Medium, GitHub repositories, and other open-source packages & libraries.
 Hindsight is indeed 2020. Armed with this knowledge, I am confident that I can continue to apply myself in the field of machine learning to find novel solutions to human challenges.
 
-5. This Dataset would be great for udacity's course called [Data Analysis with R](https://www.udacity.com/course/data-analysis-with-r--ud651) and [Data Analyst Nanodegree Program](https://www.udacity.com/course/data-analyst-nanodegree--nd002)
+5. This dataset would be great for Udacity's course called [Data Analysis with R](https://www.udacity.com/course/data-analysis-with-r--ud651) and [Data Analyst Nanodegree Program](https://www.udacity.com/course/data-analyst-nanodegree--nd002)
 
 To conclude, I would like to thank the following people without whom I would not have been able to complete my project and get an understanding of how COVID-19 is being used in machine learning:
 
