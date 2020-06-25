@@ -28,7 +28,7 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 
 
 ### Problem Statement
-In my `Proposal` I mention that I will be using DeepA
+In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner however I cannot use either of them as an 
 
 
 This project seeks to forecast number of people infected and number of
@@ -521,11 +521,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTM4MTkxMTU3OCw4NjQyMDMwNiwtMTA5Mj
-U2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2MiwxMjY4NDQzNzI4
-LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkwNTQsLT
-Q1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDky
-MzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LD
-M0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3
-NTldfQ==
+eyJoaXN0b3J5IjpbLTE0NjUwMzgwMDYsODY0MjAzMDYsLTEwOT
+I1Njk2MjEsLTQxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0Mzcy
+OCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5MDU0LC
+00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC0xNDQ5
+MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5NjI0Ni
+wzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4NzgsNjQ1ODk3
+NzU5XX0=
 -->
