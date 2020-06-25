@@ -32,7 +32,7 @@ I will be using scipy ecosystem from which Matplotlib, numpy,  pandas to help me
 
 This will is very common approach used in datasets that follows an Epi curve [^10] as an example [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  who took the MERS virus Epi curve, and `curve fitted` using to Hubei province's COVID-19 cases.
 
-I will be comparing my model to The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/).  
+I will be comparing my model to Benchmark model designed by The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/).
 
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
@@ -500,7 +500,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTU0ODMzNzEwOSwtNDE0MTk2MTg1LC04Nj
+eyJoaXN0b3J5IjpbMTg2ODE0NTA3NywtNDE0MTk2MTg1LC04Nj
 U1MzMzNTQsMjU4MzA1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0
 OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLT
 QxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQy
