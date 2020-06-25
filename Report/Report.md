@@ -364,7 +364,10 @@ Contrary to Delaware and North Dakota, new cases in Maryland peaked during the l
 ----
 ### Justification
 
-This clearly shows the power of better package such as  [`earlyR`](https://www.repidemicsconsortium.org/earlyR/) package which implements simple estimation of infectiousness, as measured by the reproduction number (R), in the early stages of an outbreak. The second package   `EpiEstim`  that are part of R when applied to an epidemic dataframe. 
+This clearly shows the power of better package such as  [`earlyR`](https://www.repidemicsconsortium.org/earlyR/) package which implements simple estimation of infectiousness, as measured by the reproduction number (R), in the early stages of an outbreak. The second package   [`EpiEstim`](https://sites.google.com/site/therepiproject/r-pac/epiestim)   which implements a Bayesian approach for quantifying transmissibility over time during an epidemic. More specifically, it allows estimating the instantaneous and case reproduction numbers during an epidemic for which a time series of incidence is available and the distribution of the serial interval (time between symptoms onset in a primary case and symptoms onset in secondary case) is _ more or less precisely _ known. that are part of R when applied to an epidemic dataframe. 
+
+Source: 
+Source: 
 
 
 
@@ -521,11 +524,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTYwMDMyOTAzLDkwMDc3NjE2MiwxMjY4ND
-QzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkw
-NTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLT
-E0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2
-MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2ND
-U4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTEzNDEyMTgyMzUsOTAwNzc2MTYyLDEyNj
+g0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5
+OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OC
+wtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC04Mjkz
+OTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OTMzODc4LD
+Y0NTg5Nzc1OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYsMTcxMzYy
+MTk3MV19
 -->
