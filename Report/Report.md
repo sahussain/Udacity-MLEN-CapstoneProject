@@ -90,7 +90,7 @@ Let's look at new vs total number of cases for some cities:
     -  Removed unnecessary columns
     - Grouped the data by State 
 2.  Fit the model. 
-	 - Total Cases: using Logistic Function, 
+	 - Total Cases: algorithm based on `curve_fit using Logistic Function, defined below to fit total n 
 
 
 
@@ -504,11 +504,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEyNDk3OTc5MTMsLTg2NTUzMzM1NCwyNT
-gzMDU2NTAsLTE5NTMwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAz
-ODAwNiw4NjQyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLD
-kwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTEx
-NjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNT
-c1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4
-NDYyMTMwNV19
+eyJoaXN0b3J5IjpbOTE4MDQzMTQ5LC04NjU1MzMzNTQsMjU4Mz
+A1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgw
+MDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MD
+A3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3
+Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NS
+wxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2
+MjEzMDVdfQ==
 -->
