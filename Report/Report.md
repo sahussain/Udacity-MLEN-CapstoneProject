@@ -1,3 +1,4 @@
+
 # Machine Learning Engineer Nanodegree
 ## Capstone Project
 Ashraf Hussain 
@@ -35,7 +36,7 @@ DeepAR is an underutilized approach in this area.[^3] The dataset contains
 hundreds of related time series, and DeepAR outperforms classical
 forecasting methods including but not limited to autoregressive integrated
 moving average (ARIMA), exponential smoothing (ETS), Time Series
-Forecasting with Linear Learner for this type of applications.
+Forecasting with Linear Learner for this type of application.
 
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
@@ -51,7 +52,7 @@ Epi curve of total number of cases follows Logistic Function is defined by:
 Epi curve of new of cases follows Gaussian Function is defined by:
 >f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^4]
 
-For this reason, in the dataset model I propose total cases will fit to to Logistic function and new cases to Gaussian functions.
+For this reason, in the dataset model I propose total cases will fit to the Logistic function and new cases to Gaussian functions.
 
 ### Metrics
 The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^4]
@@ -90,7 +91,7 @@ The plot below shows how the COVID-19 cases increase by city. When looking at th
 
 ![enter image description here](/Images/Capture2.JPG)
 
-Lets look at new vs total number of cases for some cities:
+Let's look at new vs total number of cases for some cities:
 ![enter image description here](/Images/Capture3.JPG)
 ![enter image description here](/Images/Capture4.JPG)
 
@@ -120,7 +121,7 @@ mean(μ)
 standard deviation(σ)
 Autocorrelation structure (No seasonality)
 
-There are a number of unit root tests we can do to check if a dataset is stationary or non-stationary. The Augmented Dickey-Fuller is one of the more widely used test. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
+There are a number of unit root tests we can do to check if a dataset is stationary or non-stationary. The Augmented Dickey-Fuller is one of the more widely used tests. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
 
 According to Augmented Dickey-Fuller test the null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
 
@@ -139,7 +140,7 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 
 — Page 122,  [Introductory Time Series with R](http://www.amazon.com/dp/0387886974?tag=inspiredalgor-20).
 
-`The problem is that we cannot remove any data becaues we would end up only 2 States that are deamed to pass Stationarity test.`
+`The problem is that we cannot remove any data because we would end up with only 2 States that are deemed to pass the Stationarity test.`
 
 After going over lost so research papers on epidemiology and machine learning, I concluded that the easiest way to analysis/predict the forecast would be using using [SciPy's](https://scipy.org/) [`curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function. To `curve_fit` one Logistic Function & two Gaussian Function for total cases & new case <?>.
 
@@ -253,7 +254,7 @@ The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast
     -  Removed unnecessary columns
     - Grouped the data by State 
 2.  Fit the model. 
-	 - Two: one Logistic Function & two Gaussian Function for total cases & new case <?> was used to fiting  the dataframe to a curve using curve_fit function the model outputs list of optim params
+	 - Two: one Logistic Function & two Gaussian Function for total cases & new case <?> was used to fighting  the dataframe to a curve using curve_fit function the model outputs list of optim params
 	 - Logistic Function is defined by:
 
 		> f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
@@ -318,7 +319,7 @@ covid_df.index = pd.to_datetime(covid_df.index, infer_datetime_format=True)
 ```
 
 Now we have a clean data set which will have Date as Index, and sum of cases for each State.
-From here onwards, we can use the following function to get cumulative number of cases (total) and new cases (new) for a given State in the dataframe.
+From here onwards, we can use the following function to get a cumulative number of cases (total) and new cases (new) for a given State in the dataframe.
 ```Python
 def getCases(df, aState):
     # create total cases column
@@ -429,7 +430,7 @@ In Delaware, the number of new cases seem to be following an epi curve very well
 ***My Model:***
 
 ![enter image description here](/Images/Capture6.JPG)
-New covid-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, hwoever they seem to have take slightly longer to come back to a normal epi curve.
+New covid-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, however they seem to have taken slightly longer to come back to a normal epi curve.
 
 ***Benchmark:***
 
@@ -459,7 +460,7 @@ Contrary to Delaware and North Dakota, new cases in Maryland peaked during the l
 
 ----
 ### Justification
-Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more then 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how how any model for COVID-19 epidemic would turn out.
+Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more than 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how any model for COVID-19 epidemic would turn out.
 
 
 ## V. Conclusion
@@ -471,7 +472,7 @@ Based on my observations, the dataframes for **North Dakota** and **Delaware** f
 ![enter image description here](/Images/Capture6.JPG)
 With respect to North Dakota, they have 3, 313 total cases, 2, 952 recovered cases with only 77 deaths. If they continue on this path, they are predicted to reach equilibrium (zero new cases) by the end of July or August 2020.
 
-Delaware is another State that is following the epi curve closely. Though they had some peaks around Memorial Day week, they seem to have recovered well. If they continue on this trend, they are predicted to reach minimum amount of cases by the end of July or August 2020.
+Delaware is another State that is following the epi curve closely. Though they had some peaks around Memorial Day week, they seem to have recovered well. If they continue on this trend, they are predicted to reach a minimum amount of cases by the end of July or August 2020.
 
 The only challenge with these predictions is that it does not take into account the human factors. Human factors can be defined as human interactions in relation to their environment, such as not following social distance measures; not wearing masks when going out in public areas; not following proper safety and sanitization rules; non-essential travel from one city to another to visit family, friends or to go on a vacation; and more. This will increase the rate of transmission leading to peaks in new cases as was witnessed around the Memorial Day week.
 
@@ -517,7 +518,7 @@ The notation for the model involves specifying the order of the model q as a par
 The method is suitable for univariate time series without trend and seasonal components.[^6]
 
 ***ARMA (autoregressive-moving-average model):***
-The Autoregressive Moving Average (ARMA) method models the next step in the sequence as a linear function of the observations and resiudal errors at prior time steps.
+The Autoregressive Moving Average (ARMA) method models the next step in the sequence as a linear function of the observations and residual errors at prior time steps.
 It combines both Autoregression (AR) and Moving Average (MA) models.
 The notation for the model involves specifying the order for the AR(p) and MA(q) models as parameters to an ARMA function, e.g. ARMA(p, q). An ARIMA model can be used to develop AR or MA models.
 The method is suitable for univariate time series without trend and seasonal components.[^6]
@@ -563,18 +564,18 @@ The Simple Exponential Smoothing (SES) method models the next time step as an ex
 The method is suitable for univariate time series without trend and seasonal components.[^6]
 
 
-***Holt Winter’s Exponential Smoothing (HWES)***
+***Holt Winters Exponential Smoothing (HWES)***
 
-The  [Holt Winter’s Exponential Smoothing](https://machinelearningmastery.com/how-to-grid-search-triple-exponential-smoothing-for-time-series-forecasting-in-python/)  (HWES) also called the Triple Exponential Smoothing method models the next time step as an exponentially weighted linear function of observations at prior time steps, taking trends and seasonality into account.
+The  [Holt Winters Exponential Smoothing](https://machinelearningmastery.com/how-to-grid-search-triple-exponential-smoothing-for-time-series-forecasting-in-python/)  (HWES) also called the Triple Exponential Smoothing method models the next time step as an exponentially weighted linear function of observations at prior time steps, taking trends and seasonality into account.
 The method is suitable for univariate time series with trend and/or seasonal components.[^6]
 
-***ARCH (autoregressive conditional heteroscedasticity model)***
-Autoregressive conditional heteroskedasticity (ARCH) is a time-series statistical model used to analyze effects left unexplained by econometric models. In these models, the error term is the residual result left unexplained by the model. The assumption of econometric models is that the [variance](https://www.investopedia.com/terms/v/variance.asp) of this term will be uniform. This is known as "homoskedasticity." However, in some circumstances, this variance is not uniform, but "heteroskedastic."[^7]
+***ARCH (autoregressive conditional heteroskedasticity model)***
+Autoregressive conditional heteroskedasticity (ARCH) is a time-series statistical model used to analyze effects left unexplained by econometric models. In these models, the error term is the residual result left unexplained by the model. The assumption of econometric models is that the [variance](https://www.investopedia.com/terms/v/variance.asp) of this term will be uniform. This is known as "homoscedasticity." However, in some circumstances, this variance is not uniform, but "heteroskedastic."[^7]
 
 ***ARIMAX (autoregressive integrated moving average model with exogenous variables)***
-A time series model using the Autoregressive Integrated Moving Average with exogenous variables (ARIMAX) function was developed to predict impacts from groundwater pumping on Silver Springs discharge in Ocala Florida. This effort was conducted to determine the effects of groundwater withdrawal using the statistical relationship between rainfall and spring discharge at Silver Springs. Other statistical models were developed in previous work by both Southwest Florida Water Management Districts and St Johns River Water Management District. However, there were several opportunities for improvement including using consistent data, model calibration period, and residual periods. Additionally previous statistical methods included Multiple Linear Regression and Line of Organic Correlation methods. These methods did not account for autocorrelation that present in many time series analysis. Through inter-district collaboration, data was made consistent and new methods were explored. The ARIMAX model was explored in this paper and is useful for prediction when autoregressive patterns are present in model residuals that bias modeled coefficients.[^8]
+A time series model using the Autoregressive Integrated Moving Average with exogenous variables (ARIMAX) function was developed to predict impacts from groundwater pumping on Silver Springs discharge in Ocala Florida. This effort was conducted to determine the effects of groundwater withdrawal using the statistical relationship between rainfall and spring discharge at Silver Springs. Other statistical models were developed in previous work by both Southwest Florida Water Management Districts and St Johns River Water Management District. However, there were several opportunities for improvement including using consistent data, model calibration period, and residual periods. Additionally previous statistical methods included Multiple Linear Regression and Line of Organic Correlation methods. These methods did not account for autocorrelation that is present in many time series analysis. Through inter-district collaboration, data was made consistent and new methods were explored. The ARIMAX model was explored in this paper and is useful for prediction when autoregressive patterns are present in model residuals that bias modeled coefficients.[^8]
 
-***GARCH (generalized autoregressive conditional heteroscedasticity model)***
+***GARCH (generalized autoregressive conditional heteroskedasticity model)***
 A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic) process introduced in Engle (1982) to allow for past conditional variances in the current conditional variance equation is proposed. Stationarity conditions and autocorrelation structure for this new class of parametric models are derived. Maximum likelihood estimation and testing are also considered.[^9] 
 
 [^6]:[11 Classical Time Series Forecasting Methods in Python (Cheat Sheet)](https://machinelearningmastery.com/time-series-forecasting-methods-in-python-cheat-sheet/)
@@ -601,12 +602,13 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOT
-kxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEw
-MzU3NSwxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NC
-wzODQ2MjEzMDUsLTgyOTM5NjI0NiwzNDE1MjAzOTAsMzQ3ODgw
-MzE0LC0xMjc5MzM4NzgsNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LD
-M5MDY1NTkyNiwxNzEzNjIxOTcxLDI4MzQ1Njc1LC0xMDc1NzU2
-NDI1XX0=
+eyJoaXN0b3J5IjpbMTQ3NTcxODQ3MywxMjY4NDQzNzI4LC05MT
+gwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5
+MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDkyMzE1OD
+QsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LDM0MTUy
+MDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3NTksLT
+EwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2
+NzVdfQ==
 -->
