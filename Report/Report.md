@@ -369,7 +369,7 @@ This clearly shows the power of better package such as  [`earlyR`](https://www.r
 Source `earlyR`: https://www.repidemicsconsortium.org/earlyR/
 Source `EpiEstim`: https://sites.google.com/site/therepiproject/r-pac/epiestim
 
-Research is ongoing and and better benchmark for the COVID-19 epidemic are being developed by . The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more than 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how any model for COVID-19 epidemic would turn out.
+Research is ongoing and and better benchmark for the COVID-19 epidemic are being developed every day by people like Dr Tim Churches is a medically-trained epidemiologist .  Epidemiologist  are desThe closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more than 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how any model for COVID-19 epidemic would turn out.
 
 
 ## V. Conclusion
@@ -513,7 +513,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTMxNTc4MTE2MCw5MDA3NzYxNjIsMTI2OD
+eyJoaXN0b3J5IjpbMTc1OTE4NDc0OSw5MDA3NzYxNjIsMTI2OD
 Q0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5
 MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC
 0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5
