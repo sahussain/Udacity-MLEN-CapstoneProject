@@ -28,12 +28,10 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 
 
 ### Problem Statement
-In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) will not be best suited for any [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is in my Analysis section.
-
-
 This project seeks to forecast number of people infected and number of
-caused by COVID-19 for a time duration of 14-days based on
-historical data from JHU. I will be using Amazon SageMaker DeepAR
+caused by COVID-19 for a time duration of 30-days based on
+historical data from JHU. In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) will not be best suited for any [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is in my Analysis section.
+I will be using Amazon SageMaker DeepAR
 forecasting algorithm, a supervised learning algorithm for forecasting
 scalar (one-dimensional) time series using recurrent neural networks (RNN)
 to produce both point and probabilistic forecasts[^2].
@@ -166,7 +164,7 @@ This will is very common approach used in datasets that follows an Epi curve [^1
     -  Removed unnecessary columns
     - Grouped the data by State 
 2.  Fit the model. 
-	 - Two: one Logistic Function, for & two Gaussian Function for total cases & new case <?> was used to fighting  the dataframe to a curve using curve_fit function the model outputs list of optim params
+	 - Two: one Logistic Function, for total cases,  and two Gaussian Function for, new case was used to fighting  the dataframe to a curve using curve_fit function the model outputs list of optim params
 	 - Logistic Function is defined by:
 
 		> f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
@@ -529,7 +527,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNDM1Mzg2Mjk5LDE5ODUxNjQ0OTYsLTE0Nj
+eyJoaXN0b3J5IjpbNDg3NzgwNDUxLDE5ODUxNjQ0OTYsLTE0Nj
 UwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0
 MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOT
 kxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEw
