@@ -26,13 +26,13 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 ### Problem Statement
 This project seeks to forecast number of people infected (new and total case) caused by COVID-19 for a time duration of 30-days based on historical data from JHU. 
 
-In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I come to the conclusion that any dataset based on Epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  [`Appendix A`](#DeepAR)
+In my `Proposal` I mention that I will be using DeepAR, no wonder `DeepAR is an underutilized approach in this area.` and Time Series Forecasting with Linear Learner, however after doing extensive research I come to the conclusion that any dataset based on Epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  [`Appendix A`](#DeepAR)
 
 I will be using scipy ecosystem from which Matplotlib, numpy,  pandas to help me with data analysis and visualization. I will also be using scipy.optimize, from the same ecosystem to create an algorithm based on `curve_fit` function. It will best fit two curves one for total cases for which I will use Logistic Function, and another one for new case for which I will be using Gaussian Function.
 
 This will is very common approach used in datasets that follows an Epi curve [^10] as an example [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  who took the MERS virus Epi curve, and `curve fitted` using to Hubei province's COVID-19 cases.
 
-I will be comparing myu 
+I will be comparing my model to The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/).  
 
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
@@ -500,7 +500,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE1NDkwMTI1NSwtNDE0MTk2MTg1LC04Nj
+eyJoaXN0b3J5IjpbMTU0ODMzNzEwOSwtNDE0MTk2MTg1LC04Nj
 U1MzMzNTQsMjU4MzA1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0
 OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLT
 QxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQy
