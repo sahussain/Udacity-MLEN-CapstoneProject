@@ -156,7 +156,7 @@ max|388488|11434
 
 ### Implementation
 
-Once the data cleaning processors I implemented two models one that was designed in   
+Once the data cleaning processors I implemented two models one that was designed using
 
 
 
@@ -498,11 +498,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg3Nzc0NjgzMywtNDE0MTk2MTg1LC04Nj
-U1MzMzNTQsMjU4MzA1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0
-OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLT
-QxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQy
-NTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5Mz
-IsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1
-NTIxMDM0NF19
+eyJoaXN0b3J5IjpbODc1MDUwMzEyLC00MTQxOTYxODUsLTg2NT
+UzMzM1NCwyNTgzMDU2NTAsLTE5NTMwMTUzMzMsMTk4NTE2NDQ5
+NiwtMTQ2NTAzODAwNiw4NjQyMDMwNiwtMTA5MjU2OTYyMSwtND
+E0ODk5MDQwLDkwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1
+NzAsLTE5OTExNjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5MDkzMi
+wtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1
+MjEwMzQ0XX0=
 -->
