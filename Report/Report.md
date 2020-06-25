@@ -28,7 +28,7 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 
 
 ### Problem Statement
-In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) will not be best suited for any [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs), list below, to see if we can use any of them
+In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) will not be best suited for any [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is in my 
 
 
 This project seeks to forecast number of people infected and number of
@@ -521,11 +521,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzgwMDEzOTQsLTE0NjUwMzgwMDYsOD
-Y0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MDA3NzYx
-NjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC
-0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5
-ODkxMDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMD
-UsLTgyOTM5NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5
-MzM4NzhdfQ==
+eyJoaXN0b3J5IjpbLTY3NDA4MjcxNiwtMTQ2NTAzODAwNiw4Nj
+QyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2
+MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLT
+ExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4
+OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNS
+wtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkz
+Mzg3OF19
 -->
