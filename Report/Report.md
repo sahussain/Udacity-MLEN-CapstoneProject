@@ -31,7 +31,7 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 This project seeks to forecast number of people infected and number of
 caused by COVID-19 for a time duration of 30-days based on
 historical data from JHU. In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) will not be best suited for any [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is in my Analysis section.
-I will be using scipy 
+I will be using scipy ecosystem including, 
 forecasting algorithm, a supervised learning algorithm for forecasting
 scalar (one-dimensional) time series using recurrent neural networks (RNN)
 to produce both point and probabilistic forecasts[^2].
@@ -527,11 +527,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTcyNzA1MTM4NiwxOTg1MTY0NDk2LC0xND
-Y1MDM4MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkw
-NDAsOTAwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMT
-k5MTE2NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQx
-MDM1NzUsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzND
-QsMzg0NjIxMzA1LC04MjkzOTYyNDYsMzQxNTIwMzkwLDM0Nzg4
-MDMxNF19
+eyJoaXN0b3J5IjpbLTE5OTQ5MTAyMzEsMTk4NTE2NDQ5NiwtMT
+Q2NTAzODAwNiw4NjQyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5
+MDQwLDkwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLT
+E5OTExNjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0
+MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMz
+Q0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4
+ODAzMTRdfQ==
 -->
