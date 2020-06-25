@@ -97,7 +97,7 @@ Let's look at new vs total number of cases for some cities:
 		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
 		
 3.  Predictions:
-	- The `forecast_curve` takes `curve_fit` models (step 2), and applies a new independent variable based on observations (cases)  to forecast, freq, and function f(x)
+	- The `forecast_curve` takes `curve_fit` models (step 2), and applies a new independent variable based on observations (cases)  to forecast function k(x)
 	- outputs: Graph of actual vs forecast
 ----
 
@@ -498,11 +498,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc2ODI4NTgyNCwtODY1NTMzMzU0LDI1OD
-MwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4
-MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOT
-AwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2
-NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1Nz
-UsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0
-NjIxMzA1XX0=
+eyJoaXN0b3J5IjpbLTE2MTIwNjU2NTYsLTg2NTUzMzM1NCwyNT
+gzMDU2NTAsLTE5NTMwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAz
+ODAwNiw4NjQyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLD
+kwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTEx
+NjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNT
+c1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4
+NDYyMTMwNV19
 -->
