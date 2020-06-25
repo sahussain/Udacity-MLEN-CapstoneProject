@@ -158,7 +158,8 @@ max|388488|11434
 
 ### Implementation
 
-Once the data cleaning processors I implemented two models one that was designed using
+Once the data cleaning processors I implemented two models two models:
+1. Benchmark which which was designed by  
 
 
 
@@ -500,7 +501,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg2ODE0NTA3NywtNDE0MTk2MTg1LC04Nj
+eyJoaXN0b3J5IjpbLTEwNzQ2NTExMywtNDE0MTk2MTg1LC04Nj
 U1MzMzNTQsMjU4MzA1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0
 OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLT
 QxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQy
