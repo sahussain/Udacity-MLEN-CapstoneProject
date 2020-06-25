@@ -167,7 +167,7 @@ Both models used the same dataset from JHU
 	- The `forecast_curve` takes `curve_fit` models which provides optimal parameters for a given function (step 2), and applies it to a new independent variable based on observations (cases) to forecast. 
 	- outputs: Graph of actual vs forecast
 
-For the benchmark model the  
+For the benchmark model the nCovForecast toolkit comes with GUI, I used it once I run the modal on my PC. 
 
 
 [^11]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
@@ -507,7 +507,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTc3MDY3NjU3LDM5MzE3NzU1MywtMTc3OD
+eyJoaXN0b3J5IjpbNzUyMDM5NDk4LDM5MzE3NzU1MywtMTc3OD
 MwOTI1MywtNDE0MTk2MTg1LC04NjU1MzMzNTQsMjU4MzA1NjUw
 LC0xOTUzMDE1MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgwMDYsOD
 Y0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MDA3NzYx
