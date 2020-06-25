@@ -420,6 +420,8 @@ In Delaware, the number of new cases seem to be following an epi curve very well
  ***My Model vs Benchmark:***
 
 
+----
+
 **North Dakota**
 
 ***My Model:***
@@ -435,6 +437,9 @@ New covid-19 cases in North Dakota seem to be following the same pattern as that
 
  ***My Model vs Benchmark:***
 
+----
+
+
 **Maryland**
 
 ***My Model:***
@@ -449,7 +454,7 @@ Contrary to Delaware and North Dakota, new cases in Maryland peaked during the l
 
 
  ***My Model vs Benchmark:***
-
+----
 ### Justification
 Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more then 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how how any model for COVID-19 epidemic would turn out.
 
@@ -593,7 +598,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTExMzA1MTk4ODUsLTE5OTExNjcyOTksLT
+eyJoaXN0b3J5IjpbLTEwODE4OTQ5NzEsLTE5OTExNjcyOTksLT
 ExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4
 OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNS
 wtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkz
