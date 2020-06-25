@@ -103,7 +103,6 @@ Let's look at new vs total number of cases for some cities:
 3.  Predictions:
 	- The `forecast_curve` takes `curve_fit` models, and applies a new independent variable based on observations to forecast, freq, and function f(x)
 	- outputs: Graph of actual vs forecast
-
 ----
 
 ### Benchmark
@@ -388,6 +387,20 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 
 `The problem is that we cannot remove any data because we would end up with only 2 States that are deemed to pass the Stationarity test.`
 
+
+***Data output of Stationarity test based on the function below***
+```
+Testing Null Hypothesis
+Calculation Complete
+adfuller results:
+56 p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
+2 p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
+---------
+58 Total
+```
+
+
+
  ## <a name="TSFMs"></a>Research: Definitions of 14 Classical Time Series Forecasting Methods (TSFMs) in Python  
 
 ***AR (autoregressive model):***
@@ -488,11 +501,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAxNDUxNzU2MiwyNTgzMDU2NTAsLTE5NT
-MwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAzODAwNiw4NjQyMDMw
-NiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2MiwxMj
-Y4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAx
-OTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNT
-gsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5
-Mzk2MjQ2XX0=
+eyJoaXN0b3J5IjpbNzUyODM5NDY2LDI1ODMwNTY1MCwtMTk1Mz
+AxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4MDA2LDg2NDIwMzA2
+LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOTAwNzc2MTYyLDEyNj
+g0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5
+OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OC
+wtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC04Mjkz
+OTYyNDZdfQ==
 -->
