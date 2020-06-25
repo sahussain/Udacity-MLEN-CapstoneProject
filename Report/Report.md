@@ -260,13 +260,15 @@ The model and the forecast work well when applied to certain States. However, th
  ***My Model:***
  
 ![enter image description here](/Images/Capture9.JPG)
-The model could not fit total cases to a Logistic Function
+
 
 ***Benchmark:***
 
 ![enter image description here](/Images/Capture12.JPG)
 
  ***My Model vs Benchmark:***
+
+my model could not fit total cases to a Logistic Function however the 
 
 ----
 
@@ -499,11 +501,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTAwNzc2MTYyLDEyNjg0NDM3MjgsLTkxOD
-A0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkw
-OTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NC
-w4NTUyMTAzNDQsMzg0NjIxMzA1LC04MjkzOTYyNDYsMzQxNTIw
-MzkwLDM0Nzg4MDMxNCwtMTI3OTMzODc4LDY0NTg5Nzc1OSwtMT
-A5OTc4OTE2OCwzOTA2NTU5MjYsMTcxMzYyMTk3MSwyODM0NTY3
-NV19
+eyJoaXN0b3J5IjpbLTIxMDMyMTgxMTAsOTAwNzc2MTYyLDEyNj
+g0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5
+OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OC
+wtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC04Mjkz
+OTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OTMzODc4LD
+Y0NTg5Nzc1OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYsMTcxMzYy
+MTk3MV19
 -->
