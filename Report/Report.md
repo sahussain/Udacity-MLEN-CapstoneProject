@@ -366,8 +366,8 @@ Contrary to Delaware and North Dakota, new cases in Maryland peaked during the l
 
 This clearly shows the power of better package such as  [`earlyR`](https://www.repidemicsconsortium.org/earlyR/) package which implements simple estimation of infectiousness, as measured by the reproduction number (R), in the early stages of an outbreak. The second package   [`EpiEstim`](https://sites.google.com/site/therepiproject/r-pac/epiestim)   which implements a Bayesian approach for quantifying transmissibility over time during an epidemic. More specifically, it allows estimating the instantaneous and case reproduction numbers during an epidemic for which a time series of incidence is available and the distribution of the serial interval (time between symptoms onset in a primary case and symptoms onset in secondary case) is _ more or less precisely _ known. that are part of R when applied to an epidemic dataframe. 
 
-Source: 
-Source: 
+Source `earlyR`: https://www.repidemicsconsortium.org/earlyR/
+Source `EpiEstim`: https://sites.google.com/site/therepiproject/r-pac/epiestim
 
 
 
@@ -524,11 +524,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEzNDEyMTgyMzUsOTAwNzc2MTYyLDEyNj
-g0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5
-OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OC
-wtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC04Mjkz
-OTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OTMzODc4LD
-Y0NTg5Nzc1OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYsMTcxMzYy
-MTk3MV19
+eyJoaXN0b3J5IjpbMTc0MjYwMzU4Miw5MDA3NzYxNjIsMTI2OD
+Q0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5
+MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC
+0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5
+NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4NzgsNj
+Q1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNjIx
+OTcxXX0=
 -->
