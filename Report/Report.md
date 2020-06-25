@@ -370,8 +370,9 @@ Source `earlyR`: https://www.repidemicsconsortium.org/earlyR/
 Source `EpiEstim`: https://sites.google.com/site/therepiproject/r-pac/epiestim
 
 Research is ongoing and and better benchmark for the COVID-19 epidemic are being developed every day by people like Dr Tim Churches is a medically-trained epidemiologist .  Epidemiologist  are designing new predominantly in R. Below are some examples:
- - [an introduction to R for epidemiologists by Dr Charles DiMaggio](http://www.columbia.edu/~cjd11/charles_dimaggio/DIRE/resources/R/packages.pdf)
- - [R-software: A Newer Tool in Epidemiological Data Analysis](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612300/)
+ - [an introduction to R for epidemiologists by Dr Charles DiMaggio(New York University Departments of Surgery and Population Health)](http://www.columbia.edu/~cjd11/charles_dimaggio/DIRE/resources/R/packages.pdf)
+ 
+ - [R-software: A Newer Tool in Epidemiological Data Analysis by Dr Amir Maroof Khan(Department of Community Medicine, University College of Medical Sciences and GTB Hospital, Delhi, India)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612300/)
 
 
 ## V. Conclusion
@@ -515,11 +516,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbOTI0NDYyOTAxLDkwMDc3NjE2MiwxMjY4ND
-QzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkw
-NTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLT
-E0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2
-MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2ND
-U4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTQxNDg5OTA0MCw5MDA3NzYxNjIsMTI2OD
+Q0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5
+MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC
+0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5
+NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4NzgsNj
+Q1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNjIx
+OTcxXX0=
 -->
