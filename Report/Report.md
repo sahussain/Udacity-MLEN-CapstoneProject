@@ -160,6 +160,24 @@ This will is very common approach used in datasets that follows an Epi curve [^1
 
 [^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
+### Algorithm steps:
+
+1.  Grouping:
+    -  Removed unnecessary columns
+    - Grouped the data by State 
+2.  Fit the model. 
+	 - Two: one Logistic Function, for & two Gaussian Function for total cases & new case <?> was used to fighting  the dataframe to a curve using curve_fit function the model outputs list of optim params
+	 - Logistic Function is defined by:
+
+		> f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
+	  - Gaussian Function is defined by:
+		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^4]
+
+3.  Predictions:
+	- The `forecast_curve` takes `curve_fit` models, and applies a new independent variable based on observations to forecast, freq, and function f(x)
+	- outputs: Graph of actual vs forecast
+
+
 
 ***Data output of Stationarity test based on the function below***
 ```
@@ -511,7 +529,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzU4NDI2NTUwLDE5ODUxNjQ0OTYsLTE0Nj
+eyJoaXN0b3J5IjpbNDM1Mzg2Mjk5LDE5ODUxNjQ0OTYsLTE0Nj
 UwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0
 MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOT
 kxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEw
