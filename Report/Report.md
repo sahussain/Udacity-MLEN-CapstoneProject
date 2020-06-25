@@ -92,17 +92,12 @@ Let's look at new vs total number of cases for some cities:
 2.  Fit the model. 
 	 - Total Cases: Algorithm based on `curve_fit using Logistic Function f(x), defined below. Which will fit f(x) curve to total number of COVID-19 cases with in a 95% confidence.
 		> f(x) = capacity / (1 + e^-k*(x - midpoint) )
- - Total New: Algorithm based on `curve_fit using Gaussian Function g(x), defined below. Which will fit g(x) curve to new cases of COVID-19 with in a 95% confidence.
-> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
-
-
-for total cases,  and two Gaussian Function for, new case was used to fighting  the dataframe to a curve using curve_fit function the model outputs list of optim params
-	 - 
-	  - Gaussian Function is defined by:
-		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^4]
-
+		
+	 - Total New: Algorithm based on `curve_fit using Gaussian Function g(x), defined below. Which will fit g(x) curve to new cases of COVID-19 with in a 95% confidence.
+		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
+		
 3.  Predictions:
-	- The `forecast_curve` takes `curve_fit` models, and applies a new independent variable based on observations to forecast, freq, and function f(x)
+	- The `forecast_curve` takes `curve_fit` models (step 2), and applies a new independent variable based on observations (cases)  to forecast, freq, and function f(x)
 	- outputs: Graph of actual vs forecast
 ----
 
@@ -503,11 +498,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzczOTc3MjE4LC04NjU1MzMzNTQsMjU4Mz
-A1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgw
-MDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MD
-A3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3
-Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NS
-wxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2
-MjEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTc2ODI4NTgyNCwtODY1NTMzMzU0LDI1OD
+MwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4
+MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOT
+AwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2
+NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1Nz
+UsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0
+NjIxMzA1XX0=
 -->
