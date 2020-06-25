@@ -90,7 +90,12 @@ Let's look at new vs total number of cases for some cities:
     -  Removed unnecessary columns
     - Grouped the data by State 
 2.  Fit the model. 
-	 - Two: one Logistic Function, for total cases,  and two Gaussian Function for, new case was used to fighting  the dataframe to a curve using curve_fit function the model outputs list of optim params
+	 - Total Cases: using Logistic Function, 
+
+
+
+
+for total cases,  and two Gaussian Function for, new case was used to fighting  the dataframe to a curve using curve_fit function the model outputs list of optim params
 	 - Logistic Function is defined by:
 
 		> f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
@@ -499,11 +504,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzE2NjExODc2LC04NjU1MzMzNTQsMjU4Mz
-A1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgw
-MDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MD
-A3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3
-Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NS
-wxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2
-MjEzMDVdfQ==
+eyJoaXN0b3J5IjpbLTEyNDk3OTc5MTMsLTg2NTUzMzM1NCwyNT
+gzMDU2NTAsLTE5NTMwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAz
+ODAwNiw4NjQyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLD
+kwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTEx
+NjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNT
+c1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4
+NDYyMTMwNV19
 -->
