@@ -385,7 +385,19 @@ adfuller results:
 ---------
 58 Total
 ```
+----
 
+###<a name="UOM"></a>
+>We are interested in knowing how the number of active cases is going to change in the near term.  We provide two alternative growth models.  The growth dynamics of epidemics are complex, but we make the simplifying assumption that the epidemic is a long way from population saturation (i.e. that there is a ready supply of susceptible hosts) such that simple exponential growth provides a reasonable short-term approximation.  The first model -- the "constant growth" model -- assumes a constant growth rate, in which case active cases follow an exponential growth model such that $E(A_t) = A_0e^{rt}$, where $A_0$ is the initial number of active cases, and $r$ is the (constant) intrinsic growth rate.  The second model -- "time-varying growth" -- assumes that the growth rate changes linearly over time.  Empirically, linear change in growth is what we have been observing in this epidemic as populations enact physical distancing and quarantine measures.  Under this model, growth follows a Gaussian function such that $E(A_t) = A_0e^{r_0t+\frac{b}{2}t^2}$.  Here, $r_0$ is the initial growth rate, and $b$ is the rate of change in growth rate over time.
+>
+>To fit both models, we take the natural logarithm of both sides, yielding $\ln A_t = rt + \ln A_0$ (constant growth) and $\ln A_t = \frac{b}{2}t^2+rt + \ln A_0$ (time-varying growth).  This shows us that we can fit a simple linear regression of $\ln A_t$ against $t$ in the constant growth scenario, and a quadratic function in the case of the time-varying model.  
+>
+>These fits give us an estimate of intrinsic growth rate, $r$, or $r(t)$.  
+>
+>We fit each model to the last $n$ days of $A_t$ data (where $n$ is determined by the user with the input slider) and extrapolate the fitted model to capture ten day into the future from now.  Fitting and extrapolation is effected with the log-transformed model (lower plot on "10-day forecast" tab, with 95% confidence intervals) and the log of expected active case numbers is back-transformed to the original scale to produce the top plot on the "10-day forecast" tab.  We provide a larger number of days for fit input for the time-varying growth model because this model estimates an additional parameter, so requires more data.
+>
+>When public health interventions are rapidly changing the growth rate, this can be seen as deviations from the expected straight line on the log-plot.  In these situations, when growth rate is declining rapidly (the curve is flattening), forecasts from the constant growth model (averaging growth over the last ten days) will be biased upwards.  By altering the slider you can adjust the window over which growth rate is averaged, so you can get a sense of how recent shifts are affecting the forecast.  The time-varying growth rate forecast should be less sensitive to changes in $n$, and is the better model when growth rates are changing in a steady linear manner.
+----
 
 
  ## <a name="TSFMs"></a>Research: Definitions of 14 Classical Time Series Forecasting Methods (TSFMs) in Python  
@@ -488,11 +500,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTc4NDA5MTk5NywtODY1NTMzMzU0LDI1OD
-MwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4
-MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOT
-AwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2
-NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1Nz
-UsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0
-NjIxMzA1XX0=
+eyJoaXN0b3J5IjpbLTIxMDI5NjMyNjUsLTg2NTUzMzM1NCwyNT
+gzMDU2NTAsLTE5NTMwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAz
+ODAwNiw4NjQyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLD
+kwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTEx
+NjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNT
+c1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4
+NDYyMTMwNV19
 -->
