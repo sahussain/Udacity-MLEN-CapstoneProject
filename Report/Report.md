@@ -26,7 +26,7 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 ### Problem Statement
 This project seeks to forecast number of people infected (new and total case) caused by COVID-19 for a time duration of 30-days based on historical data from JHU. 
 
-In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I come to the conclusion that any dataset based on Epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  `Appendix A`
+In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I come to the conclusion that any dataset based on Epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  [`Appendix A`]
 
 I will be using scipy ecosystem from which Matplotlib, numpy,  pandas to help me with data analysis and visualization. I will also be using scipy.optimize, from the same ecosystem to create an algorithm based on `curve_fit` function. It will best fit two curves one for total cases for which I will use Logistic Function, and another one for new case for which I will be using Gaussian Function.
 
@@ -103,7 +103,6 @@ Let's look at new vs total number of cases for some cities:
 ----
 
 ### Benchmark
-
 
 I am using The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/), 
 Established in 1853, the University of Melbourne is a public-spirited institution that makes distinctive contributions to society in research, learning and teaching and engagement. It’s consistently ranked among the leading universities in the world, with international rankings of world universities placing it as number 1 in Australia and number 32 in the world (Times Higher Education World University Rankings 2017-2018).
@@ -500,11 +499,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMDI5NjMyNjUsLTg2NTUzMzM1NCwyNT
-gzMDU2NTAsLTE5NTMwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAz
-ODAwNiw4NjQyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLD
-kwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTEx
-NjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNT
-c1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4
-NDYyMTMwNV19
+eyJoaXN0b3J5IjpbLTQyNDU3MDc0NSwtODY1NTMzMzU0LDI1OD
+MwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4
+MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOT
+AwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2
+NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1Nz
+UsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0
+NjIxMzA1XX0=
 -->
