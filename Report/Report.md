@@ -26,9 +26,9 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 ### Problem Statement
 This project seeks to forecast number of people infected (new and total case) caused by COVID-19 for a time duration of 30-days based on historical data from JHU. 
 
-In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I found out that any data based on Epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  `Appendix A`
+In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I come to the conclusion that any dataset based on Epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  `Appendix A`
 
-I will be using scipy ecosystem. I will use Matplotlib, numpy,  pandas to help me with data analysis and visualization. I will also be using scipy.optimize, to create an algorithm based on `curve_fit` function. It will best fit two curves one for total cases for which I will use Logistic Function, and another one for new case for which I will be using Gaussian Function.
+I will be using scipy ecosystem from which Matplotlib, numpy,  pandas to help me with data analysis and visualization. I will also be using scipy.optimize, to create an algorithm based on `curve_fit` function. It will best fit two curves one for total cases for which I will use Logistic Function, and another one for new case for which I will be using Gaussian Function.
 
 This will is very common approach used in datasets that follows an Epi curve [^10] as an example by [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  who took the MERS virus Epi curve, and `curve fitted` using to Hubei province's COVID-19 cases 
 
@@ -498,11 +498,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzc1NjY4NjUwLDI1ODMwNTY1MCwtMTk1Mz
-AxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4MDA2LDg2NDIwMzA2
-LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOTAwNzc2MTYyLDEyNj
-g0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5
-OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OC
-wtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC04Mjkz
-OTYyNDZdfQ==
+eyJoaXN0b3J5IjpbMTc3MjQwNDcyMCwyNTgzMDU2NTAsLTE5NT
+MwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAzODAwNiw4NjQyMDMw
+NiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2MiwxMj
+Y4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAx
+OTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNT
+gsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5
+Mzk2MjQ2XX0=
 -->
