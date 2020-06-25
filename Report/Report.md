@@ -85,23 +85,6 @@ Let's look at new vs total number of cases for some cities:
 
 
 ### Algorithms and Techniques
-
-### Algorithm steps:
-
-1.  Grouping:
-    -  Removed unnecessary columns
-    - Grouped the data by State 
-2.  Fit the model. 
-	 - Total Cases: Algorithm based on `curve_fit using Logistic Function f(x), defined below. Which will fit f(x) curve to total number of COVID-19 cases with in a 95% confidence.
-		> f(x) = capacity / (1 + e^-k*(x - midpoint) )
-		
-	 - Total New: Algorithm based on `curve_fit using Gaussian Function g(x), defined below. Which will fit g(x) curve to new cases of COVID-19 with in a 95% confidence.
-		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
-	- Outputs: optimal parameters for a given function
-		
-3.  Predictions:
-	- The `forecast_curve` takes `curve_fit` models which provides optimal parameters for a given function (step 2), and applies it to a new independent variable based on observations (cases) to forecast. 
-	- outputs: Graph of actual vs forecast
 ----
 
 ### Benchmark
@@ -159,7 +142,8 @@ max|388488|11434
 ### Implementation
 
 Once the data cleaning processors I implemented two models two models:
-1. Benchmark which which was designed by  
+1. Benchmark which which was designed in R by The University of Melbourne
+2. My Model for which I will use 
 
 
 
@@ -501,7 +485,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwNzQ2NTExMywtNDE0MTk2MTg1LC04Nj
+eyJoaXN0b3J5IjpbMTc3ODEwOTM0NywtNDE0MTk2MTg1LC04Nj
 U1MzMzNTQsMjU4MzA1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0
 OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLT
 QxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQy
