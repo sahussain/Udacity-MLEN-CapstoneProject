@@ -28,7 +28,7 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 
 
 ### Problem Statement
-In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) will not be best suited for any [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is in my 
+In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) will not be best suited for any [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is in my Analysis section.
 
 
 This project seeks to forecast number of people infected and number of
@@ -101,10 +101,8 @@ Let's look at new vs total number of cases for some cities:
 ![enter image description here](/Images/Capture4.JPG)
 
 
+### Why DeepAR/
 
-
-
-### Algorithms and Techniques
 To use DeepAR it needs to meet the following criteria [^5]:
 1. Except for when splitting your dataset for training and testing, always provide the entire time series for training, testing, and when calling the model for inference. Regardless of how you set `context_length`, don't break up the time series or provide only a part of it. The model uses data points further back than the value set in `context_length` for the lagged values feature.[^5]
 2. When tuning a DeepAR model, you can split the dataset to create a training dataset and a test dataset. In a typical evaluation, you would test the model on the same time series used for training, but on the future  `prediction_length`  time points that follow immediately after the last time point visible during training. You can create training and test datasets that satisfy this criteria by using the entire dataset (the full length of all time series that are available) as a test set and removing the last  `prediction_length`  points from each time series for training. During training, the model doesn't see the target values for time points on which it is evaluated during testing. During testing, the algorithm withholds the last  `prediction_length`  points of each time series in the test set and generates a prediction. Then it compares the forecast with the withheld values. You can create more complex evaluations by repeating time series multiple times in the test set, but cutting them at different endpoints. With this approach, accuracy metrics are averaged over multiple forecasts from different time points. For more information, see  [Tune a DeepAR Model](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar-tuning.html).[^5]
@@ -146,6 +144,13 @@ Want to know more about  [How to Check if Time Series Data is Stationary with Py
 — Page 122,  [Introductory Time Series with R](http://www.amazon.com/dp/0387886974?tag=inspiredalgor-20).
 
 `The problem is that we cannot remove any data because we would end up with only 2 States that are deemed to pass the Stationarity test.`
+
+
+
+
+
+### Algorithms and Techniques
+
 
 After going over lost so research papers on epidemiology and machine learning, I concluded that the easiest way to analysis/predict the forecast would be using using [SciPy's](https://scipy.org/) [`curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function. To `curve_fit` one Logistic Function & two Gaussian Function for total cases & new case <?>.
 
@@ -521,11 +526,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTY3NDA4MjcxNiwtMTQ2NTAzODAwNiw4Nj
-QyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2
-MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLT
-ExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4
-OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNS
-wtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkz
-Mzg3OF19
+eyJoaXN0b3J5IjpbMzE3NTY4NDMyLC0xNDY1MDM4MDA2LDg2ND
+IwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOTAwNzc2MTYy
+LDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2NzI5OSwtMT
+ExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5
+MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC
+04MjkzOTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OTMz
+ODc4XX0=
 -->
