@@ -43,16 +43,6 @@ This will is very common approach used in datasets that follows an Epi curve [^1
 
 [^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
-At first, I was going to use [DeepAR by AWS]([https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html)) and compare it to  AR (autoregressive model). However after exploring the data, I discovered that this dataset cannot be used for any Time Series Forecasting Model(TSFMs). Epidemic curves (epi curve) do not follow a standard time series requirement however they do follow Logistic & Gaussian functions that are defined as follows:
-
-Epi curve of total number of cases follows Logistic Function is defined by:
->f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
-
-Epi curve of new of cases follows Gaussian Function is defined by:
->f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^4]
-
-For this reason, in the dataset model I propose total cases will fit to the Logistic function and new cases to Gaussian functions.
-
 ### Metrics
 The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^4]
 >f(error) = f(time) + error
@@ -97,12 +87,6 @@ Let's look at new vs total number of cases for some cities:
 
 ### Algorithms and Techniques
 
-
-After going over lost so research papers on epidemiology and machine learning, I concluded that the easiest way to analysis/predict the forecast would be using using [SciPy's](https://scipy.org/) [`curve_fit`](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) function. To `curve_fit` one Logistic Function & two Gaussian Function for total cases & new case <?>.
-
-
-
-
 ### Algorithm steps:
 
 1.  Grouping:
@@ -120,18 +104,6 @@ After going over lost so research papers on epidemiology and machine learning, I
 	- The `forecast_curve` takes `curve_fit` models, and applies a new independent variable based on observations to forecast, freq, and function f(x)
 	- outputs: Graph of actual vs forecast
 
-
-
-***Data output of Stationarity test based on the function below***
-```
-Testing Null Hypothesis
-Calculation Complete
-adfuller results:
-56 p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
-2 p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
----------
-58 Total
-```
 ----
 
 ### Benchmark
@@ -516,7 +488,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE4NDQzODE1MCwyNTgzMDU2NTAsLTE5NT
+eyJoaXN0b3J5IjpbMTAxNDUxNzU2MiwyNTgzMDU2NTAsLTE5NT
 MwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAzODAwNiw4NjQyMDMw
 NiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2MiwxMj
 Y4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAx
