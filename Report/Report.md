@@ -143,9 +143,11 @@ max|388488|11434
 
 Once the data cleaning processors I implemented two models two models:
 Both models used the same dataset from JHU
-1. Benchmark which which was implemented in [] by The University of Melbourne
+1. Benchmark which which was implemented in [RStudio](https://rstudio.com/) and designed by The University of Melbourne
 2. My Model for which I followed the following steps
-### Algorithm steps:
+
+
+### My Model/Algorithm steps:
 
 1.  Grouping:
     -  Removed unnecessary columns
@@ -502,11 +504,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgyNzY1NDA3MSwtNDE0MTk2MTg1LC04Nj
-U1MzMzNTQsMjU4MzA1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0
-OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLT
-QxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQy
-NTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5Mz
-IsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1
-NTIxMDM0NF19
+eyJoaXN0b3J5IjpbLTE3NzgzMDkyNTMsLTQxNDE5NjE4NSwtOD
+Y1NTMzMzU0LDI1ODMwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0
+NDk2LC0xNDY1MDM4MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC
+00MTQ4OTkwNDAsOTAwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0
+MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOT
+MyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4
+NTUyMTAzNDRdfQ==
 -->
