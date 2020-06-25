@@ -85,6 +85,27 @@ Let's look at new vs total number of cases for some cities:
 
 
 ### Algorithms and Techniques
+
+Algorithms used: 
+ - curve_fit from 
+
+
+1.  Grouping:
+    -  Removed unnecessary columns
+    - Grouped the data by State 
+2.  Fit the model. 
+	 - Total Cases: Algorithm based on `curve_fit using Logistic Function f(x), defined below. Which will fit f(x) curve to total number of COVID-19 cases with in a 95% confidence.
+		> f(x) = capacity / (1 + e^-k*(x - midpoint) )
+		
+	 - Total New: Algorithm based on `curve_fit using Gaussian Function g(x), defined below. Which will fit g(x) curve to new cases of COVID-19 with in a 95% confidence.
+		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
+	- Outputs: optimal parameters for a given function
+		
+3.  Predictions:
+	- The `forecast_curve` takes `curve_fit` models which provides optimal parameters for a given function (step 2), and applies it to a new independent variable based on observations (cases) to forecast. 
+	- outputs: Graph of actual vs forecast
+
+
 ----
 
 ### Benchmark
@@ -147,22 +168,8 @@ Both models used the same dataset from JHU
 2. My Model for which I followed the following steps
 
 
-### My Model/Algorithm steps:
 
-1.  Grouping:
-    -  Removed unnecessary columns
-    - Grouped the data by State 
-2.  Fit the model. 
-	 - Total Cases: Algorithm based on `curve_fit using Logistic Function f(x), defined below. Which will fit f(x) curve to total number of COVID-19 cases with in a 95% confidence.
-		> f(x) = capacity / (1 + e^-k*(x - midpoint) )
-		
-	 - Total New: Algorithm based on `curve_fit using Gaussian Function g(x), defined below. Which will fit g(x) curve to new cases of COVID-19 with in a 95% confidence.
-		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
-	- Outputs: optimal parameters for a given function
-		
-3.  Predictions:
-	- The `forecast_curve` takes `curve_fit` models which provides optimal parameters for a given function (step 2), and applies it to a new independent variable based on observations (cases) to forecast. 
-	- outputs: Graph of actual vs forecast
+
 
 
 
@@ -504,11 +511,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3NzgzMDkyNTMsLTQxNDE5NjE4NSwtOD
-Y1NTMzMzU0LDI1ODMwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0
-NDk2LC0xNDY1MDM4MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC
-00MTQ4OTkwNDAsOTAwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0
-MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOT
-MyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4
-NTUyMTAzNDRdfQ==
+eyJoaXN0b3J5IjpbMTgzNzgwMDAwOSwtMTc3ODMwOTI1MywtND
+E0MTk2MTg1LC04NjU1MzMzNTQsMjU4MzA1NjUwLC0xOTUzMDE1
+MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLT
+EwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0
+MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5MD
+U0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC0x
+NDQ5MjMxNTg0XX0=
 -->
