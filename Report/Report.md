@@ -386,7 +386,7 @@ adfuller results:
 ```
 ----
 
-###<a name="UOM"></a>
+###<a name="UOM"></a> University of Melbourne Forecasting Function 
 >We are interested in knowing how the number of active cases is going to change in the near term.  We provide two alternative growth models.  The growth dynamics of epidemics are complex, but we make the simplifying assumption that the epidemic is a long way from population saturation (i.e. that there is a ready supply of susceptible hosts) such that simple exponential growth provides a reasonable short-term approximation.  The first model -- the "constant growth" model -- assumes a constant growth rate, in which case active cases follow an exponential growth model such that $E(A_t) = A_0e^{rt}$, where $A_0$ is the initial number of active cases, and $r$ is the (constant) intrinsic growth rate.  The second model -- "time-varying growth" -- assumes that the growth rate changes linearly over time.  Empirically, linear change in growth is what we have been observing in this epidemic as populations enact physical distancing and quarantine measures.  Under this model, growth follows a Gaussian function such that $E(A_t) = A_0e^{r_0t+\frac{b}{2}t^2}$.  Here, $r_0$ is the initial growth rate, and $b$ is the rate of change in growth rate over time.
 >
 >To fit both models, we take the natural logarithm of both sides, yielding $\ln A_t = rt + \ln A_0$ (constant growth) and $\ln A_t = \frac{b}{2}t^2+rt + \ln A_0$ (time-varying growth).  This shows us that we can fit a simple linear regression of $\ln A_t$ against $t$ in the constant growth scenario, and a quadratic function in the case of the time-varying model.  
@@ -499,7 +499,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTc2NTYwMzQ0NCwtODY1NTMzMzU0LDI1OD
+eyJoaXN0b3J5IjpbLTQxNDE5NjE4NSwtODY1NTMzMzU0LDI1OD
 MwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4
 MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOT
 AwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2
