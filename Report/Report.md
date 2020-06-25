@@ -2,7 +2,7 @@
 # Machine Learning Engineer Nanodegree
 ## Capstone Project
 Ashraf Hussain 
-22 June, 2020
+25 June, 2020
 
 Machine Learning Engineer Nanodegree: Forecasting COVID-19 Cases – A Time Series Forecasting Model
 
@@ -26,27 +26,18 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 ### Problem Statement
 This project seeks to forecast number of people infected (new and total case) caused by COVID-19 for a time duration of 30-days based on historical data from JHU. 
 
-In my `Proposal` I mention that I will be using DeepAR, no wonder `DeepAR is an underutilized approach in this area.` and Time Series Forecasting with Linear Learner, however after doing extensive research I come to the conclusion that any dataset based on Epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  [`Appendix A`](#DeepAR)
+In my `proposal`, I initially intended to use Time Series Forecasting with Linear Learner as the benchmark along with DeepAR which is an underutilized approach in this area. However after doing extensive research, I have come to the conclusion that any dataset based on epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  [`Appendix A`](#DeepAR).
 
-I will be using scipy ecosystem from which Matplotlib, numpy,  pandas to help me with data analysis and visualization. I will also be using scipy.optimize, from the same ecosystem to create an algorithm based on `curve_fit` function. It will best fit two curves one for total cases for which I will use Logistic Function, and another one for new case for which I will be using Gaussian Function.
+Instead, I will be using Matplotlib, numpy, pandas from the scipy ecosystem to help me with data analysis and visualization. I will also be using scipy.optimize, from the same ecosystem to create an algorithm based on `curve_fit` function. It will best fit two curves: one for total cases for which I will use Logistic Function; and another for new cases for which I will be using Gaussian Function.
 
-This will is very common approach used in datasets that follows an Epi curve [^10] as an example [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  who took the MERS virus Epi curve, and `curve fitted` using to Hubei province's COVID-19 cases.
+This is a very common approach used in datasets that follow an epi curve [^10] for example [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number) who took the MERS virus epi curve, and `curve fitted` using the Hubei Province's COVID-19 cases.
 
-I will be comparing my model to Benchmark model designed by The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/).
+I will be comparing my model to the benchmark model designed by the University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/).
 
-[^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
-
-[^2]:[Logistic Growth Model for COVID-19](https://www.wolframcloud.com/obj/covid-19/Published/Logistic-Growth-Model-for-COVID-19.nb)
-
-[^3]:[Mathematical prediction of the time evolution of the COVID-19 pandemic in Italy by a Gauss error function and Monte Carlo simulations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156796/)
-
-[^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
 ### Metrics
 The error represents random variations in the data that follow a specific probability distribution (usually Gaussian). The objective of curve fitting is to find the optimal combination of parameters that minimize the error. Here we are dealing with time series, therefore the independent variable is time. In mathematical terms[^4]
 >E(error) = E(time) + error
-
-[^4]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
 ## II. Analysis
 
@@ -72,33 +63,30 @@ identifies counties within the USA.
 
 
 ### Exploratory Visualization
-The plot below shows how the COVID-19 cases increase by city. When looking at the graph of 15 cities I noticed the first problem. I cannot use DeepAR on this data because DeepAR needs at least 300 observations available across all training time series. The current dataset has observations for the last 151 days only.
-
->We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300. 
->Source: https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html
+The plot below shows how the COVID-19 cases increase by city.
 
 ![enter image description here](/Images/Capture2.JPG)
 
-Let's look at new vs total number of cases for some cities:
+Let's look at new vs total number of cases for some states:
 ![enter image description here](/Images/Capture3.JPG)
 ![enter image description here](/Images/Capture4.JPG)
 
 
 ### Algorithms and Techniques
 
-Algorithms used  for my model: 
+Algorithms used for my model: 
  - curve_fit from scipy ecosystem 
-Algorithms used  for benchmark model: 
+Algorithms used for the benchmark model: 
 - projSimple form functions.R which is part of nCovForecast toolkit
 
 ----
 
 ### Benchmark
 
-I am using The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/), 
-Established in 1853, the University of Melbourne is a public-spirited institution that makes distinctive contributions to society in research, learning and teaching and engagement. It’s consistently ranked among the leading universities in the world, with international rankings of world universities placing it as number 1 in Australia and number 32 in the world (Times Higher Education World University Rankings 2017-2018).
+I am using the University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/), 
+Established in 1853, the University of Melbourne is an internationally recognised, research-intensive university with a strong tradition of excellence in teaching, research and community engagement. According to its website, "It’s consistently ranked among the leading universities in the world, with international rankings of world universities placing it as number 1 in Australia and number 32 in the world (Times Higher Education World University Rankings 2017-2018)."
 
-The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as  MIT License on (GitHub)(https://github.com/benflips/nCovForecast) This model was done using R package, I did not make any changes to this as this would be my benchmark to compare my model with.  They have several models predicting different aspects of the dataset. I am only using there [forecast function](#UOM). 
+The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as an MIT License on (GitHub)(https://github.com/benflips/nCovForecast) This model was done using RStudio, I did not make any changes to this as this would be my benchmark to compare my model with. They have several models predicting different aspects of the dataset. I am only using their [forecast function](#UOM). 
 
 ## III. Methodology
 
@@ -113,7 +101,7 @@ The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COV
 630|PR|PRI|630|72|NaN|Puerto Rico|US|18.2208|-66.5901|...|5690
 850|VI|VIR|850|78|NaN|Virgin Islands|US|18.3358|-64.8963|...|72
 
-The data set was imported into a pandas Dataframe. 
+The dataset was imported into a pandas Dataframe. 
 
 Data needed minimal data preprocessing because each Date was in one column and City and State were in other columns.
 
@@ -131,7 +119,7 @@ Province\_State|Alabama|Alaska|American Samoa|Arizona|Arkansas|California|Colora
 The dataframe Date was converted to datetime Index
 
 
-Now we have a clean data set which will have Date as Index, and sum of cases for each State.
+Now we have a clean dataset which will have Date as Index, and sum of cases for each State.
 From here onwards, we can use the following function to get a cumulative number of cases (total) and new cases (new) for a given State in the dataframe.
 
 .|total|new
@@ -147,30 +135,27 @@ max|388488|11434
 
 ### Implementation
 
-Once the data cleaning processors I implemented two models two models:
+Once the data cleaning was preprocessed, I implemented two models.
 Both models used the same dataset from JHU
-1. Benchmark which which was implemented in [RStudio](https://rstudio.com/) and designed by The University of Melbourne
-2. My Model for which I followed the following steps
+1. Benchmark model was implemented in [RStudio](https://rstudio.com/) and designed by the University of Melbourne
+2. My model was implemented in SageMaker using scipy ecosystem, and I followed these steps
 
 1.  Grouping:
-    -  Removed unnecessary columns
+    - Removed unnecessary columns
     - Grouped the data by State 
-2.  Fit the model. 
-	 - Total Cases: Algorithm based on `curve_fit using Logistic Function f(x), defined below. Which will fit f(x) curve to total number of COVID-19 cases with in a 95% confidence.
+2.  Fit the model: 
+	 - Total Cases: Algorithm based on `curve_fit using Logistic Function f(x), defined below. This will fit f(x) curve to total number of COVID-19 cases within a 95% confidence index.
 		> f(x) = capacity / (1 + e^-k*(x - midpoint) )
 		
-	 - Total New: Algorithm based on `curve_fit using Gaussian Function g(x), defined below. Which will fit g(x) curve to new cases of COVID-19 with in a 95% confidence.
-		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
+	 - Total New: Algorithm based on `curve_fit using Gaussian Function g(x), defined below. This will fit g(x) curve to new cases of COVID-19 within a 95% confidence index.
+		> g(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
 	- Outputs: optimal parameters for a given function
 		
 3.  Predictions:
-	- The `forecast_curve` takes `curve_fit` models which provides optimal parameters for a given function (step 2), and applies it to a new independent variable based on observations (cases) to forecast. 
+	- The `forecast_curve` takes optimal parameters (models) from step 2 above and applies it to a new independent variable based on observations (cases) to forecast. 
 	- outputs: Graph of actual vs forecast
 
-For the benchmark model the nCovForecast toolkit comes with GUI, I used it once I run the modal on my PC. 
-
-
-[^11]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
+For the benchmark model, the nCovForecast toolkit comes with GUI, which I used after I ran the modal locally. 
 
 
 ### Refinement
@@ -189,7 +174,7 @@ The model and the forecast work well when applied to certain States. However, th
 
  ***My Model vs Benchmark:***
 
-my model could not fit total cases to a Logistic Function however the Benchmark model did not have any problems predicting the forecast within 95% confidence.
+My model could not fit total cases to a Logistic Function, however the benchmark model did not have any problems predicting the forecast within 95% confidence. This was because Michigan is on a different epi curve. Since my model is fitting to a standard Logistic Function f(x), it was unable to predict the forecast. The benchmark model takes into different epi curves, it was able to predict better than my model.
 
 ----
 
@@ -205,9 +190,9 @@ my model could not fit total cases to a Logistic Function however the Benchmark 
 ![enter image description here](/Images/Capture13.JPG)
 
  ***My Model vs Benchmark:***
-my The model could not fit new cases to a Gaussian Function however again the Benchmark model did not have any problems predicting the forecast within 95% confidence.
+My model could not fit new cases to a Gaussian Function, however again the benchmark model did not have any problems predicting the forecast within 95% confidence. This was because Virgin Islands are on a different epi curve. Since my model is fitting to a standard Gaussian Function g(x), it was unable to predict the forecast. The benchmark model takes into different epi curves, it was able to predict better than my model.
 
-This clearly shows the power of better package such as  `earlyR`  and  `EpiEstim`  that are part of R when applied to an epidemic dataframe. 
+Summary: This clearly shows the power of a better package such as `earlyR` and `EpiEstim` that are part of R when applied to an epidemic dataframe. 
 There are three well-researched articles written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068) that talk about using R to predict COVID-19 cases. 
 >Tim Churches is a Senior Research Fellow at the UNSW Medicine South Western Sydney Clinical School at Liverpool Hospital, and a health data scientist at the Ingham Institute for Applied Medical Research, also located at Liverpool, Sydney. His background is in general medicine, general practice medicine, occupational health, public health practice, particularly population health surveillance, and clinical epidemiology.
 
@@ -217,13 +202,14 @@ There are three well-researched articles written by [Tim Churches](https://theco
  - [Analysing COVID-19 (2019-nCoV) outbreak data with R - part 2](https://timchurches.github.io/blog/posts/2020-03-01-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-2/)
 
 
+
 ## IV. Results
 
 
 ### Model Evaluation and Validation
 Given my limited understanding and knowledge in the field of epidemiology, this was the simplest model I was able to work with.
 
-The model was able to predict future cases for some states very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
+The model was able to predict future cases for some States very well. However, for others it was unable to predict at all. I used a random generator to pick sample cities to plot the following graphs:
 
 
 
@@ -241,7 +227,7 @@ The model was able to predict future cases for some states very well. However, f
 
  ***My Model vs Benchmark:***
 In Delaware, the number of new cases seem to be following an epi curve very well. This indicates that the social distancing measures have been working well to reduce the number of new cases. There was a spike in the number of cases in the week of Memorial Day (May 25), however, they seemed to have recovered quickly falling into a standard epi curve pattern.
-Both my model and Benchmark did not have any problems predicting the forecast within 95% confidence and they both showing the same trend.
+Both my model and benchmark did not have any problems predicting the forecast within 95% confidence and they both showed the same trend.
 
 ----
 
@@ -259,7 +245,7 @@ Both my model and Benchmark did not have any problems predicting the forecast wi
 
 
  ***My Model vs Benchmark:***
-New covid-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, however they seem to have taken slightly longer to come back to a normal epi curve. Both my model and Benchmark did not have any problems predicting the forecast within 95% confidence however my model is showing a downward trend and the Benchmark  is showing an upward trend. 
+New COVID-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, however they seem to have taken slightly longer to come back to a normal epi curve. Both my model and benchmark did not have any problems predicting the forecast within 95% confidence, however my model shows a downward trend and the benchmark shows an upward trend.
 
 ----
 
@@ -278,23 +264,23 @@ New covid-19 cases in North Dakota seem to be following the same pattern as that
 
 
  ***My Model vs Benchmark:***
-Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons. Both my model and Benchmark did not have any problems predicting the forecast within 95% confidence however my model is showing a upward trend and the Benchmark  is showing an downward trend. 
+Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons. Both my model and benchmark did not have any problems predicting the forecast within 95% confidence however my model shows an upward trend and the benchmark shows a downward trend. 
 
 ----
 ### Justification
 
-This clearly shows the power of better package such as  [`earlyR`](https://www.repidemicsconsortium.org/earlyR/) package which implements simple estimation of infectiousness, as measured by the reproduction number (R), in the early stages of an outbreak. The second package   [`EpiEstim`](https://sites.google.com/site/therepiproject/r-pac/epiestim)   which implements a Bayesian approach for quantifying transmissibility over time during an epidemic. More specifically, it allows estimating the instantaneous and case reproduction numbers during an epidemic for which a time series of incidence is available and the distribution of the serial interval (time between symptoms onset in a primary case and symptoms onset in secondary case) is _ more or less precisely _ known. that are part of R when applied to an epidemic dataframe. 
+It is quite evident that  [`earlyR`](https://www.repidemicsconsortium.org/earlyR/) is a better package that implements simple estimation of infectiousness, as measured by the reproduction number (R), in the early stages of an outbreak. The second package [`EpiEstim`](https://sites.google.com/site/therepiproject/r-pac/epiestim) implements a Bayesian approach for quantifying transmissibility over time during an epidemic. More specifically, it allows estimating the instantaneous and case reproduction numbers during an epidemic for which a time series of incidence is available and the distribution of the serial interval (time between symptoms onset in a primary case and symptoms onset in secondary case) is _ more or less precisely _ known. `earlyR` and `EpiEstim` are part of R toolkit. 
 
 Source `earlyR`: https://www.repidemicsconsortium.org/earlyR/
 Source `EpiEstim`: https://sites.google.com/site/therepiproject/r-pac/epiestim
 
-Research is ongoing and and better benchmark for the COVID-19 epidemic are being developed every day by people like Dr Tim Churches is a medically-trained epidemiologist .  Epidemiologist  are designing new predominantly in R. Below are some examples:
+Research is ongoing and and better benchmarks for the COVID-19 epidemic are being developed every day by people like Dr Tim Churches, a medically-trained epidemiologist. Epidemiologists are designing new models predominantly in R. Below are some examples:
  - [an introduction to R for epidemiologists by Dr Charles DiMaggio(New York University Departments of Surgery and Population Health)](http://www.columbia.edu/~cjd11/charles_dimaggio/DIRE/resources/R/packages.pdf)
  
  - [R-software: A Newer Tool in Epidemiological Data Analysis by Dr Amir Maroof Khan(Department of Community Medicine, University College of Medical Sciences and GTB Hospital, Delhi, India)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612300/)
 - [Analysis of Epidemiological Data Using R and Epicalc by Prof.(Prince of Songkla University, Thailand)](https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf)
 
-When we do a Google Scholar search on [`epidemiology and r`](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=epidemiology+and+r&btnG=) we fine over three million articles however when we do the same search with other key words like ARIMA (18 hundred), SARIMA(only 46), and zero for DeepAR.
+A Google Scholar search on [`epidemiology and r`](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=epidemiology+and+r&btnG=) returns over three million articles, however a similar search with other keywords yielded: epidemiology and ARIMA (18k articles), epidemiology and SARIMA (46 articles), and epidemiology and DeepAR (0 articles).
 
 ## V. Conclusion
 
@@ -303,31 +289,33 @@ When we do a Google Scholar search on [`epidemiology and r`](https://scholar.goo
 Based on my observations, the dataframes for **North Dakota** and **Delaware** fit the epidemic curve well. 
 ![enter image description here](/Images/Capture5.JPG)
 ![enter image description here](/Images/Capture6.JPG)
-With respect to North Dakota, they have 3, 313 total cases, 2, 952 recovered cases with only 77 deaths. If they continue on this path, they are predicted to reach equilibrium (zero new cases) by the end of July or August 2020.
+With respect to North Dakota, they have 3,313 total cases and 2,952 recovered cases with only 77 deaths. If they continue on this path, based on my model they are predicted to reach equilibrium (zero new cases) by the end of July or August 2020.
 
-Delaware is another State that is following the epi curve closely. Though they had some peaks around Memorial Day week, they seem to have recovered well. If they continue on this trend, they are predicted to reach a minimum amount of cases by the end of July or August 2020.
+Delaware is another State that is following the epi curve closely. Though they had some peaks around Memorial Day week, they seem to have recovered well. If they continue on this trend, based on my model they are predicted to reach a minimum amount of cases by the end of July or August 2020.
 
 The only challenge with these predictions is that it does not take into account the human factors. Human factors can be defined as human interactions in relation to their environment, such as not following social distance measures; not wearing masks when going out in public areas; not following proper safety and sanitization rules; non-essential travel from one city to another to visit family, friends or to go on a vacation; and more. This will increase the rate of transmission leading to peaks in new cases as was witnessed around the Memorial Day week.
 
-### Improvement
-1. Using  `earlyR`  and  `EpiEstim`  packages which is part of R.
-2. Partnering up with an epidemiologist to a better understanding of the COVID-19 epidemic. 
+### Final Thoughts and Improvements
 
-### Final Thoughts
 This project has taught me a lot about machine learning and how epidemiologists are using machine learning. There were several lessons to be learnt but the top three that stood out for me are:
-1.	Work with the right expert: My understanding of epidemiology is limited. I would have appreciated an opportunity to work with an epidemiologist to understand how an epidemic works in order to apply the nuances of the data to machine learning. It is really critical to understand the story behind the data to be able to build a good machine model.
 
-2.	Generalize the problem: My proposal was confined to a narrow dataframe and solution that did not leave any room for improvisation. This led to a tunnel vision when trying to build the data model. An alternative would have been generalizing the problem in the proposal which would have allowed me to manoeuvre in different ways to come up with innovative solutions.
+1. Using  [`earlyR`](https://www.repidemicsconsortium.org/earlyR/)  and   [`EpiEstim`](https://sites.google.com/site/therepiproject/r-pac/epiestim)  packages that are part of R would have been a better and more accurate option for my model. `earlyR` was designed for simple estimation of infectiousness, as measured by the reproduction number (R), in the early stages of an outbreak. It has been in epidemiologists' circles since 2017 and was desgined by Thibaut Jombart, Associate Proffessor in outbreak analytics at LSHTM / Imperial College, London, UK. `EpiEstim` implements a Bayesian approach for quantifying transmissibility over time during an epidemic. More specifically, it allows estimating the instantaneous and case reproduction numbers during an epidemic for which a time series of incidence is available and the distribution of the serial interval (time between symptoms onset in a primary case and symptoms onset in secondary case) is _ more or less precisely _ known.
 
-3.	Time management: There is a ton of published papers and research available that provide top-notch information. Going forward, I will allow myself sufficient time to go through available research before embarking on the solution. Some good sources of information are Google Scholar, Medium, GitHub repositories, and other open-source packages & libraries.
+
+2. Work with the right expert: My understanding of epidemiology is limited. I would have appreciated an opportunity to work with an epidemiologist to understand how an epidemic works in order to apply the nuances of the data to machine learning. It is really critical to understand the story behind the data to be able to build a good machine model.
+
+3. Generalize the problem: My proposal was confined to a narrow dataframe and solution that did not leave any room for improvisation. This led to a tunnel vision when trying to build the data model. An alternative would have been generalizing the problem in the proposal which would have allowed me to manoeuvre in different ways to come up with innovative solutions.
+
+4. Time management: There is a ton of published papers and research available that provide top-notch information. Going forward, I will allow myself sufficient time to go through available research before embarking on the solution. Some good sources of information are Google Scholar, Medium, GitHub repositories, and other open-source packages & libraries.
 Hindsight is indeed 2020. Armed with this knowledge, I am confident that I can continue to apply myself in the field of machine learning to find novel solutions to human challenges.
-4. This Dataset would be great for udacity's course called [Data Analysis with R](https://www.udacity.com/course/data-analysis-with-r--ud651) and [Data Analyst Nanodegree Program](https://www.udacity.com/course/data-analyst-nanodegree--nd002)
+
+5. This Dataset would be great for udacity's course called [Data Analysis with R](https://www.udacity.com/course/data-analysis-with-r--ud651) and [Data Analyst Nanodegree Program](https://www.udacity.com/course/data-analyst-nanodegree--nd002)
 
 To conclude, I would like to thank the following people without whom I would not have been able to complete my project and get an understanding of how COVID-19 is being used in machine learning:
 
- -  [Dr. Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068). 
+ - [Dr. Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068). 
  - [Dr. Jason Brownlee](https://machinelearningmastery.com/about/)
- -  [Mauro Di Pietro](https://medium.com/@m.dipietro09)
+ - [Mauro Di Pietro](https://medium.com/@m.dipietro09)
  - [Subhasree Chatterjee](https://datascienceplus.com/author/chatterjee-subhasree/)
 
 And last but not least, my wife [Shamsia Quraishi](https://twitter.com/shamsiaquraishi) for supporting me during my training and being there for me. 
@@ -488,30 +476,14 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 [^9]:[Generalized autoregressive conditional heteroskedasticity](https://www.sciencedirect.com/science/article/abs/pii/0304407686900631?via%3Dihub)
 
+[^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
+[^2]:[Logistic Growth Model for COVID-19](https://www.wolframcloud.com/obj/covid-19/Published/Logistic-Growth-Model-for-COVID-19.nb)
 
+[^3]:[Mathematical prediction of the time evolution of the COVID-19 pandemic in Italy by a Gauss error function and Monte Carlo simulations](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC7156796/)
 
+[^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
 
+[^4]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyMDM5NDk4LDM5MzE3NzU1MywtMTc3OD
-MwOTI1MywtNDE0MTk2MTg1LC04NjU1MzMzNTQsMjU4MzA1NjUw
-LC0xOTUzMDE1MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgwMDYsOD
-Y0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MDA3NzYx
-NjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC
-0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5
-ODkxMDU4XX0=
--->
+[^11]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
