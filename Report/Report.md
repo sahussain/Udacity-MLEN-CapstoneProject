@@ -23,11 +23,8 @@ countries. It is used by researchers, public health authorities, news
 agencies and the general public. All the data collected and displayed is
 made freely available in a [GitHub repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
-
-
-
 ### Problem Statement
-This project seeks to forecast number of people infected(new case) and number of caused(total cases) by COVID-19 for a time duration of 30-days based on historical data from JHU. 
+This project seeks to forecast number of people infected (new and total case) caused by COVID-19 for a time duration of 30-days based on historical data from JHU. 
 
 In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I found out that any data based on Epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  `Appendix A`
 
@@ -501,7 +498,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzUyODM5NDY2LDI1ODMwNTY1MCwtMTk1Mz
+eyJoaXN0b3J5IjpbNzc1NjY4NjUwLDI1ODMwNTY1MCwtMTk1Mz
 AxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4MDA2LDg2NDIwMzA2
 LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOTAwNzc2MTYyLDEyNj
 g0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5
