@@ -25,6 +25,8 @@ agencies and the general public. All the data collected and displayed is
 made freely available in a [GitHub repository](https://github.com/CSSEGISandData/COVID-19/tree/master/csse_covid_19_data).
 
 
+
+
 ### Problem Statement
 This project seeks to forecast number of people infected and number of
 caused by COVID-19 for a time duration of 14-days based on
@@ -286,6 +288,14 @@ my model could not fit total cases to a Logistic Function however the Benchmark 
  ***My Model vs Benchmark:***
 my The model could not fit new cases to a Gaussian Function however again the Benchmark model did not have any problems predicting the forecast within 95% confidence.
 
+This clearly shows the power of better package such as  `earlyR`  and  `EpiEstim`  that are part of R when applied to an epidemic dataframe. 
+There are three well-researched articles written by [Tim Churches](https://theconversation.com/profiles/timothy-churches-1003068) that talk about using R to predict COVID-19 cases. 
+>Tim Churches is a Senior Research Fellow at the UNSW Medicine South Western Sydney Clinical School at Liverpool Hospital, and a health data scientist at the Ingham Institute for Applied Medical Research, also located at Liverpool, Sydney. His background is in general medicine, general practice medicine, occupational health, public health practice, particularly population health surveillance, and clinical epidemiology.
+
+ - [COVID-19 epidemiology with R by Tim Churches](https://rviews.rstudio.com/2020/03/05/covid-19-epidemiology-with-r/)
+
+ - [Analysing COVID-19 (2019-nCoV) outbreak data with R - part 1](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)
+ - [Analysing COVID-19 (2019-nCoV) outbreak data with R - part 2](https://timchurches.github.io/blog/posts/2020-03-01-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-2/)
 
 
 ## IV. Results
@@ -303,7 +313,7 @@ The model was able to predict future cases for some states very well. However, f
 ***My Model:***
 
 ![enter image description here](/Images/Capture5.JPG)
-In Delaware, the number of new cases seem to be following an epi curve very well. This indicates that the social distancing measures have been working well to reduce the number of new cases. There was a spike in the number of cases in the week of Memorial Day (May 25), however, they seemed to have recovered quickly falling into a standard epi curve pattern.
+
 
 ***Benchmark:***
 
@@ -311,6 +321,7 @@ In Delaware, the number of new cases seem to be following an epi curve very well
 
 
  ***My Model vs Benchmark:***
+In Delaware, the number of new cases seem to be following an epi curve very well. This indicates that the social distancing measures have been working well to reduce the number of new cases. There was a spike in the number of cases in the week of Memorial Day (May 25), however, they seemed to have recovered quickly falling into a standard epi curve pattern.
 
 
 ----
@@ -494,11 +505,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNTI0MDgxNjEzLDkwMDc3NjE2MiwxMjY4ND
-QzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkw
-NTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLT
-E0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2
-MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2ND
-U4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5
-NzFdfQ==
+eyJoaXN0b3J5IjpbMTUzNjkwMDI4Niw5MDA3NzYxNjIsMTI2OD
+Q0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5
+MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC
+0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5
+NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4NzgsNj
+Q1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNjIx
+OTcxXX0=
 -->
