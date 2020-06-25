@@ -364,6 +364,15 @@ Contrary to Delaware and North Dakota, new cases in Maryland peaked during the l
 ----
 ### Justification
 
+This will is very common approach used in datasets that follows an Epi curve [^10] as an example [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  took the Epi curve of MERS virus, which had a mean of 7.6 and a SD of 3.4, `curve fitted` using `estimate_R()` function in the `EpiEstim` package to Hubei province's COVID-19 cases 
+ 
+![enter image description here](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1_files/figure-html5/Cori_parametric_si_model_fit_hubei-1.png)
+
+[^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
+
+
+
+
 Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more than 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how any model for COVID-19 epidemic would turn out.
 
 
@@ -508,11 +517,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM3Mzk1MzYzMiw5MDA3NzYxNjIsMTI2OD
-Q0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5
-MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC
-0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5
-NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4NzgsNj
-Q1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNjIx
-OTcxXX0=
+eyJoaXN0b3J5IjpbNzI5MTM5MTk4LDkwMDc3NjE2MiwxMjY4ND
+QzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkw
+NTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLT
+E0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2
+MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2ND
+U4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5
+NzFdfQ==
 -->
