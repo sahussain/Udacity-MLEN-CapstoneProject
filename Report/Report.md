@@ -86,8 +86,9 @@ Let's look at new vs total number of cases for some cities:
 
 ### Algorithms and Techniques
 
-Algorithms used: 
- - curve_fit from 
+Algorithms used  for my model: 
+ - curve_fit from scipy ecosystem 
+Algorithms used  for benchmark model: 
 
 
 1.  Grouping:
@@ -511,11 +512,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgzNzgwMDAwOSwtMTc3ODMwOTI1MywtND
-E0MTk2MTg1LC04NjU1MzMzNTQsMjU4MzA1NjUwLC0xOTUzMDE1
-MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLT
-EwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0
-MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5MD
-U0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC0x
-NDQ5MjMxNTg0XX0=
+eyJoaXN0b3J5IjpbMzkzMTc3NTUzLC0xNzc4MzA5MjUzLC00MT
+QxOTYxODUsLTg2NTUzMzM1NCwyNTgzMDU2NTAsLTE5NTMwMTUz
+MzMsMTk4NTE2NDQ5NiwtMTQ2NTAzODAwNiw4NjQyMDMwNiwtMT
+A5MjU2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2MiwxMjY4NDQz
+NzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkwNT
+QsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0
+NDkyMzE1ODRdfQ==
 -->
