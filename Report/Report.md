@@ -29,7 +29,8 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 
 ### Problem Statement
 This project seeks to forecast number of people infected(new case) and number of caused(total cases) by COVID-19 for a time duration of 30-days based on historical data from JHU. 
-In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is so in  my `Analysis section.`
+
+In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is so in  my `Analysis section.`
 
 I will be using scipy ecosystem including, Matplotlib, scipy.optimize, numpy,  and pandas to create an algorithm that will best Logistic Function, for total cases, and two Gaussian Function for, new case 
 
@@ -100,54 +101,6 @@ The plot below shows how the COVID-19 cases increase by city. When looking at th
 Let's look at new vs total number of cases for some cities:
 ![enter image description here](/Images/Capture3.JPG)
 ![enter image description here](/Images/Capture4.JPG)
-
-
-### Why DeepAR/Classical Time Series Forecasting Methods fails to work on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) datasets.
-
-To use DeepAR it needs to meet the following criteria [^5]:
-1. Except for when splitting your dataset for training and testing, always provide the entire time series for training, testing, and when calling the model for inference. Regardless of how you set `context_length`, don't break up the time series or provide only a part of it. The model uses data points further back than the value set in `context_length` for the lagged values feature.[^5]
-2. When tuning a DeepAR model, you can split the dataset to create a training dataset and a test dataset. In a typical evaluation, you would test the model on the same time series used for training, but on the future  `prediction_length`  time points that follow immediately after the last time point visible during training. You can create training and test datasets that satisfy this criteria by using the entire dataset (the full length of all time series that are available) as a test set and removing the last  `prediction_length`  points from each time series for training. During training, the model doesn't see the target values for time points on which it is evaluated during testing. During testing, the algorithm withholds the last  `prediction_length`  points of each time series in the test set and generates a prediction. Then it compares the forecast with the withheld values. You can create more complex evaluations by repeating time series multiple times in the test set, but cutting them at different endpoints. With this approach, accuracy metrics are averaged over multiple forecasts from different time points. For more information, see  [Tune a DeepAR Model](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar-tuning.html).[^5]
-
-3. Avoid using very large values (>400) for the  `prediction_length`  because it makes the model slow and less accurate. If you want to forecast further into the future, consider aggregating your data at a higher frequency. For example, use  `5min`  instead of  `1min`.[^5]
-    
-4. Because lags are used, a model can look further back in the time series than the value specified for  `context_length`. Therefore, you don't need to set this parameter to a large value. We recommend starting with the value that you used for  `prediction_length`.[^5]
-    
-5. We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300.[^5]
-
-[^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
-
-Based on the above requirements we cannot use DeepAR. I then looked into the [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs), list below, to see if we can use any of them. The first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary. A stationary process has the property that the mean, variance and autocorrelation structure do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
-[^10]:[6.4.4.2. Stationarity]()
-
-To summarize a time-series to be Stationarity, the following should not change over time
-
-mean(μ)
-standard deviation(σ)
-Autocorrelation structure (No seasonality)
-
-There are a number of unit root tests we can do to check if a dataset is stationary or non-stationary. The Augmented Dickey-Fuller is one of the more widely used tests. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
-
-According to Augmented Dickey-Fuller test the null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
-
-`Null Hypothesis (H0):` If failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure. 
-
-`Alternate Hypothesis (H1):` The null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. We interpret this result using the p-value from the test. A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypothesis (stationary), otherwise a p-value above the threshold suggests we fail to reject the null hypothesis (non-stationary).
-
--   p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
--   p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
-
-source:  [How to Check if Time Series Data is Stationary with Python](https://machinelearningmastery.com/time-series-data-stationary-python/)
-
-Want to know more about  [How to Check if Time Series Data is Stationary with Python](https://machinelearningmastery.com/time-series-data-stationary-python/)
-
-> If we fit a stationary model to data, we assume our data are a realization of a stationary process. So our first step in an analysis should be to check whether there is any evidence of a trend or seasonal effects and, if there is, remove them.
-
-— Page 122,  [Introductory Time Series with R](http://www.amazon.com/dp/0387886974?tag=inspiredalgor-20).
-
-`The problem is that we cannot remove any data because we would end up with only 2 States that are deemed to pass the Stationarity test.`
-
-
-
 
 
 ### Algorithms and Techniques
@@ -430,6 +383,50 @@ Once again thanks and be safe.
 -----------
 # Appendix A
 
+### Why DeepAR/Classical Time Series Forecasting Methods fails to work on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) datasets.
+
+To use DeepAR it needs to meet the following criteria [^5]:
+1. Except for when splitting your dataset for training and testing, always provide the entire time series for training, testing, and when calling the model for inference. Regardless of how you set `context_length`, don't break up the time series or provide only a part of it. The model uses data points further back than the value set in `context_length` for the lagged values feature.[^5]
+2. When tuning a DeepAR model, you can split the dataset to create a training dataset and a test dataset. In a typical evaluation, you would test the model on the same time series used for training, but on the future  `prediction_length`  time points that follow immediately after the last time point visible during training. You can create training and test datasets that satisfy this criteria by using the entire dataset (the full length of all time series that are available) as a test set and removing the last  `prediction_length`  points from each time series for training. During training, the model doesn't see the target values for time points on which it is evaluated during testing. During testing, the algorithm withholds the last  `prediction_length`  points of each time series in the test set and generates a prediction. Then it compares the forecast with the withheld values. You can create more complex evaluations by repeating time series multiple times in the test set, but cutting them at different endpoints. With this approach, accuracy metrics are averaged over multiple forecasts from different time points. For more information, see  [Tune a DeepAR Model](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar-tuning.html).[^5]
+
+3. Avoid using very large values (>400) for the  `prediction_length`  because it makes the model slow and less accurate. If you want to forecast further into the future, consider aggregating your data at a higher frequency. For example, use  `5min`  instead of  `1min`.[^5]
+    
+4. Because lags are used, a model can look further back in the time series than the value specified for  `context_length`. Therefore, you don't need to set this parameter to a large value. We recommend starting with the value that you used for  `prediction_length`.[^5]
+    
+5. We recommend training a DeepAR model on as many time series as are available. Although a DeepAR model trained on a single time series might work well, standard forecasting algorithms, such as ARIMA or ETS, might provide more accurate results. The DeepAR algorithm starts to outperform the standard methods when your dataset contains hundreds of related time series. Currently, DeepAR requires that the total number of observations available across all training time series is at least 300.[^5]
+
+[^5]:[Best Practices for Using the DeepAR Algorithm](https://docs.aws.amazon.com/sagemaker/latest/dg/deepar.html#deepar_best_practices)
+
+Based on the above requirements we cannot use DeepAR. I then looked into the [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs), list below, to see if we can use any of them. The first thing we need to do is to check for Stationarity. A common assumption in many time series techniques is that the data are stationary. A stationary process has the property that the mean, variance and autocorrelation structure do not change over time. Stationarity can be defined in precise mathematical terms, but for our purpose we mean a flat looking series, without trend, constant variance over time, a constant autocorrelation structure over time and no periodic fluctuations (seasonality).[^10]
+[^10]:[6.4.4.2. Stationarity]()
+
+To summarize a time-series to be Stationarity, the following should not change over time
+
+mean(μ)
+standard deviation(σ)
+Autocorrelation structure (No seasonality)
+
+There are a number of unit root tests we can do to check if a dataset is stationary or non-stationary. The Augmented Dickey-Fuller is one of the more widely used tests. It uses an autoregressive model and optimizes an information criterion across multiple different lag values.
+
+According to Augmented Dickey-Fuller test the null hypothesis of the test is that the time series can be represented by a unit root, that it is not stationary (has some time-dependent structure). The alternate hypothesis (rejecting the null hypothesis) is that the time series is stationary.
+
+`Null Hypothesis (H0):` If failed to be rejected, it suggests the time series has a unit root, meaning it is non-stationary. It has some time dependent structure. 
+
+`Alternate Hypothesis (H1):` The null hypothesis is rejected; it suggests the time series does not have a unit root, meaning it is stationary. It does not have time-dependent structure. We interpret this result using the p-value from the test. A p-value below a threshold (such as 5% or 1%) suggests we reject the null hypothesis (stationary), otherwise a p-value above the threshold suggests we fail to reject the null hypothesis (non-stationary).
+
+-   p-value > 0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.
+-   p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.
+
+source:  [How to Check if Time Series Data is Stationary with Python](https://machinelearningmastery.com/time-series-data-stationary-python/)
+
+Want to know more about  [How to Check if Time Series Data is Stationary with Python](https://machinelearningmastery.com/time-series-data-stationary-python/)
+
+> If we fit a stationary model to data, we assume our data are a realization of a stationary process. So our first step in an analysis should be to check whether there is any evidence of a trend or seasonal effects and, if there is, remove them.
+
+— Page 122,  [Introductory Time Series with R](http://www.amazon.com/dp/0387886974?tag=inspiredalgor-20).
+
+`The problem is that we cannot remove any data because we would end up with only 2 States that are deemed to pass the Stationarity test.`
+
  ## <a name="TSFMs"></a>Research: Definitions of 14 Classical Time Series Forecasting Methods (TSFMs) in Python  
 
 ***AR (autoregressive model):***
@@ -530,7 +527,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTM2MzQ1MTMwMywtMTk1MzAxNTMzMywxOT
+eyJoaXN0b3J5IjpbMTIwOTAzNjAyMCwtMTk1MzAxNTMzMywxOT
 g1MTY0NDk2LC0xNDY1MDM4MDA2LDg2NDIwMzA2LC0xMDkyNTY5
 NjIxLC00MTQ4OTkwNDAsOTAwNzc2MTYyLDEyNjg0NDM3MjgsLT
 kxODA0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5OTA1NCwtNDUx
