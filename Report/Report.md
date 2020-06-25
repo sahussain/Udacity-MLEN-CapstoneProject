@@ -408,6 +408,7 @@ To conclude, I would like to thank the following people without whom I would not
  - [Dr. Jason Brownlee](https://machinelearningmastery.com/about/)
  -  [Mauro Di Pietro](https://medium.com/@m.dipietro09)
  - [Subhasree Chatterjee](https://datascienceplus.com/author/chatterjee-subhasree/)
+ - [Analysis of Epidemiological Data Using R and Epicalc by Prof.(Prince of Songkla University, Thailand)](https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf)
 
 And last but not least, my wife [Shamsia Quraishi](https://twitter.com/shamsiaquraishi) for supporting me during my training and being there for me. 
 
@@ -516,11 +517,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDg5OTA0MCw5MDA3NzYxNjIsMTI2OD
-Q0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5
-MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC
-0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5
-NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC0xMjc5MzM4NzgsNj
-Q1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1NTkyNiwxNzEzNjIx
-OTcxXX0=
+eyJoaXN0b3J5IjpbLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MD
+A3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3
+Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NS
+wxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2
+MjEzMDUsLTgyOTM5NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC
+0xMjc5MzM4NzgsNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1
+NTkyNl19
 -->
