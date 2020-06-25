@@ -161,74 +161,6 @@ adfuller results:
 ---------
 58 Total
 ```
-I used the following function to check for Stationarity:
-
-```Python 
-def getStationarity(df, States):
-    #print(ts[0])
-    df_return = pd.DataFrame() 
-    arr_state = []
-    arr_adf = []
-    arr_p_value = []
-    arr_usedlag = [] 
-    arr_nobs = []
-    arr_1 =[]
-    arr_5 = []
-    arr_10 = []
-    icbest=[]
-    res = []
-    cit_stationary =[]
-    
-    threshold = 0.05
-    print("### Testing Null Hypothesis ###")
-    for aState in States:
-        try:
-            Cases=getCases(df, aState)
-            #print(Cases[0])
-            adfuller_results = sts.adfuller(Cases[0].total)
-            #print(adfuller_results)
-            arr_state.append(aState)
-            arr_adf.append(round(adfuller_results[0],3))
-            if round(adfuller_results[1],3)>threshold:
-                res.append(0) #0 implies non-stationary
-            else:
-                res.append(1) #1 implies stationary
-                cit_stationary.append(aState)
-            arr_p_value.append(round(adfuller_results[1],3))
-            arr_usedlag.append(round(adfuller_results[2],3))
-            arr_nobs.append(round(adfuller_results[3],3))
-            arr_1.append(round(adfuller_results[4]['1%'],3))
-            arr_5.append(round(adfuller_results[4]['5%'],3))
-            arr_10.append(round(adfuller_results[4]['10%'],3))
-            icbest.append(round(adfuller_results[3],3))
-            #print("\n\n")
-        except:
-            print("An occurred with city: ", aState)
-    #print(arr_1)
-    df_return['State'] = arr_state
-    df_return['stationary'] = res
-    df_return['adf'] = arr_adf
-    df_return['p-value'] = arr_p_value
-    df_return['usedlag'] = arr_usedlag
-    df_return['nobs'] = arr_nobs
-    df_return['significance_1'] = arr_1
-    df_return['significance_5'] = arr_5
-    df_return['significance_10'] = arr_10
-    df_return['icbest'] = icbest
-    
-    print("Calculation Complete")
-    print("adfuller results:")
-    print(str(len(States)-len(cit_stationary)) + " p-value >  0.05: Fail to reject the null hypothesis (H0), the data has a unit root and is non-stationary.")
-    print(str(len(cit_stationary)) + " p-value <= 0.05: Reject the null hypothesis (H0), the data does not have a unit root and is stationary.")
-    print("--------------------")
-    print(str(len(States)) + " Total")
-    
-    #df_return.set_index('City')
-    #return None
-    return df_return, cit_stationary
-
-stationarity_df = getStationarity(covid_df, state[0:])
-```
 ----
 
 ### Benchmark
@@ -282,24 +214,6 @@ The [time_series_covid19_confirmed_US.csv](https://github.com/CSSEGISandData/COV
 The data set was imported into a pandas Dataframe. 
 
 Data needed minimal data preprocessing because each Date was in one column and City and State were in other columns.
-```python
-csv_file = 'time_series_covid19_confirmed_US.csv'
-covid_df = pd.read_csv(csv_file)
-```
-
-Then the data was modified to remove the following columns and each state was sum
-```python
-covid_df = covid_df.drop(['UID',
-	                 'iso2',
-	                 'iso3',
-	                 'code3',
-	                 'FIPS',
-	                 'Admin2',
-	                 'Country_Region',
-	                 'Lat',
-	                 'Long_',
-	                 'Combined_Key'], axis=1).groupby("Province_State").sum().T
-```
 
 Province\_State|Alabama|Alaska|American Samoa|Arizona|Arkansas|California|Colorado|Connecticut|Delaware|Diamond Princess|...|Tennessee|Texas|Utah|Vermont|Virgin Islands|Virginia|Washington|West Virginia|Wisconsin|Wyoming
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
@@ -313,30 +227,11 @@ Province\_State|Alabama|Alaska|American Samoa|Arizona|Arkansas|California|Colora
 
 
 The dataframe Date was converted to datetime Index
-```python
-## convert index to datetime
-covid_df.index = pd.to_datetime(covid_df.index, infer_datetime_format=True)
-```
+
 
 Now we have a clean data set which will have Date as Index, and sum of cases for each State.
 From here onwards, we can use the following function to get a cumulative number of cases (total) and new cases (new) for a given State in the dataframe.
-```Python
-def getCases(df, aState):
-    # create total cases column
-    error = 0
-    try:
-        df = pd.DataFrame(index=df.index, data=df[aState].values, columns=["total"])
-        #print(dtf.head())
-        # create daily changes column
-        df["new"] = df["total"] - df["total"].shift(1)
-        # Handling Missing Values
-        df["new"] = df["new"].fillna(method='bfill')
-    except:
-        print("No State " + aState + " found")
-        error = 1
-        df = pd.DataFrame() 
-    return [df, error]
-```
+
 .|total|new
 :-----:|:-----:|:-----:
 count|153|153
@@ -604,11 +499,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTQ3NTcxODQ3MywxMjY4NDQzNzI4LC05MT
-gwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5
-MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDkyMzE1OD
-QsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LDM0MTUy
-MDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3NTksLT
-EwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5NzEsMjgzNDU2
-NzVdfQ==
+eyJoaXN0b3J5IjpbOTAwNzc2MTYyLDEyNjg0NDM3MjgsLTkxOD
+A0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkw
+OTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NC
+w4NTUyMTAzNDQsMzg0NjIxMzA1LC04MjkzOTYyNDYsMzQxNTIw
+MzkwLDM0Nzg4MDMxNCwtMTI3OTMzODc4LDY0NTg5Nzc1OSwtMT
+A5OTc4OTE2OCwzOTA2NTU5MjYsMTcxMzYyMTk3MSwyODM0NTY3
+NV19
 -->
