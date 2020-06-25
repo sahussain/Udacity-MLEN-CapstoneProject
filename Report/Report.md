@@ -89,23 +89,7 @@ Let's look at new vs total number of cases for some cities:
 Algorithms used  for my model: 
  - curve_fit from scipy ecosystem 
 Algorithms used  for benchmark model: 
-
-
-1.  Grouping:
-    -  Removed unnecessary columns
-    - Grouped the data by State 
-2.  Fit the model. 
-	 - Total Cases: Algorithm based on `curve_fit using Logistic Function f(x), defined below. Which will fit f(x) curve to total number of COVID-19 cases with in a 95% confidence.
-		> f(x) = capacity / (1 + e^-k*(x - midpoint) )
-		
-	 - Total New: Algorithm based on `curve_fit using Gaussian Function g(x), defined below. Which will fit g(x) curve to new cases of COVID-19 with in a 95% confidence.
-		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
-	- Outputs: optimal parameters for a given function
-		
-3.  Predictions:
-	- The `forecast_curve` takes `curve_fit` models which provides optimal parameters for a given function (step 2), and applies it to a new independent variable based on observations (cases) to forecast. 
-	- outputs: Graph of actual vs forecast
-
+- projSimple form functions.R which is part of nCovForecast toolkit
 
 ----
 
@@ -168,11 +152,22 @@ Both models used the same dataset from JHU
 1. Benchmark which which was implemented in [RStudio](https://rstudio.com/) and designed by The University of Melbourne
 2. My Model for which I followed the following steps
 
+1.  Grouping:
+    -  Removed unnecessary columns
+    - Grouped the data by State 
+2.  Fit the model. 
+	 - Total Cases: Algorithm based on `curve_fit using Logistic Function f(x), defined below. Which will fit f(x) curve to total number of COVID-19 cases with in a 95% confidence.
+		> f(x) = capacity / (1 + e^-k*(x - midpoint) )
+		
+	 - Total New: Algorithm based on `curve_fit using Gaussian Function g(x), defined below. Which will fit g(x) curve to new cases of COVID-19 with in a 95% confidence.
+		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)
+	- Outputs: optimal parameters for a given function
+		
+3.  Predictions:
+	- The `forecast_curve` takes `curve_fit` models which provides optimal parameters for a given function (step 2), and applies it to a new independent variable based on observations (cases) to forecast. 
+	- outputs: Graph of actual vs forecast
 
-
-
-
-
+For the benchmark model the  
 
 
 [^11]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
@@ -512,11 +507,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzkzMTc3NTUzLC0xNzc4MzA5MjUzLC00MT
-QxOTYxODUsLTg2NTUzMzM1NCwyNTgzMDU2NTAsLTE5NTMwMTUz
-MzMsMTk4NTE2NDQ5NiwtMTQ2NTAzODAwNiw4NjQyMDMwNiwtMT
-A5MjU2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2MiwxMjY4NDQz
-NzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkwNT
-QsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0
-NDkyMzE1ODRdfQ==
+eyJoaXN0b3J5IjpbNTc3MDY3NjU3LDM5MzE3NzU1MywtMTc3OD
+MwOTI1MywtNDE0MTk2MTg1LC04NjU1MzMzNTQsMjU4MzA1NjUw
+LC0xOTUzMDE1MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgwMDYsOD
+Y0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MDA3NzYx
+NjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC
+0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5
+ODkxMDU4XX0=
 -->
