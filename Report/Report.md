@@ -33,21 +33,9 @@ In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasti
 
 I will be using scipy ecosystem. I will use Matplotlib, numpy,  pandas to help me with data analysis and visualization. I will also be using scipy.optimize, to create an algorithm based on `curve_fit` function. It will best fit two curves one for total cases for which I will use Logistic Function, and another one for new case for which I will be using Gaussian Function.
 
-This will is very common approach used in datasets that follows an Epi curve [^10] as an example by [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  who took the MERS virus Epi curve, which had a mean of 7.6 and a SD of 3.4 and `curve fitted` using `estimate_R()` function in the `EpiEstim` package part R software environment for statistical computing and graphics of to Hubei province's COVID-19 cases 
+This will is very common approach used in datasets that follows an Epi curve [^10] as an example by [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  who took the MERS virus Epi curve, and `curve fitted` using to Hubei province's COVID-19 cases 
  
-![enter image description here](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1_files/figure-html5/Cori_parametric_si_model_fit_hubei-1.png)
-
 [^10]:[Logistic growth modelling of COVID-19 proliferation in China and its international implications](https://www.sciencedirect.com/science/article/pii/S1201971220303039) [Covid-19 predictions using a Gauss model, based on data from April 2](https://www.preprints.org/manuscript/202004.0175/v1/download)
-
-
-forecasting algorithm, a supervised learning algorithm for forecasting
-scalar (one-dimensional) time series using recurrent neural networks (RNN)
-to produce both point and probabilistic forecasts[^2].
-DeepAR is an underutilized approach in this area.[^3] The dataset contains
-hundreds of related time series, and DeepAR outperforms classical
-forecasting methods including but not limited to autoregressive integrated
-moving average (ARIMA), exponential smoothing (ETS), Time Series
-Forecasting with Linear Learner for this type of application.
 
 [^1]:[COVID-19 Dashboard](https://systems.jhu.edu/research/public-health/ncov/) by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University (JHU)". ArcGIS. Johns Hopkins University. Retrieved 20 June 2020.
 
@@ -528,11 +516,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIwNzY3NDcxOTUsMjU4MzA1NjUwLC0xOT
-UzMDE1MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgwMDYsODY0MjAz
-MDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MDA3NzYxNjIsMT
-I2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEw
-MTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMD
-U4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgy
-OTM5NjI0Nl19
+eyJoaXN0b3J5IjpbMzQxNzI3NTIsMjU4MzA1NjUwLC0xOTUzMD
+E1MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYs
+LTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MDA3NzYxNjIsMTI2OD
+Q0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5
+MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC
+0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5
+NjI0Nl19
 -->
