@@ -359,7 +359,7 @@ that apply the two models (total cases and daily increase) to a new independent 
 ### Refinement
 The model and the forecast work well when applied to certain States. However, there are a few States that do not work because they are on a different epi curve, for example
  
-<Center><bold> **Michigan** <bold><center>
+<p style="text-align: center;"><strong>Michigan</strong></p>
  
  ***My Model:***
 ![enter image description here](/Images/Capture9.JPG)
@@ -582,11 +582,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE0OTIzMDE2MzEsLTE5OTExNjcyOTksLT
-ExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4
-OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNS
-wtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkz
-Mzg3OCw2NDU4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LD
-E3MTM2MjE5NzEsMjgzNDU2NzUsLTEwNzU3NTY0MjUsLTg1MDU1
-OTI5OF19
+eyJoaXN0b3J5IjpbMTkwMTA5MzE5MCwtMTk5MTE2NzI5OSwtMT
+ExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5
+MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC
+04MjkzOTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OTMz
+ODc4LDY0NTg5Nzc1OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYsMT
+cxMzYyMTk3MSwyODM0NTY3NSwtMTA3NTc1NjQyNSwtODUwNTU5
+Mjk4XX0=
 -->
