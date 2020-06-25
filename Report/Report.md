@@ -373,6 +373,8 @@ Research is ongoing and and better benchmark for the COVID-19 epidemic are being
  - [an introduction to R for epidemiologists by Dr Charles DiMaggio(New York University Departments of Surgery and Population Health)](http://www.columbia.edu/~cjd11/charles_dimaggio/DIRE/resources/R/packages.pdf)
  
  - [R-software: A Newer Tool in Epidemiological Data Analysis by Dr Amir Maroof Khan(Department of Community Medicine, University College of Medical Sciences and GTB Hospital, Delhi, India)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612300/)
+- [Analysis of Epidemiological Data Using R and Epicalc by Prof.(Prince of Songkla University, Thailand)](https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf)
+
 
 
 ## V. Conclusion
@@ -408,7 +410,6 @@ To conclude, I would like to thank the following people without whom I would not
  - [Dr. Jason Brownlee](https://machinelearningmastery.com/about/)
  -  [Mauro Di Pietro](https://medium.com/@m.dipietro09)
  - [Subhasree Chatterjee](https://datascienceplus.com/author/chatterjee-subhasree/)
- - [Analysis of Epidemiological Data Using R and Epicalc by Prof.(Prince of Songkla University, Thailand)](https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf)
 
 And last but not least, my wife [Shamsia Quraishi](https://twitter.com/shamsiaquraishi) for supporting me during my training and being there for me. 
 
@@ -517,11 +518,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MD
-A3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3
-Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NS
-wxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2
-MjEzMDUsLTgyOTM5NjI0NiwzNDE1MjAzOTAsMzQ3ODgwMzE0LC
-0xMjc5MzM4NzgsNjQ1ODk3NzU5LC0xMDk5Nzg5MTY4LDM5MDY1
-NTkyNl19
+eyJoaXN0b3J5IjpbLTEyMTUyNTY5NDUsLTEwOTI1Njk2MjEsLT
+QxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQy
+NTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5Mz
+IsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1
+NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5NjI0NiwzNDE1MjAzOT
+AsMzQ3ODgwMzE0LC0xMjc5MzM4NzgsNjQ1ODk3NzU5LC0xMDk5
+Nzg5MTY4XX0=
 -->
