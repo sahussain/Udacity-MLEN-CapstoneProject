@@ -101,7 +101,7 @@ Let's look at new vs total number of cases for some cities:
 ![enter image description here](/Images/Capture4.JPG)
 
 
-### Why DeepAR/
+### Why DeepAR/Classical Time Series Forecasting Methods fails to work on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) datasets.
 
 To use DeepAR it needs to meet the following criteria [^5]:
 1. Except for when splitting your dataset for training and testing, always provide the entire time series for training, testing, and when calling the model for inference. Regardless of how you set `context_length`, don't break up the time series or provide only a part of it. The model uses data points further back than the value set in `context_length` for the lagged values feature.[^5]
@@ -526,11 +526,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzE3NTY4NDMyLC0xNDY1MDM4MDA2LDg2ND
-IwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOTAwNzc2MTYy
-LDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2NzI5OSwtMT
-ExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5
-MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC
-04MjkzOTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OTMz
-ODc4XX0=
+eyJoaXN0b3J5IjpbMTk4NTE2NDQ5NiwtMTQ2NTAzODAwNiw4Nj
+QyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2
+MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLT
+ExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4
+OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNS
+wtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkz
+Mzg3OF19
 -->
