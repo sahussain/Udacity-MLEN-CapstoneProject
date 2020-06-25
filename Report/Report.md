@@ -107,7 +107,7 @@ Let's look at new vs total number of cases for some cities:
 I am using The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/), 
 Established in 1853, the University of Melbourne is a public-spirited institution that makes distinctive contributions to society in research, learning and teaching and engagement. It’s consistently ranked among the leading universities in the world, with international rankings of world universities placing it as number 1 in Australia and number 32 in the world (Times Higher Education World University Rankings 2017-2018).
 
-The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as  MIT License on (GitHub)(https://github.com/benflips/nCovForecast) This model was done using R package, I did not make any changes to this as this would be my benchmark to compare my model with.  They have several models predicting different aspects of the dataset. I am only using there [forecast function](). 
+The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast.science.unimelb.edu.au/) is available as  MIT License on (GitHub)(https://github.com/benflips/nCovForecast) This model was done using R package, I did not make any changes to this as this would be my benchmark to compare my model with.  They have several models predicting different aspects of the dataset. I am only using there [forecast function](#UOM). 
 
 ## III. Methodology
 
@@ -499,11 +499,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE3Mzg4MDA1MDgsLTg2NTUzMzM1NCwyNT
-gzMDU2NTAsLTE5NTMwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAz
-ODAwNiw4NjQyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLD
-kwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTEx
-NjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNT
-c1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4
-NDYyMTMwNV19
+eyJoaXN0b3J5IjpbMTc2NTYwMzQ0NCwtODY1NTMzMzU0LDI1OD
+MwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4
+MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOT
+AwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2
+NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1Nz
+UsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0
+NjIxMzA1XX0=
 -->
