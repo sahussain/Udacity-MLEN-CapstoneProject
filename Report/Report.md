@@ -28,6 +28,9 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 
 
 ### Problem Statement
+In my `Proposal` I mention that I will be using DeepA
+
+
 This project seeks to forecast number of people infected and number of
 caused by COVID-19 for a time duration of 14-days based on
 historical data from JHU. I will be using Amazon SageMaker DeepAR
@@ -518,11 +521,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbODY0MjAzMDYsLTEwOTI1Njk2MjEsLTQxND
-g5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcw
-LC0xOTkxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLT
-M2NDEwMzU3NSwxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1NTIx
-MDM0NCwzODQ2MjEzMDUsLTgyOTM5NjI0NiwzNDE1MjAzOTAsMz
-Q3ODgwMzE0LC0xMjc5MzM4NzgsNjQ1ODk3NzU5LC0xMDk5Nzg5
-MTY4XX0=
+eyJoaXN0b3J5IjpbLTM4MTkxMTU3OCw4NjQyMDMwNiwtMTA5Mj
+U2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2MiwxMjY4NDQzNzI4
+LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkwNTQsLT
+Q1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDky
+MzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LD
+M0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3
+NTldfQ==
 -->
