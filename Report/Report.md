@@ -155,13 +155,12 @@ min|0|0
 max|388488|11434
 
 ### Implementation
-Model:
-[scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) provides a non-linear least squares to fit a function, f (such as Logistic or Gaussian functions) to a given dataframe. 
+
+Once the data cleaning processors I implemented two models one that was designed in   
 
 
-Forecast:
-The forecasting function was provided by [`ts_utils.py`](https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/time_series/ts_utils.py)
-that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^11]
+
+
 [^11]:[Time Series Forecasting with Parametric Curve Fitting](https://medium.com/analytics-vidhya/how-to-predict-when-the-covid-19-pandemic-will-stop-in-your-country-with-python-d6fbb2425a9f)
 
 
@@ -499,11 +498,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQxNDE5NjE4NSwtODY1NTMzMzU0LDI1OD
-MwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4
-MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOT
-AwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2
-NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1Nz
-UsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0
-NjIxMzA1XX0=
+eyJoaXN0b3J5IjpbMTg3Nzc0NjgzMywtNDE0MTk2MTg1LC04Nj
+U1MzMzNTQsMjU4MzA1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0
+OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLT
+QxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQy
+NTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5Mz
+IsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1
+NTIxMDM0NF19
 -->
