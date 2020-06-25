@@ -190,23 +190,6 @@ The University of Melbourne [Coronavirus 10-day forecast](http://covid19forecast
 >
 >When public health interventions are rapidly changing the growth rate, this can be seen as deviations from the expected straight line on the log-plot.  In these situations, when growth rate is declining rapidly (the curve is flattening), forecasts from the constant growth model (averaging growth over the last ten days) will be biased upwards.  By altering the slider you can adjust the window over which growth rate is averaged, so you can get a sense of how recent shifts are affecting the forecast.  The time-varying growth rate forecast should be less sensitive to changes in $n$, and is the better model when growth rates are changing in a steady linear manner.
 
-### Algorithm steps:
-
-1.  Grouping:
-    -  Removed unnecessary columns
-    - Grouped the data by State 
-2.  Fit the model. 
-	 - Two: one Logistic Function & two Gaussian Function for total cases & new case <?> was used to fighting  the dataframe to a curve using curve_fit function the model outputs list of optim params
-	 - Logistic Function is defined by:
-
-		> f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
-	  - Gaussian Function is defined by:
-		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^4]
-
-3.  Predictions:
-	- The `forecast_curve` takes `curve_fit` models, and applies a new independent variable based on observations to forecast, freq, and function f(x)
-	- outputs: Graph of actual vs forecast
-
 
 ## III. Methodology
 
@@ -256,6 +239,8 @@ max|388488|11434
 ### Implementation
 Model:
 [scipy.optimize.curve_fit model  from scipy](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.curve_fit.html) provides a non-linear least squares to fit a function, f (such as Logistic or Gaussian functions) to a given dataframe. 
+
+
 Forecast:
 The forecasting function was provided by [`ts_utils.py`](https://github.com/mdipietro09/DataScience_ArtificialIntelligence_Utils/blob/master/time_series/ts_utils.py)
 that apply the two models (total cases and daily increase) to a new independent variable: the time steps from today till N. It forecast 30 days ahead from today[^11]
@@ -526,11 +511,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTk4NTE2NDQ5NiwtMTQ2NTAzODAwNiw4Nj
-QyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2
-MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLT
-ExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4
-OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNS
-wtODI5Mzk2MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkz
-Mzg3OF19
+eyJoaXN0b3J5IjpbNzU4NDI2NTUwLDE5ODUxNjQ0OTYsLTE0Nj
+UwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0
+MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOT
+kxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEw
+MzU3NSwxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NC
+wzODQ2MjEzMDUsLTgyOTM5NjI0NiwzNDE1MjAzOTAsMzQ3ODgw
+MzE0XX0=
 -->
