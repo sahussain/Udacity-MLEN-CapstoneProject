@@ -90,15 +90,14 @@ Let's look at new vs total number of cases for some cities:
     -  Removed unnecessary columns
     - Grouped the data by State 
 2.  Fit the model. 
-	 - Total Cases: Algorithm based on `curve_fit using Logistic Function f(x), defined below. Which will fit f(x) curve total number of COVID-19 cases  
-
+	 - Total Cases: Algorithm based on `curve_fit using Logistic Function f(x), defined below. Which will fit f(x) curve total number of COVID-19 cases with in a 95% confidence.
+		> f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]  
+ - Total New: Algorithm based on `curve_fit using Gaussian Function g(x), defined below. Which will fit f(x) curve total number of COVID-19 cases with in a 95% confidence.
 
 
 
 for total cases,  and two Gaussian Function for, new case was used to fighting  the dataframe to a curve using curve_fit function the model outputs list of optim params
-	 - Logistic Function is defined by:
-
-		> f(x) = capacity / (1 + e^-k*(x - midpoint) )[^4]
+	 - 
 	  - Gaussian Function is defined by:
 		> f(x) = a * e^(-0.5 * ((x-μ)/σ)**2)[^4]
 
@@ -504,7 +503,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE4NTIwMDgzMDcsLTg2NTUzMzM1NCwyNT
+eyJoaXN0b3J5IjpbLTExMjE1OTUxNzQsLTg2NTUzMzM1NCwyNT
 gzMDU2NTAsLTE5NTMwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAz
 ODAwNiw4NjQyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLD
 kwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTEx
