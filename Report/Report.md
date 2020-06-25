@@ -98,8 +98,7 @@ Let's look at new vs total number of cases for some cities:
 	- Outputs: optimal parameters for a given function
 		
 3.  Predictions:
-	- The `forecast_curve` takes `curve_fit` models which porvides  (step 2), and applies a new independent variable based on observations (cases) to forecast. 
-	> 
+	- The `forecast_curve` takes `curve_fit` models which provides optimal parameters for a given function (step 2), and applies it to a new independent variable based on observations (cases) to forecast. 
 	- outputs: Graph of actual vs forecast
 ----
 
@@ -500,11 +499,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTgxNDU5ODM0NSwtODY1NTMzMzU0LDI1OD
-MwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4
-MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOT
-AwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2
-NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1Nz
-UsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0
-NjIxMzA1XX0=
+eyJoaXN0b3J5IjpbLTE3Mzg4MDA1MDgsLTg2NTUzMzM1NCwyNT
+gzMDU2NTAsLTE5NTMwMTUzMzMsMTk4NTE2NDQ5NiwtMTQ2NTAz
+ODAwNiw4NjQyMDMwNiwtMTA5MjU2OTYyMSwtNDE0ODk5MDQwLD
+kwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1NzAsLTE5OTEx
+NjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5MDkzMiwtMzY0MTAzNT
+c1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1MjEwMzQ0LDM4
+NDYyMTMwNV19
 -->
