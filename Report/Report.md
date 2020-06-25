@@ -364,6 +364,10 @@ Contrary to Delaware and North Dakota, new cases in Maryland peaked during the l
 ----
 ### Justification
 
+This clearly shows the power of better package such as  `earlyR`  and  `EpiEstim`  that are part of R when applied to an epidemic dataframe. 
+
+
+
 This will is very common approach used in datasets that follows an Epi curve [^10] as an example [Dr. Tim Churches](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/#estimating-changes-in-the-effective-reproduction-number)  took the Epi curve of MERS virus, which had a mean of 7.6 and a SD of 3.4, `curve fitted` using `estimate_R()` function in the `EpiEstim` package to Hubei province's COVID-19 cases 
  
 ![enter image description here](https://timchurches.github.io/blog/posts/2020-02-18-analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1/analysing-covid-19-2019-ncov-outbreak-data-with-r-part-1_files/figure-html5/Cori_parametric_si_model_fit_hubei-1.png)
@@ -517,11 +521,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzI5MTM5MTk4LDkwMDc3NjE2MiwxMjY4ND
-QzNzI4LC05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkw
-NTQsLTQ1MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLT
-E0NDkyMzE1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2
-MjQ2LDM0MTUyMDM5MCwzNDc4ODAzMTQsLTEyNzkzMzg3OCw2ND
-U4OTc3NTksLTEwOTk3ODkxNjgsMzkwNjU1OTI2LDE3MTM2MjE5
-NzFdfQ==
+eyJoaXN0b3J5IjpbLTIwNDcwODEwNTMsOTAwNzc2MTYyLDEyNj
+g0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5
+OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OC
+wtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC04Mjkz
+OTYyNDYsMzQxNTIwMzkwLDM0Nzg4MDMxNCwtMTI3OTMzODc4LD
+Y0NTg5Nzc1OSwtMTA5OTc4OTE2OCwzOTA2NTU5MjYsMTcxMzYy
+MTk3MV19
 -->
