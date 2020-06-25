@@ -28,10 +28,10 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 
 
 ### Problem Statement
-This project seeks to forecast number of people infected and number of
-caused by COVID-19 for a time duration of 30-days based on
-historical data from JHU. In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is so in  my `Analysis section.
-I will be using scipy ecosystem including, Matplotlib, scipy.optimize, numpy,  and pandas to create an algorithm that will best curve using  one Logistic Function, for total cases, and two Gaussian Function for, new case
+This project seeks to forecast number of people infected(new case) and number of caused(total cases) by COVID-19 for a time duration of 30-days based on historical data from JHU. 
+In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is so in  my `Analysis section.`
+
+I will be using scipy ecosystem including, Matplotlib, scipy.optimize, numpy,  and pandas to create an algorithm that will best Logistic Function, for total cases, and two Gaussian Function for, new case 
 
 
 
@@ -530,11 +530,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTIxMzgzMDczMzksLTE5NTMwMTUzMzMsMT
-k4NTE2NDQ5NiwtMTQ2NTAzODAwNiw4NjQyMDMwNiwtMTA5MjU2
-OTYyMSwtNDE0ODk5MDQwLDkwMDc3NjE2MiwxMjY4NDQzNzI4LC
-05MTgwNDI1NzAsLTE5OTExNjcyOTksLTExMTAxOTkwNTQsLTQ1
-MTU5MDkzMiwtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDkyMz
-E1ODQsODU1MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LDM0
-MTUyMDM5MF19
+eyJoaXN0b3J5IjpbMTM2MzQ1MTMwMywtMTk1MzAxNTMzMywxOT
+g1MTY0NDk2LC0xNDY1MDM4MDA2LDg2NDIwMzA2LC0xMDkyNTY5
+NjIxLC00MTQ4OTkwNDAsOTAwNzc2MTYyLDEyNjg0NDM3MjgsLT
+kxODA0MjU3MCwtMTk5MTE2NzI5OSwtMTExMDE5OTA1NCwtNDUx
+NTkwOTMyLC0zNjQxMDM1NzUsMTQ1OTg5MTA1OCwtMTQ0OTIzMT
+U4NCw4NTUyMTAzNDQsMzg0NjIxMzA1LC04MjkzOTYyNDYsMzQx
+NTIwMzkwXX0=
 -->
