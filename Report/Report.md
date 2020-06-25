@@ -26,7 +26,7 @@ made freely available in a [GitHub repository](https://github.com/CSSEGISandData
 ### Problem Statement
 This project seeks to forecast number of people infected (new and total case) caused by COVID-19 for a time duration of 30-days based on historical data from JHU. 
 
-In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I come to the conclusion that any dataset based on Epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  [`Appendix A`]
+In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I come to the conclusion that any dataset based on Epi curve like an epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). see  [`Appendix A`](#DeepAR)
 
 I will be using scipy ecosystem from which Matplotlib, numpy,  pandas to help me with data analysis and visualization. I will also be using scipy.optimize, from the same ecosystem to create an algorithm based on `curve_fit` function. It will best fit two curves one for total cases for which I will use Logistic Function, and another one for new case for which I will be using Gaussian Function.
 
@@ -327,9 +327,9 @@ And last but not least, my wife [Shamsia Quraishi](https://twitter.com/shamsiaqu
 Once again thanks and be safe.   
 
 -----------
-# <a name="Appendix_A"></a>Appendix A
+# Appendix A
 
-### Why DeepAR/Classical Time Series Forecasting Methods fails to work on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) datasets.
+### <a name="DeepAR"></a>Why DeepAR/Classical Time Series Forecasting Methods fails to work on epidemic(COVID-19), pandemic(MERS) and/or outbreak (measles) datasets.
 
 To use DeepAR it needs to meet the following criteria [^5]:
 1. Except for when splitting your dataset for training and testing, always provide the entire time series for training, testing, and when calling the model for inference. Regardless of how you set `context_length`, don't break up the time series or provide only a part of it. The model uses data points further back than the value set in `context_length` for the lagged values feature.[^5]
@@ -499,11 +499,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTQyNDU3MDc0NSwtODY1NTMzMzU0LDI1OD
-MwNTY1MCwtMTk1MzAxNTMzMywxOTg1MTY0NDk2LC0xNDY1MDM4
-MDA2LDg2NDIwMzA2LC0xMDkyNTY5NjIxLC00MTQ4OTkwNDAsOT
-AwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3MCwtMTk5MTE2
-NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOTMyLC0zNjQxMDM1Nz
-UsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NTUyMTAzNDQsMzg0
-NjIxMzA1XX0=
+eyJoaXN0b3J5IjpbNzE2NjExODc2LC04NjU1MzMzNTQsMjU4Mz
+A1NjUwLC0xOTUzMDE1MzMzLDE5ODUxNjQ0OTYsLTE0NjUwMzgw
+MDYsODY0MjAzMDYsLTEwOTI1Njk2MjEsLTQxNDg5OTA0MCw5MD
+A3NzYxNjIsMTI2ODQ0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3
+Mjk5LC0xMTEwMTk5MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NS
+wxNDU5ODkxMDU4LC0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2
+MjEzMDVdfQ==
 -->
