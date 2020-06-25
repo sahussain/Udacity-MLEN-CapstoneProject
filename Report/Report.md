@@ -32,7 +32,7 @@ This project seeks to forecast number of people infected(new case) and number of
 
 In my `Proposal` I mention that I will be using DeepAR and Time Series Forecasting with Linear Learner, however after doing extensive research I found out that any data based on epidemic(COVID-19), pandemic(MERS) and/or outbreaks (measles) will not be best suited for DeepAR and/or [14 other Classical Time Series Forecasting Methods (TSFMs) in Python](#TSFMs). I will go in-depth on why this is so see  `Appendix A`
 
-I will be using scipy ecosystem. I will use Matplotlib, numpy,  pandas to help me with data analysis and visualization. I will also be using scipy.optimize, to create an algorithm based on `curve_fit` function. It will best fit tow curves o Logistic Function, for total cases, and two Gaussian Function for, new case 
+I will be using scipy ecosystem. I will use Matplotlib, numpy,  pandas to help me with data analysis and visualization. I will also be using scipy.optimize, to create an algorithm based on `curve_fit` function. It will best fit two curves one for total cases for which I will use Logistic Function, and another one for new case for which I will be using Gaussian Function.
 
 
 
@@ -527,7 +527,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMzcxMzcxMzU2LC0xOTUzMDE1MzMzLDE5OD
+eyJoaXN0b3J5IjpbMjU4MzA1NjUwLC0xOTUzMDE1MzMzLDE5OD
 UxNjQ0OTYsLTE0NjUwMzgwMDYsODY0MjAzMDYsLTEwOTI1Njk2
 MjEsLTQxNDg5OTA0MCw5MDA3NzYxNjIsMTI2ODQ0MzcyOCwtOT
 E4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5MDU0LC00NTE1
