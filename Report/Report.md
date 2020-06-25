@@ -375,7 +375,7 @@ Research is ongoing and and better benchmark for the COVID-19 epidemic are being
  - [R-software: A Newer Tool in Epidemiological Data Analysis by Dr Amir Maroof Khan(Department of Community Medicine, University College of Medical Sciences and GTB Hospital, Delhi, India)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3612300/)
 - [Analysis of Epidemiological Data Using R and Epicalc by Prof.(Prince of Songkla University, Thailand)](https://cran.r-project.org/doc/contrib/Epicalc_Book.pdf)
 
-When we do a Google Scholar search on `epidemiology and r` we fine over 
+When we do a Google Scholar search on [`epidemiology and r`](https://scholar.google.com/scholar?hl=en&as_sdt=0%2C5&q=epidemiology+and+r&btnG=) we fine over three million articles however when we do the same search with other key words like ARIMA (18 hu
 
 ## V. Conclusion
 
@@ -518,11 +518,11 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNzQyNjgxMDE1LC0xMDkyNTY5NjIxLC00MT
-Q4OTkwNDAsOTAwNzc2MTYyLDEyNjg0NDM3MjgsLTkxODA0MjU3
-MCwtMTk5MTE2NzI5OSwtMTExMDE5OTA1NCwtNDUxNTkwOTMyLC
-0zNjQxMDM1NzUsMTQ1OTg5MTA1OCwtMTQ0OTIzMTU4NCw4NTUy
-MTAzNDQsMzg0NjIxMzA1LC04MjkzOTYyNDYsMzQxNTIwMzkwLD
-M0Nzg4MDMxNCwtMTI3OTMzODc4LDY0NTg5Nzc1OSwtMTA5OTc4
-OTE2OF19
+eyJoaXN0b3J5IjpbLTU1NDQ3NDU1NSwtMTA5MjU2OTYyMSwtND
+E0ODk5MDQwLDkwMDc3NjE2MiwxMjY4NDQzNzI4LC05MTgwNDI1
+NzAsLTE5OTExNjcyOTksLTExMTAxOTkwNTQsLTQ1MTU5MDkzMi
+wtMzY0MTAzNTc1LDE0NTk4OTEwNTgsLTE0NDkyMzE1ODQsODU1
+MjEwMzQ0LDM4NDYyMTMwNSwtODI5Mzk2MjQ2LDM0MTUyMDM5MC
+wzNDc4ODAzMTQsLTEyNzkzMzg3OCw2NDU4OTc3NTksLTEwOTk3
+ODkxNjhdfQ==
 -->
