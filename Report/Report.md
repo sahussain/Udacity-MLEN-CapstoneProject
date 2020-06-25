@@ -340,7 +340,7 @@ Both my model and Benchmark did not have any problems predicting the forecast wi
 
 
  ***My Model vs Benchmark:***
-New covid-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, however they seem to have taken slightly longer to come back to a normal epi curve. Both my model and Benchmark did not have any problems predicting the forecast within 95% confidence however my model is showing a downward trend and the Benchmark  is showing  they both showing the same trend.
+New covid-19 cases in North Dakota seem to be following the same pattern as that of Delaware indicating that social distancing measures are proving to be effective. Their cases peaked around Memorial Day, similar to Delaware, however they seem to have taken slightly longer to come back to a normal epi curve. Both my model and Benchmark did not have any problems predicting the forecast within 95% confidence however my model is showing a downward trend and the Benchmark  is showing an upward trend. 
 
 ----
 
@@ -350,7 +350,7 @@ New covid-19 cases in North Dakota seem to be following the same pattern as that
 ***My Model:***
 
 ![enter image description here](/Images/Capture7.JPG)
-Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons.
+
 
 
 ***Benchmark:***
@@ -359,9 +359,11 @@ Contrary to Delaware and North Dakota, new cases in Maryland peaked during the l
 
 
  ***My Model vs Benchmark:***
+Contrary to Delaware and North Dakota, new cases in Maryland peaked during the long weekend in April and seemed to stay within the mean of an epi curve. This irregular peaking may be attributed to people traveling between states for the long weekend and for other reasons. Both my model and Benchmark did not have any problems predicting the forecast within 95% confidence however my model is showing a upward trend and the Benchmark  is showing an downward trend. 
 
 ----
 ### Justification
+
 Research is ongoing and hence there is no current benchmark for the COVID-19 epidemic. The closest data comparison is with the Spanish Flu of 1918 that infected 500 million people worldwide and killed more than 50 million people.[^11] We could possibly take its epi curve and try to fit it to the COVID-19 epidemic. Again, given my limited understanding of how epidemics work, it is challenging to calculate the epi curve for the Spanish Flu. For this reason, it is not possible to predict how any model for COVID-19 epidemic would turn out.
 
 
@@ -506,7 +508,7 @@ A natural generalization of the ARCH (Autoregressive Conditional Heteroskedastic
 
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTg1NzM1NjIwNSw5MDA3NzYxNjIsMTI2OD
+eyJoaXN0b3J5IjpbMTM3Mzk1MzYzMiw5MDA3NzYxNjIsMTI2OD
 Q0MzcyOCwtOTE4MDQyNTcwLC0xOTkxMTY3Mjk5LC0xMTEwMTk5
 MDU0LC00NTE1OTA5MzIsLTM2NDEwMzU3NSwxNDU5ODkxMDU4LC
 0xNDQ5MjMxNTg0LDg1NTIxMDM0NCwzODQ2MjEzMDUsLTgyOTM5
