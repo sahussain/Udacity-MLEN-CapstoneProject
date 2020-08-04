@@ -1,5 +1,3 @@
-### Capstone Proposal Review Link: [https://review.udacity.com/#!/reviews/2381492](https://review.udacity.com/#!/reviews/2381492) ###
-
 # Machine Learning Engineer Nanodegree
 ## Specializations
 ## Project: Capstone Proposal and Capstone Project
