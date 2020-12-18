@@ -1,6 +1,10 @@
-# Machine Learning Engineer Nanodegree
-## Specializations
-## Project: Capstone Proposal and Capstone Project
+<h1> Machine Learning Engineer Capstone Proposal and Capstone Project
+<br />Machine Learning Engineer Nanodegree
+</h1>
+Author: Ashraf Hussain
+<br />Date: Jul 24, 2020
+<br />
+<br />
 
 **Note**
 
