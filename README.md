@@ -2,7 +2,7 @@
 <br />Machine Learning Engineer Nanodegree
 </h1>
 Author: Ashraf Hussain
-<br />Date: Jul 24, 2020
+<br />Date: Jun 22, 2020
 <br />
 <br />
 
